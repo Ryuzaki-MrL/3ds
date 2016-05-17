@@ -7,7 +7,7 @@ body {
     background-size:100%;
     text-align:center;
     width:100%;
-    min-width:628px;
+    min-width:600px;
     height:100%;
 }
 #page {
@@ -35,10 +35,10 @@ p, li {
     font-family:calibri;
     text-align:left;
 }
+/*
 table {
     border:1px solid #000000;
     width:100%;
-    padding: 0;
     font-family:calibri;
     table-layout:fixed;
 }
@@ -48,8 +48,8 @@ td {
     border:1px solid #000000;
     border-collapse:collapse;
 }
-thead { background-color:green; color:white; cursor:pointer; }
-tbody { background-color:white; }
+thead {background-color:green; color:white; cursor:pointer;}
+tbody {background-color:white;}
 tbody td:nth-of-type(1) {text-align:left;}
 td:nth-of-type(1) {width:180px;}
 td:nth-of-type(2) {width:310px;}
@@ -57,16 +57,22 @@ td:nth-of-type(3) {width:110px;}
 td:nth-of-type(4) {width:95px;}
 td:nth-of-type(5) {width:85px;}
 td:nth-of-type(6) {width:190px;}
+*/
+#hb_entry {
+    border:2px solid black;
+    background-color:white;
+    width:75%;
+    height:90%;
+    position:fixed;
+}
 .icon_small {
     float:left;
     width:24px;
     padding-right:4px;
 }
 ul {
-    float:left;
     list-style-type:none;
-    width:100%;
-    height:auto;
+    margin-left:-42px;
 }
 ul a, ul a:visited {
     color:inherit;
@@ -76,38 +82,24 @@ ul a:hover {
     text-decoration:underline;
 }
 li {
-    float:left;
-    margin-left:-40px;
-    margin-right:4%;
-    margin-bottom:1px;
-    margin-top:1px;
     border:1px solid black;
-    padding-left:24px;
-    padding-top:8px;
-    padding-bottom:8px;
-    /*margin:2px 2px;*/
-    width:47%;
-    min-width:476px;
-    display:inline-block;
-    white-space:nowrap;
-    overflow-x:scroll;
-    font-size:11pt;
+    padding:8px 0;
+    margin:2px;
+    display: inline-block;
+    width:49%;
+    min-width:448px;
+    vertical-align: top;
+    height:86px;
 }
 .icon {
-    padding-top:22px;
+    padding-left:20px;
+    padding-top:20px;
     float:left;
 }
 .title, .desc, .author, .tab {
-    padding-left:24px;
-}
-._3dsx, .cia, ._3ds, .dat, .bin, .good {
-    color:green;
-}
-.issues {
-    color:yellow;
-}
-.stub, .bad {
-    color:red;
+    padding-left:20px;
+    padding-right:16px;
+    box-decoration-break:clone;
 }
 .tags, .release {
     display:none;
@@ -116,45 +108,48 @@ li {
     width:280px;
 }
 .sort {
-  padding:2px 12px;
-  border-radius: 8px;
-  border:none;
-  display:inline-block;
-  color:#fff;
-  background-color:green;
-  text-decoration: none;
-  height:24px;
+    padding:2px 12px;
+    border-radius: 8px;
+    border:none;
+    display:inline-block;
+    color:#fff;
+    background-color:green;
+    text-decoration: none;
+    height:24px;
 }
 .sort:after {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  content:"";
-  position: relative;
-  top:-10px;
-  right:-5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-5px;
 }
 .sort.asc:after {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #fff;
-  content:"";
-  position: relative;
-  top:13px;
-  right:-5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:13px;
+    right:-5px;
 }
 .sort.desc:after {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #fff;
-  content:"";
-  position: relative;
-  top:-10px;
-  right:-5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-5px;
+}
+@media (max-width: 1150px) {
+    li {width:90%; max-width:680px;}
 }
