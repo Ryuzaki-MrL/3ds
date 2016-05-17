@@ -4,7 +4,6 @@ html {
 body {
     background-color:#000000;
     margin:0;
-    background-size:100%;
     text-align:center;
     width:100%;
     min-width:600px;
@@ -14,7 +13,6 @@ body {
     background-color:#ffffff;
     color:#000000;
     width:80%;
-    height:auto;
     min-height:100%;
     margin:0 auto;
     padding:0 0.5%;
@@ -45,7 +43,7 @@ table {
 td {
     padding: 0.5%;
     overflow:hidden;
-    border:1px solid #000000;
+    border:1px solid black;
     border-collapse:collapse;
 }
 thead {background-color:green; color:white; cursor:pointer;}
@@ -57,6 +55,11 @@ td:nth-of-type(3) {width:110px;}
 td:nth-of-type(4) {width:95px;}
 td:nth-of-type(5) {width:85px;}
 td:nth-of-type(6) {width:190px;}
+.icon_small {
+    float:left;
+    width:24px;
+    padding-right:4px;
+}
 */
 #hb_entry {
     border:2px solid black;
@@ -64,11 +67,6 @@ td:nth-of-type(6) {width:190px;}
     width:75%;
     height:90%;
     position:fixed;
-}
-.icon_small {
-    float:left;
-    width:24px;
-    padding-right:4px;
 }
 ul {
     list-style-type:none;
@@ -90,6 +88,7 @@ li {
     min-width:448px;
     vertical-align: top;
     height:86px;
+    position:relative;
 }
 .icon {
     padding-left:20px;
@@ -100,6 +99,10 @@ li {
     padding-left:20px;
     padding-right:16px;
     box-decoration-break:clone;
+}
+.author {
+    position:absolute;
+    top:71px;
 }
 .tags, .release {
     display:none;

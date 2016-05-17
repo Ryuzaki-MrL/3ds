@@ -76,12 +76,13 @@
                     '<span class="desc">'+this.desc+'</span><br/>' +
                     '<span class="author">Author: '+this.author+'</span>' +
                     '<span class="tags">'+this.tags+'</span>' +
+                    '<span class="release">'+this.date+'</span>' +
                     '</li>'
                 );
             });
             
             var options = {
-                valueNames: [ 'title', 'tags', 'desc', 'author' ]
+                valueNames: [ 'title', 'desc', 'author', 'tags', 'release' ]
             };
             
             var hbList = new List('hb_list', options);
