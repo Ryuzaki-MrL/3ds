@@ -12,6 +12,15 @@
 <body>
     <div id="page">
         <br/><image src="../3ds.png" alt="Nintendo 3DS" style="width:100%"/><br/>
+        <div id="hb_entry" style="display:none">
+            <button id="x"></button>
+            <span class="icon"><img class="i" src="./icons/noicon.png"/></span>
+            <!--TODO: Fix screenshot viewing on smaller screens-->
+            <img id="screenshot" src="./screenshots/noscreen.png"/>
+            <h1>??????????<span style="font-size:14px"> (by ??????)</span></h1>
+            <p>Release: ??/??/????</p>
+            <p style="padding-left:24px; width:45%">Homebrew description goes here.</p>
+        </div>
         <hr/>
             <a href="/3ds">Home</a> -
             <a href="/3ds/tutorials">Tutorials</a> -
@@ -36,12 +45,8 @@
             - BIN: These can be either ARM9 payloads, launched through BrahmaLoader or arm9loaderhax; or ARM11 payloads, launched by the internet browser via spiderhax.<br/>
             <br/>
             <!--MAIN LIST-->
-            <div id="hb_entry" style="display:none;">
-                <!--TODO: Show extra info when you click/hover on a link to them, similar to how
-                Pokémon Umari website shows a selected Pokémon's picture.-->
-                <!--TODO: Add screenshots for each homebrew.-->
-            </div>
             <div id="hb_list">
+                <!--TODO: Add more sorting and filtering options.-->
                 <input class="search" placeholder="Search homebrew"/><br/><br/>
                 Sort by:<br/>
                     <button class="sort" data-sort="title">Title</button>
@@ -71,42 +76,64 @@
             $.each(json, function() {
                 $('.list').append (
                     '<li class="'+this.type+'">' +
-                    '<span class="icon"><img src="'+this.icon+'"/></span>' +
+                    '<div>' +
+                    '<span class="icon"><img class="i" src="'+this.icon+'"/></span>' +
                     '<span class="title"><b>'+this.title+'</b></span><br/>' +
                     '<span class="desc">'+this.desc+'</span><br/>' +
                     '<span class="author">Author: '+this.author+'</span>' +
                     '<span class="tags">'+this.tags+'</span>' +
                     '<span class="release">'+this.date+'</span>' +
+                    '</div>' +
                     '</li>'
                 );
             });
-            
+
             var options = {
                 valueNames: [ 'title', 'desc', 'author', 'tags', 'release' ]
             };
-            
+
             var hbList = new List('hb_list', options);
-            
-            document.getElementById('qt').innerHTML = 'Listing ' + hbList.size() + ' homebrew(s).';
-            
+
             hbList.on('updated', function() {
+                $('.list').append('<li class="none" style="display:none;"></li>');
                 $('.filter').change();
             });
-            
+
             $('.filter').change(function() {
                 var ID = $(this).attr('id');
-                if ($(this).prop('checked') && !$('.'+ID).is(':visible')) { $('.'+ID).show(); }
-                else if (!$(this).prop('checked') && $('.'+ID).is(':visible')) { $('.'+ID).hide(); }
-                document.getElementById('qt').innerHTML = 'Listing ' + $('li:visible').length + ' homebrew(s).';
+                if (($('li:visible').length % 2) == 0) $('.none').hide();
+                if ($(this).prop('checked') && !$('.'+ID).is(':visible')) $('.'+ID).show();
+                else if (!$(this).prop('checked') && $('.'+ID).is(':visible')) $('.'+ID).hide();
+                $('#qt').html('Listing ' + $('li:visible').length + ' homebrew(s).');
+                if (($('li:visible').length % 2) == 1) $('.none').show();
             });
-            
-            $('img').on('error', function() {
+
+            $('img.i').on('error', function() {
                 $(this).attr('src', './icons/noicon.png');
             });
             
+            $('#screenshot').on('error', function() {
+                $(this).attr('src', './screenshots/noscreen.png');
+            });
+
+            $('.title').click(function() {
+                $('#hb_entry').show();
+                // Fetch info from json file
+            });
+
+            $('#x').click(function() {
+                $('#hb_entry').hide();
+            });
+
+            $(window).scroll(function() {
+                $('#hb_entry').css('left', -$(this).scrollLeft());
+            });
+
             $('.search').attr('value', location.search.substring(1));
             hbList.search(location.search.substring(1));
-            hbList.update();
+        })
+        .error(function() {
+            $('#qt').html("Couldn't load homebrew database.");
         });
     </script>
 </body>
