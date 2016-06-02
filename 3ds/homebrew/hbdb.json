@@ -265,7 +265,7 @@
 "O3DS":100,"N3DS":100
 },{
 "type":"app",
-"icon":"./icons/jksm.png",
+"icon":"./icons/JKSM.png",
 "title":"JK's Save Manager",
 "tags":"utilities, system, savefile, ARM11, userland",
 "desc":"User-friendly savedata manager.",
