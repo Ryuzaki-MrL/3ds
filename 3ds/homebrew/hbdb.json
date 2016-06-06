@@ -1,4 +1,5 @@
-[{"type":"app",
+[{
+"type":"app",
 "icon":"/",
 "title":"3DAmnesic",
 "tags":"multimedia, ARM11, userland, entertainment",
@@ -9,13 +10,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png",
 "title":"3DSController",
-"tags":"utilities, wifi, ARM11, userland, gateway",
+"tags":"utilities, wifi, ARM11, userland",
 "desc":"Connects the 3DS to a PC via wifi to be used as a controller.",
 "author":"CTurt",
 "longdesc":"",
@@ -23,13 +23,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/AlbertoSONIC/3DS_Binary_Decimal_Converter/master/icon.png",
 "title":"3DS Binary to Decimal Converter",
-"tags":"utilities, ARM11, userland, gateway",
+"tags":"utilities, ARM11, userland",
 "desc":"Converts an entered binary number to its decimal equivalent.",
 "author":"AlbertoSONIC",
 "longdesc":"",
@@ -37,8 +36,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/braindump.png",
@@ -51,13 +49,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
 "title":"BootAnim9",
-"tags":"Loaders, ARM9, kernel, arm9loaderhax",
+"tags":"Loaders, ARM9, arm9loaderhax",
 "desc":"Loads and plays a random animation from SD card during boot.",
 "author":"Wolfvak",
 "longdesc":"",
@@ -65,36 +62,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"BIN",
-"O3DS":100,"N3DS":100
-},{
-"type":"app",
-"icon":"/",
-"title":"BootCtr",
-"tags":"Loaders, ARM11, userland, kernel",
-"desc":"Boot manager. Assign buttons to choose which homebrew to launch (menuhax).",
-"author":"m45t3r",
-"longdesc":"",
-"date":"",
-"status":"",
-"dl":"",
-"other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
-},{
-"type":"app",
-"icon":"/",
-"title":"BootCtr9",
-"tags":"Loaders, ARM9, kernel, arm9loaderhax",
-"desc":"Boot manager for arm9loaderhax.",
-"author":"hartmannaf",
-"longdesc":"",
-"date":"",
-"status":"",
-"dl":"",
-"other":"",
-"ext":"BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
@@ -107,8 +75,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/yellows8/hblauncher_loader/master/icon.png",
@@ -121,8 +88,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/hans.png",
@@ -135,13 +101,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/icon.png",
 "title":"CTRXplorer",
-"tags":"utilities, files, ARM11, userland, gateway",
+"tags":"utilities, files, ARM11, userland",
 "desc":"SD card file manager.",
 "author":"d0k3",
 "longdesc":"",
@@ -149,13 +114,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Rinnegatamante/CHMM2/master/icon.png",
 "title":"Custom Home Menu Manager (CHMM)",
-"tags":"utilities, customization, LUA, ARM11, userland, gateway",
+"tags":"utilities, customization, LUA, ARM11, userland",
 "desc":"Allows changing of the current home menu theme.",
 "author":"rinnegatamante",
 "longdesc":"",
@@ -163,13 +127,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/d0k3/Decrypt9WIP/master/resources/BrahmaIcon.png",
 "title":"Decrypt9",
-"tags":"utilities, system, maintenance, ARM9, kernel, arm9loaderhax, cakehax, brahma",
+"tags":"utilities, system, maintenance, ARM9, arm9loaderhax, cakehax, brahma",
 "desc":"Multipurpose decrypting tools for the 3DS.",
 "author":"d0k3",
 "longdesc":"",
@@ -177,13 +140,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, DAT, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/d0k3/EmuNAND9/master/resources/BrahmaIcon.png",
 "title":"EmuNAND9",
-"tags":"utilities, maintenance, ARM9, kernel, arm9loaderhax, cakehax, brahma",
+"tags":"utilities, maintenance, ARM9, arm9loaderhax, cakehax, brahma",
 "desc":"SD card formatter and emuNAND manager.",
 "author":"d0k3",
 "longdesc":"",
@@ -191,13 +153,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, DAT, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/sunshell.png",
 "title":"Sunshell",
-"tags":"utilities, multimedia, files, system, LUA, ARM11, userland, kernel, memchunkhax2, gateway",
+"tags":"utilities, multimedia, files, system, LUA, ARM11, userland, kernel, memchunkhax2",
 "desc":"Multifunction shell written in LUA.",
 "author":"rinnegatamante",
 "longdesc":"",
@@ -205,13 +166,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Steveice10/FBI/master/meta/icon.png",
 "title":"FBI",
-"tags":"utilities, system, ARM11, kernel, svchax, gateway",
+"tags":"utilities, system, savefile, ARM11, kernel, svchax",
 "desc":"Full featured CIA installer/title manager.",
 "author":"Steveice10",
 "longdesc":"",
@@ -219,8 +179,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/lumaupdate.png",
@@ -233,8 +192,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/astronautlevel2/StarUpdater/master/Builder/starlogo.png",
@@ -247,13 +205,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/MrCheeze/GYTB/master/resources/icon.png",
 "title":"GYTB",
-"tags":"utilities, customization, ARM11, userland, gateway",
+"tags":"utilities, customization, ARM11, userland",
 "desc":"Generates custom home menu badges from PNG files.",
 "author":"MrCheeze",
 "longdesc":"",
@@ -261,8 +218,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/JKSM.png",
@@ -275,13 +231,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/coins.png",
 "title":"Gimme 300 coins",
-"tags":"utilities, system, ARM11, userland, gateway",
+"tags":"utilities, ARM11, userland",
 "desc":"Sets your play coin counter to 300 then exits.",
 "author":"Howling Wolf e Chelsea_Fantasy",
 "longdesc":"",
@@ -289,13 +244,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/useless.png",
 "title":"Useless Homebrew",
-"tags":"ARM11, userland, gateway",
+"tags":"ARM11, userland",
 "desc":"What does it do? Find out by yourself.",
 "author":"FUK-Team",
 "longdesc":"",
@@ -303,13 +257,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/d0k3/GodMode9/master/resources/BrahmaIcon.png",
 "title":"GodMode9",
-"tags":"utilities, system, files, ARM9, kernel, arm9loaderhax, cakehax, brahma",
+"tags":"utilities, system, files, ARM9, arm9loaderhax, cakehax, brahma",
 "desc":"SD &amp; NAND file manager.",
 "author":"d0k3",
 "longdesc":"",
@@ -317,8 +270,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, DAT, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/yellows8/3ds_homemenuhax/master/menuhax_manager/icon.png",
@@ -331,8 +283,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/smealum/ironhax/master/installer/icon.png",
@@ -345,8 +296,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Dazzozo/salt_sploit_installer/master/salt_sploit_installer.png",
@@ -359,8 +309,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/regionfour.png",
@@ -373,13 +322,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
 "title":"Regionthree",
-"tags":"utilities, loaders, ARM11, userland, cakesrop",
+"tags":"utilities, loaders, ARM11, userland",
 "desc":"Allows for out of region gamecards to be launched on any 3DS.",
 "author":"smealum",
 "longdesc":"",
@@ -387,8 +335,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"DAT",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
@@ -401,8 +348,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/meladroit/svdt/master/icon.png",
@@ -415,8 +361,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
@@ -429,13 +374,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://gbatemp.net/attachments/agbsave9-png.47028/",
 "title":"Agbsave9",
-"tags":"utilities, savefile, GBA, ARM9, kernel, arm9loaderhax, cakehax, brahma",
+"tags":"utilities, savefile, ARM9, arm9loaderhax, cakehax, brahma",
 "desc":"Dumps the savefile of the most recently played GBA game.",
 "author":"alex34567",
 "longdesc":"",
@@ -443,8 +387,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, DAT, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
@@ -457,13 +400,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/profi200/sysUpdater/master/app/icon48x48.png",
 "title":"SysUpdater",
-"tags":"utilities, system, maintenance, ARM11, kernel, memchunkhax2",
+"tags":"utilities, system, maintenance, ARM11, kernel, svchax",
 "desc":"Tool for updating/downgrading the 3DS's system firmware.",
 "author":"profi200",
 "longdesc":"",
@@ -471,8 +413,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon.png",
@@ -485,13 +426,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/downloadmii.png",
 "title":"DownloadMii",
-"tags":"utilities, shop, internet, internet, ARM11, userland",
+"tags":"utilities, shop, internet, ARM11, userland",
 "desc":"Homebrew browser for the 3DS. Discontinued.",
 "author":"filfat",
 "longdesc":"",
@@ -499,13 +439,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/mtheall/ftpd/c79616d2eff29df072108bad07b751575407e0cd/ftbrony.png",
 "title":"Ftbrony",
-"tags":"utilities, FTP, wifi, files, ARM11, userland",
+"tags":"utilities, wifi, files, ARM11, userland",
 "desc":"<abbr title='File Transfer Protocol'>FTP</abbr> client for 3DS. Recently renamed to ftpd.",
 "author":"mtheall",
 "longdesc":"",
@@ -513,13 +452,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/smealum/ftpony/master/icon.png",
 "title":"Ftpony",
-"tags":"utilities, FTP, wifi, files, ARM11, userland",
+"tags":"utilities, wifi, files, ARM11, userland",
 "desc":"<abbr title='File Transfer Protocol'>FTP</abbr> for 3DS. Discontinued.",
 "author":"smealum",
 "longdesc":"",
@@ -527,8 +465,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/llakssz/CIAngel/master/icon.png",
@@ -541,8 +478,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Kyraminol/TIKdevil/v0.1/icon.png",
@@ -555,8 +491,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/installmii.png",
@@ -569,13 +504,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/diagnose.png",
 "title":"Diagnos3",
-"tags":"utilities, maintenance, ARM11, userland, gateway",
+"tags":"utilities, maintenance, ARM11, userland",
 "desc":"Check the functionailty of your 3DS.",
 "author":"Technicmaster0",
 "longdesc":"",
@@ -583,8 +517,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/ksanislo/QRWebLoader/master/meta/icon.png",
@@ -597,8 +530,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/ksanislo/AutoLoader/master/meta/icon.png",
@@ -611,13 +543,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/d0k3/OTPHelper/master/resources/BrahmaIcon.png",
 "title":"OTPHelper",
-"tags":"utilities, system, ARM9, kernel, cakehax, brahma",
+"tags":"utilities, system, ARM9, cakehax, brahma",
 "desc":"Small tool designed for helping with downgrade and OTP dumping.",
 "author":"d0k3",
 "longdesc":"",
@@ -625,8 +556,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, DAT, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/eshopmusic.png",
@@ -639,8 +569,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Repo3DS/BrewMan/master/res/app/icon.png",
@@ -653,8 +582,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/zaksabeast/pokeSlow/master/assets/pokeSlowIcon.png",
@@ -667,8 +595,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Strackeror/PCHex/master/PCHex.png",
@@ -681,8 +608,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Slashcash/PCHex-plusplus/master/assets/icon48.png",
@@ -695,13 +621,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/gocario/PHBank/master/assets/icon-48px.png",
 "title":"PHBank (Pokémon Homebrew Bank)",
-"tags":"utilities, savefile, storage, ARM11, userland, Pokémon",
+"tags":"utilities, savefile, storage, ARM11, userland",
 "desc":"Free homebrew alternative to PokéBank.",
 "author":"Gocario",
 "longdesc":"",
@@ -709,8 +634,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/gocario/PHBankGB/master/assets/icon-48px.png",
@@ -723,8 +647,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Rinnegatamante/The-Sharing-Of-Isaac/master/3DS/icon.png",
@@ -737,8 +660,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/vlrsafe.png",
@@ -751,13 +673,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/fb43ds.png",
 "title":"fb43DS",
-"tags":"communication, chat, internet, ARM11, userland",
+"tags":"chat, internet, ARM11, userland",
 "desc":"Facebook's chat client for 3DS. Discontinued.",
 "author":"Lino Maglione",
 "longdesc":"",
@@ -765,8 +686,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/mapleIRC.png",
@@ -779,8 +699,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png",
@@ -793,13 +712,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
 "title":"Uncart",
-"tags":"utilities, ARM9, kernel, arm9loaderhax, brahma",
+"tags":"utilities, ARM9, arm9loaderhax, brahma",
 "desc":"Tool for dumping roms from gamecards.",
 "author":"neobrain",
 "longdesc":"",
@@ -807,8 +725,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/icon.png",
@@ -821,8 +738,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/bird.png",
@@ -835,8 +751,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/markwinap/3DS_Nyan_Cat/master/icon.png",
@@ -849,8 +764,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/ddexter.png",
@@ -863,13 +777,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/dsihbmenu.png",
 "title":"DSi Homebrew Menu Loader",
-"tags":"Loaders, NDS, TWL_FIRM",
+"tags":"Loaders, NDS",
 "desc":"DSi Homebrew Menu as a DSiWare CIA.",
 "author":"ahezard",
 "longdesc":"",
@@ -877,8 +790,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS_Explorer/master/icon.png",
@@ -891,13 +803,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"",
-"O3DS":0,"N3DS":0
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Rinnegatamante/lpp-3ds/master/icon.png",
 "title":"Lua Player Plus (lpp-3ds)",
-"tags":"Interpreters, LUA, ARM11, userland, kernel, memchunkhax2, gateway",
+"tags":"Interpreters, LUA, ARM11, userland, kernel, memchunkhax2",
 "desc":"LUA interpreter for 3DS.",
 "author":"rinnegatamante",
 "longdesc":"",
@@ -905,8 +816,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/ctruLua/ctruLua/master/icon.png",
@@ -919,8 +829,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/cyanogen.png",
@@ -933,13 +842,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/d0k3/A9NC/master/meta/icon.png",
 "title":"ARM9 Netload Companion",
-"tags":"utilities, wifi, ARM9, ARM11",
+"tags":"utilities, wifi, ARM11, userland",
 "desc":"Receive <abbr title='arm9loaderhax'>A9LH</abbr> payloads from a PC through the network.",
 "author":"d0k3",
 "longdesc":"",
@@ -947,13 +855,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/fakebrick.png",
 "title":"Fake Brick",
-"tags":"simulation, ARM11, userland, gateway",
+"tags":"ARM11, userland",
 "desc":"Simulates a fake blue brick screen.",
 "author":"flarn2006",
 "longdesc":"",
@@ -961,13 +868,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
 "title":"FakeBrick9",
-"tags":"simulation, ARM9, kernel",
+"tags":"ARM9, kernel",
 "desc":"Simulates a brick during boot (arm9loaderhax).",
 "author":"A_Random_Guy",
 "longdesc":"",
@@ -975,13 +881,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/GW.png",
 "title":"Gateway",
-"tags":"Loaders, ARM9, kernel, ninjhax",
+"tags":"Loaders, ARM9, ninjhax",
 "desc":"Boots into Gateway Menu from ninjhax.",
 "author":"Gateway Team",
 "longdesc":"",
@@ -989,13 +894,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
 "title":"Gateway Menu",
-"tags":"Loaders, maintenance, utilities, ARM9, kernel, cakesrop, arm9loaderhax",
+"tags":"Loaders, maintenance, utilities, ARM9, arm9loaderhax",
 "desc":"Toolkit for the gateway flashcart.",
 "author":"Gateway Team",
 "longdesc":"",
@@ -1003,13 +907,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"DAT",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/c3dtrainer.png",
 "title":"Crush 3D Trainer",
-"tags":"Trainers, cheats, ARM11, userland",
+"tags":"cheats, ARM11, userland",
 "desc":"Trainer for Crush 3D.",
 "author":"Team +3DS",
 "longdesc":"",
@@ -1017,13 +920,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/pictochat.png",
 "title":"Pictochat3D",
-"tags":"communication, chat, internet, ARM11, userland",
+"tags":"chat, internet, ARM11, userland",
 "desc":"Pictochat clone for 3DS.",
 "author":"Tjessx",
 "longdesc":"",
@@ -1031,8 +933,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/thejsa/KoopaCruiser/master/icon.png",
@@ -1045,8 +946,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/xerpi/3DS-Linux-Loader/master/icon.png",
@@ -1059,13 +959,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/thedax/3DS_Quick_Shutdown/master/resources/icon.png",
 "title":"3DS Quick Shutdown",
-"tags":"utilities, system, ARM11, userland, gateway",
+"tags":"utilities, system, ARM11, userland",
 "desc":"Quickly shuts down the 3DS.",
 "author":"daxtsu",
 "longdesc":"",
@@ -1073,13 +972,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/AlbertoSONIC/3DS_Quick_Reboot/master/icon.png",
 "title":"Quick Reboot",
-"tags":"utilities, system, ARM11, userland, gateway",
+"tags":"utilities, system, ARM11, userland",
 "desc":"Reboots the 3DS.",
 "author":"AlbertoSONIC",
 "longdesc":"",
@@ -1087,8 +985,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/scrtool.png",
@@ -1101,8 +998,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/icon.png",
@@ -1115,8 +1011,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
@@ -1129,8 +1024,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Rinnegatamante/Purgification/master/icon.png",
@@ -1143,8 +1037,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/MarcuzD/TerraInveditThreedee/master/assets/logo.png",
@@ -1157,8 +1050,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/alarmclock.png",
@@ -1171,13 +1063,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/walk.png",
 "title":"For Anyone Who Walks A Lot",
-"tags":"utilities, system, ARM11, userland",
+"tags":"utilities, ARM11, userland",
 "desc":"Convers steps into play coins... without 10 coin per day limit.",
 "author":"iamevn",
 "longdesc":"",
@@ -1185,13 +1076,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/bigredmenu.png",
 "title":"Big Red Menu",
-"tags":"utilities, system, ARM11, kernel, LUA, gateway",
+"tags":"utilities, system, ARM11, kernel, LUA",
 "desc":"CIA installer for legit CIAs.",
 "author":"rinnegatamante",
 "longdesc":"",
@@ -1199,8 +1089,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/organized.png",
@@ -1213,13 +1102,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/icon.png",
 "title":"3ds-vgmstream",
-"tags":"multimedia, music, ARM11, userland, gateway",
+"tags":"multimedia, music, ARM11, userland",
 "desc":"Stream various videogame audio formats on the 3DS.",
 "author":"TricksterGuy",
 "longdesc":"",
@@ -1227,8 +1115,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/yaru.png",
@@ -1241,8 +1128,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
@@ -1255,13 +1141,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/ninjacam.png",
 "title":"NinjaCam",
-"tags":"utilities, multimedia, ARM11, userland",
+"tags":"utilities, ARM11, userland",
 "desc":"Camera without shutter sound.",
 "author":"rinnegatamante",
 "longdesc":"",
@@ -1269,8 +1154,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/multihex.png",
@@ -1283,13 +1167,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/javimadgit/TinyFormat/master/resources/icon.png",
 "title":"TinyFormat",
-"tags":"utilities, system, maintenance, ARM11, userland, gateway",
+"tags":"utilities, system, maintenance, ARM11, userland",
 "desc":"Formats system memory without wiping out SD card contents.",
 "author":"javimadgit",
 "longdesc":"",
@@ -1297,27 +1180,51 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
+},{
+"type":"app",
+"icon":"/",
+"title":"Downgrade Check",
+"tags":"utilities, system, ARM11, userland",
+"desc":"Checks whether your 3DS was properly downgraded.",
+"author":"svanheulen",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Cpasjuste/SafeSysUpdater/master/res/icon.png",
 "title":"SafeSysUpdater",
 "tags":"utilities, system, maintenance, ARM11, kernel, memchunkhax2",
-"desc":"Checks all files before updating/downgrading. Fork of sysUpdater.",
+"desc":"Checks all files prior to updating/downgrading your 3DS. Fork of sysUpdater.",
 "author":"Cpasjuste",
 "longdesc":"",
 "date":"",
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
+},{
+"type":"app",
+"icon":"https://raw.githubusercontent.com/Plailect/PlaiSysUpdater/master/res/icon.png",
+"title":"PlaiSysUpdater",
+"tags":"utilities, system, maintenance, ARM11, kernel, memchunkhax2",
+"desc":"Fork of SafeSysUpdater with better stability.",
+"author":"Plailect",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/nasa.png",
 "title":"NASA",
-"tags":"utilities, system, ARM11, kernel, memchunkhax2, LUA, gateway",
+"tags":"utilities, system, ARM11, kernel, memchunkhax2, LUA",
 "desc":"CIA installer for legit CIAs.",
 "author":"rinnegatamante",
 "longdesc":"",
@@ -1325,13 +1232,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/AuroraWright/SafeA9LHInstaller/master/icon.png",
 "title":"SafeA9LHInstaller",
-"tags":"utilities, system, ARM9, kernel, cakehax, brahma, arm9loaderhax",
+"tags":"utilities, system, ARM9, cakehax, brahma, arm9loaderhax",
 "desc":"Securely installs <abbr title='arm9loaderhax'>A9LH</abbr> on your 3DS.",
 "author":"Aurora Wright",
 "longdesc":"",
@@ -1339,13 +1245,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, DAT, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
 "title":"3DS Remote Desktop",
-"tags":"utilities, ARM11, userland, wifi, gateway",
+"tags":"utilities, ARM11, userland, wifi",
 "desc":"Stream PC screen to 3DS and send 3DS input to PC.",
 "author":"retrozelda",
 "longdesc":"",
@@ -1353,13 +1258,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/thedax/3DS_Wifi_Toggle/master/resources/icon.png",
 "title":"3DS Wifi Toggle",
-"tags":"utilities, ARM11, userland, gateway",
+"tags":"utilities, ARM11, userland",
 "desc":"Turn wifi on or off.",
 "author":"daxtsu",
 "longdesc":"",
@@ -1367,8 +1271,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/slot1launch.png",
@@ -1381,13 +1284,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/MyLegGuy/MangaReader/master/Icon48x48.png",
 "title":"Manga Reader",
-"tags":"utilities, reading, ARM11, userland, gateway, LUA",
+"tags":"utilities, reading, ARM11, userland, LUA",
 "desc":"Download and read mangas on your 3DS.",
 "author":"MyLegGuy",
 "longdesc":"",
@@ -1395,8 +1297,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/soon.png",
@@ -1409,8 +1310,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/soon2.png",
@@ -1423,13 +1323,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/AlbertoSONIC/3DS_Paint/master/icon.png",
 "title":"3DS Paint",
-"tags":"utilities, entertainment, multimedia, ARM11, userland, gateway",
+"tags":"utilities, entertainment, multimedia, ARM11, userland",
 "desc":"Homebrew for drawing using the touch screen.",
 "author":"AlbertoSONIC",
 "longdesc":"",
@@ -1437,13 +1336,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/AlbertoSONIC/3DS_Paint/master/icon.png",
 "title":"3DS Motion",
-"tags":"utilities, entertainment, multimedia, ARM11, userland, gateway",
+"tags":"utilities, entertainment, multimedia, ARM11, userland",
 "desc":"Fork of 3DS Paint with added Stop-Motion animation support.",
 "author":"norips",
 "longdesc":"",
@@ -1451,13 +1349,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
 "title":"VN3DS",
-"tags":"entertainment, interpreters, multimedia, ARM11, userland, gateway, LUA",
+"tags":"entertainment, interpreters, multimedia, ARM11, userland, LUA",
 "desc":"Visual Novel interpreter.",
 "author":"dfsa3fdvc1",
 "longdesc":"",
@@ -1465,13 +1362,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/crimson.png",
 "title":"Crimson Scripter",
-"tags":"entertainment, interpreters, multimedia, ARM11, userland, gateway, LUA",
+"tags":"entertainment, interpreters, multimedia, ARM11, userland, LUA",
 "desc":"Sound Novel interpreter.",
 "author":"phalk",
 "longdesc":"",
@@ -1479,13 +1375,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/surfer.png",
 "title":"3DSurfer",
-"tags":"entertainment, multimedia, ARM11, userland, gateway, LUA",
+"tags":"entertainment, multimedia, ARM11, userland, LUA",
 "desc":"WAV sound player.",
 "author":"rinnegatamante",
 "longdesc":"",
@@ -1493,13 +1388,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/calculator.png",
 "title":"Super Simple Calculator",
-"tags":"utilities, math, ARM11, userland, gateway, LUA",
+"tags":"utilities, math, ARM11, userland, LUA",
 "desc":"Calculator for simple math operations.",
 "author":"CKlidify",
 "longdesc":"",
@@ -1507,8 +1401,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/icon.png",
@@ -1521,8 +1414,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://gbatemp.net/attachments/calculator-icon-png.29797/",
@@ -1535,8 +1427,33 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
+},{
+"type":"app",
+"icon":"/",
+"title":"BootCtr",
+"tags":"Loaders, ARM11, userland, kernel",
+"desc":"Boot manager. Assign buttons to choose which homebrew to launch (menuhax).",
+"author":"m45t3r",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"app",
+"icon":"/",
+"title":"BootCtr9",
+"tags":"Loaders, ARM9, arm9loaderhax",
+"desc":"Boot manager for arm9loaderhax.",
+"author":"hartmannaf",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
 },{
 "type":"app",
 "icon":"/",
@@ -1549,8 +1466,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
@@ -1563,8 +1479,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
@@ -1577,8 +1492,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/ihaveamac/mashers-gl-updater/master/icon.png",
@@ -1591,8 +1505,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/dsp.png",
@@ -1605,8 +1518,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/blender.png",
@@ -1619,8 +1531,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/nvram.png",
@@ -1633,8 +1544,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/edpjoy.png",
@@ -1647,8 +1557,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/d0k3/ZIP3DSFX/master/resources/icon.png",
@@ -1661,8 +1570,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/text.png",
@@ -1675,8 +1583,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/ttf.png",
@@ -1689,8 +1596,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/dice.png",
@@ -1703,8 +1609,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/mcit.png",
@@ -1717,13 +1622,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
 "title":"3DS RAM Dumper",
-"tags":"utilities, system, ARM9, kernel, brahma",
+"tags":"utilities, system, ARM9, brahma",
 "desc":"Dumps FCRAM to a file.",
 "author":"palantine",
 "longdesc":"",
@@ -1731,8 +1635,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"/",
@@ -1745,8 +1648,20 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"DAT",
-"O3DS":100,"N3DS":100
+"ext":""
+},{
+"type":"app",
+"icon":"./icons/boxdumper.png",
+"title":"Pokémon Box Dumper",
+"tags":"utilities, ARM11, userland",
+"desc":"View your Pokémon stats online.",
+"author":"seanss",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/checkmii.png",
@@ -1759,13 +1674,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/MrCheeze/playcoin/master/icon.png",
 "title":"Play Coin Setter",
-"tags":"utilities, system, ARM11, userland",
+"tags":"utilities, ARM11, userland",
 "desc":"Allows modifying the 3DS Play Coin counter.",
 "author":"MrCheeze",
 "longdesc":"",
@@ -1773,8 +1687,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/yellows8/ctr-httpwn/master/icon.png",
@@ -1787,8 +1700,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/smdh.png",
@@ -1801,8 +1713,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/tinker.png",
@@ -1815,8 +1726,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, 3DS",
-"O3DS":100,"N3DS":100},
+"ext":""},
 {"type":"app",
 "icon":"https://raw.githubusercontent.com/Xavyrr/LOVE/v0.08/meta/icon.png",
 "title":"LOVE",
@@ -1828,8 +1738,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/sdmounty.png",
@@ -1842,22 +1751,20 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/shinyquagsire23/MysteryMachine-Patcher/master/MysteryMachine-Patcher.png",
 "title":"MysteryMachine Patcher",
-"tags":"utilities, ARM11, userland, internet",
-"desc":"Patches Pokémon XYORAS, allowing to get whatever current Mystery Gifts you wish.",
+"tags":"utilities, ARM11, userland",
+"desc":"Patches Pokémon XYORAS, allowing you to get whatever current Mystery Gift you wish.",
 "author":"shinyquagsire23",
 "longdesc":"",
 "date":"",
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/Cruel/freeShop/master/res/app/icon.png",
@@ -1870,13 +1777,25 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"",
-"O3DS":0,"N3DS":0
+"ext":""
+},{
+"type":"app",
+"icon":"https://raw.githubusercontent.com/GitGarage/HackChat/master/hackchat.png",
+"title":"HackChat",
+"tags":"ARM11, userland, internet",
+"desc":"Homebrew chat application for IRC #3dshacks.",
+"author":"omikes",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
 },{
 "type":"app",
 "icon":"./icons/raycast.png",
 "title":"RayCast3D",
-"tags":"Engines, ARM11, userland, gateway",
+"tags":"Engines, ARM11, userland",
 "desc":"Engine for making 3-D games in LUA using the Ray Casting algorithm.",
 "author":"rinnegatamante",
 "longdesc":"",
@@ -1884,13 +1803,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/VideahGams/LovePotion/master/meta/icon.png",
 "title":"LövePotion",
-"tags":"Interpreters, engines, LovePotion, ARM11, userland, gateway",
+"tags":"Interpreters, engines, LovePotion, ARM11, userland",
 "desc":"Implementation of the LÖVE game API for Lua.",
 "author":"VideahGams",
 "longdesc":"",
@@ -1898,8 +1816,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/killerman.png",
@@ -1912,8 +1829,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/minicraft.png",
@@ -1926,8 +1842,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"https://raw.githubusercontent.com/smealum/3dscraft/master/icon.png",
@@ -1940,8 +1855,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/breakout.png",
@@ -1954,8 +1868,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"https://raw.githubusercontent.com/shinyquagsire23/3DS-Pong/master/logo.png",
@@ -1968,8 +1881,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/pong.png",
@@ -1982,8 +1894,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/snake.png",
@@ -1996,8 +1907,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/snakelove.png",
@@ -2010,8 +1920,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"https://raw.githubusercontent.com/Remich/Snake3DS/master/snake3ds.png",
@@ -2024,8 +1933,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"https://raw.githubusercontent.com/MichiS97/The-Real-Snake-3DS/master/icon.png",
@@ -2038,8 +1946,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/antibounce.png",
@@ -2052,8 +1959,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"/",
@@ -2066,8 +1972,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/brickbreak.png",
@@ -2080,8 +1985,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/eucliod.png",
@@ -2094,13 +1998,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/flappy.png",
 "title":"Flappy Pixel",
-"tags":"games, arcade, ARM11, userland, gateway",
+"tags":"games, arcade, ARM11, userland",
 "desc":"Flappy Bird clone where you control a pixel.",
 "author":"ll0rT",
 "longdesc":"",
@@ -2108,13 +2011,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"https://raw.githubusercontent.com/BHSPitMonkey/Helii3DS/master/icon.png",
 "title":"Helii3DS",
-"tags":"games, arcade, simulation, ARM11, userland",
+"tags":"games, arcade, ARM11, userland",
 "desc":"Guide the helicopter through a tunnel. Port of Helii homebrew for Wii.",
 "author":"BHSPitMonkey",
 "longdesc":"",
@@ -2122,13 +2024,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/jezzball.png",
 "title":"Jezzball 3DS",
-"tags":"games, arcade, puzzle, ARM11, userland, gateway",
+"tags":"games, arcade, puzzle, ARM11, userland",
 "desc":"JezzBall/Qix clone.",
 "author":"Akdul",
 "longdesc":"",
@@ -2136,8 +2037,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/spacefruit.png",
@@ -2150,8 +2050,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"/",
@@ -2164,8 +2063,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"https://raw.githubusercontent.com/sgowen/tappy-plane/master/src/platform/3ds/tappy-plane/icon.png",
@@ -2178,8 +2076,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"https://raw.githubusercontent.com/yodamerlin/wave/master/icon.png",
@@ -2192,13 +2089,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/whack.png",
 "title":"Whack Mania",
-"tags":"games, arcade, ARM11, userland, gateway",
+"tags":"games, arcade, ARM11, userland",
 "desc":"3D Whack-A-Mole game.",
 "author":"cebolleto",
 "longdesc":"",
@@ -2206,13 +2102,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"https://raw.githubusercontent.com/AlbertoSONIC/3DS_Tic_Tac_Toe/master/icon.png",
 "title":"3DS Tic Tac Toe",
-"tags":"games, board, logic, ARM11, userland, gateway",
+"tags":"games, board, logic, ARM11, userland",
 "desc":"Tic Tac Toe game for 3DS.",
 "author":"AlbertoSONIC",
 "longdesc":"",
@@ -2220,13 +2115,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/rows.png",
 "title":"4Rows",
-"tags":"games, board, logic, ARM11, userland, gateway",
+"tags":"games, board, logic, ARM11, userland",
 "desc":"Four in a row/Connect4 game for 3DS.",
 "author":"rinnegatamante",
 "longdesc":"",
@@ -2234,8 +2128,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"/",
@@ -2248,8 +2141,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"https://raw.githubusercontent.com/MrJPGames/Mastermind-3DS/master/icon.png",
@@ -2262,8 +2154,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"https://raw.githubusercontent.com/MrJPGames/Othello-3DS/master/icon.png",
@@ -2276,8 +2167,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/hangman.png",
@@ -2290,8 +2180,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/briscola.png",
@@ -2304,8 +2193,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/blackjack.png",
@@ -2318,8 +2206,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/icon.png",
@@ -2332,8 +2219,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"./icons/guess.png",
@@ -2346,8 +2232,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"https://raw.githubusercontent.com/mastermodr94/Simon/master/icon.png",
@@ -2360,8 +2245,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"game",
 "icon":"/",
@@ -2374,13 +2258,584 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/hax0r.png",
+"title":"Hax0r",
+"tags":"games, puzzle, ARM11, userland, LUA, LovePotion",
+"desc":"Play as a virus and infect a PowerPC 95.",
+"author":"TurtleP",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/idiot.png",
+"title":"Idiot",
+"tags":"games, puzzle, platformer, ARM11, userland, LUA, LovePotion",
+"desc":"Help Idiot to escape the dungeon in this puzzle platformer.",
+"author":"TurtleP",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/ascii.png",
+"title":"ASCIIJump",
+"tags":"games, platformer, ARM11, userland",
+"desc":"ASCII Geometry Dash clone for 3DS.",
+"author":"JackMacWindows",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/norips/GeomittyDash/master/icon.png",
+"title":"Geomitty Dash",
+"tags":"games, platformer, ARM11, userland",
+"desc":"Geometry Dash clone for 3DS.",
+"author":"norips",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/jack.png",
+"title":"Jumping Jack",
+"tags":"games, platformer, ARM11, userland",
+"desc":"Port of the ZX Spectrum game of the same name.",
+"author":"cebolleto",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/icon.png",
+"title":"OpenSyobon3DS",
+"tags":"games, platformer, ARM11, userland",
+"desc":"Port of Open Syobon Action (Cat Mario).",
+"author":"nop90",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/esoteric-programmer/robin-hood/master/icon.png",
+"title":"Robin Hood's Platform Game",
+"tags":"games, platformer, ARM11, userland",
+"desc":"Simple platform game where you play as Robin Hood.",
+"author":"bayleef",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/boxes.png",
+"title":"100 Boxes 2DS",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Remake of DS homebrew 100 Boxes Puzzle for 3DS.",
+"author":"Cid2Mizard",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/gocario/3-Aldchemys/master/icon.png",
+"title":"3-Aldchemys",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Little Alchemy clone for 3DS.",
+"author":"Gocario",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/MrJPGames/2048-3D/master/icon.png",
+"title":"2048-3D",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"2048 Puzzle game clone.",
+"author":"MrJPGames",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"/",
+"title":"3048",
+"tags":"games, puzzle, ARM11, spiderhax",
+"desc":"2048 Puzzle game clone.",
+"author":"Mocalacace",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/portal.png",
+"title":"Aperture Science 3D (portal3DS)",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Port of the game Portal.",
+"author":"smealum",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/fbwo.png",
+"title":"Falling Blocks Watch Out",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Highly configurable, themeable Tetris clone.",
+"author":"Spaqin",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/helreizerDev/Fillds/master/icon.png",
+"title":"FillDS",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Clone of Flood It.",
+"author":"Helreizer543",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/loophole.png",
+"title":"Loophole",
+"tags":"games, puzzle, ARM11, userland, LUA, LovePotion",
+"desc":"Puzzle platformer where you control 'players', which can also be used as platforms.",
+"author":"CKlidify",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/minesweep.png",
+"title":"Minesweeper 2DS",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Windows Minesweeper clone.",
+"author":"Cid2Mizard",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/gatuno/PaddlePuffle3DS/master/paddle.png",
+"title":"Paddle Puffle 3DS",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Port of Paddle Puffle.",
+"author":"Peanut42",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/picroxx.png",
+"title":"Picroxx!",
+"tags":"games, puzzle, ARM11, userland, LUA, LovePotion",
+"desc":"Picross homebrew clone.",
+"author":"Substance12",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/pshuffle.png",
+"title":"Pixel Shuffle 2DS",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Rearrange the image on the bottom to form the pixelated image on top.",
+"author":"Cid2Mizard",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/pswap.png",
+"title":"Pixel Swap 2DS",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Replicate the pixel image on the top screen on the bottom screen.",
+"author":"Cid2Mizard",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/rokoban.png",
+"title":"Rokoban",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"3-D Sokoban game.",
+"author":"cebolleto",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/landm2000/sokoban/master/sokoban.png",
+"title":"Sokoban",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Port of Sokoban puzzle game.",
+"author":"Landm",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"/",
+"title":"TE3DS",
+"tags":"games, puzzle, ARM9, MSET",
+"desc":"Tetris clone.",
+"author":"Snailface",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"/",
+"title":"Tetris3DS",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Tetris clone.",
+"author":"UltiNaruto",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/tetro.png",
+"title":"Tetronomino 3DS",
+"tags":"games, puzzle, ARM11, userland, LUA, LovePotion",
+"desc":"Tetris clone, built with LövePotion.",
+"author":"CKlidify",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/gatuno/ThinIce3DS/master/thinice.png",
+"title":"ThinIce 3DS",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Melt all of the ice in a maze.",
+"author":"Peanut42",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/tilemap.png",
+"title":"TileMap 2DS",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Port of TileMap for 3DS.",
+"author":"Cid2Mizard",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/tiles.png",
+"title":"Tiles 2DS",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Port of Lights Out for 3DS.",
+"author":"Cid2Mizard",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/sgowen/insectoid-defense/master/src/platform/3ds/insectoid-defense/icon.png",
+"title":"Insectoid Defense",
+"tags":"games, puzzle, ARM11, userland",
+"desc":"Futuristic tower defense game.",
+"author":"sgowen",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/nop90/ZeldaROTH/master/icon.png",
+"title":"Zelda Return of the Hylian for 3DS",
+"tags":"games, RPG, ARM11, userland",
+"desc":"Port of Zelda Return of the Hylian fangame.",
+"author":"nop90",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png",
+"title":"CS3DS",
+"tags":"games, shooting, ARM11, userland",
+"desc":"Port of CSPSP.",
+"author":"machinamentum",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/Rinnegatamante/ctrHexenII/master/icon.png",
+"title":"ctrHexenII",
+"tags":"games, shooting, ARM11, userland",
+"desc":"Port of Hexen II.",
+"author":"rinnegatamante",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png",
+"title":"ctrQuake",
+"tags":"games, shooting, ARM11, userland",
+"desc":"Port of Quake.",
+"author":"MasterFeizz",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/Rinnegatamante/ctrWolfen/master/launcher/icon.png",
+"title":"ctrWolfen",
+"tags":"games, shooting, ARM11, userland",
+"desc":"Port of Wolfenstein 3D.",
+"author":"rinnegatamante",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png",
+"title":"EDuke3D",
+"tags":"games, shooting, ARM11, userland",
+"desc":"Port of EDuke32 (Duke Nukem 3D).",
+"author":"MasterFeizz",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/elhobbs/prboom3ds/master/prboom3ds.png",
+"title":"PrBoom3DS",
+"tags":"games, shooting, ARM11, userland",
+"desc":"Port of Doom.",
+"author":"elhobbs",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"/",
+"title":"spectre3ds",
+"tags":"games, shooting, ARM11, userland",
+"desc":"Port of Quake.",
+"author":"elhobbs",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/YourNerdyJoe/shootyafriend/master/shoot/banner/shooter_icon.png",
+"title":"Shoot ya Friend",
+"tags":"games, shooting, ARM11, userland, multiplayer",
+"desc":"Simple 2-player shooter.",
+"author":"YourNerdyJoe",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/turtle.png",
+"title":"Turtle: Invaders",
+"tags":"games, shooting, ARM11, userland, multiplayer, LUA, LovePotion",
+"desc":"A fixed-axis shooter with netplay and highscores.",
+"author":"TurtleP",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/smealum/yeti3DS/master/icon.png",
+"title":"Yeti3DS",
+"tags":"games, shooting, ARM11, userland",
+"desc":"Port of Yeti3D.",
+"author":"smealum",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"./icons/hamsters.png",
+"title":"Hamsters 2DS",
+"tags":"games, simulation, text, ARM11, userland",
+"desc":"Hamster breeding game in text mode.",
+"author":"Cid2Mizard",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/Steveice10/WorldOf3DSand/master/meta/icon.png",
+"title":"World of 3DSand",
+"tags":"games, simulation, ARM11, userland",
+"desc":"World of Sand clone.",
+"author":"Steveice10",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"/",
+"title":"Reunion",
+"tags":"games, ARM11, userland",
+"desc":"A furry visual novel game.",
+"author":"SonyUSA",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
+},{
+"type":"game",
+"icon":"https://raw.githubusercontent.com/titegtnodI/factcrow-3ds/master/icon.png",
+"title":"Fact Crow",
+"tags":"games, ARM11, userland",
+"desc":"A crow that tells you facts.",
+"author":"titegtnodI",
+"longdesc":"",
+"date":"",
+"status":"",
+"dl":"",
+"other":"",
+"ext":""
 },{
 "type":"emu",
 "icon":"./icons/3dnes.png",
 "title":"3DNES",
-"tags":"emulators, Nintendo, home console, ARM11, gateway",
+"tags":"emulators, Nintendo, home console, ARM11",
 "desc":"NES emulator for 3DS. Discontinued.",
 "author":"st4rk",
 "longdesc":"",
@@ -2388,13 +2843,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, 3DS",
-"O3DS":60,"N3DS":60
+"ext":""
 },{
 "type":"emu",
 "icon":"./icons/blargsnes.png",
 "title":"blargSNES",
-"tags":"emulators, ARM11, home console, userland, gateway",
+"tags":"emulators, ARM11, home console, userland",
 "desc":"SNES emulator for 3DS.",
 "author":"StapleButter",
 "longdesc":"",
@@ -2402,8 +2856,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":60,"N3DS":60
+"ext":""
 },{
 "type":"emu",
 "icon":"/",
@@ -2416,8 +2869,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"",
-"O3DS":0,"N3DS":0
+"ext":""
 },{
 "type":"emu",
 "icon":"/",
@@ -2430,13 +2882,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":0,"N3DS":0
+"ext":""
 },{
 "type":"emu",
 "icon":"./icons/fceumm.png",
 "title":"FCEUMM3DS",
-"tags":"emulators, Nintendo, home console, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, home console, ARM11, userland",
 "desc":"NES emulator. Port of FCEUMM. Discontinued.",
 "author":"steveice10",
 "longdesc":"",
@@ -2444,8 +2895,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":25,"N3DS":60
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/nop90/Vex3DS/master/icon.png",
@@ -2458,8 +2908,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/nop90/z26-3ds/master/icon.png",
@@ -2472,8 +2921,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"/",
@@ -2486,8 +2934,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"",
-"O3DS":25,"N3DS":25
+"ext":""
 },{
 "type":"emu",
 "icon":"/",
@@ -2500,13 +2947,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"",
-"O3DS":25,"N3DS":25
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/CTurt/Cinoop/master/cxi/icon48x48.png",
 "title":"Cinoop",
-"tags":"emulators, Nintendo, handheld, portable, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, handheld, portable, ARM11, userland",
 "desc":"Gameboy/GBColor emulator for 3DS.",
 "author":"CTurt",
 "longdesc":"",
@@ -2514,13 +2960,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":25,"N3DS":25
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/shinyquagsire23/gpsp/master/3ds/resources/icon.png",
 "title":"CitrAGB",
-"tags":"emulators, Nintendo, handheld, portable, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, handheld, portable, ARM11, userland",
 "desc":"Gameboy Advance emulator for 3DS. Port of gPSP.",
 "author":"shinyquagsire23",
 "longdesc":"",
@@ -2528,13 +2973,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":25,"N3DS":60
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/Steveice10/GameYob/master/meta/icon.png",
 "title":"GameYob 3DS",
-"tags":"emulators, Nintendo, handheld, portable, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, handheld, portable, ARM11, userland",
 "desc":"<abbr title='GameBoy'>GB</abbr>/<abbr title='GameBoy Color'>GBC</abbr> emulator with SGB support and high compatibility.",
 "author":"Drenn, steveice10",
 "longdesc":"",
@@ -2542,8 +2986,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"./icons/handy.png",
@@ -2556,13 +2999,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png",
 "title":"mGBA",
-"tags":"emulators, Nintendo, handheld, portable, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, handheld, portable, ARM11, userland",
 "desc":"Gameboy Advance emulator for 3DS.",
 "author":"endrift",
 "longdesc":"",
@@ -2570,8 +3012,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":25,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"/",
@@ -2584,8 +3025,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/nop90/Pokemini/master/icon.png",
@@ -2598,8 +3038,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png",
@@ -2612,13 +3051,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA",
-"O3DS":25,"N3DS":25
+"ext":""
 },{
 "type":"emu",
 "icon":"./icons/sim800.png",
 "title":"Sim800",
-"tags":"emulators, reading, portátil, ARM11, userland, gateway",
+"tags":"emulators, reading, portátil, ARM11, userland",
 "desc":"CC800 pocket dictionary emulator.",
 "author":"banxian",
 "longdesc":"",
@@ -2626,13 +3064,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"./icons/phoenix.png",
 "title":"Phoenix Arcade Emulator",
-"tags":"emulators, arcade, ARM11, userland, gateway",
+"tags":"emulators, arcade, ARM11, userland",
 "desc":"Phoenix Arcade emulator for 3DS.",
 "author":"seagal112",
 "longdesc":"",
@@ -2640,13 +3077,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/shutterbug2000/3DOS/master/icon.png",
 "title":"3DOS",
-"tags":"emulators, computers, DOS, ARM11, userland, gateway",
+"tags":"emulators, computers, DOS, ARM11, userland",
 "desc":"8086 (DOS) emulator for 3DS.",
 "author":"shutterbug2000",
 "longdesc":"",
@@ -2654,8 +3090,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"/",
@@ -2668,8 +3103,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"./icons/atari800.png",
@@ -2682,13 +3116,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/YourNerdyJoe/Chip8-CTRU/master/res/chip8_48x48.png",
 "title":"Chip8-CTRU",
-"tags":"emulators, computers, ARM11, userland, gateway",
+"tags":"emulators, computers, ARM11, userland",
 "desc":"Chip-8 emulator for 3DS.",
 "author":"YourNerdyJoe",
 "longdesc":"",
@@ -2696,13 +3129,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/xerpi/CHIP-3DS/master/resources/icon.png",
 "title":"CHIP-3DS",
-"tags":"emulators, computers, ARM11, userland, gateway",
+"tags":"emulators, computers, ARM11, userland",
 "desc":"PoC Chip-8 emulator for 3DS.",
 "author":"xerpi",
 "longdesc":"",
@@ -2710,8 +3142,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"./icons/spectrum.png",
@@ -2724,8 +3155,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/spinalcode/BreadBox/master/BreadBoxSource/icon.png",
@@ -2738,8 +3168,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"./icons/scummvm.png",
@@ -2752,8 +3181,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/default.png",
@@ -2766,8 +3194,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/2048.png",
@@ -2780,13 +3207,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/catsfc.png",
 "title":"CATSFC",
-"tags":"emulators, Nintendo, home console, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, home console, ARM11, userland",
 "desc":"<abbr title='Super Nintendo'>SNES</abbr> emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2794,13 +3220,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":60,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/catsfc_plus.png",
 "title":"CATSFC Plus",
-"tags":"emulators, Nintendo, home console, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, home console, ARM11, userland",
 "desc":"<abbr title='Super Nintendo'>SNES</abbr> emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2808,13 +3233,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":25,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/dosbox.png",
 "title":"DOSBox",
-"tags":"emulators, computers, ARM11, userland, gateway",
+"tags":"emulators, computers, ARM11, userland",
 "desc":"MS-DOS emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2822,13 +3246,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/fb_alpha_cps1.png",
 "title":"FB Alpha CPS1",
-"tags":"emulators, arcade, ARM11, userland, gateway",
+"tags":"emulators, arcade, ARM11, userland",
 "desc":"<abbr title='Capcom Play System 1'>CPS1</abbr> emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2836,13 +3259,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":60,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/fb_alpha_cps2.png",
 "title":"FB Alpha CPS2",
-"tags":"emulators, arcade, ARM11, userland, gateway",
+"tags":"emulators, arcade, ARM11, userland",
 "desc":"<abbr title='Capcom Play System 2'>CPS2</abbr> emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2850,13 +3272,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":60,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/fb_alpha_neo.png",
 "title":"FB Alpha Neo",
-"tags":"emulators, arcade, SNK, ARM11, userland, gateway",
+"tags":"emulators, arcade, SNK, ARM11, userland",
 "desc":"Neo-Geo emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2864,13 +3285,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/fceumm.png",
 "title":"FCEUMM",
-"tags":"emulators, Nintendo, home console, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, home console, ARM11, userland",
 "desc":"NES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2878,13 +3298,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":60,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/fmsx.png",
 "title":"fMSX",
-"tags":"emulators, computers, ARM11, userland, gateway",
+"tags":"emulators, computers, ARM11, userland",
 "desc":"MSX emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2892,13 +3311,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/gambatte.png",
 "title":"Gambatte",
-"tags":"emulators, Nintendo, handheld, portable, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, handheld, portable, ARM11, userland",
 "desc":"<abbr title='GameBoy'>GB</abbr>/<abbr title='GameBoy Color'>GBC</abbr> emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2906,13 +3324,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/genesis_plus_gx.png",
 "title":"Genesis Plus GX",
-"tags":"emulators, SEGA, home console, ARM11, userland, gateway",
+"tags":"emulators, SEGA, home console, ARM11, userland",
 "desc":"Sega Mega Drive emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2920,13 +3337,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/gpsp.png",
 "title":"gPSP",
-"tags":"emulators, Nintendo, handheld, portable, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, handheld, portable, ARM11, userland",
 "desc":"<abbr title='GameBoy Advance'>GBA</abbr> emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2934,13 +3350,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":60,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/mame.png",
 "title":"MAME",
-"tags":"emulators, arcade, ARM11, userland, gateway",
+"tags":"emulators, arcade, ARM11, userland",
 "desc":"Multi Arcade Machine Emulator for the 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2948,13 +3363,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/mednafen_ngp.png",
 "title":"Mednafen NGP",
-"tags":"emulators, SNK, handheld, portable, ARM11, userland, gateway",
+"tags":"emulators, SNK, handheld, portable, ARM11, userland",
 "desc":"NeoGeo Pocket emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2962,13 +3376,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/mednafen_pce_fast.png",
 "title":"Mednafen PCE Fast",
-"tags":"emulators, home console, ARM11, userland, gateway",
+"tags":"emulators, home console, ARM11, userland",
 "desc":"TurboGrafx-16 emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2976,13 +3389,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/mednafen_vb.png",
 "title":"Mednafen VB",
-"tags":"emulators, Nintendo, handheld, portable, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, handheld, portable, ARM11, userland",
 "desc":"Virtual Boy emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -2990,13 +3402,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":25,"N3DS":60
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/mednafen_wswan.png",
 "title":"Mednafen WonderSwan",
-"tags":"emulators, handheld, portable, ARM11, userland, gateway",
+"tags":"emulators, handheld, portable, ARM11, userland",
 "desc":"WonderSwan emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -3004,13 +3415,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/nestopia.png",
 "title":"Nestopia",
-"tags":"emulators, Nintendo, home console, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, home console, ARM11, userland",
 "desc":"NES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -3018,13 +3428,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/nxengine.png",
 "title":"NX Engine",
-"tags":"emulators, engines, ARM11, userland, gateway",
+"tags":"emulators, engines, ARM11, userland",
 "desc":"NXEngine (Cave Story) emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -3032,13 +3441,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/pcsx_rearmed.png",
 "title":"PCSX ReARMed",
-"tags":"emulators, SONY, home console, PSX, ARM11, userland, gateway",
+"tags":"emulators, SONY, home console, PSX, ARM11, userland",
 "desc":"PlayStation emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -3046,13 +3454,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":25,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/picodrive.png",
 "title":"Picodrive",
-"tags":"emulators, SEGA, home console, ARM11, userland, gateway",
+"tags":"emulators, SEGA, home console, ARM11, userland",
 "desc":"Sega Mega Drive emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -3060,13 +3467,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/pocketsnes.png",
 "title":"PocketSNES",
-"tags":"emulators, Nintendo, home console, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, home console, ARM11, userland",
 "desc":"<abbr title='Super Nintendo'>SNES</abbr> emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -3074,13 +3480,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/quicknes.png",
 "title":"QuickNES",
-"tags":"emulators, Nintendo, home console, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, home console, ARM11, userland",
 "desc":"NES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -3088,13 +3493,12 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"emu",
 "icon":"https://raw.githubusercontent.com/libretro/RetroArch/master/ctr/assets/snes9x_next.png",
 "title":"Snes9x Next",
-"tags":"emulators, Nintendo, home console, ARM11, userland, gateway",
+"tags":"emulators, Nintendo, home console, ARM11, userland",
 "desc":"<abbr title='Super Nintendo'>SNES</abbr> emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "longdesc":"",
@@ -3102,8 +3506,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, CIA, 3DS",
-"O3DS":60,"N3DS":100
+"ext":""
 },{
 "type":"cfw",
 "icon":"https://raw.githubusercontent.com/mid-kid/CakesForeveryWan/master/icon.png",
@@ -3116,8 +3519,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, DAT, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"cfw",
 "icon":"https://raw.githubusercontent.com/AuroraWright/Luma3DS/master/icon.png",
@@ -3130,8 +3532,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, DAT, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"cfw",
 "icon":"/",
@@ -3144,8 +3545,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"DAT, BIN",
-"O3DS":100,"N3DS":0
+"ext":""
 },{
 "type":"cfw",
 "icon":"/",
@@ -3158,8 +3558,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"DAT, BIN",
-"O3DS":100,"N3DS":0
+"ext":""
 },{
 "type":"cfw",
 "icon":"https://raw.githubusercontent.com/capito27/Pasta-CFW/master/Brahma_Fork/icon.png",
@@ -3172,8 +3571,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"cfw",
 "icon":"https://raw.githubusercontent.com/d0k3/MiniPasta/master/icon.png",
@@ -3186,8 +3584,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"cfw",
 "icon":"https://raw.githubusercontent.com/Reisyukaku/ReiNand/master/icon.png",
@@ -3200,8 +3597,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, DAT, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"cfw",
 "icon":"https://raw.githubusercontent.com/roxas75/rxTools/master/icon.png",
@@ -3214,8 +3610,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, DAT, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"cfw",
 "icon":"/",
@@ -3228,8 +3623,7 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"3DSX, DAT, BIN",
-"O3DS":100,"N3DS":100
+"ext":""
 },{
 "type":"cfw",
 "icon":"https://raw.githubusercontent.com/44670/BootNTR/master/resources/icon.png",
@@ -3242,6 +3636,5 @@
 "status":"",
 "dl":"",
 "other":"",
-"ext":"CIA",
-"O3DS":60,"N3DS":100
+"ext":""
 }]
