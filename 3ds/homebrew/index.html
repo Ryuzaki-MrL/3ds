@@ -12,15 +12,6 @@
 <body>
     <div id="page">
         <br/><image src="../3ds.png" alt="Nintendo 3DS" style="width:100%"/><br/>
-        <div id="hb_entry" style="display:none">
-            <button id="x"></button>
-            <span class="icon"><img class="i" src="./icons/noicon.png"/></span>
-            <!--TODO: Fix screenshot viewing on smaller screens-->
-            <img id="screenshot" src="./screenshots/noscreen.png"/>
-            <h1>??????????<span style="font-size:14px"> (by ??????)</span></h1>
-            <p>Release: ??/??/????</p>
-            <p style="padding-left:24px; width:45%">Homebrew description goes here.</p>
-        </div>
         <hr/>
             <a href="/3ds">Home</a> -
             <a href="/3ds/tutorials">Tutorials</a> -
@@ -33,23 +24,35 @@
         <p>
             This is a full list containing all homebrew software released for the Nintendo 3DS.<br/>
             I'll try to keep it up-to-date whenever possible, feel free to contribute if you want to.<br/>
-            For a list of all existing exploits, see <a href="../exploits">here</a>.<br/>
-            You can search homebrew by typing part of the name, description, author, release date, compatible entrypoints, or any other keyword.<br/>
-            For example: "wifi" will return a list of homebrew that uses wifi, "emulators" will return a list of emulators, etc.<br/>
-            You can also sort by name, description, author and release date.<br/><br/>
-            Formats:<br/>
-            - 3DSX: used by the homebrew launcher, which requires ninjhax/menuhax/browserhax/ironhax.<br/>
-            - CIA: can be installed to and launched from the 3DS's home menu.<br/>
-            - 3DS: launched through the Gateway flashcard.<br/>
-            - DAT: launched through the internet browser, by accessing go.gateway-3ds.com, or through cakehax.<br/>
-            - BIN: These can be either ARM9 payloads, launched through BrahmaLoader or arm9loaderhax; or ARM11 payloads, launched by the internet browser via spiderhax.<br/>
+            Click on an entry to view details about that specific homebrew.<br/>
             <br/>
+            You can search homebrew by typing part of the title, description, author, release date, compatible entrypoints, or any other keyword.<br/>
+            For example: "emulators" will return emulators only, whilst "userland" will return userland homebrew only.<br/>
+            You can also sort by title, category, description, author and release date.<br/><br/>
+            <br/>
+            <!--DETAILS PANEL-->
+            <!--TODO: Implement a better details panel-->
+            <div id="hb_entry" style="display:none">
+                <button id="btm_x"></button>
+                <span id="icon" style="display:block; text-align:center; padding-top:32px"><img class="i" src="./icons/noicon.png"/></span>
+                <h1 id="title" style="display:inline-block; text-align:center; text-shadow:1px 1px 0 #aaa;">??????????</h1>
+                <br/>
+                <span style="float:right; padding-right:24px"><img id="screenshot" src="./screenshots/noscreen.png"/></span>
+                <div style="padding-left:24px; width: 70%">
+                    <p><b>Author: </b><span id="author">??????????</span></p>
+                    <p><b>Initial Release: </b><span id="release">Jan 21, 2015</span></p>
+                    <p><b>Development Status: </b><span id="status">ACTIVE</span></p>
+                    <p><b>Latest Version: </b><span id="version">v2.8</span></p><br/>
+                    <p>Homebrew description goes here.</p>
+                </div>
+            </div>
             <!--MAIN LIST-->
             <div id="hb_list">
-                <!--TODO: Add more sorting and filtering options.-->
+                <!--TODO: Add more filtering options.-->
                 <input class="search" placeholder="Search homebrew"/><br/><br/>
                 Sort by:<br/>
                     <button class="sort" data-sort="title">Title</button>
+                    <button class="sort" data-sort="cat">Category</button>
                     <button class="sort" data-sort="desc">Description</button>
                     <button class="sort" data-sort="author">Author</button>
                     <button class="sort" data-sort="release">Release</button><br/><br/>
@@ -75,21 +78,24 @@
         $.getJSON("hbdb.json", function(json) {
             $.each(json, function() {
                 $('.list').append (
-                    '<li class="'+this.type+'">' +
-                    '<div>' +
+                    '<li class="'+this.type+'" contextmenu="'+this.title+'">' +
+                    '<div id="'+$(json).index(this)+'">' +
                     '<span class="icon"><img class="i" src="'+this.icon+'"/></span>' +
                     '<span class="title"><b>'+this.title+'</b></span><br/>' +
                     '<span class="desc">'+this.desc+'</span><br/>' +
                     '<span class="author">Author: '+this.author+'</span>' +
                     '<span class="tags">'+this.tags+'</span>' +
                     '<span class="release">'+this.date+'</span>' +
-                    '</div>' +
-                    '</li>'
+                    '<span class="cat">'+this.type+'</span>' +
+                    '</div></li>' +
+                    '<menu type="context" id="'+this.title+'">' +
+                    '<menuitem label="Github" onclick='+'window.location.href="https://github.com/'+this.author+'/'+this.title+'" icon="https://assets-cdn.github.com/favicon.ico";'+'/>' +
+                    '</menu>'
                 );
             });
 
             var options = {
-                valueNames: [ 'title', 'desc', 'author', 'tags', 'release' ]
+                valueNames: [ 'title', 'desc', 'author', 'tags', 'release', 'cat' ]
             };
 
             var hbList = new List('hb_list', options);
@@ -111,26 +117,36 @@
             $('img.i').on('error', function() {
                 $(this).attr('src', './icons/noicon.png');
             });
-            
+
             $('#screenshot').on('error', function() {
                 $(this).attr('src', './screenshots/noscreen.png');
             });
 
             $('.title').click(function() {
+                var id = $(this).parent().attr('id');
                 $('#hb_entry').fadeIn(500);
-                // Fetch info from json file
+                $('#hb_entry img.i').attr('src', json[id].icon);
+                $('#hb_entry h1#title').html(json[id].title);
+                $('#hb_entry h1#title').css('fontSize', 36 - Math.floor(json[id].title.length / 2.5));
+                $('#hb_entry span#author').html(json[id].author);
+                $('#hb_entry img#screenshot').attr('src', './screenshots/'+id+'.png');
             });
 
-            $('#x').click(function() {
+            $('#btm_x').click(function() {
                 $('#hb_entry').fadeOut(500);
             });
-
-            $(window).scroll(function() {
-                $('#hb_entry').css('left', -$(this).scrollLeft());
+            $('#btm_c').click(function() {
+                $('#cfg_c').click();
+            });
+            $('#cfg_c').change(function() {
+                $('#hb_entry').css('background-color', $(this).val());
+                if ($(this).val() >= "#808080") $('#hb_entry').css('color', '#000000')
+                else $('#hb_entry').css('color', '#ffffff');
             });
 
             $('.search').attr('value', location.search.substring(1));
             hbList.search(location.search.substring(1));
+            hbList.sort('title', {order: "asc"});
         })
         .error(function() {
             $('#qt').html("Couldn't load homebrew database.");

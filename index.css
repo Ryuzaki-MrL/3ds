@@ -21,26 +21,30 @@ body {
 #hb_entry {
     border:2px solid black;
     background-color:#eeeeee;
-    top:80px;
-    left:0;
-    width:80%;
-    margin:0 10%;
+    left:50%;
+    top:50%;
+    width:50%;
     min-width:480px;
     height:480px;
+    margin-left:-25%;
+    margin-top:-240px;
     position:fixed;
     z-index:1;
 }
 #screenshot {
-    float:right;
+    width:136px;
 }
-#x {
-    background:url(3ds/homebrew/x.png);
-    border:none;
+#btm_x, #btm_c {
     width:28px;
     height:28px;
     float:right;
-    margin-top:-28px;
-    border:2px solid black;
+    display:inline;
+}
+#btm_x {
+    background:url(3ds/homebrew/btm_x.png);
+}
+#btm_c {
+    background:url(3ds/homebrew/btm_c.png);
 }
 a, a:visited {
     color:green;
@@ -79,7 +83,7 @@ li {
     position:relative;
 }
 .icon {
-    padding:19px 23px 12px 24px;
+    padding:19px 23px 16px 24px;
     float:left;
 }
 .i {
@@ -91,11 +95,11 @@ li {
 .title:hover {
     text-decoration:underline;
 }
-.author { /*Temporarly hack*/
+.author { /*Temporary hack*/
     position:absolute;
     top:71px;
 }
-.tags, .release {
+.tags, .release, .cat {
     display:none;
 }
 .search {
@@ -148,8 +152,8 @@ li {
     li {width:90%; max-width:680px;}
     ul {text-align:center;}
 }
-@media (max-width: 1024px) {
-    #screenshot {display:none;}
+@media (max-width: 980px) {
+    #hb_entry {margin-left:-240px;}
 }
 /*
 table {
