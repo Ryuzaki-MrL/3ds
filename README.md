@@ -1,3 +1,3 @@
-# Ryuzaki-MrL.github.io
+# Ryuzaki-MrL.github.io/3ds
 
 Work in progress.

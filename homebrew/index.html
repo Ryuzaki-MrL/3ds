@@ -1,77 +1,75 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="keywords" content="3DS, homebrew, hacking, console, handheld"/>
-    <link rel="shortcut icon" href="../../index.ico"/>
-    <link rel="stylesheet" href="../../index.css"/>
-    <title>3DS Homebrew | Ryuzaki's Archive</title>
+    <meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=2, user-scalable=yes"/>
+    <title>3DS Homebrew | Ryuzaki's Wiki</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="../main.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
 </head>
 <body>
     <div id="page">
-        <br/><image src="../3ds.png" alt="Nintendo 3DS" style="width:100%"/><br/>
+        <image src="../3ds.png" alt="Nintendo 3DS" style="width:100%;"/>
         <hr/>
-            <a href="/3ds">Home</a> -
-            <a href="/3ds/tutorials">Tutorials</a> -
-            <a href="/3ds/downloads">Downloads</a> -
-            <a href="/3ds/homebrew">Homebrew</a> -
-            <a href="/3ds/devs">Development</a> -
-            <a href="/3ds/help">Help</a>
+			<a href="../homebrew">Homebrew Wiki</a> -
+            <a href="../devs">Developer Wiki</a> -
+			<a href="../downloads">Downloads</a>
         <hr/>
         <h2>List of 3DS homebrew</h2>
         <p>
             This is a full list containing all homebrew software released for the Nintendo 3DS.<br/>
             I'll try to keep it up-to-date whenever possible, feel free to contribute if you want to.<br/>
             Click on an entry to view details about that specific homebrew.<br/>
-            <br/>
-            You can search homebrew by typing part of the title, description, author, release date, compatible entrypoints, or any other keyword.<br/>
-            For example: "emulators" will return emulators only, whilst "userland" will return userland homebrew only.<br/>
-            You can also sort by title, category, description, author and release date.<br/><br/>
-            <br/>
-            <!--DETAILS PANEL-->
-            <!--TODO: Implement a better details panel-->
-            <div id="hb_entry" style="display:none">
-                <button id="btm_x"></button>
-                <span id="icon" style="display:block; text-align:center; padding-top:32px"><img class="i" src="./icons/noicon.png"/></span>
-                <h1 id="title" style="display:inline-block; text-align:center; text-shadow:1px 1px 0 #aaa;">??????????</h1>
-                <br/>
-                <span style="float:right; padding-right:24px"><img id="screenshot" src="./screenshots/noscreen.png"/></span>
-                <div style="padding-left:24px; width: 70%">
-                    <p><b>Author: </b><span id="author">??????????</span></p>
-                    <p><b>Initial Release: </b><span id="release">Jan 21, 2015</span></p>
-                    <p><b>Development Status: </b><span id="status">ACTIVE</span></p>
-                    <p><b>Latest Version: </b><span id="version">v2.8</span></p><br/>
-                    <p>Homebrew description goes here.</p>
-                </div>
-            </div>
-            <!--MAIN LIST-->
-            <div id="hb_list">
-                <!--TODO: Add more filtering options.-->
-                <input class="search" placeholder="Search homebrew"/><br/><br/>
-                Sort by:<br/>
-                    <button class="sort" data-sort="title">Title</button>
-                    <button class="sort" data-sort="cat">Category</button>
-                    <button class="sort" data-sort="desc">Description</button>
-                    <button class="sort" data-sort="author">Author</button>
-                    <button class="sort" data-sort="release">Release</button><br/><br/>
-                Filter by:<br/>
-                    <input type="checkbox" class="filter" id="app" CHECKED>Applications</input> -
-                    <input type="checkbox" class="filter" id="game" CHECKED>Games</input> -
-                    <input type="checkbox" class="filter" id="emu" CHECKED>Emulators</input> -
-                    <input type="checkbox" class="filter" id="cfw" CHECKED>Custom Firmwares</input><br/><br/>
-                <span id="qt">Loading...</span>
-                <ul class="list"></ul>
-            </div>
-            <!--ALTERNATE LIST-->
-            <!--TODO: use a table as alternative list-->
         </p>
+        <p>
+            You can search homebrew by typing part of the title, description, author, release date, or any other keyword.<br/>
+            For example: "emulators" will return emulators only, whilst "userland" will return userland homebrew only.<br/>
+            You can also sort by title, category, description, author and release date.<br/>
+        </p>
+        <!--DETAILS PANEL-->
+        <!--TODO: Implement a better details panel-->
+        <div id="hb_entry">
+            <button id="btm_x"></button>
+            <button id="btm_c"></button>
+            <input id="cfg_c" type="color" value="#eeeeee"></input>
+            <span id="icon"><img class="i" src="./icons/noicon.png"/></span>
+            <h1 id="title">-</h1>
+            <br/>
+            <span id="sshot"><img id="screenshot" src="./screenshots/noscreen.png"/></span>
+            <div id="info">
+                <p><b>Author: </b><span id="author">-</span></p>
+                <p><b>Initial Release: </b><span id="release">-</span></p>
+                <p><b>Development Status: </b><span id="status">??????</span></p>
+                <p><b>Latest Version: </b><span id="version">0</span><br/></p>
+            </div>
+            <p id="desc">Homebrew description goes here.</p>
+        </div>
+        <!--MAIN LIST-->
+        <div id="hb_list">
+            <input class="search" placeholder="Search homebrew"/><br/><br/>
+            Sort by:<br/>
+                <button class="sort" data-sort="title">Title</button>
+                <button class="sort" data-sort="cat">Category</button>
+                <button class="sort" data-sort="desc">Description</button>
+                <button class="sort" data-sort="author">Author</button>
+                <button class="sort" data-sort="release">Release</button><br/><br/>
+            Filter by:<br/>
+                <input type="checkbox" class="filter" id="app" CHECKED>Applications</input> -
+                <input type="checkbox" class="filter" id="game" CHECKED>Games</input> -
+                <input type="checkbox" class="filter" id="emu" CHECKED>Emulators</input> -
+                <input type="checkbox" class="filter" id="cfw" CHECKED>Custom Firmwares</input><br/><br/>
+            <span id="qt">Loading...</span>
+            <ul class="list"></ul>
+        </div>
+        <!--ALTERNATE LIST-->
+        <!--TODO: use a table as an alternative list-->
         <p><a onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">Top</a></p>
         <hr/>
         <p>
             Source:
-            <a href="http://wiki.gbatemp.net/wiki/List_of_3DS_homebrew">Gbatemp</a>
+            <a href="http://wiki.gbatemp.net/wiki/List_of_3DS_homebrew">gbatemp</a> - <a href="https://www.3dbrew.org/wiki/Homebrew_Applications">3dbrew</a>
         </p>
     </div>
     <script>
@@ -81,15 +79,15 @@
                     '<li class="'+this.type+'" contextmenu="'+this.title+'">' +
                     '<div id="'+$(json).index(this)+'">' +
                     '<span class="icon"><img class="i" src="'+this.icon+'"/></span>' +
-                    '<span class="title"><b>'+this.title+'</b></span><br/>' +
-                    '<span class="desc">'+this.desc+'</span><br/>' +
+                    '<span class="title"><b>'+this.title+'</b><br/></span>' +
+                    '<span class="desc">'+this.desc+'<br/></span>' +
                     '<span class="author">Author: '+this.author+'</span>' +
                     '<span class="tags">'+this.tags+'</span>' +
                     '<span class="release">'+this.date+'</span>' +
                     '<span class="cat">'+this.type+'</span>' +
                     '</div></li>' +
                     '<menu type="context" id="'+this.title+'">' +
-                    '<menuitem label="Github" onclick='+'window.location.href="https://github.com/'+this.author+'/'+this.title+'" icon="https://assets-cdn.github.com/favicon.ico";'+'/>' +
+                    '<menuitem label="Github" onclick="'+'window.location.href=&quot;https://github.com/'+this.author+'/'+this.title.replace(/ /g, '-')+'&quot;;" icon="https://assets-cdn.github.com/favicon.ico"'+'/>' +
                     '</menu>'
                 );
             });
@@ -129,6 +127,10 @@
                 $('#hb_entry h1#title').html(json[id].title);
                 $('#hb_entry h1#title').css('fontSize', 36 - Math.floor(json[id].title.length / 2.5));
                 $('#hb_entry span#author').html(json[id].author);
+                $('#hb_entry span#release').html(json[id].date);
+                $('#hb_entry span#status').html(json[id].status);
+                $('#hb_entry span#version').html(json[id].ver);
+                $('#hb_entry p#desc').html(json[id].long);
                 $('#hb_entry img#screenshot').attr('src', './screenshots/'+id+'.png');
             });
 

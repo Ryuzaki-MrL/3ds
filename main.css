@@ -1,13 +1,13 @@
-html {
+html, body {
+	width:100%;
     height:100%;
 }
 body {
     background-color:#000000;
     margin:0;
     text-align:center;
-    width:100%;
     min-width:600px;
-    height:100%;
+	font-size:12.5pt;
 }
 #page {
     background-color:#ffffff;
@@ -15,10 +15,11 @@ body {
     width:80%;
     min-height:100%;
     margin:0 auto;
-    padding:0 0.5%;
+    padding:8px 0.5%;
     overflow:hidden;
 }
 #hb_entry {
+    display:none;
     border:2px solid black;
     background-color:#eeeeee;
     left:50%;
@@ -31,6 +32,29 @@ body {
     position:fixed;
     z-index:1;
 }
+#icon {
+    display:block;
+    text-align:center;
+    padding-top:32px;
+}
+#title {
+    display:inline-block;
+    text-align:center;
+    text-shadow:1px 1px 0 #aaa;
+}
+#sshot {
+    float:right;
+    padding-right:24px;
+}
+#desc {
+    padding-left:24px;
+    padding-right:24px;
+}
+#info {
+    padding-left:24px;
+    padding-bottom:8px;
+    width:70%;
+}
 #screenshot {
     width:136px;
 }
@@ -41,10 +65,14 @@ body {
     display:inline;
 }
 #btm_x {
-    background:url(3ds/homebrew/btm_x.png);
+    background:url(homebrew/btm_x.png);
 }
 #btm_c {
-    background:url(3ds/homebrew/btm_c.png);
+    background:url(homebrew/btm_c.png);
+}
+#cfg_c {
+    position:absolute;
+    visibility:hidden;
 }
 a, a:visited {
     color:green;
@@ -63,8 +91,8 @@ p, li {
 }
 ul {
     list-style-type:none;
-    margin-left:-42px;
-    text-align:left;
+    padding:0;
+    text-align:center;
 }
 ul a, ul a:visited {
     color:inherit;
@@ -76,14 +104,15 @@ li {
     padding:8px 0;
     margin:2px;
     display:inline-block;
-    width:49.3%;
+    width:49%;
     min-width:448px;
     vertical-align:top;
-    height:86px;
+    height:84px;
+    line-height:21px;
     position:relative;
 }
 .icon {
-    padding:19px 23px 16px 24px;
+    padding:18px 24px;
     float:left;
 }
 .i {
@@ -97,89 +126,60 @@ li {
 }
 .author { /*Temporary hack*/
     position:absolute;
-    top:71px;
+    top:70px;
 }
 .tags, .release, .cat {
     display:none;
 }
 .search {
-    width:300px;
+	width:360px;
 }
 .sort {
     padding:2px 12px;
     border-radius: 8px;
     border:none;
     display:inline-block;
-    color:#fff;
+    color:#ffffff;
     background-color:green;
     text-decoration: none;
     height:24px;
 }
 .sort:after {
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid transparent;
+    width:0;
+    height:0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:5px solid transparent;
     content:"";
-    position: relative;
+    position:relative;
     top:-10px;
     right:-5px;
 }
 .sort.asc:after {
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #fff;
+    width:0;
+    height:0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top:5px solid #ffffff;
     content:"";
-    position: relative;
+    position:relative;
     top:13px;
     right:-5px;
 }
 .sort.desc:after {
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid #fff;
+    width:0;
+    height:0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:5px solid #ffffff;
     content:"";
-    position: relative;
+    position:relative;
     top:-10px;
     right:-5px;
 }
-@media (max-width: 1150px) {
-    li {width:90%; max-width:680px;}
-    ul {text-align:center;}
+@media (max-width: 1156px) {
+    li {width:90%; max-width:720px;}
 }
 @media (max-width: 980px) {
     #hb_entry {margin-left:-240px;}
 }
-/*
-table {
-    border:1px solid #000000;
-    width:100%;
-    font-family:calibri;
-    table-layout:fixed;
-}
-td {
-    padding: 0.5%;
-    overflow:hidden;
-    border:1px solid black;
-    border-collapse:collapse;
-}
-thead {background-color:green; color:white; cursor:pointer;}
-tbody {background-color:white;}
-tbody td:nth-of-type(1) {text-align:left;}
-td:nth-of-type(1) {width:180px;}
-td:nth-of-type(2) {width:310px;}
-td:nth-of-type(3) {width:110px;}
-td:nth-of-type(4) {width:95px;}
-td:nth-of-type(5) {width:85px;}
-td:nth-of-type(6) {width:190px;}
-.icon_small {
-    float:left;
-    width:24px;
-    padding-right:4px;
-}
-*/

@@ -2,15 +2,15 @@
 "type":"app",
 "icon":"/",
 "title":"3DAmnesic",
-"tags":"multimedia, ARM11, userland, entertainment",
+"tags":"multimedia, ARM11, userland",
 "desc":"PoC MP4 video player.",
 "author":"Lectem",
-"long":"",
-"date":"",
-"status":"",
-"dl":"",
+"long":"Plays a mpeg4 or h264 video, the file has to be named test.mp4 and be placed at the root of your SD card.",
+"date":"Aug 30, 2015",
+"status":"Discontinued",
+"ver":"v0.1a",
 "other":"",
-"ext":""
+"comp":[{"h":0,"c":0,"g":0,"a":0,"m":0,"b":0},{"h":0,"c":0,"g":0,"a":0,"m":0,"b":0}]
 },{
 "type":"app",
 "icon":"https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png",
@@ -21,7 +21,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -34,7 +34,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -47,7 +47,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -60,7 +60,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -73,7 +73,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -86,7 +86,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -99,7 +99,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -112,7 +112,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -125,7 +125,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -138,7 +138,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -151,7 +151,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -164,7 +164,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -177,7 +177,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -190,7 +190,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -203,7 +203,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -216,7 +216,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -229,7 +229,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -242,7 +242,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -255,7 +255,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -268,7 +268,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -281,7 +281,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -294,7 +294,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -307,7 +307,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -320,7 +320,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -333,7 +333,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -346,7 +346,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -359,7 +359,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -372,7 +372,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -385,7 +385,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -398,7 +398,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -411,7 +411,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -424,7 +424,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -437,7 +437,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -450,7 +450,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -463,7 +463,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -476,7 +476,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -489,7 +489,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -502,7 +502,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -515,7 +515,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -528,7 +528,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -541,7 +541,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -554,7 +554,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -567,7 +567,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -580,7 +580,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -593,7 +593,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -606,7 +606,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -619,7 +619,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -627,12 +627,12 @@
 "icon":"https://raw.githubusercontent.com/Strackeror/PCHex/master/PCHex.png",
 "title":"PCHex",
 "tags":"utilities, savefile, ARM11, userland",
-"desc":"PkHex (Pokémon save editor) as a 3DS homebrew.",
+"desc":"PkHex (Pokémon savefile editor) as a 3DS homebrew.",
 "author":"Strackeror",
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -645,7 +645,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -658,7 +658,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -671,7 +671,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -684,7 +684,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -697,7 +697,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -710,7 +710,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -723,7 +723,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -736,7 +736,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -749,7 +749,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -762,7 +762,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -775,7 +775,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -788,7 +788,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -801,7 +801,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -814,7 +814,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -827,7 +827,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -840,7 +840,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -853,7 +853,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -866,7 +866,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -879,7 +879,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -892,7 +892,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -905,7 +905,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -918,7 +918,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -931,7 +931,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -944,7 +944,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -957,7 +957,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -970,7 +970,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -983,7 +983,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -996,7 +996,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1009,7 +1009,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1022,7 +1022,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1035,7 +1035,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1048,7 +1048,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1061,7 +1061,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1074,7 +1074,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1087,7 +1087,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1100,7 +1100,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1113,7 +1113,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1126,7 +1126,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1139,7 +1139,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1152,7 +1152,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1165,7 +1165,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1178,7 +1178,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1191,7 +1191,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1204,7 +1204,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1217,7 +1217,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1230,7 +1230,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1243,7 +1243,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1256,7 +1256,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1269,7 +1269,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1282,7 +1282,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1291,11 +1291,11 @@
 "title":"SafeA9LHInstaller",
 "tags":"utilities, system, ARM9, arm9loaderhax",
 "desc":"Securely installs <abbr title='arm9loaderhax'>A9LH</abbr> on your 3DS.",
-"author":"Aurora Wright",
+"author":"AuroraWright",
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1308,7 +1308,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1321,7 +1321,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1334,7 +1334,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1347,7 +1347,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1360,7 +1360,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1373,7 +1373,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1386,7 +1386,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1399,7 +1399,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1412,7 +1412,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1425,7 +1425,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1438,7 +1438,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1451,7 +1451,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1464,7 +1464,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1477,7 +1477,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1490,7 +1490,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1503,7 +1503,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1516,7 +1516,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1529,7 +1529,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1542,7 +1542,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1555,7 +1555,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1568,7 +1568,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1581,7 +1581,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1594,7 +1594,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1607,7 +1607,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1620,7 +1620,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1633,7 +1633,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1646,7 +1646,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1659,7 +1659,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1672,7 +1672,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1685,7 +1685,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1698,7 +1698,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1711,7 +1711,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1724,7 +1724,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1737,7 +1737,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1750,7 +1750,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1763,7 +1763,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1776,7 +1776,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""},
 {"type":"app",
@@ -1788,7 +1788,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1801,7 +1801,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1814,7 +1814,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1827,7 +1827,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1840,7 +1840,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1853,7 +1853,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1866,7 +1866,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1879,7 +1879,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1892,7 +1892,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1905,7 +1905,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1918,7 +1918,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1931,7 +1931,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1944,7 +1944,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1957,7 +1957,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1970,7 +1970,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1983,7 +1983,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -1996,7 +1996,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2009,7 +2009,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2022,7 +2022,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2035,7 +2035,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2048,7 +2048,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2061,7 +2061,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2074,7 +2074,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2087,7 +2087,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2100,7 +2100,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2113,7 +2113,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2126,7 +2126,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2139,7 +2139,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2152,7 +2152,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2165,7 +2165,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2178,7 +2178,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2191,7 +2191,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2204,7 +2204,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2217,7 +2217,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2230,7 +2230,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2243,7 +2243,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2256,7 +2256,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2269,7 +2269,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2282,7 +2282,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2295,7 +2295,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2308,7 +2308,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2321,7 +2321,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2334,7 +2334,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2347,7 +2347,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2360,7 +2360,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2373,7 +2373,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2386,7 +2386,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2399,7 +2399,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2412,7 +2412,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2425,7 +2425,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2438,7 +2438,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2451,7 +2451,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2464,7 +2464,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2477,7 +2477,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2490,7 +2490,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2503,7 +2503,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2516,7 +2516,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2529,7 +2529,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2542,7 +2542,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2555,7 +2555,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2568,7 +2568,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2581,7 +2581,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2594,7 +2594,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2607,7 +2607,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2620,7 +2620,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2633,7 +2633,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2646,7 +2646,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2659,7 +2659,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2672,7 +2672,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2685,7 +2685,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2698,7 +2698,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2711,7 +2711,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2724,7 +2724,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2737,7 +2737,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2750,7 +2750,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2763,7 +2763,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2776,7 +2776,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2789,7 +2789,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2802,7 +2802,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2815,7 +2815,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2828,7 +2828,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2841,7 +2841,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2854,7 +2854,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2867,7 +2867,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2880,7 +2880,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2893,7 +2893,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2906,7 +2906,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2919,7 +2919,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2932,7 +2932,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2945,7 +2945,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2958,7 +2958,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2971,7 +2971,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2984,7 +2984,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -2997,7 +2997,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3010,7 +3010,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3023,7 +3023,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3036,7 +3036,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3049,7 +3049,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3062,7 +3062,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3075,7 +3075,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3088,7 +3088,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3101,7 +3101,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3114,7 +3114,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3127,7 +3127,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3140,7 +3140,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3153,7 +3153,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3166,7 +3166,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3179,7 +3179,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3192,7 +3192,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3205,7 +3205,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3218,7 +3218,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3231,7 +3231,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3244,7 +3244,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3257,7 +3257,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3270,7 +3270,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3283,7 +3283,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3296,7 +3296,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3309,7 +3309,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3322,7 +3322,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3335,7 +3335,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3348,7 +3348,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3361,7 +3361,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3374,7 +3374,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3387,20 +3387,20 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
 "type":"emu",
 "icon":"./icons/scummvm.png",
-"title":"ScummVM 3DS",
+"title":"ScummVM",
 "tags":"emulators, computers, engines, ARM11, userland",
 "desc":"Port of SCUMMVM for the 3DS.",
 "author":"Cruel",
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3413,7 +3413,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3426,7 +3426,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3439,7 +3439,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3452,7 +3452,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3465,7 +3465,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3478,7 +3478,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3491,7 +3491,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3504,7 +3504,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3517,7 +3517,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3530,7 +3530,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3543,7 +3543,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3556,7 +3556,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3569,7 +3569,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3582,7 +3582,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3595,7 +3595,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3608,7 +3608,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3621,7 +3621,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3634,7 +3634,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3647,7 +3647,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3660,7 +3660,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3673,7 +3673,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3686,7 +3686,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3699,7 +3699,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3712,7 +3712,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3725,7 +3725,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3738,7 +3738,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3751,7 +3751,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3764,7 +3764,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3773,11 +3773,11 @@
 "title":"Luma3DS",
 "tags":"Custom firmware, ninjhax, arm9loaderhax, emuNAND, spider",
 "desc":"Supports updated sysNAND (a9lh only) and multiple emuNAND.",
-"author":"Aurora Wright",
+"author":"AuroraWright",
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3790,7 +3790,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3803,7 +3803,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3816,7 +3816,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3829,7 +3829,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3842,7 +3842,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3855,7 +3855,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3868,7 +3868,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3881,7 +3881,7 @@
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 },{
@@ -3889,12 +3889,12 @@
 "icon":"https://raw.githubusercontent.com/44670/BootNTR/master/resources/icon.png",
 "title":"NTR CFW (BootNTR)",
 "tags":"cheats, utilities, system, maintenance",
-"desc":"Installed as CIA, launched from home menu (need other CFW to boot it). Extendable via plugins.",
+"desc":"Secondary CFW launched from home menu. Extendable via plugins.",
 "author":"44670",
 "long":"",
 "date":"",
 "status":"",
-"dl":"",
+"ver":"",
 "other":"",
 "ext":""
 }]
