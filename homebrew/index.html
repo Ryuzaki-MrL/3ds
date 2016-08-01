@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../main.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
+    <script src="http://cdn.rawgit.com/javve/list.pagination.js/v0.1.1/dist/list.pagination.min.js"></script>
 </head>
 <body>
     <div id="page">
@@ -17,6 +18,7 @@
             <a href="../devs">Developer Wiki</a> -
 			<a href="../downloads">Downloads</a>
         <hr/>
+        <!--TODO: language selection-->
         <h2>List of 3DS homebrew</h2>
         <p>
             This is a full list containing all homebrew software released for the Nintendo 3DS.<br/>
@@ -29,43 +31,74 @@
             You can also sort by title, category, description, author and release date.<br/>
         </p>
         <!--DETAILS PANEL-->
-        <!--TODO: Implement a better details panel-->
-        <div id="hb_entry">
+        <!--TODO: fix scroll-linked positioning effect on async browsers-->
+        <div class="hb_entry">
             <button id="btm_x"></button>
-            <button id="btm_c"></button>
-            <input id="cfg_c" type="color" value="#eeeeee"></input>
             <span id="icon"><img class="i" src="./icons/noicon.png"/></span>
             <h1 id="title">-</h1>
-            <br/>
-            <span id="sshot"><img id="screenshot" src="./screenshots/noscreen.png"/></span>
             <div id="info">
+                <span id="sshot"><img class="screenshot" src="./screenshots/noscreen.png"/></span>
                 <p><b>Author: </b><span id="author">-</span></p>
                 <p><b>Initial Release: </b><span id="release">-</span></p>
                 <p><b>Development Status: </b><span id="status">??????</span></p>
                 <p><b>Latest Version: </b><span id="version">0</span><br/></p>
             </div>
+            <!--TODO: click 'read more' to show full description (hiding compatibility chart)-->
             <p id="desc">Homebrew description goes here.</p>
+            <span class="compat">Compatibility chart:</span>
+            <table class="compat">
+                <tr class="o3ds">
+                    <th class="mdl">O3DS:</th>
+                    <td class="h">hbl</td>
+                    <td class="c">cia</td>
+                    <td class="g">gw</td>
+                    <td class="a">a9lh</td>
+                    <td class="m">mset</td>
+                    <td class="b">spider</td>
+                </tr>
+                <tr class="n3ds">
+                    <th class="mdl">N3DS:</th>
+                    <td class="h">hbl</td>
+                    <td class="c">cia</td>
+                    <td class="g">gw</td>
+                    <td class="a">a9lh</td>
+                    <td class="m">mset</td>
+                    <td class="b">spider</td>
+                </tr>
+            </table>
         </div>
         <!--MAIN LIST-->
         <div id="hb_list">
+            Search by:<br/>
             <input class="search" placeholder="Search homebrew"/><br/><br/>
             Sort by:<br/>
-                <button class="sort" data-sort="title">Title</button>
-                <button class="sort" data-sort="cat">Category</button>
-                <button class="sort" data-sort="desc">Description</button>
-                <button class="sort" data-sort="author">Author</button>
-                <button class="sort" data-sort="release">Release</button><br/><br/>
+            <button class="sort" data-sort="title">Title</button>
+            <button class="sort" data-sort="cat">Category</button>
+            <button class="sort" data-sort="desc">Description</button>
+            <button class="sort" data-sort="author">Author</button>
+            <button class="sort" data-sort="release">Release</button><br/><br/>
             Filter by:<br/>
-                <input type="checkbox" class="filter" id="app" CHECKED>Applications</input> -
-                <input type="checkbox" class="filter" id="game" CHECKED>Games</input> -
-                <input type="checkbox" class="filter" id="emu" CHECKED>Emulators</input> -
-                <input type="checkbox" class="filter" id="cfw" CHECKED>Custom Firmwares</input><br/><br/>
+            <input type="checkbox" class="filter" id="app" CHECKED>Applications</input> -
+            <input type="checkbox" class="filter" id="game" CHECKED>Games</input> -
+            <input type="checkbox" class="filter" id="emu" CHECKED>Emulators</input> -
+            <input type="checkbox" class="filter" id="cfw" CHECKED>Custom Firmwares</input><br/><br/>
+            List
+            <select class="select">
+                <option>30</option>
+                <option SELECTED>50</option>
+                <option>100</option>
+                <option>150</option>
+                <option>200</option>
+                <option value="999">ALL</option>
+            </select> homebrew.<br/><br/>
             <span id="qt">Loading...</span>
+            <ul class="pagination top"></ul>
             <ul class="list"></ul>
+            <ul class="pagination bottom"></ul>
         </div>
         <!--ALTERNATE LIST-->
-        <!--TODO: use a table as an alternative list-->
-        <p><a onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">Top</a></p>
+        <!--TODO: use a table as an alternative list for mobile-->
+        <p><a onclick="$('html, body').animate({scrollTop: 0}, 'fast');">Top</a></p>
         <hr/>
         <p>
             Source:
@@ -76,79 +109,99 @@
         $.getJSON("hbdb.json", function(json) {
             $.each(json, function() {
                 $('.list').append (
-                    '<li class="'+this.type+'" contextmenu="'+this.title+'">' +
+                    '<li class="'+this.type+'">' +
                     '<div id="'+$(json).index(this)+'">' +
                     '<span class="icon"><img class="i" src="'+this.icon+'"/></span>' +
-                    '<span class="title"><b>'+this.title+'</b><br/></span>' +
-                    '<span class="desc">'+this.desc+'<br/></span>' +
+                    '<span class="title"><b>'+this.title+'</b></span>' +
+                    '<span class="desc">'+this.desc+'</span>' +
                     '<span class="author">Author: '+this.author+'</span>' +
                     '<span class="tags">'+this.tags+'</span>' +
                     '<span class="release">'+this.date+'</span>' +
                     '<span class="cat">'+this.type+'</span>' +
-                    '</div></li>' +
-                    '<menu type="context" id="'+this.title+'">' +
-                    '<menuitem label="Github" onclick="'+'window.location.href=&quot;https://github.com/'+this.author+'/'+this.title.replace(/ /g, '-')+'&quot;;" icon="https://assets-cdn.github.com/favicon.ico"'+'/>' +
-                    '</menu>'
+                    '</div></li>'
                 );
             });
 
+            $('.i').on('error', function() {
+                $(this).attr('src', './icons/noicon.png');
+            });
+
+            $('.screenshot').on('error', function() {
+                $(this).attr('src', './screenshots/noscreen.png');
+            });
+            $('.screenshot').click(function() {
+                $('.hb_entry span:not(#sshot)').toggle();
+                $('.hb_entry p, h1, table').toggle();
+                $(this).animate({width: $(this).css('width')=='136px' ? 400 : 136, marginTop: $(this).css('margin-top')=='15px' ? 0 : 15}, 300);
+            });
+
+            $('.title').click(function() {
+                var id = $(this).parent().attr('id');
+                $('.hb_entry, .hb_entry *').fadeIn(500);
+                $('.screenshot').css({'width':'136px', 'margin-top':'0'});
+                $('.hb_entry .i').attr('src', json[id].icon);
+                $('.hb_entry #title').html(json[id].title);
+                $('.hb_entry #title').css('fontSize', 36 - Math.floor(json[id].title.length / 2.5));
+                $('.hb_entry #author').html(json[id].author);
+                $('.hb_entry #release').html(json[id].date);
+                $('.hb_entry #status').html(json[id].status);
+                $('.hb_entry #version').html(json[id].ver);
+                $('.hb_entry #desc').html(json[id].long=="" ? json[id].desc : json[id].long);
+                $('.hb_entry .screenshot').attr('src', './screenshots/'+id+'.png');
+                $('.hb_entry .o3ds').children('td').each(function() {
+                    $(this).css('background-color', json[id].comp[0][this.className]==2 ? "#00cc00" : json[id].comp[0][this.className]==1 ? "#ffa500" : "#fa8072");
+                });
+                $('.hb_entry .n3ds').children('td').each(function() {
+                    $(this).css('background-color', json[id].comp[1][this.className]==2 ? "#00cc00" : json[id].comp[1][this.className]==1 ? "#ffa500" : "#fa8072");
+                });
+            });
+
+            $('#btm_x').click(function() {
+                $('.hb_entry').fadeOut(500);
+            });
+
             var options = {
-                valueNames: [ 'title', 'desc', 'author', 'tags', 'release', 'cat' ]
+                valueNames: [ 'title', 'desc', 'author', 'tags', 'release', 'cat' ],
+                page: 50,
+                plugins: [
+                    ListPagination({paginationClass: "top", innerWindow: 12}),
+                    ListPagination({paginationClass: "bottom", innerWindow: 12})
+                ]
             };
 
             var hbList = new List('hb_list', options);
 
             hbList.on('updated', function() {
-                $('.list').append('<li class="none" style="display:none;"></li>');
-                $('.filter').change();
+                $('.list').append('<li class="none" style="display:none; visibility:hidden;"></li>');
+                if ((hbList.visibleItems.length % 2 == 0) || (window.innerWidth < 1152)) $('.none').hide();
+                $('#qt').html('Found ' + hbList.matchingItems.length + ' homebrew(s).<br/>' +
+                'Listing ' + hbList.visibleItems.length + ' homebrew(s).');
+                if ((hbList.visibleItems.length % 2 == 1) && (window.innerWidth >= 1152)) $('.none').show();
             });
 
             $('.filter').change(function() {
-                var ID = $(this).attr('id');
-                if (($('li:visible').length % 2) == 0) $('.none').hide();
-                if ($(this).prop('checked') && !$('.'+ID).is(':visible')) $('.'+ID).show();
-                else if (!$(this).prop('checked') && $('.'+ID).is(':visible')) $('.'+ID).hide();
-                $('#qt').html('Listing ' + $('li:visible').length + ' homebrew(s).');
-                if (($('li:visible').length % 2) == 1) $('.none').show();
-            });
-
-            $('img.i').on('error', function() {
-                $(this).attr('src', './icons/noicon.png');
-            });
-
-            $('#screenshot').on('error', function() {
-                $(this).attr('src', './screenshots/noscreen.png');
-            });
-
-            $('.title').click(function() {
-                var id = $(this).parent().attr('id');
-                $('#hb_entry').fadeIn(500);
-                $('#hb_entry img.i').attr('src', json[id].icon);
-                $('#hb_entry h1#title').html(json[id].title);
-                $('#hb_entry h1#title').css('fontSize', 36 - Math.floor(json[id].title.length / 2.5));
-                $('#hb_entry span#author').html(json[id].author);
-                $('#hb_entry span#release').html(json[id].date);
-                $('#hb_entry span#status').html(json[id].status);
-                $('#hb_entry span#version').html(json[id].ver);
-                $('#hb_entry p#desc').html(json[id].long);
-                $('#hb_entry img#screenshot').attr('src', './screenshots/'+id+'.png');
-            });
-
-            $('#btm_x').click(function() {
-                $('#hb_entry').fadeOut(500);
-            });
-            $('#btm_c').click(function() {
-                $('#cfg_c').click();
-            });
-            $('#cfg_c').change(function() {
-                $('#hb_entry').css('background-color', $(this).val());
-                if ($(this).val() >= "#808080") $('#hb_entry').css('color', '#000000')
-                else $('#hb_entry').css('color', '#ffffff');
+                hbList.filter(function(item) {
+                    if ($('input#' + item.values().cat).prop('checked')) return true
+                    else return false;
+                });
             });
 
             $('.search').attr('value', location.search.substring(1));
             hbList.search(location.search.substring(1));
             hbList.sort('title', {order: "asc"});
+
+            $('.select').change(function() {
+                hbList.page = parseInt(this.options[this.options.selectedIndex].value);
+                hbList.update();
+            });
+
+            $(window).scroll(function() {
+                $('.hb_entry').css('top', $(window).scrollTop() + Math.floor(window.innerHeight / 2));
+            });
+            $(window).resize(function() {
+                $('.hb_entry').css('top', $(window).scrollTop() + Math.floor(window.innerHeight / 2));
+                hbList.update();
+            });
         })
         .error(function() {
             $('#qt').html("Couldn't load homebrew database.");
