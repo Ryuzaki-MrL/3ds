@@ -11,14 +11,13 @@
     <script src="http://cdn.rawgit.com/javve/list.pagination.js/v0.1.1/dist/list.pagination.min.js"></script>
 </head>
 <body>
-    <div id="page">
+    <div class="container">
         <image src="../3ds.png" alt="Nintendo 3DS" style="width:100%;"/>
         <hr/>
 			<a href="../homebrew">Homebrew Wiki</a> -
             <a href="../devs">Developer Wiki</a> -
 			<a href="../downloads">Downloads</a>
         <hr/>
-        <!--TODO: language selection-->
         <h2>List of 3DS homebrew</h2>
         <p>
             This is a full list containing all homebrew software released for the Nintendo 3DS.<br/>
@@ -28,10 +27,9 @@
         <p>
             You can search homebrew by typing part of the title, description, author, release date, or any other keyword.<br/>
             For example: "emulators" will return emulators only, whilst "userland" will return userland homebrew only.<br/>
-            You can also sort by title, category, description, author and release date.<br/>
+            You can also sort by title, category, author and release date.<br/>
         </p>
         <!--DETAILS PANEL-->
-        <!--TODO: fix scroll-linked positioning effect on async browsers-->
         <div class="hb_entry">
             <button id="btm_x"></button>
             <span id="icon"><img class="i" src="./icons/noicon.png"/></span>
@@ -40,11 +38,10 @@
                 <span id="sshot"><img class="screenshot" src="./screenshots/noscreen.png"/></span>
                 <p><b>Author: </b><span id="author">-</span></p>
                 <p><b>Initial Release: </b><span id="release">-</span></p>
-                <p><b>Development Status: </b><span id="status">??????</span></p>
-                <p><b>Latest Version: </b><span id="version">0</span><br/></p>
+                <p><b>Development Status: </b><span id="status">-</span></p>
+                <p><b>Latest Version: </b><span id="version">-</span><br/></p>
             </div>
-            <!--TODO: click 'read more' to show full description (hiding compatibility chart)-->
-            <p id="desc">Homebrew description goes here.</p>
+            <p id="info_d"><span id="desc">-</span><span class="show"></span></p>
             <span class="compat">Compatibility chart:</span>
             <table class="compat">
                 <tr class="o3ds">
@@ -63,18 +60,20 @@
                     <td class="g">gw</td>
                     <td class="a">a9lh</td>
                     <td class="m">mset</td>
-                    <td class="b">spider</td>
+                    <td class="b">skater</td>
                 </tr>
             </table>
         </div>
         <!--MAIN LIST-->
+        <!--TODO: language selection-->
+        <!--TODO: automatic language detection-->
         <div id="hb_list">
             Search by:<br/>
             <input class="search" placeholder="Search homebrew"/><br/><br/>
             Sort by:<br/>
+            <!--TODO: fix alphabetic sorting-->
             <button class="sort" data-sort="title">Title</button>
             <button class="sort" data-sort="cat">Category</button>
-            <button class="sort" data-sort="desc">Description</button>
             <button class="sort" data-sort="author">Author</button>
             <button class="sort" data-sort="release">Release</button><br/><br/>
             Filter by:<br/>
@@ -90,14 +89,14 @@
                 <option>150</option>
                 <option>200</option>
                 <option value="999">ALL</option>
-            </select> homebrew.<br/><br/>
+            </select> homebrews.<br/><br/>
             <span id="qt">Loading...</span>
             <ul class="pagination top"></ul>
             <ul class="list"></ul>
             <ul class="pagination bottom"></ul>
         </div>
         <!--ALTERNATE LIST-->
-        <!--TODO: use a table as an alternative list for mobile-->
+        <!--TODO: use a table as an alternative list-->
         <p><a onclick="$('html, body').animate({scrollTop: 0}, 'fast');">Top</a></p>
         <hr/>
         <p>
@@ -111,9 +110,10 @@
                 $('.list').append (
                     '<li class="'+this.type+'">' +
                     '<div id="'+$(json).index(this)+'">' +
-                    '<span class="icon"><img class="i" src="'+this.icon+'"/></span>' +
+                    '<span class="icon"><img class="i" src="./icons/'+$(json).index(this)+'.png"/></span>' +
                     '<span class="title"><b>'+this.title+'</b></span>' +
                     '<span class="desc">'+this.desc+'</span>' +
+                    // TODO: click an author's name to show info about it
                     '<span class="author">Author: '+this.author+'</span>' +
                     '<span class="tags">'+this.tags+'</span>' +
                     '<span class="release">'+this.date+'</span>' +
@@ -121,6 +121,13 @@
                     '</div></li>'
                 );
             });
+
+            var id;
+
+            var monthstr = [ "-",
+                "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+            ];
 
             $('.i').on('error', function() {
                 $(this).attr('src', './icons/noicon.png');
@@ -130,23 +137,34 @@
                 $(this).attr('src', './screenshots/noscreen.png');
             });
             $('.screenshot').click(function() {
-                $('.hb_entry span:not(#sshot)').toggle();
-                $('.hb_entry p, h1, table').toggle();
-                $(this).animate({width: $(this).css('width')=='136px' ? 400 : 136, marginTop: $(this).css('margin-top')=='15px' ? 0 : 15}, 300);
+                $('.hb_entry p, .hb_entry h1, .hb_entry table, .hb_entry span:not(#sshot)').fadeOut(120);
+                $('.screenshot').animate({width: $('.screenshot').css('width')=='120px' ? 400 : 120}, 360);
+                if ($('.screenshot').css('width')!='120px') $('.hb_entry *' + ($('.show').hasClass('less') ? ':not(.compat)' : '')).fadeIn(500);
             });
 
-            $('.title').click(function() {
-                var id = $(this).parent().attr('id');
+            function showDetails() {
                 $('.hb_entry, .hb_entry *').fadeIn(500);
-                $('.screenshot').css({'width':'136px', 'margin-top':'0'});
-                $('.hb_entry .i').attr('src', json[id].icon);
+                $('.screenshot').css('width', '120px');
+                $('.hb_entry .i').attr('src', './icons/'+id+'.png');
                 $('.hb_entry #title').html(json[id].title);
                 $('.hb_entry #title').css('fontSize', 36 - Math.floor(json[id].title.length / 2.5));
                 $('.hb_entry #author').html(json[id].author);
-                $('.hb_entry #release').html(json[id].date);
+                var year = json[id].date.substring(0,4);
+                var month = monthstr[parseInt(json[id].date.substring(4,6))];
+                var day = json[id].date.substring(6,8);
+                $('.hb_entry #release').html((json[id].date=="00000000") ? "Unreleased" : (month + " " + day + ", " + year));
                 $('.hb_entry #status').html(json[id].status);
                 $('.hb_entry #version').html(json[id].ver);
-                $('.hb_entry #desc').html(json[id].long=="" ? json[id].desc : json[id].long);
+                if (json[id].long.length > 256) {
+                    $('.hb_entry #desc').html(json[id].long.substring(0,240) + '... ');
+                    $('.show').addClass('more');
+                    $('.show').removeClass('less');
+                    $('.show').show();
+                }
+                else {
+                    $('.hb_entry #desc').html(json[id].long.length==0 ? json[id].desc : json[id].long);
+                    $('.show').hide();
+                }
                 $('.hb_entry .screenshot').attr('src', './screenshots/'+id+'.png');
                 $('.hb_entry .o3ds').children('td').each(function() {
                     $(this).css('background-color', json[id].comp[0][this.className]==2 ? "#00cc00" : json[id].comp[0][this.className]==1 ? "#ffa500" : "#fa8072");
@@ -154,6 +172,18 @@
                 $('.hb_entry .n3ds').children('td').each(function() {
                     $(this).css('background-color', json[id].comp[1][this.className]==2 ? "#00cc00" : json[id].comp[1][this.className]==1 ? "#ffa500" : "#fa8072");
                 });
+            };
+
+            $('.title').click(function() {
+                id = $(this).parent().attr('id');
+                showDetails();
+            });
+
+            $('.show').click(function() {
+                $('.compat').fadeToggle(200);
+                if ($(this).hasClass('more')) $('.hb_entry #desc').html(json[id].long + ' ')
+                else if ($(this).hasClass('less')) $('.hb_entry #desc').html(json[id].long.substring(0,240) + '... ');
+                $(this).toggleClass('more less');
             });
 
             $('#btm_x').click(function() {
@@ -173,10 +203,10 @@
 
             hbList.on('updated', function() {
                 $('.list').append('<li class="none" style="display:none; visibility:hidden;"></li>');
-                if ((hbList.visibleItems.length % 2 == 0) || (window.innerWidth < 1152)) $('.none').hide();
+                if ((hbList.visibleItems.length % 2 == 0) || (window.innerWidth < 1080)) $('.none').hide();
                 $('#qt').html('Found ' + hbList.matchingItems.length + ' homebrew(s).<br/>' +
                 'Listing ' + hbList.visibleItems.length + ' homebrew(s).');
-                if ((hbList.visibleItems.length % 2 == 1) && (window.innerWidth >= 1152)) $('.none').show();
+                if ((hbList.visibleItems.length % 2 == 1) && (window.innerWidth >= 1080)) $('.none').show();
             });
 
             $('.filter').change(function() {
@@ -186,25 +216,37 @@
                 });
             });
 
-            $('.search').attr('value', location.search.substring(1));
-            hbList.search(location.search.substring(1));
+            // TODO: add filtering option to queries
+            var queries = {};
+            if (document.location.search.substring(1).length > 0) {
+                $.each(document.location.search.substr(1).split('&'), function(a,b) {
+                    var i = b.split('=');
+                    if (i.length > 1) queries[i[0].toString()] = i[1].toString();
+                });
+            }
+
+            if (queries.show >= 0) {
+                id = queries.show;
+                showDetails();
+            }
+
+            $('.search').val(queries.search);
+            hbList.search(queries.search);
             hbList.sort('title', {order: "asc"});
+            if (queries.sort!=undefined) hbList.sort(queries.sort, {order: "asc"});
 
             $('.select').change(function() {
                 hbList.page = parseInt(this.options[this.options.selectedIndex].value);
-                hbList.update();
+                hbList.search($('.search').val());
+                localStorage.setItem("hbperpage", hbList.page);
             });
 
-            $(window).scroll(function() {
-                $('.hb_entry').css('top', $(window).scrollTop() + Math.floor(window.innerHeight / 2));
-            });
             $(window).resize(function() {
-                $('.hb_entry').css('top', $(window).scrollTop() + Math.floor(window.innerHeight / 2));
                 hbList.update();
             });
         })
         .error(function() {
-            $('#qt').html("Couldn't load homebrew database.");
+            $('#qt').html("Unable to load homebrew database.");
         });
     </script>
 </body>

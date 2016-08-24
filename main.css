@@ -1,84 +1,13 @@
 html, body {
   width:100%;
   height:100%;
+  margin:0;
 }
 body {
   background-color:#000000;
-  margin:0;
   text-align:center;
   min-width:600px;
   font-size:12.5pt;
-}
-#page {
-  background-color:#ffffff;
-  color:#000000;
-  width:80%;
-  min-height:100%;
-  margin:0 auto;
-  padding:8px 0.5%;
-  overflow:hidden;
-  position:relative;
-}
-.hb_entry {
-  display:none;
-  border:2px solid black;
-  background-color:#eeeeee;
-  left:50%;
-  top:50%;
-  width:50%;
-  min-width:480px;
-  height:480px;
-  margin-left:-25%;
-  margin-top:-240px;
-  position:absolute;
-  z-index:1;
-}
-#icon {
-  display:block;
-  text-align:center;
-  padding-top:32px;
-}
-#title {
-  line-height:48px;
-  display:inline-block;
-  text-align:center;
-  text-shadow:1px 1px 0 #aaa;
-  vertical-align:middle;
-}
-#sshot {
-  float:right;
-  padding-right:20px;
-  margin-top:-15px;
-}
-#desc {
-  padding-left:20px;
-  padding-right:20px;
-  height:88px;
-  margin:0;
-}
-#info {
-  padding-left:20px;
-  padding-bottom:4px;
-}
-#btm_x {
-  background:url(homebrew/btm_x.png);
-  width:28px;
-  height:28px;
-  float:right;
-  display:inline;
-}
-.compat {
-  text-align:center;
-  margin:0 auto;
-  font-size:10pt;
-}
-table.compat {
-  height:64px;
-  border:1px solid black;
-}
-table.compat td {
-  width:32px;
-  border:1px solid black;
 }
 a, a:visited {
   color:green;
@@ -104,6 +33,90 @@ ul {
 ul a, ul a:visited {
   color:inherit;
 }
+.container {
+  background-color:#ffffff;
+  color:#000000;
+  width:85%;
+  min-height:100%;
+  margin:0 auto;
+  padding:8px 0.5%;
+  overflow:hidden;
+  position:relative;
+}
+.hb_entry, .dev_entry {
+  display:none;
+  border:2px solid black;
+  background-color:#eeeeee;
+  left:50%;
+  top:50%;
+  width:40%;
+  min-width:520px;
+  height:480px;
+  margin-left:-20%;
+  margin-top:-240px;
+  position:fixed;
+  z-index:1;
+}
+#icon {
+  display:block;
+  text-align:center;
+  padding-top:32px;
+}
+#title {
+  line-height:48px;
+  display:inline-block;
+  text-align:center;
+  text-shadow:1px 1px 0 #aaa;
+  vertical-align:middle;
+}
+#sshot {
+  float:right;
+  padding-right:20px;
+}
+#info {
+  padding-left:20px;
+  height:160px;
+}
+#info_d {
+  padding-left:20px;
+  padding-right:20px;
+  height:88px;
+  margin:0;
+}
+#btm_x {
+  background:url(homebrew/btm_x.png);
+  width:28px;
+  height:28px;
+  float:right;
+  display:inline;
+}
+.screenshot {
+  width:120px;
+}
+.show {
+  color:blue;
+  text-decoration:underline;
+  display:none;
+}
+.more:after {
+  content:"Read more.";
+}
+.less:after {
+  content:"Read less.";
+}
+.compat {
+  text-align:center;
+  margin:0 auto;
+  font-size:10pt;
+}
+table.compat {
+  height:60px;
+  border:1px solid black;
+}
+table.compat td {
+  width:30px;
+  border:1px solid black;
+}
 ul.pagination li {
   display:inline-block;
   width:20px;
@@ -127,9 +140,9 @@ ul.list li {
   border:1px solid black;
   border-radius:8px;
   padding:8px 0;
-  margin:2px;
+  margin:0.1%;
   display:inline-block;
-  width:49%;
+  width:48%;
   min-width:448px;
   max-width:640px;
   vertical-align:top;
@@ -137,21 +150,29 @@ ul.list li {
   line-height:21px;
   position:relative;
 }
-.screenshot {
-  width:136px;
+#dev_list ul.list li {
+  height:106px;
 }
 .icon {
   padding:18px 24px;
   float:left;
 }
+.pic {
+  padding:9px 20px;
+  float:left;
+}
 .i {
   border-radius:4px;
 }
-.title, .desc, .author {
+.flag {
+  vertical-align:text-top;
+}
+.title, .desc, .author, .user, .name, .location {
+  padding-left:96px;
   padding-right:16px;
   display:block;
 }
-.title:hover {
+.title:hover, .user:hover {
   text-decoration:underline;
 }
 .desc {
@@ -206,14 +227,19 @@ ul.list li {
   top:-10px;
   right:-5px;
 }
-@media (max-width: 1152px) {
+@media (max-width: 1080px) {
   ul.list li {
     width:90%;
+    margin:2px;
   }
   .none {
     display:none;
   }
   .hb_entry {
-    margin-left:-240px;
+    margin-left:-260px;
+  }
+  .container {
+    width:99%;
+    margin:0;
   }
 }
