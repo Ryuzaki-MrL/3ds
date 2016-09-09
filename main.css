@@ -178,7 +178,7 @@ ul.list li {
 .desc {
   height:42px;
 }
-.tags, .release, .cat {
+.tags, .release, .cat, .status {
   display:none;
 }
 .search {

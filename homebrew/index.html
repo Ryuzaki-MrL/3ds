@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=2, user-scalable=yes"/>
+	<meta name="viewport" content="width=640, initial-scale=1, user-scalable=yes"/>
     <title>3DS Homebrew | Ryuzaki's Wiki</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="../main.css"/>
@@ -22,12 +22,12 @@
         <p>
             This is a full list containing all homebrew software released for the Nintendo 3DS.<br/>
             I'll try to keep it up-to-date whenever possible, feel free to contribute if you want to.<br/>
-            Click on an entry to view details about that specific homebrew.<br/>
+            Click on an entry to view details about a specific homebrew.<br/>
         </p>
         <p>
             You can search homebrew by typing part of the title, description, author, release date, or any other keyword.<br/>
             For example: "emulators" will return emulators only, whilst "userland" will return userland homebrew only.<br/>
-            You can also sort by title, category, author and release date.<br/>
+            You can also sort homebrew by title, category, author or release date, and filter by category, release status and development status.<br/>
         </p>
         <!--DETAILS PANEL-->
         <div class="hb_entry">
@@ -38,38 +38,41 @@
                 <span id="sshot"><img class="screenshot" src="./screenshots/noscreen.png"/></span>
                 <p><b>Author: </b><span id="author">-</span></p>
                 <p><b>Initial Release: </b><span id="release">-</span></p>
-                <p><b>Development Status: </b><span id="status">-</span></p>
-                <p><b>Latest Version: </b><span id="version">-</span><br/></p>
+                <p><b>Latest Version: </b><span id="version">-</span></p>
+                <p><b>External Link: </b><span id="site">-</span><br/></p>
             </div>
             <p id="info_d"><span id="desc">-</span><span class="show"></span></p>
             <span class="compat">Compatibility chart:</span>
             <table class="compat">
                 <tr class="o3ds">
-                    <th class="mdl">O3DS:</th>
-                    <td class="h">hbl</td>
-                    <td class="c">cia</td>
-                    <td class="g">gw</td>
-                    <td class="a">a9lh</td>
-                    <td class="m">mset</td>
-                    <td class="b">spider</td>
+                    <th>O3DS:</th>
+                    <td>hbl</td>
+                    <td>cia</td>
+                    <td>gw</td>
+                    <td>a9lh</td>
+                    <td>mset</td>
+                    <td>spider</td>
                 </tr>
                 <tr class="n3ds">
-                    <th class="mdl">N3DS:</th>
-                    <td class="h">hbl</td>
-                    <td class="c">cia</td>
-                    <td class="g">gw</td>
-                    <td class="a">a9lh</td>
-                    <td class="m">mset</td>
-                    <td class="b">skater</td>
+                    <th>N3DS:</th>
+                    <td>hbl</td>
+                    <td>cia</td>
+                    <td>gw</td>
+                    <td>a9lh</td>
+                    <td>mset</td>
+                    <td>skater</td>
                 </tr>
             </table>
         </div>
         <!--MAIN LIST-->
-        <!--TODO: language selection-->
-        <!--TODO: automatic language detection-->
         <div id="hb_list">
             Search by:<br/>
             <input class="search" placeholder="Search homebrew"/><br/><br/>
+            Language:
+            <select id="select_l">
+                <option value="">English</option>
+                <option value="br">Português</option>
+            </select><br/><br/>
             Sort by:<br/>
             <!--TODO: fix alphabetic sorting-->
             <button class="sort" data-sort="title">Title</button>
@@ -77,14 +80,21 @@
             <button class="sort" data-sort="author">Author</button>
             <button class="sort" data-sort="release">Release</button><br/><br/>
             Filter by:<br/>
-            <input type="checkbox" class="filter" id="app" CHECKED>Applications</input> -
-            <input type="checkbox" class="filter" id="game" CHECKED>Games</input> -
-            <input type="checkbox" class="filter" id="emu" CHECKED>Emulators</input> -
-            <input type="checkbox" class="filter" id="cfw" CHECKED>Custom Firmwares</input><br/><br/>
+            <input type="checkbox" class="filter type" id="app" CHECKED>Applications</input> -
+            <input type="checkbox" class="filter type" id="game" CHECKED>Games</input> -
+            <input type="checkbox" class="filter type" id="emu" CHECKED>Emulators</input> -
+            <input type="checkbox" class="filter type" id="cfw" CHECKED>Custom Firmwares</input><br/>
+            <input type="checkbox" class="filter appst" id="released" CHECKED>Released</input> -
+            <input type="checkbox" class="filter appst" id="unreleased" CHECKED>Unreleased</input> -
+            <input type="checkbox" class="filter appst" id="unkdate" CHECKED>Unknown</input><br/>
+            <input type="checkbox" class="filter devst" id="wip" CHECKED>Work in Progress</input> -
+            <input type="checkbox" class="filter devst" id="discontinued" CHECKED>Discontinued</input> -
+            <input type="checkbox" class="filter devst" id="finished" CHECKED>Finished</input> -
+            <input type="checkbox" class="filter devst" id="unknown" CHECKED>Unknown</input><br/><br/>
             List
-            <select class="select">
+            <select id="select_p">
                 <option>30</option>
-                <option SELECTED>50</option>
+                <option>50</option>
                 <option>100</option>
                 <option>150</option>
                 <option>200</option>
@@ -95,16 +105,31 @@
             <ul class="list"></ul>
             <ul class="pagination bottom"></ul>
         </div>
-        <!--ALTERNATE LIST-->
-        <!--TODO: use a table as an alternative list-->
         <p><a onclick="$('html, body').animate({scrollTop: 0}, 'fast');">Top</a></p>
         <hr/>
         <p>
             Source:
-            <a href="http://wiki.gbatemp.net/wiki/List_of_3DS_homebrew">gbatemp</a> - <a href="https://www.3dbrew.org/wiki/Homebrew_Applications">3dbrew</a>
+            <a href="http://wiki.gbatemp.net/wiki/List_of_3DS_homebrew">gbatemp</a> -
+            <a href="https://www.3dbrew.org/wiki/Homebrew_Applications">3dbrew</a> -
+            <a href="http://www.nintendomax.com/viewforum.php?f=132">nintendomax</a> -
+            <a href="https://www.reddit.com/r/3dshacks">reddit</a>
         </p>
     </div>
     <script>
+        var queries = {};
+        if (document.location.search.substring(1).length > 0) {
+            $.each(document.location.search.substr(1).split('&'), function(a,b) {
+                var i = b.split('=');
+                if (i.length > 1) queries[i[0].toString()] = i[1].toString();
+            });
+        }
+
+        var lang = "";
+        if (queries.lang!=undefined) {
+            lang = queries.lang;
+            window.location.replace("http://ryuzaki-mrl.github.io/3ds/homebrew/"+lang);
+        }
+
         $.getJSON("hbdb.json", function(json) {
             $.each(json, function() {
                 $('.list').append (
@@ -118,24 +143,26 @@
                     '<span class="tags">'+this.tags+'</span>' +
                     '<span class="release">'+this.date+'</span>' +
                     '<span class="cat">'+this.type+'</span>' +
+                    '<span class="status">'+(this.status.length==0 ? 'unknown' : this.status)+'</span>' +
                     '</div></li>'
                 );
             });
 
             var id;
 
-            var monthstr = [ "-",
+            var monthstr = [ "???",
                 "Jan", "Feb", "Mar", "Apr", "May", "Jun",
                 "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
             ];
 
-            $('.i').on('error', function() {
+            $('.i').error(function() {
                 $(this).attr('src', './icons/noicon.png');
             });
 
-            $('.screenshot').on('error', function() {
+            $('.screenshot').error(function() {
                 $(this).attr('src', './screenshots/noscreen.png');
             });
+
             $('.screenshot').click(function() {
                 $('.hb_entry p, .hb_entry h1, .hb_entry table, .hb_entry span:not(#sshot)').fadeOut(120);
                 $('.screenshot').animate({width: $('.screenshot').css('width')=='120px' ? 400 : 120}, 360);
@@ -152,25 +179,24 @@
                 var year = json[id].date.substring(0,4);
                 var month = monthstr[parseInt(json[id].date.substring(4,6))];
                 var day = json[id].date.substring(6,8);
-                $('.hb_entry #release').html((json[id].date=="00000000") ? "Unreleased" : (month + " " + day + ", " + year));
-                $('.hb_entry #status').html(json[id].status);
-                $('.hb_entry #version').html(json[id].ver);
+                var date = (json[id].date=="0") ? "Unreleased" : (json[id].date.length==0) ? "Unknown" : (month + " " + day + ", " + year);
+                $('.hb_entry #release').html(date);
+                $('.hb_entry #version').html(date!="Unreleased" ? (json[id].ver.length > 0 ? json[id].ver : "Unknown") : '-');
+                $('.hb_entry #site').html(json[id].site.length > 0 ? ('<a href="'+json[id].site+'" target="_blank">'+'<img src="btm_e.png"/>'+'</a>') : '-');
                 if (json[id].long.length > 256) {
                     $('.hb_entry #desc').html(json[id].long.substring(0,240) + '... ');
                     $('.show').addClass('more');
                     $('.show').removeClass('less');
                     $('.show').show();
-                }
-                else {
-                    $('.hb_entry #desc').html(json[id].long.length==0 ? json[id].desc : json[id].long);
+                } else {
+                    $('.hb_entry #desc').html(json[id].long.length > 0 ? json[id].long : json[id].desc);
                     $('.show').hide();
+                    $('.show').removeClass('more less');
                 }
                 $('.hb_entry .screenshot').attr('src', './screenshots/'+id+'.png');
-                $('.hb_entry .o3ds').children('td').each(function() {
-                    $(this).css('background-color', json[id].comp[0][this.className]==2 ? "#00cc00" : json[id].comp[0][this.className]==1 ? "#ffa500" : "#fa8072");
-                });
-                $('.hb_entry .n3ds').children('td').each(function() {
-                    $(this).css('background-color', json[id].comp[1][this.className]==2 ? "#00cc00" : json[id].comp[1][this.className]==1 ? "#ffa500" : "#fa8072");
+                $('.hb_entry table td').each(function(index) {
+                    if (json[id].comp[index]!=undefined) $(this).css('background-color', json[id].comp[index]==2 ? "#00cc00" : json[id].comp[index]==1 ? "#ffa500" : "#fa8072")
+                    else $(this).css('background-color', 'transparent');
                 });
             };
 
@@ -191,11 +217,11 @@
             });
 
             var options = {
-                valueNames: [ 'title', 'desc', 'author', 'tags', 'release', 'cat' ],
-                page: 50,
+                valueNames: [ 'title', 'desc', 'author', 'tags', 'release', 'cat', 'status' ],
+                page: 30,
                 plugins: [
-                    ListPagination({paginationClass: "top", innerWindow: 12}),
-                    ListPagination({paginationClass: "bottom", innerWindow: 12})
+                    ListPagination({paginationClass: "top", innerWindow: 13}),
+                    ListPagination({paginationClass: "bottom", innerWindow: 13})
                 ]
             };
 
@@ -211,39 +237,48 @@
 
             $('.filter').change(function() {
                 hbList.filter(function(item) {
-                    if ($('input#' + item.values().cat).prop('checked')) return true
+                    if ($('input#' + item.values().cat).prop('checked') && $('input#' + item.values().status).prop('checked') && $('input#' + (item.values().release=="0" ? "unreleased" : (item.values().release.length==0 ? "unkdate" : "released"))).prop('checked')) return true
                     else return false;
                 });
             });
 
-            // TODO: add filtering option to queries
-            var queries = {};
-            if (document.location.search.substring(1).length > 0) {
-                $.each(document.location.search.substr(1).split('&'), function(a,b) {
-                    var i = b.split('=');
-                    if (i.length > 1) queries[i[0].toString()] = i[1].toString();
-                });
-            }
+            $('#select_l').change(function() {
+                window.location.replace("http://ryuzaki-mrl.github.io/3ds/homebrew/"+this.options[this.options.selectedIndex].value);
+            });
 
-            if (queries.show >= 0) {
-                id = queries.show;
-                showDetails();
-            }
+            $('#select_p').change(function() {
+                hbList.page = parseInt(this.options[this.options.selectedIndex].value);
+                hbList.search($('.search').val());
+            });
+
+            $(window).resize(function() {
+                hbList.update();
+            });
 
             $('.search').val(queries.search);
             hbList.search(queries.search);
             hbList.sort('title', {order: "asc"});
             if (queries.sort!=undefined) hbList.sort(queries.sort, {order: "asc"});
 
-            $('.select').change(function() {
-                hbList.page = parseInt(this.options[this.options.selectedIndex].value);
-                hbList.search($('.search').val());
-                localStorage.setItem("hbperpage", hbList.page);
-            });
+            if (queries.filter!=undefined) {
+                var bytype, bydevst, byappst;
+                var filter = queries.filter.split('|');
+                for (i = 0; i < filter.length; i++) {
+                    $('.filter#'+filter[i]).click();
+                    switch (filter[i]) {
+                        case"app":case"game":case"emu":case"cfw": bytype = true; break;
+                        case"released":case"unreleased":case"unkdate": byappst = true; break;
+                        case"wip":case"discontinued":case"finished":case"unknown": bydevst = true; break;
+                    }
+                } if (bytype) $('.filter.type').click();
+                if (byappst) $('.filter.appst').click();
+                if (bydevst) $('.filter.devst').click();
+            }
 
-            $(window).resize(function() {
-                hbList.update();
-            });
+            if (queries.show >= 0 && queries.show < json.length) {
+                id = queries.show;
+                showDetails();
+            }
         })
         .error(function() {
             $('#qt').html("Unable to load homebrew database.");
