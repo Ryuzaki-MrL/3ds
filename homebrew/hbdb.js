@@ -20,7 +20,6 @@ $.getJSON("hbdb.json", function(json) {
             '<span class="icon"><img class="i" src="/3ds/homebrew/icons/'+$(json).index(this)+'.png"/></span>' +
             '<span class="title"><b>'+this.title+'</b></span>' +
             '<span class="desc">'+this.desc+'</span>' +
-            // TODO: click an author's name to show info about it
             '<span class="author">Author: '+this.author+'</span>' +
             '<span class="tags">'+this.tags+'</span>' +
             '<span class="release">'+this.date+'</span>' +
@@ -75,6 +74,7 @@ $.getJSON("hbdb.json", function(json) {
             $('.show').hide();
             $('.show').removeClass('more less');
         }
+        $('.hb_entry .screenshot').attr('src', '');
         $('.hb_entry .screenshot').attr('src', '/3ds/homebrew/screenshots/'+id+'.png');
         $('.hb_entry table td').each(function(index) {
             if (json[id].comp[index]!=undefined) $(this).css('background-color', json[id].comp[index]==2 ? "#00cc00" : json[id].comp[index]==1 ? "#ffa500" : "#fa8072")
