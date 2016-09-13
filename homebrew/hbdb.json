@@ -8,7 +8,7 @@
 "date":"20150830",
 "status":"discontinued",
 "ver":"v0.1a",
-"site":"https://github.com/Lectem/3Damnesic",
+"site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -32,7 +32,7 @@
 "date":"20141118",
 "status":"discontinued",
 "ver":"v2.0",
-"site":"",
+"site":"http://dl.albertosonic.com/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -68,7 +68,7 @@
 "date":"20141120",
 "status":"wip",
 "ver":"v1.1.1",
-"site":"",
+"site":"http://smealum.github.io/3ds/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -145,7 +145,7 @@
 },{
 "type":"app",
 "title":"Sunshell",
-"tags":"utilities, multimedia, files, system, LUA, ARM11, userland, kernel, svchax",
+"tags":"utilities, multimedia, files, system, LUA, ARM11, userland, kernel",
 "desc":"Multifunction shell written in LUA.",
 "author":"rinnegatamante",
 "long":"",
@@ -157,13 +157,13 @@
 },{
 "type":"app",
 "title":"FBI",
-"tags":"utilities, system, savefile, ARM11, kernel, svchax",
+"tags":"utilities, system, savefile, ARM11, kernel",
 "desc":"Open source title manager for the 3DS.",
 "author":"Steveice10",
 "long":"",
 "date":"20150411",
 "status":"wip",
-"ver":"v2.4.1",
+"ver":"v2.4.2",
 "site":"",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -245,23 +245,23 @@
 "desc":"Installer for the ironhax and oothax exploits.",
 "author":"smealum",
 "long":"",
-"date":"",
+"date":"20150817",
 "status":"",
 "ver":"",
-"site":"",
-"comp":""
+"site":"http://smealum.github.io/3ds/",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"Salt sploit installer",
 "tags":"utilities, ARM11, userland, savefile",
 "desc":"Installer for the supermysterychunkhax, (v*)hax and humblehax exploits.",
 "author":"SALT Team",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"This exists to distribute 3DS userland exploits developed by the SALT team for booting the homebrew launcher (*hax).",
+"date":"20160430",
+"status":"wip",
+"ver":"v2.3",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"Region free launcher (regionFOUR)",
@@ -269,11 +269,11 @@
 "desc":"Allows for out of region gamecards to be launched on any 3DS.",
 "author":"smealum",
 "long":"",
-"date":"",
+"date":"20150718",
 "status":"",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[0,0,0,0,0,0,0,0,0,0,0,0]
 },{
 "type":"app",
 "title":"Regionthree",
@@ -349,7 +349,7 @@
 },{
 "type":"app",
 "title":"SysUpdater",
-"tags":"utilities, system, maintenance, ARM11, kernel, svchax",
+"tags":"utilities, system, maintenance, ARM11, kernel",
 "desc":"3DS offline system updater using CIA files.",
 "author":"profi200",
 "long":"A quick tool for manually updating a 3DS using CIA files. This is not intended for installing anything else! You also should strictly avoid updating single titles because this also can lead to bricks!",
@@ -652,24 +652,24 @@
 "tags":"utilities, savefile, storage, ARM11, userland",
 "desc":"Use for sharing a <abbr title='The Binding of Isaac'>TBoI</abbr> savefile between 3DS and PC versions of the game.",
 "author":"rinnegatamante",
-"long":"",
-"date":"",
+"long":"The Sharing of Isaac is a sharing savegame system for The Binding of Isaac: Rebirth which will allows you to use a single savegame in both PC and 3DS versions of the game! It can also be used as a cloud space where to save your savegames if you don't own a PC or a 3DS version of the game.",
+"date":"20160126",
 "status":"",
 "ver":"",
-"site":"",
-"comp":""
+"site":"http://rinnegatamante.it/TSOI/register.php",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"VLR Safe Launcher",
 "tags":"utilities, savefile, storage, ARM11, userland",
 "desc":"Makes a backup of your Virtue's Last Reward savefile, then launches the game.",
 "author":"lucaboy",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"Virtue's Last Reward for Nintendo 3DS is affected by a critical bug: if you save during an Escape section (especially in the PEC room), the game could crash randomly and you could get the save data corrupted. There isn't any patch to fix this bug (Aksys has only changed the code of the eShop version of the game to prevent players to save in the PEC room). The best way to avoid to lose all of you progress is just to backup your data frequently; VLR Safe Launcher will help you to do it in the faster way.",
+"date":"20160419",
+"status":"finished",
+"ver":"v1",
 "site":"",
-"comp":""
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
 "title":"fb43DS",
@@ -689,11 +689,11 @@
 "desc":"<abbr title='Internet Relay Chat'>IRC</abbr> client for 3DS.",
 "author":"titegtnodI",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20141220",
+"status":"discontinued",
+"ver":"r3",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"TWLSaveTool",
@@ -805,7 +805,7 @@
 },{
 "type":"app",
 "title":"Lua Player Plus (lpp-3ds)",
-"tags":"Interpreters, LUA, ARM11, userland, kernel, svchax",
+"tags":"Interpreters, LUA, ARM11, userland, kernel",
 "desc":"LUA interpreter for 3DS.",
 "author":"rinnegatamante",
 "long":"Lua Player Plus 3DS is a Lua interpreter for 3DS/N3DS forked from original lpp-c++ (PSP/PSVITA) trunk made by rinnegatamante and NaNNi. lpp-3ds runs under Lua 5.3.1. It provides different cool features like audio playback, video playback, zip extraction, images loading support, alpha blending, network features, socketing features, etc... It also have an integrated debugger with FTP server support so you can patch your scripts in runtime.",
@@ -881,11 +881,11 @@
 "desc":"Boots into Gateway Menu.",
 "author":"Gateway Team",
 "long":"",
-"date":"",
+"date":"20151229",
 "status":"",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"Gateway Menu",
@@ -895,9 +895,9 @@
 "long":"",
 "date":"",
 "status":"",
-"ver":"",
+"ver":"v4.1b",
 "site":"",
-"comp":""
+"comp":[0,0,0,2,2,2,0,0,0,2,2,2]
 },{
 "type":"app",
 "title":"Crush 3D Trainer",
@@ -909,7 +909,7 @@
 "status":"",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"Pictochat3D",
@@ -937,7 +937,7 @@
 },{
 "type":"app",
 "title":"3DS Linux Loader",
-"tags":"Loaders, ARM9, ARM11, userland, kernel, arm9loaderhax, memchunkhax2",
+"tags":"Loaders, ARM9, ARM11, userland, kernel, arm9loaderhax",
 "desc":"Boots into the Linux 3DS port.",
 "author":"xerpi",
 "long":"Currently the environment is very simple, you have Busybox (which \"simulates\" some programs like ls, cat, top, etc) and Weston (the Wayland compositor) plus a few Weston clients demos.",
@@ -953,23 +953,23 @@
 "desc":"Quickly shuts down the 3DS.",
 "author":"daxtsu",
 "long":"",
-"date":"",
-"status":"",
+"date":"20151018",
+"status":"discontinued",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"Quick Reboot",
 "tags":"utilities, system, ARM11, userland",
 "desc":"Reboots the 3DS.",
 "author":"AlbertoSONIC",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
-"site":"",
-"comp":""
+"long":"With this app you can quickly reboot your 3DS! You just have to open Quick Reboot app! It also has a security check: if this app gets booted with the L button held, it doesn't reboot. This is usefull if you opened Quick Reboot App by accident or if you want to exit Smash Bros Brawl or Monster Hunter 4 without exiting emunand!",
+"date":"20150118",
+"status":"finished",
+"ver":"v1",
+"site":"http://dl.albertosonic.com/",
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
 "title":"Screenshot Tool (scrtool)",
@@ -977,35 +977,35 @@
 "desc":"Converts ninjhax's raw screenshots to PNG.",
 "author":"smealum",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20151026",
+"status":"finished",
+"ver":"v1",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"Screenshot merge",
 "tags":"utilities, multimedia, ARM11, userland, LUA",
 "desc":"Tool for merging ninjhax and NTR screenshot screens.",
 "author":"ihaveamac",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"If you are so lazy and simply want to combine the top and bottom screens of the screenshots you take without using your computer, well here you go. This is screenshot-merge and it does just that: merge every screenshot on your [micro]SD card. The result is a bunch of images in the folder \"screenshots-merged\". It only asks for confirmation and patience.",
+"date":"20151210",
+"status":"finished",
+"ver":"v1.2",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"Scrup",
 "tags":"utilities, multimedia, internet, ARM11, userland",
-"desc":"Tool for uploading ninjhax screenshots to imgur.",
+"desc":"Tool for uploading screenshots taken with ninjhax to imgur.",
 "author":"JerwuQu",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20151102",
+"status":"discontinued",
+"ver":"v0.03",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"Purgification",
@@ -1025,11 +1025,11 @@
 "desc":"Inventory editor for Terraria.",
 "author":"MarcusD",
 "long":"",
-"date":"",
+"date":"20160108",
 "status":"",
-"ver":"",
+"ver":"v0.1c13",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"Alarm Clock",
@@ -1084,12 +1084,12 @@
 "tags":"utilities, internet, maintenance, ARM11, userland, LUA",
 "desc":"Updates your Corbenik CFW payload.",
 "author":"gnmmarechal",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"This tool allows you to download the latest version of Corbenik/Skeith CFW to your 3DS directly. It supports different payload paths than arm9loaderhax.bin or arm9loaderhax_si.bin. To do so, check the location of your payload (imagine it is SD:/somedirectory/somefile.bin).",
+"date":"20160606",
+"status":"discontinued",
+"ver":"v0.6.0",
 "site":"",
-"comp":""
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
 "title":"3ds-vgmstream",
@@ -1183,37 +1183,37 @@
 "long":"This homebrew will check all your installed NAND titles and compare them to the ones that \"should\" be installed on 9.2.0-20U. It will display any differences when checking but it will also output them to a file called \"check.log\" inside this homebrew's folder.",
 "date":"20160118",
 "status":"",
-"ver":"v2.0<sup>?</sup>",
+"ver":"v2.0 [?]",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"SafeSysUpdater",
-"tags":"utilities, system, maintenance, ARM11, kernel, svchax",
+"tags":"utilities, system, maintenance, ARM11, kernel",
 "desc":"Checks all files prior to updating/downgrading your 3DS. Fork of sysUpdater.",
 "author":"Cpasjuste",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20160110",
+"status":"discontinued",
+"ver":"v1.0",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"PlaiSysUpdater",
-"tags":"utilities, system, maintenance, ARM11, kernel, svchax",
+"tags":"utilities, system, maintenance, ARM11, kernel",
 "desc":"Fork of SafeSysUpdater with better stability.",
 "author":"Plailect",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20160323",
+"status":"discontinued",
+"ver":"v05",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"NASA",
-"tags":"utilities, system, ARM11, kernel, svchax, LUA",
+"tags":"utilities, system, ARM11, kernel, LUA",
 "desc":"CIA installer for legit CIAs.",
 "author":"rinnegatamante",
 "long":"NASA is a CIA Manager, based on an heavy modified version of latest source of Big Red Menu, which is compatible with ANY firmware >= 4.1. It uses libSu/libsvchax to get access to required services for LEGIT CIAs installation on fw >= 9.3 and libkhax to get access to required services for ANY CIAs installation on fw 4.1 - 9.2. It also have network installation feature which doesn't need double free space cause it will perform a full network installation.",
@@ -1253,35 +1253,35 @@
 "desc":"Turn wifi on or off.",
 "author":"daxtsu",
 "long":"",
-"date":"",
-"status":"",
+"date":"20151018",
+"status":"discontinued",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[1,0,0,0,0,0,1,0,0,0,0,0]
 },{
 "type":"app",
 "title":"TWL Slot-1 Launcher",
 "tags":"Loaders, NDS, TWL_FIRM",
 "desc":"Allows booting blocked DS flashcards on any 3DS.",
 "author":"Apache Thunder",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"Many older DS flash carts get blocked by CTR mode (most likely by Process9 of NATIVE_FIRM). You can tell if you see it error almost instantly when trying to boot your flashcart. This app gets around that! Any flashcart that hasn't worked since 1.0 launch firmware can be used with this launcher. Note that some flashcarts may work without this launcher with just the TWL_FIRM patches alone. Test that first before using this launcher.",
+"date":"20160210",
+"status":"finished",
+"ver":"v3",
 "site":"",
-"comp":""
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
 "title":"Manga Reader",
 "tags":"utilities, reading, ARM11, userland, LUA",
 "desc":"Download and read mangas on your 3DS.",
 "author":"MyLegGuy",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"Pretty much, it lets you read a comic/manga that's stored in a whole ton of image files on your SD card. Oh, and it can also download manga. Sometimes. If it works. There's no zooming, so this thing is kind of bad. If you can live without zooming, maybe you can use this.",
+"date":"20151010",
+"status":"discontinued",
+"ver":"v2.0",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"SOON! (Super cOOl iNstaller)",
@@ -1315,8 +1315,8 @@
 "long":"With this app you can draw anything you want, with 7 colors and a rubber! You can find some instructions on the 3DS's top screen!",
 "date":"20141120",
 "status":"discontinued",
-"ver":"",
-"site":"",
+"ver":"v1.2 [?]",
+"site":"http://dl.albertosonic.com/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -1336,12 +1336,12 @@
 "tags":"entertainment, interpreters, multimedia, ARM11, userland, LUA",
 "desc":"Visual Novel interpreter.",
 "author":"dfsa3fdvc1",
-"long":"",
-"date":"",
-"status":"",
+"long":"VNDS is a syntax created for the purpose of playing visual novel games on multiple devices. Dozens of popular visual novels such as Fate Stay Night, Ever 17, Saya no Uta have been converted to be VNDS compatible and thus, when this is completed, will be 3DS compatible.",
+"date":"20150904",
+"status":"discontinued",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,0,2,0,0,0,2,0,2,0,0,0]
 },{
 "type":"app",
 "title":"Crimson Scripter",
@@ -1349,11 +1349,11 @@
 "desc":"Sound Novel interpreter.",
 "author":"phalk",
 "long":"",
-"date":"",
+"date":"20160216",
 "status":"",
-"ver":"",
-"site":"",
-"comp":""
+"ver":"v0.3.4",
+"site":"https://github.com/Phalk/crimsonscripter/wiki",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"3DSurfer",
@@ -1361,11 +1361,11 @@
 "desc":"WAV sound player.",
 "author":"rinnegatamante",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20150103",
+"status":"discontinued",
+"ver":"v1.0",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"Super Simple Calculator",
@@ -1373,11 +1373,11 @@
 "desc":"Calculator for simple math operations.",
 "author":"CKlidify",
 "long":"",
-"date":"",
-"status":"",
+"date":"20151012",
+"status":"discontinued",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"Graphing Calculator",
@@ -1385,11 +1385,11 @@
 "desc":"Scientific graphical calculator.",
 "author":"flarn2006",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20151007",
+"status":"wip",
+"ver":"v1.4",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"Simple Calc",
@@ -1397,11 +1397,11 @@
 "desc":"Calculator for simple math operations.",
 "author":"GalladeGuy",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20151028",
+"status":"discontinued",
+"ver":"v1.2",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"BootCtr",
@@ -1409,23 +1409,23 @@
 "desc":"Boot manager. Assign buttons to choose which homebrew to launch (menuhax).",
 "author":"m45t3r",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20151031",
+"status":"discontinued",
+"ver":"v2.1.0",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"BootCtr9",
-"tags":"Loaders, ARM9, arm9loaderhax",
+"tags":"Loaders, ARM9",
 "desc":"Boot manager for arm9loaderhax.",
 "author":"hartmannaf",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
-"site":"",
-"comp":""
+"long":"BootCTR9 is an ARM9 bootloader for the 3DS System. It's based on BootCTR and its configuration, but with some additional features. It's currently for arm9loaderhax users only, but it should be possible to load it with any arm9payload loader, that allows the loading a payload from offset 0x0.",
+"date":"20160217",
+"status":"wip",
+"ver":"pre-v1.0",
+"site":"https://github.com/hartmannaf/BootCtr9/wiki",
+"comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
 "type":"app",
 "title":"CtrBootManager",
@@ -1433,11 +1433,11 @@
 "desc":"Boot manager for use with menuhax.",
 "author":"cpasjuste",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20150928",
+"status":"discontinued",
+"ver":"v1.9",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"CtrBootManager9",
@@ -1445,11 +1445,11 @@
 "desc":"Boot manager for use with arm9loaderhax.",
 "author":"cpasjuste",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20160302",
+"status":"discontinued",
+"ver":"v05",
 "site":"",
-"comp":""
+"comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
 "type":"app",
 "title":"Grid Launcher",
@@ -1457,11 +1457,11 @@
 "desc":"Fully customizable Homebrew Launcher mod with grid layout.",
 "author":"mashers",
 "long":"",
-"date":"",
+"date":"20150917",
 "status":"",
-"ver":"",
-"site":"",
-"comp":""
+"ver":"Beta 136",
+"site":"https://github.com/mashers/3ds_hb_menu/wiki",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"Grid Launcher Updater",
@@ -1469,11 +1469,11 @@
 "desc":"Updates masher's Grid Launcher to the latest version.",
 "author":"ihaveamac",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20151030",
+"status":"discontinued",
+"ver":"v2.21",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"DSP Firmware Dumper",
@@ -1481,35 +1481,35 @@
 "desc":"Dumps the DSP binary component, needed by many homebrew.",
 "author":"rinnegatamante",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20151105",
+"status":"finished",
+"ver":"v1.0",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"BLEND3R",
 "tags":"utilities, ARM11, userland, LUA",
 "desc":"Model viewer for 3DS.",
 "author":"rinnegatamante",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"BLEND3R is a 3D model viewer wrote with lpp-3ds fully opensource. It can be used for benchmark purposes (since BLEND3R allows also stereoscopic 3D and shows current FPS during rendering process) or just for fun. It supports Wavefront (.obj) models but with some restrictions: only triangles primitives, materials are not supported).",
+"date":"20160229",
+"status":"discontinued",
+"ver":"v1.1",
 "site":"",
-"comp":""
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
 "title":"NVRAM Flash Manager",
 "tags":"utilities, system, maintenance, ARM11, userland",
 "desc":"Wifi NVRAM/SPI Flash dumper/restorer.",
 "author":"rinnegatamante",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"NVRAM Flash Manager allows you to dump and restore NVRAM flash which contains some DS Profile infos (For example you can check if your DS Profile is good for 4.1-4.5 DS Profile exploit), Mac Address (probably for TWL_FIRM only), Access Points information and other things.",
+"date":"20150314",
+"status":"discontinued",
+"ver":"v1.1",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"edpJoy3DS",
@@ -1517,11 +1517,11 @@
 "desc":"edpJoy client for 3DS.",
 "author":"edicpop",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20150717",
+"status":"wip",
+"ver":"v0.6.0a",
 "site":"",
-"comp":""
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
 "title":"ZIP3DSFX",
@@ -1530,10 +1530,10 @@
 "author":"d0k3",
 "long":"",
 "date":"",
-"status":"",
+"status":"discontinued",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"3DText",
@@ -1541,11 +1541,11 @@
 "desc":"Simple text file viewer.",
 "author":"DarkFlare69",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20150108",
+"status":"discontinued",
+"ver":"v0.9.5",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"3DS Ebook Reader",
@@ -1609,7 +1609,7 @@
 },{
 "type":"app",
 "title":"3DS RAM Dumper",
-"tags":"utilities, system, ARM9, brahma",
+"tags":"utilities, system, ARM9",
 "desc":"Dumps FCRAM to a file.",
 "author":"palantine",
 "long":"",
@@ -1617,7 +1617,7 @@
 "status":"",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[0,0,0,0,0,2,0,0,0,0,0,0]
 },{
 "type":"app",
 "title":"3DS Multi Decryptor",
@@ -1629,7 +1629,7 @@
 "status":"",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[0,0,0,0,2,0,0,0,0,0,2,0]
 },{
 "type":"app",
 "title":"Pokémon Box Dumper",
@@ -1637,11 +1637,11 @@
 "desc":"View your Pokémon stats online.",
 "author":"seanss",
 "long":"",
-"date":"",
+"date":"20160111",
 "status":"",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"Event Assistant",
@@ -1713,7 +1713,7 @@
 "status":"",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"Tinker",
@@ -1721,23 +1721,23 @@
 "desc":"Theme manager for menuhax/shufflehax.",
 "author":"HeyItsJono",
 "long":"",
-"date":"",
+"date":"20151231",
 "status":"",
-"ver":"",
+"ver":"v1.0.2",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"LOVE",
 "tags":"entertainment, ARM11, userland",
 "desc":"A visual homebrew for Undertale fans.",
 "author":"XavyrrVaati",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"LOVE is a visual homebrew. It's an Undertale homebrew aimed at people who played and enjoyed the game, however, LOVE is not a game. It's just a small tribute to the game.",
+"date":"20160323",
+"status":"wip",
+"ver":"v0.09",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"SDmounty",
@@ -1745,23 +1745,23 @@
 "desc":"Mount/unmount SD card without having to shutdown your 3DS.",
 "author":"zoogie",
 "long":"",
-"date":"",
+"date":"20160502",
 "status":"",
-"ver":"",
+"ver":"v1",
 "site":"",
-"comp":""
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
 "title":"MysteryMachine Patcher",
 "tags":"utilities, ARM11, userland, pokemon",
 "desc":"Patches Pokémon XYORAS, allowing you to get whatever current Mystery Gift you wish.",
 "author":"shinyquagsire23",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
-"site":"",
-"comp":""
+"long":"Mystery Machine is a Mystery Gift Spoofing server for Gen VI Pokemon games (XYORAS). It works by spoofing the serial validation and BOSS servers in order to allow the serving of any event desired. The patcher is based on HANS and will dump and modify the code for the Pokemon games in order to redirect them to an alternate server.",
+"date":"20160411",
+"status":"wip",
+"ver":"v0.2",
+"site":"http://mys.salthax.org/",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"Homebr3w",
@@ -1783,7 +1783,7 @@
 "long":"Open source eShop clone for the Nintendo 3DS. Allows you to browse and install titles you own (i.e. titles for which you have the titlekey).",
 "date":"20160530",
 "status":"wip",
-"ver":"v2.1.1",
+"ver":"v2.1.2",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -1817,11 +1817,11 @@
 "desc":"Homebrew chat application for IRC channel #3dshacks.",
 "author":"omikes",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20160126",
+"status":"discontinued",
+"ver":"v1.0",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"OpenRegion",
@@ -1852,12 +1852,12 @@
 "tags":"utilities, wifi, ARM11, userland",
 "desc":"Use your 3DS as a gamepad on your Linux PC.",
 "author":"phijor",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"ctroller lets you use your 3DS as an input device for your Linux system via the uinput kernel module. It consists of a client that runs on your 3DS, continously streaming the 3DS input data to a server on your PC. The server exposes a virtual device to your system, interpretes the data it receives and writes it to a event node under /dev/input/event* or similar.",
+"date":"20160509",
+"status":"wip",
+"ver":"v0.4.0",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"Orchestrina",
@@ -1888,24 +1888,24 @@
 "tags":"Engines, ARM11, userland",
 "desc":"Engine for making 3-D games in LUA using the Ray Casting algorithm.",
 "author":"rinnegatamante",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
-"site":"",
-"comp":""
+"long":"Lua RayCast3D is a 3D Game Engine for Nintendo 3DS which runs under Lua Player Plus 3DS (lpp-3ds). It uses Ray-Casting algorithm (https://en.wikipedia.org/wiki/Ray_casting) to generate a 3D world starting from a 2D map. It runs fullspeed on N3DS with any accuracy value but runs smooth on O3DS only with accuracy values >= 3.",
+"date":"20151230",
+"status":"wip",
+"ver":"v0.1",
+"site":"https://en.wikipedia.org/wiki/Ray_casting",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
 "title":"LövePotion",
 "tags":"Interpreters, engines, LovePotion, ARM11, userland",
-"desc":"Implementation of the LÖVE game API for Lua.",
+"desc":"Implementation of the LÖVE API for 3DS homebrew.",
 "author":"VideahGams",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
-"site":"",
-"comp":""
+"long":"LövePotion is an unofficial work in progress implementation of the LÖVE API for 3DS Homebrew.",
+"date":"20150917",
+"status":"wip",
+"ver":"v1.0.8",
+"site":"https://love2d.org/",
+"comp":[2,1,0,0,0,0,2,1,0,0,0,0]
 },{
 "type":"game",
 "title":"KillerMan: Ghost Buster",
@@ -2013,7 +2013,7 @@
 "status":"",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"The Real Snake",
@@ -2180,7 +2180,7 @@
 "date":"0",
 "status":"discontinued",
 "ver":"",
-"site":"",
+"site":"http://dl.albertosonic.com/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"game",
@@ -2234,7 +2234,7 @@
 "type":"game",
 "title":"3DSHangman",
 "tags":"ARM11, userland, LUA",
-"desc":"Port of Hanging game for PSP. Written in Lua.",
+"desc":"Hanging game written in Lua. Port of Hangman for PSP.",
 "author":"rinnegatamante",
 "long":"",
 "date":"20150120",
@@ -2246,7 +2246,7 @@
 "type":"game",
 "title":"3DS Briscola",
 "tags":"cards, ARM11, userland, LUA",
-"desc":"Briscola card game. Port of PSPBriscola. Written in Lua.",
+"desc":"Briscola card game written in Lua. Port of PSPBriscola.",
 "author":"rinnegatamante",
 "long":"",
 "date":"20141224",
@@ -2457,7 +2457,7 @@
 "status":"",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"Falling Blocks Watch Out",
@@ -2644,72 +2644,72 @@
 "tags":"puzzle, ARM11, userland",
 "desc":"Melt all of the ice in a maze.",
 "author":"Peanut42",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
-"site":"",
-"comp":""
+"long":"The game's objective is to melt every ice space completely on each maze. Port of ThinIce. Original game by Félix Arreola Rodríguez.",
+"date":"20150831",
+"status":"finished",
+"ver":"v1",
+"site":"http://puffles.gatuno.mx/",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"TileMap 2DS",
 "tags":"puzzle, ARM11, userland",
-"desc":"Port of TileMap for 3DS.",
+"desc":"Adaptation of the puzzle game \"TileMap\" for the Nintendo 3DS.",
 "author":"Cid2Mizard",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
-"site":"",
-"comp":""
+"long":"Check you brain abilities in new unusual puzzle TileMap. At each level, you need to locate the tiles in such a manner that their joints will receive a circle of exactly the same color. Replace and rotate the tiles to upbuild the correct map. The larger amount of tiles involved in the game, the more difficult to match them. Remember that at same level you have several correct solutions. You will meet 30 unique levels, where you will spend many hours of gameplay, and even days if you plan to finish the game.",
+"date":"20150414",
+"status":"finished",
+"ver":"v1.1",
+"site":"http://joongly.com/our_games?product_id=56",
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"game",
 "title":"Tiles 2DS",
 "tags":"puzzle, ARM11, userland",
-"desc":"Port of Lights Out for 3DS.",
+"desc":"Unofficial adaptation of the puzzle game \"Tiles\".",
 "author":"Cid2Mizard",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
-"site":"",
-"comp":""
+"long":"Tiles 2DS is a simple yet challenging puzzle game. The goal is to turn all tiles to Yellow side. Tap on a tile to flip it as well as adjacent tiles until the puzzle is solved.",
+"date":"20150402",
+"status":"finished",
+"ver":"v1.1",
+"site":"https://play.google.com/store/apps/details?id=com.fractal.tiles",
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"game",
 "title":"The Legend of Zelda: Return of the Hylian",
 "tags":"RPG, ARM11, userland",
-"desc":"Port of TLoZ Return of the Hylian PC fangame for 3DS.",
+"desc":"Port of the PC fangame \"The Legend of Zelda: Return of the Hylian\" for the 3DS.",
 "author":"nop90",
 "long":"",
-"date":"",
+"date":"20160507",
 "status":"",
-"ver":"",
-"site":"",
-"comp":""
+"ver":"v1.0.2",
+"site":"http://www.zeldaroth.fr/zroth.php",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
 "title":"The Legend of Zelda: Oni Link Begins",
 "tags":"RPG, ARM11, userland",
-"desc":"Port of TLoZ Oni Link Begins PC fangame for 3DS.",
+"desc":"Port of the PC fangame \"The Legend of Zelda: Oni Link Begins\" for the 3DS.",
 "author":"nop90",
 "long":"",
-"date":"",
+"date":"20160607",
 "status":"",
-"ver":"",
-"site":"",
-"comp":""
+"ver":"v0.3a",
+"site":"http://www.zeldaroth.fr/zolb.php",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
 "title":"Insectoid Defense",
-"tags":"puzzle, ARM11, userland",
-"desc":"Futuristic tower defense game.",
+"tags":"ARM11, userland",
+"desc":"A Sci-Fi Tower Defense game.",
 "author":"sgowen",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"A Sci-Fi Tower Defense game for Android, iOS, Windows Phone 8, and Nintendo 3DS!",
+"date":"20150827",
+"status":"finished",
+"ver":"v1.0",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"CS3DS",
@@ -2717,71 +2717,71 @@
 "desc":"Port of CSPSP.",
 "author":"machinamentum",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20160414",
+"status":"discontinued",
+"ver":"v0.6a",
 "site":"",
-"comp":""
+"comp":[1,1,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
 "title":"ctrHexenII",
 "tags":"shooting, ARM11, userland",
 "desc":"Port of Hexen II.",
 "author":"rinnegatamante",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"ctrHexenII is a port of Hexen II for 3DS based on a modified version of winQuake. It supports both basic game and Portal of Praveus DLC and it has been tested with glHexenII pak files. Circle Pad and Touchscreen are also supported for player movement by default, there also is second analog support for N3DS and optional gyroscope support for camera movement. There is also a secret third person mode activable on Options Menu.",
+"date":"20160221",
+"status":"wip",
+"ver":"v1.1",
 "site":"",
-"comp":""
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"game",
 "title":"ctrQuake",
 "tags":"shooting, ARM11, userland",
 "desc":"Port of Quake.",
 "author":"MasterFeizz",
-"long":"",
-"date":"",
+"long":"This is a work in progress port of \"winQuake\" to the 3DS. This only has software rendering for now, so no 3D feature. Also networking hasn't been implemented.",
+"date":"20151020",
 "status":"",
-"ver":"",
+"ver":"v0.7",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
 "title":"ctrWolfen",
 "tags":"shooting, ARM11, userland",
 "desc":"Port of Wolfenstein 3D.",
 "author":"rinnegatamante",
-"long":"",
-"date":"",
+"long":"ctrWolfen is a port of Wolfenstein 3D by idSoftware based on Wolfenstein 3D PSP v.6.0 sourcecode. It runs fullspeed on both O3DS / N3DS in 268 MHZ mode but at this stage it has several bugs and stuffs to add.",
+"date":"20151218",
 "status":"",
-"ver":"",
+"ver":"v0.8",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"EDuke3D",
 "tags":"shooting, ARM11, userland",
 "desc":"Port of EDuke32 (Duke Nukem 3D).",
 "author":"MasterFeizz",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"This is an unofficial port of EDuke32. It is at a playable state, but has some bugs.",
+"date":"20151108",
+"status":"discontinued",
+"ver":"v1.0b",
 "site":"",
-"comp":""
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
 "title":"PrBoom3DS",
 "tags":"shooting, ARM11, userland",
 "desc":"Port of Doom.",
 "author":"elhobbs",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"A version of doom based on prboom 2.5 and code brazenly stolen from dsdoom and other ports. It has 3D and sound - while not exactly perfect it does run. It requires the doom wad files in the root of the sd card as well as the prboom.wad",
+"date":"20141225",
+"status":"discontinued",
+"ver":"v0.2a",
 "site":"",
-"comp":""
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"game",
 "title":"spectre3ds",
@@ -2789,11 +2789,11 @@
 "desc":"Port of Quake.",
 "author":"elhobbs",
 "long":"",
-"date":"",
-"status":"",
+"date":"20150829",
+"status":"discontinued",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"Shoot ya Friend",
@@ -2801,11 +2801,11 @@
 "desc":"Simple 2-player shooter.",
 "author":"YourNerdyJoe",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
-"site":"",
-"comp":""
+"date":"20140718",
+"status":"discontinued",
+"ver":"v2",
+"site":"http://yournerdyjoe.blogspot.com.br/2014/07/3ds-homebrew-shoot-ya-friend.html",
+"comp":[0,0,2,0,0,0,0,0,2,0,0,0]
 },{
 "type":"game",
 "title":"Turtle: Invaders",
@@ -2824,48 +2824,48 @@
 "tags":"shooting, ARM11, userland",
 "desc":"Port of Yeti3D.",
 "author":"smealum",
-"long":"",
+"long":"Quick and very dirty port of yeti3D for the 3DS. Supports touchscreen, circlepad and 3D.",
 "date":"",
 "status":"",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"Hamsters 2DS",
 "tags":"simulation, text, ARM11, userland",
 "desc":"Hamster breeding game in text mode.",
 "author":"Cid2Mizard",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
-"site":"",
-"comp":""
+"long":"This is a hamster breeding game in text mode, more precisely a remake of an old windows game. The game uses only the top screen to keep the spirit of the original game.",
+"date":"20150310",
+"status":"finished",
+"ver":"v1.2.1",
+"site":"http://denouval.chez.com/hamster.htm",
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"game",
 "title":"World of 3DSand",
 "tags":"simulation, ARM11, userland",
 "desc":"World of Sand clone.",
 "author":"Steveice10",
-"long":"",
-"date":"",
+"long":"World of 3DSand is a clone of the simulation game \"World of Sand\" for the 3DS. Right now it contains a decent amount of particle types, with possibly more to come.",
+"date":"20141204",
 "status":"",
-"ver":"",
+"ver":"v1.3.4",
 "site":"",
-"comp":""
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"game",
 "title":"Reunion",
 "tags":"ARM11, userland",
 "desc":"A furry visual novel game.",
 "author":"SonyUSA",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
-"site":"",
-"comp":""
+"long":"After a bad break-up, you return to your hometown for a week to try and get your life back together. It's been 10 years since you've seen any of your old friends and step-mother, who lives widowed in your father's old house. Features a relationship system and multiple-endings, two main characters to choose from (a male wolf and a female fox) and original character sprites and art by Oli-Snowpaw!",
+"date":"20160502",
+"status":"wip",
+"ver":"v0.4a",
+"site":"http://gamejolt.com/games/re-union-a-furry-visual-novel-game/170742",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"Fact Crow",
@@ -2873,35 +2873,35 @@
 "desc":"A crow that tells you facts.",
 "author":"titegtnodI",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
-"site":"",
-"comp":""
+"date":"20141219",
+"status":"discontinued",
+"ver":"r1",
+"site":"http://factcrow.com/",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"PixelRoad",
 "tags":"ARM11, userland, LUA",
 "desc":"Lead a pixel on a tiny road with your stylus.",
 "author":"rinnegatamante",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"In this game, you have to guide a pixel with your touchscreen from a start point (green) to a finish point (blue).",
+"date":"20141203",
+"status":"finished",
+"ver":"v1.0",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"Shooting Watch 3D",
 "tags":"ARM11, userland",
 "desc":"Press buttons as fast as possible.",
 "author":"MrJPGames",
-"long":"",
-"date":"",
-"status":"",
+"long":"Shooting Watch 3D is a game where you press the A or A and B button as fast as possible! It's based on a handeld with the name \"Shooting Watch\" made by hudsonsoft!",
+"date":"20141127",
+"status":"discontinued",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"RPS 3D",
@@ -2909,11 +2909,11 @@
 "desc":"Rock-Paper-Scissors game written in LUA. Port of RPS PSP.",
 "author":"gnmmarechal",
 "long":"",
-"date":"",
+"date":"20160405",
 "status":"",
-"ver":"",
+"ver":"v1.0",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"Undertale (Tech Demo)",
@@ -2921,11 +2921,11 @@
 "desc":"WIP Undertale port.",
 "author":"lolzvid",
 "long":"",
-"date":"",
-"status":"",
+"date":"0",
+"status":"discontinued",
 "ver":"",
 "site":"",
-"comp":""
+"comp":[0,0,0,0,0,0,0,0,0,0,0,0]
 },{
 "type":"game",
 "title":"Waluigi Simulator",
@@ -3664,12 +3664,12 @@
 "tags":"Custom firmware",
 "desc":"Fork of Palantine CFW without emuNAND support.",
 "author":"nop90",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"This is only a simple mod of Palantine CFW without the redirection of NAND R/W to the SD.",
+"date":"20150307",
+"status":"discontinued",
+"ver":"v1",
 "site":"",
-"comp":""
+"comp":[0,0,0,0,0,2,0,0,0,0,0,0]
 },{
 "type":"cfw",
 "title":"Pasta CFW",
@@ -3677,11 +3677,11 @@
 "desc":"Temporarily patches signature checks on sysNAND.",
 "author":"capito27",
 "long":"",
-"date":"",
-"status":"",
-"ver":"",
+"date":"20150520",
+"status":"discontinued",
+"ver":"v1.2.1",
 "site":"",
-"comp":""
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"cfw",
 "title":"MiniPasta",
@@ -4327,7 +4327,7 @@
 "long":"",
 "date":"20160826",
 "status":"wip",
-"ver":"v1.1",
+"ver":"v1.2",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -4520,7 +4520,7 @@
 "date":"20160903",
 "status":"wip",
 "ver":"v1.0",
-"site":"",
+"site":"http://www.retroguru.com/fruity",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -4661,8 +4661,8 @@
 "desc":"Tetris clone for the Nintendo 3DS.",
 "author":"PMedia",
 "long":"This is a simple 3DS Homebrew Game. Don't expect any very funny gameplay, as this is just a test. There are also issues - better don't rotate pieces around the corner, as it may result in a game over screen.",
-"date":"",
-"status":"",
+"date":"20141122",
+"status":"discontinued",
 "ver":"v1.2",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -4686,10 +4686,10 @@
 "author":"cynosura",
 "long":"Gameplay has never be so simple: A bubble spawn at a random position on the touch screen. Each frame, his radius is decremented. You need to touch it before it completely disappears of the screen! When you touch it, a new bubble spawn at a different position and with a different color.",
 "date":"20160905",
-"status":"",
-"ver":"v2.1",
+"status":"wip",
+"ver":"v2.2",
 "site":"",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"Steelhax Installer",
@@ -4698,7 +4698,7 @@
 "author":"VeRoXass",
 "long":"Use this to install steelhax to your system. Requires SteelDiver SubWars and an internet connection.",
 "date":"20160905",
-"status":"",
+"status":"wip",
 "ver":"v1.0",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -4734,8 +4734,32 @@
 "author":"nopy4869",
 "long":"The EXTRORDINARILY poorly named chip 8 emulator for 3DS. Controls are a little flakey, bound to various buttons, but can also be controlled by the touchscreen. This emulator supports 3D, savestates, screen scaling, etc.",
 "date":"20160715",
-"status":"",
+"status":"discontinued",
 "ver":"v1.0",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"type":"game",
+"title":"Retrobattle",
+"tags":"action, ARM11, userland",
+"desc":"Retrobattle port for the 3DS.",
+"author":"nop90",
+"long":"Retrobattle is made to look and feel like the classic arcade-style NES games, such as Ice Climber and Clu Clu Land. Not only are the sprites limited to three colors each, but the scoring, increasing difficulty, and setup of the game makes for a challenging arcade experience that mixes various oldschool concepts. This game was originally implemented in Game Maker by Daniel Remar. This is a port of C++/SDL implementation by Andreas Remar.",
+"date":"20160910",
+"status":"wip",
+"ver":"v0.1a",
+"site":"http://remar.se/andreas/retrobattle/",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"type":"game",
+"title":"Twos! Woods",
+"tags":"puzzle, ARM11, userland",
+"desc":"2048 mixed with Wario Woods for 3DS.",
+"author":"Haze3ds",
+"long":"",
+"date":"20160614",
+"status":"wip",
+"ver":"v0.2",
+"site":"",
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 }]
