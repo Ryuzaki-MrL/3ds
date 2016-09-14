@@ -408,14 +408,14 @@
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
-"title":"Luma Updater",
+"title":"Luma3DS Updater",
 "tags":"utilities, internet, maintenance, ARM11, userland",
 "desc":"Updater for Luma3DS. Formerly known as \"ARN Updater\".",
 "author":"Hamcha",
 "long":"A arm9loaderhax.bin updater for Luma3DS (formerly AuReiNand) as a 3DS homebrew (no more SD swaps!)",
 "date":"20160417",
 "status":"",
-"ver":"v1.4.1",
+"ver":"v1.4.2",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -427,12 +427,12 @@
 "long":"",
 "date":"20160429",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
-"title":"LumaLocaleSwitcher",
+"title":"Luma Locale Switcher",
 "tags":"utilities, maintenance, ARM11, userland",
 "desc":"Front end to Luma3DS compatible locale system.",
 "author":"Possum",
@@ -3835,7 +3835,7 @@
 "long":"A simple homebrew app for 3DS which downloads the link you type in it and saves to the root of your sd card. Useful for people who have broken cameras and cannot scan QR codes. This program can download all file formats (thats why you can download a 3dsx file also). Now supports official keyboard.",
 "date":"20160708",
 "status":"wip",
-"ver":"v2.1",
+"ver":"v2.2",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4375,7 +4375,7 @@
 "long":"",
 "date":"20160902",
 "status":"wip",
-"ver":"v1.0",
+"ver":"v1.1",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4602,8 +4602,8 @@
 "author":"Trinitro21",
 "long":"SmileBASIC File Manager is an application designed to make transferring resources from a PC to SmileBASIC easier.",
 "date":"20160309",
-"status":"",
-"ver":"v1.4",
+"status":"wip",
+"ver":"v1.6",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4782,7 +4782,7 @@
 "author":"jbr373",
 "long":"",
 "date":"20160314",
-"status":"",
+"status":"discontinued",
 "ver":"",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
