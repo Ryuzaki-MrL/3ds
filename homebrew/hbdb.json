@@ -235,7 +235,7 @@
 "long":"",
 "date":"20150924",
 "status":"wip",
-"ver":"v3.0",
+"ver":"v3.1",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -1357,7 +1357,7 @@
 },{
 "type":"app",
 "title":"3DSurfer",
-"tags":"entertainment, multimedia, ARM11, userland, LUA",
+"tags":"multimedia, ARM11, userland, LUA",
 "desc":"WAV sound player.",
 "author":"rinnegatamante",
 "long":"",
@@ -2417,9 +2417,9 @@
 "desc":"Little Alchemy clone for 3DS.",
 "author":"Gocario",
 "long":"",
-"date":"0",
+"date":"20151127",
 "status":"discontinued",
-"ver":"",
+"ver":"v1.3.0b",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -2812,7 +2812,7 @@
 "tags":"shooting, ARM11, userland, multiplayer, LUA, LovePotion",
 "desc":"A fixed-axis shooter with netplay and highscores.",
 "author":"TurtleP",
-"long":"Turtle: Invaders is a fixed-axis 2D shooter where bats come in and it's your job to destroy them. Some will drop powerups that will aid--and some will harm. There are two game modes: Arcade and Endless. Arcade is about getting a general high score based on a small 'story'. In this you'll encounter a mega space bat, raccoon, and a phoenix. Once you've defeated the Phoenix, you win. You can play as various characters who have unique abilities as well. Try them all to find which one you like the best! Endless mode is just that--endless. Try and get the highest score possible!",
+"long":"Turtle: Invaders is a fixed-axis 2D shooter where bats come in and it's your job to destroy them. Some will drop powerups that will aid--and some will harm. There are two game modes: Arcade and Endless. Arcade is about getting a general high score based on a small 'story'. In this you'll encounter a mega space bat, raccoon, and a phoenix. Once you've defeated the Phoenix, you win. You can play as various characters who have unique abilities as well. Endless mode is just that--endless. Try and get the highest score possible!",
 "date":"20160421",
 "status":"wip",
 "ver":"v1.0.2",
@@ -2916,7 +2916,7 @@
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
-"title":"Undertale (Tech Demo)",
+"title":"Undertale 3DS (Tech Demo)",
 "tags":"RPG, ARM11, userland",
 "desc":"WIP Undertale port.",
 "author":"lolzvid",
@@ -3235,7 +3235,7 @@
 "long":"",
 "date":"20160408",
 "status":"",
-"ver":"v0.1.0",
+"ver":"v0.1.1",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -3751,7 +3751,7 @@
 "long":"",
 "date":"20160801",
 "status":"wip",
-"ver":"v4",
+"ver":"v9",
 "site":"",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
@@ -3925,7 +3925,7 @@
 },{
 "type":"app",
 "title":"Muzik Player",
-"tags":"multimedia, music, ARM11, userland",
+"tags":"multimedia, ARM11, userland",
 "desc":"Music player for 3DS.",
 "author":"WoniMK7",
 "long":"",
@@ -4267,7 +4267,7 @@
 "long":"",
 "date":"20160824",
 "status":"wip",
-"ver":"v1.0",
+"ver":"v1.0.2",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -4411,7 +4411,7 @@
 "long":"EntroPipes is a puzzle type game where you have to turn the pipes until they are all connected. Simply press the pipe for rotate. Start button paused the game and X button is for back to the Homebrew Launcher. The game is also avaliable for Linux and Windows. The game is programed on Lua and the framework Löve (for PC) and LövePotion (Nintendo 3DS).",
 "date":"20160209",
 "status":"",
-"ver":"v1",
+"ver":"r3-2",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -4762,4 +4762,28 @@
 "ver":"v0.2",
 "site":"",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
+},{
+"type":"app",
+"title":"OGG Vorbis Player",
+"tags":"multimedia, ARM11, userland",
+"desc":"Simple OGG music player.",
+"author":"machinamentum",
+"long":"",
+"date":"20150705",
+"status":"discontinued",
+"ver":"v0.9",
+"site":"",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"game",
+"title":"Metroid II for 3DS (Tech Demo)",
+"tags":"action, platform, ARM11, userland",
+"desc":"Tech demo to show how a 3DS Metroid Game could look like.",
+"author":"jbr373",
+"long":"",
+"date":"20160314",
+"status":"",
+"ver":"",
+"site":"",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 }]
