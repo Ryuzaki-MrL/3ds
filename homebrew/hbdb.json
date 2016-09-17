@@ -1897,7 +1897,7 @@
 },{
 "type":"app",
 "title":"LövePotion",
-"tags":"Interpreters, engines, LovePotion, ARM11, userland",
+"tags":"Interpreters, engines, LovePotion, LUA, ARM11, userland",
 "desc":"Implementation of the LÖVE API for 3DS homebrew.",
 "author":"VideahGams",
 "long":"LövePotion is an unofficial work in progress implementation of the LÖVE API for 3DS Homebrew.",
@@ -2177,7 +2177,7 @@
 "desc":"Tic Tac Toe game for 3DS.",
 "author":"AlbertoSONIC",
 "long":"",
-"date":"0",
+"date":"",
 "status":"discontinued",
 "ver":"",
 "site":"http://dl.albertosonic.com/",
@@ -2740,10 +2740,10 @@
 "tags":"shooting, ARM11, userland",
 "desc":"Port of Quake.",
 "author":"MasterFeizz",
-"long":"This is a work in progress port of \"winQuake\" to the 3DS. This only has software rendering for now, so no 3D feature. Also networking hasn't been implemented.",
+"long":"This is a work in progress port of \"winQuake\" to the 3DS. This only has software rendering for now, so no 3D feature. You can host and also join online servers.",
 "date":"20151020",
-"status":"",
-"ver":"v0.7",
+"status":"wip",
+"ver":"v0.8",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3276,7 +3276,7 @@
 "comp":[1,0,0,0,0,0,1,0,0,0,0,0]
 },{
 "type":"emu",
-"title":"BreadBox",
+"title":"Bread Box",
 "tags":"emulators, computers, ARM11, userland",
 "desc":"Commodore 64 emulator for 3DS.",
 "author":"Spinal Cord",
@@ -3643,7 +3643,7 @@
 "long":"",
 "date":"20160119",
 "status":"wip",
-"ver":"v6.2",
+"ver":"v6.2.1",
 "site":"https://github.com/AuroraWright/Luma3DS/wiki",
 "comp":[2,0,0,2,0,0,2,0,0,2,0,0]
 },{
@@ -4798,4 +4798,28 @@
 "ver":"v1",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"type":"game",
+"title":"kSketch",
+"tags":"action, platform, ARM11, userland",
+"desc":"Etch A Sketch program for the 3DS.",
+"author":"thekman",
+"long":"",
+"date":"20141204",
+"status":"discontinued",
+"ver":"v1",
+"site":"",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"type":"game",
+"title":"Lemmings",
+"tags":"puzzle, platform, ARM11, userland",
+"desc":"Clone of the DOS videogame \"Lemmings\" for the 3DS.",
+"author":"Matthias",
+"long":"Clone of the DOS videogame \"Lemmings\" for the 3DS. Still in (very slow) development, so some features are missing.",
+"date":"20160916",
+"status":"wip",
+"ver":"v1",
+"site":"",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 }]
