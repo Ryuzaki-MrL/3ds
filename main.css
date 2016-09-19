@@ -9,13 +9,6 @@ body {
   min-width:600px;
   font-size:12.5pt;
 }
-a, a:visited {
-  color:green;
-}
-a:hover {
-  cursor:pointer;
-  text-decoration:underline;
-}
 h1, h2, h3 {
   font-family:arial;
   text-align:left;
@@ -25,7 +18,14 @@ p, li {
   font-family:calibri;
   text-align:left;
 }
-ul {
+a, a:visited {
+  color:green;
+}
+a:hover {
+  cursor:pointer;
+  text-decoration:underline;
+}
+ul:not(.normal) {
   list-style-type:none;
   padding:0;
   text-align:center;
@@ -43,7 +43,7 @@ ul a, ul a:visited {
   overflow:hidden;
   position:relative;
 }
-.hb_entry, .dev_entry {
+.details {
   display:none;
   border:2px solid black;
   background-color:#eeeeee;
@@ -57,40 +57,48 @@ ul a, ul a:visited {
   position:fixed;
   z-index:1;
 }
-#icon {
-  display:block;
-  text-align:center;
-  padding-top:32px;
-}
-#title {
+.details #title {
   line-height:48px;
   display:inline-block;
   text-align:center;
   text-shadow:1px 1px 0 #aaa;
   vertical-align:middle;
 }
-#sshot {
-  float:right;
-  padding-right:20px;
-}
-#info {
-  padding-left:20px;
-  height:160px;
-}
-#info_d {
+.details #desc {
   padding-left:20px;
   padding-right:20px;
   height:88px;
   margin:0;
 }
-#btm_x {
+.details #btm_x {
   background:url(homebrew/btm_x.png);
   width:28px;
   height:28px;
   float:right;
   display:inline;
 }
-.screenshot {
+.details .icon {
+  display:block;
+  text-align:center;
+  padding-top:32px;
+}
+.details .screenshot {
+  float:right;
+  padding-right:20px;
+}
+.details .info {
+  padding-left:20px;
+  height:160px;
+}
+.details .contrib {
+  padding-left:20px;
+  height:300px;
+  text-align:center;
+  background-color:white;
+  overflow-y:scroll;
+  font-size:11pt;
+}
+.screenshot img {
   width:120px;
 }
 .show {
@@ -150,27 +158,13 @@ ul.list li {
   line-height:21px;
   position:relative;
 }
-#dev_list ul.list li {
-  height:106px;
-}
-.icon {
-  padding:18px 24px;
-  float:left;
-}
-.pic {
-  padding:9px 20px;
-  float:left;
-}
-.i {
-  border-radius:4px;
-}
-.flag {
-  vertical-align:text-top;
-}
-.title, .desc, .author, .user, .name, .location {
+.list .vdata {
   padding-left:96px;
   padding-right:16px;
   display:block;
+}
+.list .hdata {
+  display:none;
 }
 .title:hover, .user:hover {
   text-decoration:underline;
@@ -178,8 +172,22 @@ ul.list li {
 .desc {
   height:42px;
 }
-.tags, .release, .cat, .status {
-  display:none;
+.flag {
+  vertical-align:text-top;
+}
+.icon img {
+  border-radius:4px;
+}
+#hb_list .icon {
+  padding:18px 24px;
+  float:left;
+}
+#dev_list .icon {
+  padding:9px 20px;
+  float:left;
+}
+#dev_list li {
+  height:106px;
 }
 .search {
   width:360px;
@@ -235,7 +243,7 @@ ul.list li {
   .none {
     display:none;
   }
-  .hb_entry {
+  .details {
     margin-left:-260px;
   }
   .container {

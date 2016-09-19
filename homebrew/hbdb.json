@@ -79,7 +79,7 @@
 "long":"3DS homebrew application intended booting the *hax payloads. This will first attempt to load the payload from SD, if that isn't successful it will then automatically download the payload for your system with HTTP.",
 "date":"20151125",
 "status":"wip",
-"ver":"v1.1",
+"ver":"v1.2",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -4822,4 +4822,40 @@
 "ver":"v1",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"type":"cfw",
+"title":"Lima3DS",
+"tags":"custom firmware, arm9loaderhax, emunand",
+"desc":"A rxTools-like modern CFW.",
+"author":"Billy Acuña",
+"long":"Lima3DS is a fork of both Decrypt9 and Luma3DS which its only intention is to be a rxTools-like CFW+Toolkit in a nice-looking frontend.",
+"date":"0",
+"status":"wip",
+"ver":"",
+"site":"",
+"comp":[0,0,0,2,0,0,0,0,0,2,0,0]
+},{
+"type":"app",
+"title":"Custom Version Setter",
+"tags":"utilities, ARM11, userland",
+"desc":"Custom Version Setter for Luma3DS.",
+"author":"Bernardo Giordano",
+"long":"You can now edit your system version directly from the 3DS. You'll be returned immediately to the home menu, then just open system settings to see your changes. The application automatically adjusts the string if your version doesn't match 19 characters.",
+"date":"20160917",
+"status":"wip",
+"ver":"v1.0.1",
+"site":"",
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"type":"emu",
+"title":"Pituka Classics: Rick Dangerous",
+"tags":"emulators, computers, ARM11, userland",
+"desc":"Virtual Console style CPC MonoGame Emulator. This release includes \"Rick Dangerous\".",
+"author":"D_Skywalk",
+"long":"Pituka/Wituka is an Amstrad CPC Computer Emulator very popular in Europe, mainly in the United Kingdom, France, Spain and Germany (where the CPC was sold under the Schneider brand).",
+"date":"20160226",
+"status":"",
+"ver":"v1",
+"site":"",
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 }]
