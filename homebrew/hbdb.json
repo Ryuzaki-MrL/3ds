@@ -127,7 +127,7 @@
 "long":"",
 "date":"20150201",
 "status":"wip",
-"ver":"20160823",
+"ver":"20160919",
 "site":"",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -139,7 +139,7 @@
 "long":"Open source EmuNAND SD formatter & manager for the 3DS console aka. \"The final nail in the coffin of GW software for GW non-owners'",
 "date":"20151215",
 "status":"wip",
-"ver":"20160606",
+"ver":"20160919",
 "site":"",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -799,7 +799,7 @@
 "long":"This is a small homebrew application for listing and extracting files from a mounted romfs drive.",
 "date":"20160713",
 "status":"wip",
-"ver":"v1.0",
+"ver":"v1.0.1",
 "site":"",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -1579,7 +1579,7 @@
 "long":"3DSident is a tool inspired by PSPident. The tool was used to obtain more information about your PSP's motherboard, firmware etc. Similarly, 3DSident aims to display more information about your 3DS. It is a fork of Wolfvak's ctr_vercheck.",
 "date":"20160727",
 "status":"wip",
-"ver":"v0.4",
+"ver":"v0.5",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1879,7 +1879,7 @@
 "long":"EasyRPG Player is part of the EasyRPG Project. More information is available at the project website: <a href='https://easyrpg.org/'>https://easyrpg.org/</a>",
 "date":"20160321",
 "status":"wip",
-"ver":"v0.4.1",
+"ver":"v0.5.0",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -2983,7 +2983,7 @@
 "long":"",
 "date":"20160725",
 "status":"wip",
-"ver":"v0.5",
+"ver":"v0.6",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3127,7 +3127,7 @@
 "long":"",
 "date":"20150806",
 "status":"wip",
-"ver":"v0.4.1",
+"ver":"v0.5.0",
 "site":"",
 "comp":[1,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3643,7 +3643,7 @@
 "long":"",
 "date":"20160119",
 "status":"wip",
-"ver":"v6.2.1",
+"ver":"v6.2.3",
 "site":"https://github.com/AuroraWright/Luma3DS/wiki",
 "comp":[2,0,0,2,0,0,2,0,0,2,0,0]
 },{
@@ -4723,7 +4723,7 @@
 "long":"3DSafe is an arm9loaderhax payload which will lock your sysnand with a PIN. The PIN request is displayed as soon as the 3DS is powered on. Because the 3DSafe payload is the A9LH stage1/stage2 payload, it is stored in NAND itself, not on the SD card. After successfully entering the PIN, arm9loaderhax.bin is loaded from the SD card.",
 "date":"20160907",
 "status":"wip",
-"ver":"v0.1",
+"ver":"v0.10",
 "site":"",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
@@ -4819,7 +4819,7 @@
 "long":"Clone of the DOS videogame \"Lemmings\" for the 3DS. Still in (very slow) development, so some features are missing.",
 "date":"20160916",
 "status":"wip",
-"ver":"v1",
+"ver":"v0.2.1",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -4858,4 +4858,28 @@
 "ver":"v1",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"type":"app",
+"title":"BiPoLAR",
+"tags":"utilities, system, ARM11, userland",
+"desc":"Bifunctional Power Light Administrator. Toggles the 3DS power LED on/off.",
+"author":"Spaqin",
+"long":"It's really simple, but still very useful for playing during the night. Power LED is reset on sleep and reboot (not soft reboot, like Smash does on o3DS).",
+"date":"20160920",
+"status":"wip",
+"ver":"v0.01",
+"site":"",
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"type":"app",
+"title":"Flite 3DS Example",
+"tags":"engines, ARM11, userland",
+"desc":"3DS Homebew example using Flite TTS Engine.",
+"author":"Cruel",
+"long":"This is a simple example of how to use the Flite voice synthesizing engine to speak text.",
+"date":"20160920",
+"status":"wip",
+"ver":"v1.0",
+"site":"",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 }]
