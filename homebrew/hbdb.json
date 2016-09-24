@@ -1288,7 +1288,7 @@
 "tags":"utilities, system, ARM11, kernel",
 "desc":"CIA manager with a nice GUI, language selection and cover art support.",
 "author":"Howling Wolf, Chelsea_Fantasy",
-"long":"SOON! is a good-looking install-&-delete legal CIA Installer. It is a easy to use CIA installer with "AUTOMATIC" cover selection based in the CIA's unique ID.",
+"long":"SOON! is a good-looking install-&-delete legal CIA Installer. It is a easy to use CIA installer with \"AUTOMATIC\" cover selection based in the CIA's unique ID.",
 "date":"20150422",
 "status":"discontinued",
 "ver":"v1.5",
