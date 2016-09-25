@@ -258,8 +258,8 @@
 "author":"SALT Team",
 "long":"This exists to distribute 3DS userland exploits developed by the SALT team for booting the homebrew launcher (*hax).",
 "date":"20160430",
-"status":"wip",
-"ver":"v2.3",
+"status":"",
+"ver":"v2.5",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -1528,10 +1528,10 @@
 "tags":"utilities, files, ARM11, userland",
 "desc":"Barebones ZIP-based SFX extractor for the 3DS console.",
 "author":"d0k3",
-"long":"",
-"date":"",
+"long":"ZIP3DSFX is a ZIP-based SFX extractor for the 3DS console. It has two main build modes plus multiple configuration options.\nSFX Hard Mode: This mode hardcodes the archive.zip into the ZIP3DSFX.3dsx executable. To use this, rename your ZIP archive to 'archive.zip', put it into the data directory and compile with 'make sfx_hard'.\nSFX Stub Mode: This mode creates a SFX stub, the actual archive.zip has to be attached to the end of the ZIP3DSFX.3dsx. Compile this with 'make sfx_stub'. Files are attached (on Windows) via 'copy /b ZIP3DSFX.3dsx + archive.zip myZIP3DSFX.3dsx'.",
+"date":"20151206",
 "status":"discontinued",
-"ver":"",
+"ver":"v0.6",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -1686,8 +1686,8 @@
 "author":"MrCheeze",
 "long":"",
 "date":"20141231",
-"status":"",
-"ver":"",
+"status":"finished",
+"ver":"v1",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1708,10 +1708,10 @@
 "tags":"utilities, ARM11, userland",
 "desc":"Extract SMDH from selected title.",
 "author":"suloku",
-"long":"",
-"date":"",
-"status":"",
-"ver":"",
+"long":"Press A and the SMDH file will be dumped to the folder of the executable 3dsx file. They are named \"high title ID - low title ID.smdh\" because using the app name will need to deal with forbidden characters not allowed in fat32 filesystem. Note: there's no feedback when the SMDH is dumped, so after pressing A on a title it would seem as if nothing happened.",
+"date":"20151004",
+"status":"finished",
+"ver":"v1",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -1735,7 +1735,7 @@
 "long":"LOVE is a visual homebrew. It's an Undertale homebrew aimed at people who played and enjoyed the game, however, LOVE is not a game. It's just a small tribute to the game.",
 "date":"20160323",
 "status":"wip",
-"ver":"v0.09",
+"ver":"v0.10",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -2176,7 +2176,7 @@
 "tags":"board, logic, ARM11, userland",
 "desc":"Tic Tac Toe game for 3DS.",
 "author":"AlbertoSONIC",
-"long":"",
+"long":"With this app you can play at tic tac toe against your friend right on your 3DS!",
 "date":"",
 "status":"discontinued",
 "ver":"",
@@ -2611,7 +2611,7 @@
 "long":"Tetronomino 3DS is a tetris remake. Ported for 3DS by CKlidify. Original game by Todd Nelling.",
 "date":"20151020",
 "status":"finished",
-"ver":"",
+"ver":"v1",
 "site":"http://www.toddnelling.com/lua.html",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -2980,11 +2980,11 @@
 "tags":"emulators, ARM11, home console, Nintendo, userland",
 "desc":"Port of snes9x, an SNES emulator, heavily optimised for the Old 3DS.",
 "author":"bubble2k16",
-"long":"",
+"long":"Snes9x for 3DS is a high-compatibility SNES emulator for your old 3DS / 2DS. It runs many games at full speed (60 fps). It supports games that use CX4 chip (Megaman X2/X3), and the SDD-1 chip (Star Ocean, Super Street Fighter 2 Alpha). It can also play games that use the SuperFX chip (Yoshi's Island, etc) but they run with plenty of frame skips. It has generally much high compatibility than existing SNES emulators on the old 3DS because it uses Snes9x 1.43 as a base, and is a good alternative if your existing emulators cannot play all the games. It also runs faster on your new 3DS!",
 "date":"20160725",
 "status":"wip",
-"ver":"v0.6",
-"site":"",
+"ver":"v0.61",
+"site":"https://bubble2k16.github.io/snes9x_3ds/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"emu",
@@ -3148,7 +3148,7 @@
 "tags":"emulators, Nintendo, handheld, ARM11, userland, pokemon",
 "desc":"Pokémon Mini emulator for 3DS. Port of PokeMini.",
 "author":"nop90",
-"long":"",
+"long":"This is a Pokemon Mini emulator for 3DS. The emulator runs fullspeed on o3DS and n3DS. It runs 72 FPS emulated (36 FPS real with 1 frameskip). This is a port on 3DS of the excellent Pokemini v0.6 by JustBurn.",
 "date":"20150903",
 "status":"wip",
 "ver":"v1.0a",
@@ -3292,11 +3292,11 @@
 "tags":"emulators, computers, engines, ARM11, userland",
 "desc":"Port of SCUMMVM for the 3DS.",
 "author":"Cruel",
-"long":"",
+"long":"ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed!",
 "date":"20160406",
 "status":"wip",
 "ver":"v0.3",
-"site":"",
+"site":"http://scummvm.org/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"emu",
@@ -4120,7 +4120,7 @@
 "tags":"arcade, ARM11, userland",
 "desc":"Port of Njam, an open source pacman-like game.",
 "author":"nop90",
-"long":"",
+"long":"Njam ia a pacman-like game well known for it's distributions on linux and has been ported on many platform. It has a lot of levelset and isn't as simply as you may think.",
 "date":"20160814",
 "status":"",
 "ver":"v1.0a",
@@ -4218,9 +4218,9 @@
 "author":"Ryuzaki_MrL",
 "long":"This is a small homebrew application for downloading *hax 2.7 custom memmap XML files, needed for booting titles that are using seed encryption added in 9.6.0-24. Files are downloaded from https://github.com/ihaveamac/9.6-dbgen-xmls.",
 "date":"20160822",
-"status":"wip",
+"status":"finished",
 "ver":"v1.0",
-"site":"",
+"site":"https://github.com/ihaveamac/9.6-dbgen-xmls",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -4250,12 +4250,12 @@
 "type":"app",
 "title":"NTR Launcher",
 "tags":"utilities, loaders, NDS",
-"desc":"A stripped down version of NitroHax that just launches the cart in slot-1.",
+"desc":"Bring back that classic DS boot screen for your DS games!",
 "author":"Apache Thunder",
-"long":"",
+"long":"This is \"NTR Launcher\". A stripped down optimized version of NitroHax but without the cheat code system. This simply launches the game you have in SLOT-1.",
 "date":"20160823",
 "status":"wip",
-"ver":"v0.9b",
+"ver":"v1.9.2",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -4279,7 +4279,7 @@
 "long":"",
 "date":"20150121",
 "status":"discontinued",
-"ver":"",
+"ver":"v0.1b",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -4327,7 +4327,7 @@
 "long":"",
 "date":"20160826",
 "status":"wip",
-"ver":"v1.2",
+"ver":"v1.3",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -4894,4 +4894,16 @@
 "ver":"v210916",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"type":"app",
+"title":"3DSSCalc",
+"tags":"utilities, math, ARM11, userland",
+"desc":"A basic scientific calculator for 3DS.",
+"author":"RLilligant",
+"long":"",
+"date":"20160925",
+"status":"wip",
+"ver":"v2",
+"site":"",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 }]
