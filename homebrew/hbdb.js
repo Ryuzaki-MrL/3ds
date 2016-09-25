@@ -129,7 +129,10 @@ $.getJSON("hbdb.json", function(json) {
     });
 
     $('#select_p').change(function() {
-        hbList.page = parseInt(this.options[this.options.selectedIndex].value);
+        var value = parseInt(this.options[this.options.selectedIndex].value);
+        if (value==999) $('.pagination').hide()
+        else $('.pagination').show();
+        hbList.page = value;
         hbList.search($('.search').val());
     });
 

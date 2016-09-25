@@ -40,9 +40,9 @@
 "tags":"utilities, ARM11, userland",
 "desc":"Dump a game's contents to the SD card.",
 "author":"neobrain",
-"long":"braindump is a 3DS homebrew application that can dump 3DS titles, i.e. cartridge and eShop games, but also other installed content. Since it runs entirely in userland, it runs on any system version supported by the Homebrew Launcher.",
+"long":"Braindump is a 3DS homebrew application that can dump 3DS titles, i.e. cartridge and eShop games, but also other installed content. Since it runs entirely in userland, it runs on any system version supported by the Homebrew Launcher.",
 "date":"20151228",
-"status":"discontinued",
+"status":"finished",
 "ver":"v1.0",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -1458,7 +1458,7 @@
 "author":"mashers",
 "long":"",
 "date":"20150917",
-"status":"",
+"status":"discontinued",
 "ver":"Beta 136",
 "site":"https://github.com/mashers/3ds_hb_menu/wiki",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -1470,7 +1470,7 @@
 "author":"ihaveamac",
 "long":"",
 "date":"20151030",
-"status":"discontinued",
+"status":"finished",
 "ver":"v2.21",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -4673,7 +4673,7 @@
 "desc":"Open Source text editor with an old mobile phone like keyboard.",
 "author":"K0ryan",
 "long":"",
-"date":"0",
+"date":"20160906",
 "status":"wip",
 "ver":"",
 "site":"",
@@ -4866,7 +4866,7 @@
 "author":"Spaqin",
 "long":"It's really simple, but still very useful for playing during the night. Power LED is reset on sleep and reboot (not soft reboot, like Smash does on o3DS).",
 "date":"20160920",
-"status":"wip",
+"status":"finished",
 "ver":"v0.01",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
