@@ -2983,7 +2983,7 @@
 "long":"Snes9x for 3DS is a high-compatibility SNES emulator for your old 3DS / 2DS. It runs many games at full speed (60 fps). It supports games that use CX4 chip (Megaman X2/X3), and the SDD-1 chip (Star Ocean, Super Street Fighter 2 Alpha). It can also play games that use the SuperFX chip (Yoshi's Island, etc) but they run with plenty of frame skips. It has generally much high compatibility than existing SNES emulators on the old 3DS because it uses Snes9x 1.43 as a base, and is a good alternative if your existing emulators cannot play all the games. It also runs faster on your new 3DS!",
 "date":"20160725",
 "status":"wip",
-"ver":"v0.61",
+"ver":"v0.62",
 "site":"https://bubble2k16.github.io/snes9x_3ds/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3643,7 +3643,7 @@
 "long":"",
 "date":"20160119",
 "status":"wip",
-"ver":"v6.3",
+"ver":"v6.3.1",
 "site":"https://github.com/AuroraWright/Luma3DS/wiki",
 "comp":[2,0,0,2,0,0,2,0,0,2,0,0]
 },{
@@ -3697,7 +3697,7 @@
 },{
 "type":"cfw",
 "title":"ReiNAND",
-"tags":"ninjhax, emuNAND, new 3ds, old 3ds, arm9loaderhax",
+"tags":"ninjhax, emuNAND, arm9loaderhax",
 "desc":"The original open source N3DS Custom Firmware! Now with O3DS support!",
 "author":"Reisyukaku",
 "long":"ReiNand started off as a minimalistic custom firmware for N3DS exclusively. At the time, all other open source cfw were O3DS exclusive so it was developed mainly for N3DS. With the shift in standards, support for both was added.",
@@ -3714,9 +3714,9 @@
 "author":"roxas75",
 "long":"",
 "date":"20150228",
-"status":"",
+"status":"discontinued",
 "ver":"v3.0b2",
-"site":"",
+"site":"http://rxtools.net/",
 "comp":[2,0,0,0,2,2,2,0,0,0,2,2]
 },{
 "type":"cfw",
@@ -3820,9 +3820,9 @@
 "tags":"utilities, internet, ARM11, userland",
 "desc":"Updater for 3DS applications/a9lh payloads.",
 "author":"LiquidFenrir",
-"long":"",
+"long":"MultiUpdater or µpdtr for short, is an updater/downloader for 3ds applications/a9lh payloads/various files written in C.",
 "date":"20160712",
-"status":"wip",
+"status":"",
 "ver":"v1.0",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
@@ -3858,8 +3858,8 @@
 "author":"Reisyukaku",
 "long":"Parses account information and displays it. Press A to launch eshop.",
 "date":"20160617",
-"status":"",
-"ver":"v0.1",
+"status":"wip",
+"ver":"v0.2",
 "site":"",
 "comp":[0,2,2,0,0,0,0,2,2,0,0,0]
 },{
@@ -4264,7 +4264,7 @@
 "tags":"apple, macintosh, ARM11, userland",
 "desc":"WIP Port of the Macintosh emulator Mini vMac. Macintosh Plus 4MB Variant.",
 "author":"TaraHoleInIt",
-"long":"",
+"long":"This version is the Macintosh Plus with 4MB variant, others may be supported later. Make sure you have a valid Macintosh Plus ROM image and place it in /3ds/vmac/ along with the files in the release archive. Note: Disk images must be auto loaded at runtime so make sure they're named diskX.dsk where X is 1 to how many images you want to load. Have your OS image already to go before copying your disks to your 3DS as you cannot swap disks to complete the install on the 3DS. There is no sound.",
 "date":"20160824",
 "status":"wip",
 "ver":"v1.0.2",
@@ -4446,7 +4446,7 @@
 "author":"Aiscrim",
 "long":"Forked from CIAngel, this program is a simple approach to avoiding writing ids and keys when downloading games. It needs input.txt with a list of aliases associated with ids and encrypted keys.",
 "date":"20160422",
-"status":"",
+"status":"discontinued",
 "ver":"v1.0",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
@@ -4519,7 +4519,7 @@
 "long":"Fruit'Y - Playing with edibles is heavily inspired by the Kaiko classic Gem'X. The game consists of two boards of fruits. The left field belongs to Sheran who needs to reproduce the right field 1:1 being able to proceed to the next level. Sounds easy?! There is a total of five fruits. Once you control Sheran's prank and activate a field, the fruit inside the activated field morphs two steps, while the other fields located above, below, to the left and to the right, morph the fruit located inside only once.",
 "date":"20160903",
 "status":"wip",
-"ver":"v1.0",
+"ver":"v1.0b",
 "site":"http://www.retroguru.com/fruity",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4542,7 +4542,7 @@
 "author":"Jwiz33",
 "long":"",
 "date":"20151025",
-"status":"",
+"status":"finished",
 "ver":"v1",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -4819,9 +4819,9 @@
 "long":"Clone of the DOS videogame \"Lemmings\" for the 3DS. Still in (very slow) development, so some features are missing.",
 "date":"20160916",
 "status":"wip",
-"ver":"v0.2.1",
+"ver":"v0.2.2",
 "site":"",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"cfw",
 "title":"Lima3DS",
@@ -4903,7 +4903,19 @@
 "long":"",
 "date":"20160925",
 "status":"wip",
-"ver":"v2",
+"ver":"v4.2",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"type":"app",
+"title":"Newquay",
+"tags":"utilities, ARM11, userland",
+"desc":"Help install new additions to that titlekey site.",
+"author":"hippydave",
+"long":"Run Newquay and get it to download the decTitleKeys.bin, then reboot to Decrypt9 and encrypt it to encTitleKeys.bin.... reboot, run Newquay, choose a title and it will make you an input.txt. Open that with CIAngel and your chosen game will be installed.",
+"date":"20160927",
+"status":"wip",
+"ver":"v0.2",
+"site":"",
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 }]
