@@ -772,7 +772,7 @@
 "tags":"utilities, LUA, ARM11, userland, Pokémon, pokemon",
 "desc":"Pokédex homebrew with a GUI.",
 "author":"ddraco",
-"long":"This is the first Pokedex created for the 3DS, but at the moment it lacks one thing: the Data.",
+"long":"This is the first Pokedex created for the 3DS, but at the moment it lacks one thing: the data.",
 "date":"20151015",
 "status":"",
 "ver":"v0.4.1",
@@ -783,11 +783,11 @@
 "title":"DSi Homebrew Menu Loader",
 "tags":"Loaders, NDS",
 "desc":"DSi Homebrew Menu as a DSiWare CIA.",
-"author":"ahezard",
-"long":"",
+"author":"ahezard, Apache Thunder",
+"long":"The Homebrew Menu is a simple launcher menu which can be used to replace the menu on several DS flashcards. This menu supports the argv protocol needed for devkitARM compiled applications to make use of nitrofs as well as providing a soft reset feature where applications can exit back to the menu.",
 "date":"20160229",
-"status":"finished",
-"ver":"v1",
+"status":"wip",
+"ver":"v0.5.0b5",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -1231,7 +1231,7 @@
 "long":"It loads all the needed files from the SD card (no more need to build console-specific installers), and it's really fast. Other than that, it's way safer than the original one, as it does various checks.",
 "date":"20160319",
 "status":"wip",
-"ver":"v2.0.3",
+"ver":"v2.5.1",
 "site":"",
 "comp":[2,0,0,2,0,2,2,0,0,2,0,2]
 },{
@@ -1579,7 +1579,7 @@
 "long":"3DSident is a tool inspired by PSPident. The tool was used to obtain more information about your PSP's motherboard, firmware etc. Similarly, 3DSident aims to display more information about your 3DS. It is a fork of Wolfvak's ctr_vercheck.",
 "date":"20160727",
 "status":"wip",
-"ver":"v0.5",
+"ver":"v0.6",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1783,7 +1783,7 @@
 "long":"Open source eShop clone for the Nintendo 3DS. Allows you to browse and install titles you own (i.e. titles for which you have the titlekey).",
 "date":"20160530",
 "status":"wip",
-"ver":"v2.1.2",
+"ver":"v2.1.3",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -2983,7 +2983,7 @@
 "long":"Snes9x for 3DS is a high-compatibility SNES emulator for your old 3DS / 2DS. It runs many games at full speed (60 fps). It supports games that use CX4 chip (Megaman X2/X3), and the SDD-1 chip (Star Ocean, Super Street Fighter 2 Alpha). It can also play games that use the SuperFX chip (Yoshi's Island, etc) but they run with plenty of frame skips. It has generally much high compatibility than existing SNES emulators on the old 3DS because it uses Snes9x 1.43 as a base, and is a good alternative if your existing emulators cannot play all the games. It also runs faster on your new 3DS!",
 "date":"20160725",
 "status":"wip",
-"ver":"v0.62",
+"ver":"v0.63b",
 "site":"https://bubble2k16.github.io/snes9x_3ds/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4255,7 +4255,7 @@
 "long":"This is \"NTR Launcher\". A stripped down optimized version of NitroHax but without the cheat code system. This simply launches the game you have in SLOT-1.",
 "date":"20160823",
 "status":"wip",
-"ver":"v1.9.2",
+"ver":"v1.9.4",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -4856,7 +4856,7 @@
 "date":"20160226",
 "status":"",
 "ver":"v1",
-"site":"",
+"site":"http://david.dantoine.org/proyecto/26/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -4918,4 +4918,40 @@
 "ver":"v0.2",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"type":"app",
+"title":"Pocket-NLSE",
+"tags":"utilities, savefile, ARM11, userland",
+"desc":"A portable save editor for Animal Crossing: New Leaf on the Nintendo 3DS.",
+"author":"dragos240",
+"long":"",
+"date":"20160930",
+"status":"wip",
+"ver":"v0.1.0a",
+"site":"",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"game",
+"title":"Sqrxz4",
+"tags":"puzzle, platformer, ARM11, userland",
+"desc":"Port of Sqrxz4 for the 3DS.",
+"author":"Retroguru Team",
+"long":"After Sqrxz saving Yve in “Sqrxz 3 – Adventure for Love” it was truly a happy moment. Being still heavily in love they decided that the time for a tiny wedding ceremony has come. Couple of months later both were sure that the time for an own small family has come. Although those are happy news Sqrxz is consequently short of money and a growing family requires a solid financial base. Picking up a newspaper and reading the job offers, a single add caught Sqrxz’s attention. An expedition in search of ice marbles needs a brave explorer. This sounds like a job for Sqrxz!",
+"date":"20161007",
+"status":"wip",
+"ver":"v2",
+"site":"http://www.sqrxz.de/sqrxz-4/",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"app",
+"title":"SpecializeMii",
+"tags":"utilities, savefile, ARM11, userland",
+"desc":"Golden pants for everyone!",
+"author":"phijor",
+"long":"SpecializeMii is an application for the Nintendo 3DS that allows you to set the special-Status on abitrary Miis in your MiiMaker database. Normally reserved only for Miis distributed by Nintendo, a special Mii wears Golden Pants and triggers special events in certain applications.",
+"date":"20161008",
+"status":"wip",
+"ver":"v0.1.0",
+"site":"",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 }]
