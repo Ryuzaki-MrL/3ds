@@ -1435,7 +1435,7 @@
 "long":"",
 "date":"20150928",
 "status":"discontinued",
-"ver":"v1.9",
+"ver":"v2.3.2",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -1579,7 +1579,7 @@
 "long":"3DSident is a tool inspired by PSPident. The tool was used to obtain more information about your PSP's motherboard, firmware etc. Similarly, 3DSident aims to display more information about your 3DS. It is a fork of Wolfvak's ctr_vercheck.",
 "date":"20160727",
 "status":"wip",
-"ver":"v0.6",
+"ver":"v0.6.1",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3127,7 +3127,7 @@
 "long":"",
 "date":"20150806",
 "status":"wip",
-"ver":"v0.5.0",
+"ver":"v0.5.1",
 "site":"",
 "comp":[1,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4819,7 +4819,7 @@
 "long":"Clone of the DOS videogame \"Lemmings\" for the 3DS. Still in (very slow) development, so some features are missing.",
 "date":"20160916",
 "status":"wip",
-"ver":"v0.2.2",
+"ver":"v0.3.1",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4939,7 +4939,7 @@
 "long":"After Sqrxz saving Yve in “Sqrxz 3 – Adventure for Love” it was truly a happy moment. Being still heavily in love they decided that the time for a tiny wedding ceremony has come. Couple of months later both were sure that the time for an own small family has come. Although those are happy news Sqrxz is consequently short of money and a growing family requires a solid financial base. Picking up a newspaper and reading the job offers, a single add caught Sqrxz’s attention. An expedition in search of ice marbles needs a brave explorer. This sounds like a job for Sqrxz!",
 "date":"20161007",
 "status":"wip",
-"ver":"v2",
+"ver":"v1.01",
 "site":"http://www.sqrxz.de/sqrxz-4/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4952,6 +4952,18 @@
 "date":"20161008",
 "status":"wip",
 "ver":"v0.1.0",
+"site":"",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"game",
+"title":"Memory 3DS",
+"tags":"puzzle, ARM11, userland",
+"desc":"A 3DS memory game!",
+"author":"Omegadrien",
+"long":"A memory game for Nintendo 3DS. Have fun playing this game!",
+"date":"20161013",
+"status":"wip",
+"ver":"v1.0",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 }]
