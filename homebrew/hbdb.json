@@ -127,7 +127,7 @@
 "long":"",
 "date":"20150201",
 "status":"wip",
-"ver":"20160919",
+"ver":"20161015",
 "site":"",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -787,7 +787,7 @@
 "long":"The Homebrew Menu is a simple launcher menu which can be used to replace the menu on several DS flashcards. This menu supports the argv protocol needed for devkitARM compiled applications to make use of nitrofs as well as providing a soft reset feature where applications can exit back to the menu.",
 "date":"20160229",
 "status":"wip",
-"ver":"v0.5.0b5",
+"ver":"v0.5.0b6",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -1135,7 +1135,7 @@
 "long":"Noob friendly, safe, arm9loaderhax only NAND dumper & restorer for the 3DS console.",
 "date":"20160525",
 "status":"wip",
-"ver":"v1.20",
+"ver":"v1.22",
 "site":"",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
@@ -4965,5 +4965,17 @@
 "status":"wip",
 "ver":"v1.0",
 "site":"",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"game",
+"title":"Sqrxz2",
+"tags":"puzzle, platformer, ARM11, userland",
+"desc":"Port of Sqrxz2 for the 3DS.",
+"author":"Retroguru Team",
+"long":"Another day another journey… As living on planet earth and its surrounding solar system seemed boring Sqrxz decided to check out another location in the universe. Just in case and to be extra careful he took a pocketful of emeralds with him to keep him in ready cash, but after starting his exciting journey he realised all his emeralds are suddenly missing! Retracing his steps Sqrxz notices mysterious creatures popping up all over the place to hinder him in his search… Oh what troublesome days… Help poor Sqrxz get back all his emeralds!",
+"date":"20161021",
+"status":"wip",
+"ver":"v1.0",
+"site":"http://www.sqrxz.de/sqrxz-2/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 }]
