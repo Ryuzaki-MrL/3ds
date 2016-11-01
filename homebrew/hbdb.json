@@ -127,7 +127,7 @@
 "long":"",
 "date":"20150201",
 "status":"wip",
-"ver":"20161015",
+"ver":"20161021",
 "site":"",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -1135,7 +1135,7 @@
 "long":"Noob friendly, safe, arm9loaderhax only NAND dumper & restorer for the 3DS console.",
 "date":"20160525",
 "status":"wip",
-"ver":"v1.22",
+"ver":"v1.30",
 "site":"",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
@@ -1651,7 +1651,7 @@
 "long":"This application allows you to make some cool things, like check Gen VI's event database, download and inject WC6s into an OR/AS or XY save file, seeing current event distributions directly from your 3DS, etc.",
 "date":"20160515",
 "status":"wip",
-"ver":"v2.4.0",
+"ver":"v3.0b",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -2983,7 +2983,7 @@
 "long":"Snes9x for 3DS is a high-compatibility SNES emulator for your old 3DS / 2DS. It runs many games at full speed (60 fps). It supports games that use CX4 chip (Megaman X2/X3), and the SDD-1 chip (Star Ocean, Super Street Fighter 2 Alpha). It can also play games that use the SuperFX chip (Yoshi's Island, etc) but they run with plenty of frame skips. It has generally much high compatibility than existing SNES emulators on the old 3DS because it uses Snes9x 1.43 as a base, and is a good alternative if your existing emulators cannot play all the games. It also runs faster on your new 3DS!",
 "date":"20160725",
 "status":"wip",
-"ver":"v0.63b",
+"ver":"v0.63",
 "site":"https://bubble2k16.github.io/snes9x_3ds/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3230,14 +3230,14 @@
 "type":"emu",
 "title":"Atari800-3DS",
 "tags":"emulators, computers, ARM11, userland",
-"desc":"Atari 8-bit home computer emulator.",
+"desc":"Atari800 computer emulator.",
 "author":"asie",
 "long":"",
 "date":"20160408",
-"status":"",
-"ver":"v0.1.1",
-"site":"",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"status":"wip",
+"ver":"v0.2.1b",
+"site":"http://asie.pl/homebrew/",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"emu",
 "title":"Chip8-CTRU",
@@ -3835,7 +3835,7 @@
 "long":"A simple homebrew app for 3DS which downloads the link you type in it and saves to the root of your sd card. Useful for people who have broken cameras and cannot scan QR codes. This program can download all file formats (thats why you can download a 3dsx file also). Now supports official keyboard.",
 "date":"20160708",
 "status":"wip",
-"ver":"v2.2",
+"ver":"v2.5",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4193,10 +4193,10 @@
 "desc":"3DS app for installing DSiWare savedata exploits.",
 "author":"yellows8",
 "long":"This is a 3DS homebrew application for installing DSiWare savedata exploits, for DSiWare titles which you already have installed. This is intended as a .3dsx which requires access to svcBackdoor.",
-"date":"0",
+"date":"20161031",
 "status":"wip",
-"ver":"",
-"site":"",
+"ver":"v1.0",
+"site":"https://github.com/yellows8/3ds_dsiwarehax_installer",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -4819,7 +4819,7 @@
 "long":"Clone of the DOS videogame \"Lemmings\" for the 3DS. Still in (very slow) development, so some features are missing.",
 "date":"20160916",
 "status":"wip",
-"ver":"v0.3.1",
+"ver":"v0.4",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4891,7 +4891,7 @@
 "long":"A little mod of the BootNTR which will allows you to choose the version of NTR you want to load. You have the choice between the version 3.2, 3.3, 3.4.",
 "date":"20160701",
 "status":"wip",
-"ver":"v210916",
+"ver":"v2.1",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -4975,7 +4975,43 @@
 "long":"Another day another journey… As living on planet earth and its surrounding solar system seemed boring Sqrxz decided to check out another location in the universe. Just in case and to be extra careful he took a pocketful of emeralds with him to keep him in ready cash, but after starting his exciting journey he realised all his emeralds are suddenly missing! Retracing his steps Sqrxz notices mysterious creatures popping up all over the place to hinder him in his search… Oh what troublesome days… Help poor Sqrxz get back all his emeralds!",
 "date":"20161021",
 "status":"wip",
-"ver":"v1.0",
+"ver":"v1.10",
 "site":"http://www.sqrxz.de/sqrxz-2/",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"app",
+"title":"MegaZeux 3DS",
+"tags":"interpreters, engines, ARM11, userland",
+"desc":"A port of MegaZeux to the 3DS.",
+"author":"asie",
+"long":"MegaZeux is a game creation system originally released in 1994 and still being developed.",
+"date":"20161029",
+"status":"wip",
+"ver":"v0.1.3a",
+"site":"http://asie.pl/homebrew/",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"app",
+"title":"Smash Amiibo Cheat Tool",
+"tags":"utilities, savefile, ARM11, userland",
+"desc":"Hack your amiibos in a tap.",
+"author":"Ordim3n",
+"long":"Smash Amiibo Cheat Tool is a (N)3DS/2DS homebrew that have the ability to hack your smash amiibos. For the moment, it buffs all your amiibo's stats to 200.",
+"date":"20161022",
+"status":"wip",
+"ver":"v1.1",
+"site":"",
+"comp":[1,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"game",
+"title":"BallEsca",
+"tags":"action, ARM11, userland",
+"desc":"Control a ball in order to avoid \"ennemies\".",
+"author":"cynosura",
+"long":"In BallEsca, you control a ball on the touch screen, in order to avoid \"ennemies\" balls that randomly spawn and cross the screen. It is inspired by the NSMBDS \"Danger Bob-omb, danger!\" minigame.",
+"date":"20161031",
+"status":"wip",
+"ver":"v1.0",
+"site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 }]
