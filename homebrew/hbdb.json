@@ -223,7 +223,7 @@
 "long":"GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card and to the FAT partitons inside your SysNAND and EmuNAND. As of now, you can copy, delete, rename files and create folders. A write permission system prevents you from doing dangerous stuff without noticing.",
 "date":"20160322",
 "status":"wip",
-"ver":"v0.6.6",
+"ver":"v0.7.3",
 "site":"",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -3643,7 +3643,7 @@
 "long":"",
 "date":"20160119",
 "status":"wip",
-"ver":"v6.3.1",
+"ver":"v6.5",
 "site":"https://github.com/AuroraWright/Luma3DS/wiki",
 "comp":[2,0,0,2,0,0,2,0,0,2,0,0]
 },{
@@ -4195,7 +4195,7 @@
 "long":"This is a 3DS homebrew application for installing DSiWare savedata exploits, for DSiWare titles which you already have installed. This is intended as a .3dsx which requires access to svcBackdoor.",
 "date":"20161031",
 "status":"wip",
-"ver":"v1.0",
+"ver":"v1.1",
 "site":"https://github.com/yellows8/3ds_dsiwarehax_installer",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -4891,7 +4891,7 @@
 "long":"A little mod of the BootNTR which will allows you to choose the version of NTR you want to load. You have the choice between the version 3.2, 3.3, 3.4.",
 "date":"20160701",
 "status":"wip",
-"ver":"v2.1",
+"ver":"v2.3",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5014,4 +5014,28 @@
 "ver":"v1.0",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"app",
+"title":"TownManager",
+"tags":"utilities, savefile, ARM11, userland",
+"desc":"Manage multiple AC:NL savefiles.",
+"author":"dragos240",
+"long":"TownManager allows you to easily manage multiple towns in AC:NL. It automatically will backup your current saves to a folder called \"Main\". From there you can select \"New\" which will delete your current save files on your cartridge and create a new folder with the name that you entered in. After you do this, the game will launch automatically. Setup your new town and the next time you open TownManager, your latest saves will be backed up to the last folder you launched. Now you can select the folder you want and load & launch the town you have selected in one step. No more messing with a generic save manager and launching the game separately.",
+"date":"20161030",
+"status":"wip",
+"ver":"v0.2.0a",
+"site":"",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"app",
+"title":"TWLoader",
+"tags":"Loaders, ARM11, userland",
+"desc":"CTR-mode .NDS ROM loader.",
+"author":"Robz8",
+"long":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
+"date":"20161102",
+"status":"wip",
+"ver":"v1.0",
+"site":"",
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 }]
