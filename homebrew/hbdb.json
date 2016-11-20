@@ -127,7 +127,7 @@
 "long":"",
 "date":"20150201",
 "status":"wip",
-"ver":"20161021",
+"ver":"20161113",
 "site":"",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -858,7 +858,7 @@
 "author":"flarn2006",
 "long":"Run it on someone's 3DS and it simulates the screen that appears when it's bricked, so you can scare them.",
 "date":"20150129",
-"status":"",
+"status":"finished",
 "ver":"v2",
 "site":"",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
@@ -870,7 +870,7 @@
 "author":"A_Random_Guy",
 "long":"Fool your friends and your families that you have bricked your 3DS! It will boot an a9lh payload named NandUnBricker.bin on the root of the sd card after a few seconds. If you don't have a file named like that, it will just completely frozen at the brick screen simulating a real one. It also need the screen-init A9LH. There's also a hidden easter egg, try to find it.",
 "date":"20160314",
-"status":"",
+"status":"finished",
 "ver":"v1",
 "site":"",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
@@ -893,9 +893,9 @@
 "desc":"Toolkit for the gateway flashcart.",
 "author":"Gateway Team",
 "long":"",
-"date":"",
-"status":"",
-"ver":"v4.1b",
+"date":"20130807",
+"status":"wip",
+"ver":"v4.2",
 "site":"",
 "comp":[0,0,0,2,2,2,0,0,0,2,2,2]
 },{
@@ -1231,7 +1231,7 @@
 "long":"It loads all the needed files from the SD card (no more need to build console-specific installers), and it's really fast. Other than that, it's way safer than the original one, as it does various checks.",
 "date":"20160319",
 "status":"wip",
-"ver":"v2.5.1",
+"ver":"v2.6.4",
 "site":"",
 "comp":[2,0,0,2,0,2,2,0,0,2,0,2]
 },{
@@ -1579,7 +1579,7 @@
 "long":"3DSident is a tool inspired by PSPident. The tool was used to obtain more information about your PSP's motherboard, firmware etc. Similarly, 3DSident aims to display more information about your 3DS. It is a fork of Wolfvak's ctr_vercheck.",
 "date":"20160727",
 "status":"wip",
-"ver":"v0.6.1",
+"ver":"v0.7",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1644,14 +1644,14 @@
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
-"title":"Event Assistant",
-"tags":"utilities, internet, ARM11, userland, pokemon",
-"desc":"A general purpose Pokémon app mostly oriented to event collectors. Formerly known as ECITool.",
+"title":"PKSM",
+"tags":"utilities, internet, savefile, ARM11, userland, pokemon",
+"desc":"Save editor for the Pokémon Gen IV to VII games. Formerly known as ECITool, then EventAssistant.",
 "author":"Bernardo Giordano",
 "long":"This application allows you to make some cool things, like check Gen VI's event database, download and inject WC6s into an OR/AS or XY save file, seeing current event distributions directly from your 3DS, etc.",
 "date":"20160515",
 "status":"wip",
-"ver":"v3.0b",
+"ver":"v3.0.2",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3643,7 +3643,7 @@
 "long":"",
 "date":"20160119",
 "status":"wip",
-"ver":"v6.5",
+"ver":"v6.6",
 "site":"https://github.com/AuroraWright/Luma3DS/wiki",
 "comp":[2,0,0,2,0,0,2,0,0,2,0,0]
 },{
@@ -4170,7 +4170,7 @@
 "author":"yellows8",
 "long":"This is a Nintendo 3DS homebrew tool for accessing the Home Menu SD extdata, this is usable from ninjhax. This allows reading/writing the home-menu SD extdata SaveData.dat, and the extdata theme-cache. This essentially allows the user to write custom themes to SD extdata, which home-menu will automatically load at Home Menu process next startup.",
 "date":"20141230",
-"status":"",
+"status":"finished",
 "ver":"v1.1.1",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -4375,7 +4375,7 @@
 "long":"",
 "date":"20160902",
 "status":"wip",
-"ver":"v1.1",
+"ver":"v1.2",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4812,14 +4812,14 @@
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
-"title":"Lemmings",
+"title":"Lemmings for 3DS",
 "tags":"puzzle, platform, ARM11, userland",
 "desc":"Clone of the DOS videogame \"Lemmings\" for the 3DS.",
 "author":"Matthias",
 "long":"Clone of the DOS videogame \"Lemmings\" for the 3DS. Still in (very slow) development, so some features are missing.",
 "date":"20160916",
 "status":"wip",
-"ver":"v0.4",
+"ver":"v0.5",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4927,7 +4927,7 @@
 "long":"",
 "date":"20160930",
 "status":"wip",
-"ver":"v0.1.0a",
+"ver":"2016-11-08",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4999,7 +4999,7 @@
 "long":"Smash Amiibo Cheat Tool is a (N)3DS/2DS homebrew that have the ability to hack your smash amiibos. For the moment, it buffs all your amiibo's stats to 200.",
 "date":"20161022",
 "status":"wip",
-"ver":"v1.1",
+"ver":"v1.3",
 "site":"",
 "comp":[1,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5023,7 +5023,7 @@
 "long":"TownManager allows you to easily manage multiple towns in AC:NL. It automatically will backup your current saves to a folder called \"Main\". From there you can select \"New\" which will delete your current save files on your cartridge and create a new folder with the name that you entered in. After you do this, the game will launch automatically. Setup your new town and the next time you open TownManager, your latest saves will be backed up to the last folder you launched. Now you can select the folder you want and load & launch the town you have selected in one step. No more messing with a generic save manager and launching the game separately.",
 "date":"20161030",
 "status":"wip",
-"ver":"v0.2.0a",
+"ver":"v1.1.0",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5035,7 +5035,19 @@
 "long":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"ver":"v1.0",
+"ver":"v1.3",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"type":"app",
+"title":"luaIRC",
+"tags":"chat, internet, ARM11, userland, LUA",
+"desc":"IRC Client for 3DS.",
+"author":"rinnegatamante",
+"long":"luaIrc is an IRC client for 3DS written with Lua Player Plus 3DS, allowing you to chat with your friends whenever you want.",
+"date":"20161113",
+"status":"wip",
+"ver":"v1.0",
+"site":"",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 }]

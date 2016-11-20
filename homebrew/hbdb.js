@@ -102,8 +102,8 @@ $.getJSON("hbdb.json", function(json) {
         valueNames: [ 'title', 'desc', 'author', 'tags', 'release', 'cat', 'status' ],
         page: 30,
         plugins: [
-            ListPagination({paginationClass: "top", innerWindow: 13}),
-            ListPagination({paginationClass: "bottom", innerWindow: 13})
+            ListPagination({paginationClass: "top", innerWindow: 15}),
+            ListPagination({paginationClass: "bottom", innerWindow: 15})
         ]
     };
 
