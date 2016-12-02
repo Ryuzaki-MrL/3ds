@@ -1651,7 +1651,7 @@
 "long":"This application allows you to make some cool things, like check Gen VI's event database, download and inject WC6s into an OR/AS or XY save file, seeing current event distributions directly from your 3DS, etc.",
 "date":"20160515",
 "status":"wip",
-"ver":"v3.0.2",
+"ver":"v3.1.2",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4872,14 +4872,14 @@
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
-"title":"Flite 3DS Example",
+"title":"Flite 3DS",
 "tags":"engines, ARM11, userland",
-"desc":"3DS Homebew example using Flite TTS Engine.",
-"author":"Cruel",
+"desc":"Flite-TTS(Text to Speech) for 3DS.",
+"author":"Cruel, Pirater12",
 "long":"This is a simple example of how to use the Flite voice synthesizing engine to speak text.",
 "date":"20160920",
 "status":"wip",
-"ver":"v1.0",
+"ver":"v1.5",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -5035,7 +5035,7 @@
 "long":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"ver":"v1.3",
+"ver":"v1.3.2",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5046,6 +5046,18 @@
 "author":"rinnegatamante",
 "long":"luaIrc is an IRC client for 3DS written with Lua Player Plus 3DS, allowing you to chat with your friends whenever you want.",
 "date":"20161113",
+"status":"wip",
+"ver":"v1.0",
+"site":"",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"app",
+"title":"Mk7se",
+"tags":"utilities, savefile, ARM11, userland",
+"desc":"Mario Kart 7 save editor.",
+"author":"Pirater12",
+"long":"Edit your Mario Kart 7 savefile right from your 3ds!",
+"date":"20161116",
 "status":"wip",
 "ver":"v1.0",
 "site":"",
