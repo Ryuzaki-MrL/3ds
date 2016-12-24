@@ -163,7 +163,7 @@
 "long":"",
 "date":"20150411",
 "status":"wip",
-"ver":"v2.4.2",
+"ver":"v2.4.4",
 "site":"",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -1382,12 +1382,12 @@
 "type":"app",
 "title":"Graphing Calculator",
 "tags":"utilities, math, ARM11, userland",
-"desc":"Scientific graphical calculator.",
+"desc":"Simple graphing calculator for 3DS.",
 "author":"flarn2006",
-"long":"",
+"long":"I guess you could say this is the exact opposite of games that run on graphing calculators.",
 "date":"20151007",
 "status":"wip",
-"ver":"v1.4",
+"ver":"v1.5.1",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1867,7 +1867,7 @@
 "long":"",
 "date":"20160818",
 "status":"wip",
-"ver":"v0.2.0",
+"ver":"v0.3.0",
 "site":"",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -5035,7 +5035,7 @@
 "long":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"ver":"v1.3.2",
+"ver":"v1.6.0",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5062,4 +5062,28 @@
 "ver":"v1.0",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"game",
+"title":"Griffon Legend 3DS",
+"tags":"action, RPG, ARM11, userland",
+"desc":"Port of a nice Action RPG in SNES style originally written by Syn9 in FreeBASIC.",
+"author":"nop90",
+"long":"The Griffon Legend is an action RPG with screen-to-screen map. It features original storyline and design made in 16-bit style RPG's of SNES/GENESIS era. During gameplay you can see up to 3 bars below your character. The top is health, the next is attack strength (let it charge to hit harder) and then spell strangth (same as attack). When you learn new spells you will see their icons in the bottom right corner with a meter below them to show them charging. When the meter turns orange they are ready for use.",
+"date":"20161205",
+"status":"wip",
+"ver":"v1.0rc1",
+"site":"",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"type":"game",
+"title":"Zelda Picross",
+"tags":"puzzle, ARM11, userland",
+"desc":"Port to 3DS of the Zelda style picross game by Vincent Joiullat.",
+"author":"nop90",
+"long":"Following a vow to the Triforce formulated by Ganon on a sad rainy day, the kingdom of Hyrule changed into Picross grids. Using his courage and pencil together, Link set off on this new challenge.",
+"date":"20161210",
+"status":"wip",
+"ver":"v1.0b",
+"site":"http://www.zeldaroth.fr/zpicross.php",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 }]
