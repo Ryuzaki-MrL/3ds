@@ -8,7 +8,7 @@
 "date":"20150830",
 "status":"discontinued",
 "ver":"v0.1a",
-"site":"",
+"site":"https://github.com/Lectem/3DAmnesic",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -20,7 +20,7 @@
 "date":"20141205",
 "status":"",
 "ver":"v0.6",
-"site":"",
+"site":"https://github.com/CTurt/3DSController",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -44,7 +44,7 @@
 "date":"20151228",
 "status":"finished",
 "ver":"v1.0",
-"site":"",
+"site":"https://github.com/neobrain/braindump",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -56,7 +56,7 @@
 "date":"20160324",
 "status":"wip",
 "ver":"v0.6.2",
-"site":"",
+"site":"https://github.com/Wolfvak/BootAnim9",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
 "type":"app",
@@ -80,7 +80,7 @@
 "date":"20151125",
 "status":"wip",
 "ver":"v1.2",
-"site":"",
+"site":"https://github.com/yellows8/hblauncher_loader",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -92,7 +92,7 @@
 "date":"20151026",
 "status":"",
 "ver":"v6",
-"site":"",
+"site":"https://github.com/smealum/HANS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -104,7 +104,7 @@
 "date":"20150607",
 "status":"wip",
 "ver":"v0.9.7",
-"site":"",
+"site":"https://github.com/d0k3/CTRXplorer",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -128,7 +128,7 @@
 "date":"20150201",
 "status":"wip",
 "ver":"20161113",
-"site":"",
+"site":"https://github.com/d0k3/Decrypt9WIP",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
 "type":"app",
@@ -140,7 +140,7 @@
 "date":"20151215",
 "status":"wip",
 "ver":"20160919",
-"site":"",
+"site":"https://github.com/d0k3/EmuNAND9",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
 "type":"app",
@@ -163,8 +163,8 @@
 "long":"",
 "date":"20150411",
 "status":"wip",
-"ver":"v2.4.4",
-"site":"",
+"ver":"v2.4.5",
+"site":"https://github.com/Steveice10/FBI",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -223,8 +223,8 @@
 "long":"GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card and to the FAT partitons inside your SysNAND and EmuNAND. As of now, you can copy, delete, rename files and create folders. A write permission system prevents you from doing dangerous stuff without noticing.",
 "date":"20160322",
 "status":"wip",
-"ver":"v0.7.3",
-"site":"",
+"ver":"v0.9.2",
+"site":"https://github.com/d0k3/GodMode9",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
 "type":"app",
@@ -236,7 +236,7 @@
 "date":"20150924",
 "status":"wip",
 "ver":"v3.1",
-"site":"",
+"site":"https://github.com/yellows8/3ds_homemenuhax",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -260,7 +260,7 @@
 "date":"20160430",
 "status":"",
 "ver":"v2.5",
-"site":"",
+"site":"https://github.com/Dazzozo/salt_sploit_installer",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -284,7 +284,7 @@
 "date":"20150117",
 "status":"discontinued",
 "ver":"v2",
-"site":"",
+"site":"https://github.com/smealum/regionthree",
 "comp":[0,0,0,0,0,2,0,0,0,0,0,0]
 },{
 "type":"app",
@@ -296,7 +296,7 @@
 "date":"20150224",
 "status":"finished",
 "ver":"v1",
-"site":"",
+"site":"https://projectpokemon.org/forums/forums/topic/34575-shuffleshop-free-heartscoins-in-pokemon-shuffle-via-web-browser/",
 "comp":[0,0,0,0,0,2,0,0,0,0,0,0]
 },{
 "type":"app",
@@ -308,7 +308,7 @@
 "date":"20150905",
 "status":"discontinued",
 "ver":"v0.10.42d",
-"site":"",
+"site":"https://github.com/meladroit/svdt",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -320,7 +320,7 @@
 "date":"20150127",
 "status":"finished",
 "ver":"v1",
-"site":"",
+"site":"https://projectpokemon.org/forums/showthread.php?44618-RAM2Sav-Save-File-Dumping-Injection-for-X-Y-OR-AS",
 "comp":[0,0,0,0,0,2,0,0,0,0,0,0]
 },{
 "type":"app",
@@ -332,7 +332,7 @@
 "date":"20160117",
 "status":"discontinued",
 "ver":"v1.0.1",
-"site":"",
+"site":"https://github.com/alex34567/Agbsave9",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
 "type":"app",
@@ -356,7 +356,7 @@
 "date":"20150328",
 "status":"",
 "ver":"v0.4.2",
-"site":"",
+"site":"https://github.com/profi200/sysUpdater",
 "comp":[1,2,0,0,0,0,1,2,0,0,0,0]
 },{
 "type":"app",
@@ -380,7 +380,7 @@
 "date":"20150115",
 "status":"discontinued",
 "ver":"v1.0.5.10",
-"site":"",
+"site":"https://github.com/GiantBlargg/UpdateSuppressor",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -392,7 +392,7 @@
 "date":"20150819",
 "status":"wip",
 "ver":"v2.2",
-"site":"",
+"site":"https://github.com/mtheall/ftpd",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -416,7 +416,7 @@
 "date":"20160417",
 "status":"",
 "ver":"v1.4.2",
-"site":"",
+"site":"https://github.com/Hamcha/lumaupdate",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -428,7 +428,7 @@
 "date":"20160429",
 "status":"wip",
 "ver":"v1.4.1",
-"site":"",
+"site":"https://github.com/astronautlevel2/StarUpdater",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -440,7 +440,7 @@
 "date":"20160507",
 "status":"",
 "ver":"v0.02",
-"site":"",
+"site":"https://github.com/Possum/LumaLocaleSwitcher",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -448,11 +448,11 @@
 "tags":"utilities, maintenance, ARM11, userland",
 "desc":"WIP Homebrew downloader and updater.",
 "author":"TurtleP",
-"long":"3DS CIA Homebrew App Browser This is purely for Homebrew applications, nothing more. Users will be able to navigate through a nice interface to select downloadable apps. They will also have the ability to donate in various ways to the authors as an option.",
+"long":"3DS CIA Homebrew App Browser. This is purely for Homebrew applications, nothing more. Users will be able to navigate through a nice interface to select downloadable apps. They will also have the ability to donate in various ways to the authors as an option.",
 "date":"0",
-"status":"wip",
+"status":"",
 "ver":"",
-"site":"",
+"site":"https://github.com/TurtleP/Flask",
 "comp":[0,0,0,0,0,0,0,0,0,0,0,0]
 },{
 "type":"app",
@@ -464,7 +464,7 @@
 "date":"20160403",
 "status":"",
 "ver":"v0.80",
-"site":"",
+"site":"https://github.com/llakssz/CIAngel",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -476,7 +476,7 @@
 "date":"20160427",
 "status":"discontinued",
 "ver":"v0.2",
-"site":"",
+"site":"https://github.com/Kyraminol/TIKdevil",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -488,7 +488,7 @@
 "date":"20160807",
 "status":"wip",
 "ver":"v1.0",
-"site":"",
+"site":"https://github.com/DanTheMan827/tikShop",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -500,7 +500,7 @@
 "date":"20160809",
 "status":"wip",
 "ver":"v1.1",
-"site":"",
+"site":"https://github.com/DanTheMan827/tikSweep",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -536,7 +536,7 @@
 "date":"20160223",
 "status":"discontinued",
 "ver":"v0.8.0",
-"site":"",
+"site":"https://github.com/ksanislo/QRWebLoader",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -548,7 +548,7 @@
 "date":"20160223",
 "status":"discontinued",
 "ver":"v0.7.0",
-"site":"",
+"site":"https://github.com/ksanislo/AutoLoader",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -560,7 +560,7 @@
 "date":"20160224",
 "status":"wip",
 "ver":"v0.90",
-"site":"",
+"site":"https://github.com/d0k3/OTPHelper",
 "comp":[2,0,0,0,2,2,2,0,0,0,2,2]
 },{
 "type":"app",
@@ -572,7 +572,7 @@
 "date":"20151204",
 "status":"",
 "ver":"v0.9b",
-"site":"",
+"site":"https://github.com/Ptrk25/eshopMusicChanger",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -584,7 +584,7 @@
 "date":"20160301",
 "status":"",
 "ver":"v1.0",
-"site":"",
+"site":"https://github.com/Repo3DS/BrewMan",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -596,7 +596,7 @@
 "date":"20160524",
 "status":"",
 "ver":"v1.1.0",
-"site":"",
+"site":"https://github.com/zaksabeast/pokeSlow",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -608,7 +608,7 @@
 "date":"20150917",
 "status":"discontinued",
 "ver":"v0.5",
-"site":"",
+"site":"https://github.com/Strackeror/PCHex",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -620,7 +620,7 @@
 "date":"20151208",
 "status":"wip",
 "ver":"v0.1.4",
-"site":"",
+"site":"https://github.com/Slashcash/PCHex-plusplus",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -632,7 +632,7 @@
 "date":"20151003",
 "status":"wip",
 "ver":"v2.0.1",
-"site":"",
+"site":"https://github.com/gocario/PHBank",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -644,7 +644,7 @@
 "date":"20160311",
 "status":"",
 "ver":"v1.0.2b",
-"site":"",
+"site":"https://github.com/gocario/PHBankGB",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -704,19 +704,19 @@
 "date":"20160130",
 "status":"",
 "ver":"v1.2",
-"site":"",
+"site":"https://github.com/TuxSH/TWLSaveTool",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"Uncart",
 "tags":"utilities, ARM9, arm9loaderhax",
 "desc":"3DS homebrew utility program to dump game cartridges to the SD card.",
-"author":"neobrain",
+"author":"neobrain, archshift, lioncash, normatt, yuriks",
 "long":"Ever wanted to backup your 3DS games for usage with Citra, but didn't feel like resorting to piracy-oriented solutions like Gateway? Looking for a less painful way to decrypt game dumps, which doesn't require a gazillion of different tools? Wait no longer, here's uncart! uncart is a tool for dumping 3DS game cartridges. It will dump any 3DS game cartridge to the SD card, from which you can transfer it to your computer.",
 "date":"20150607",
 "status":"discontinued",
 "ver":"",
-"site":"",
+"site":"https://github.com/citra-emu/uncart",
 "comp":[2,0,0,2,0,0,2,0,0,2,0,0]
 },{
 "type":"app",
@@ -728,7 +728,7 @@
 "date":"20150701",
 "status":"",
 "ver":"v0.6-b4",
-"site":"",
+"site":"https://github.com/hartmannaf/Free-multi-Patcher",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -740,7 +740,7 @@
 "date":"20160418",
 "status":"",
 "ver":"v1.2",
-"site":"",
+"site":"https://github.com/Ryuzaki-MrL/NotifyMii",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -764,7 +764,7 @@
 "date":"20150424",
 "status":"",
 "ver":"5/31/2015",
-"site":"",
+"site":"https://github.com/markwinap/3DS_Nyan_Cat",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -776,7 +776,7 @@
 "date":"20151015",
 "status":"",
 "ver":"v0.4.1",
-"site":"",
+"site":"https://github.com/ddraco/DDexter",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -788,7 +788,7 @@
 "date":"20160229",
 "status":"wip",
 "ver":"v0.5.0b6",
-"site":"",
+"site":"https://github.com/ahezard/nds-hb-menu",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -800,7 +800,7 @@
 "date":"20160713",
 "status":"wip",
 "ver":"v1.0.1",
-"site":"",
+"site":"https://github.com/Ryuzaki-MrL/RomFS-Explorer",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -812,7 +812,7 @@
 "date":"20150318",
 "status":"wip",
 "ver":"r5",
-"site":"",
+"site":"https://github.com/Rinnegatamante/lpp-3ds",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -824,7 +824,7 @@
 "date":"20150902",
 "status":"",
 "ver":"v1.0b3",
-"site":"",
+"site":"https://github.com/ctruLua/ctruLua",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -836,11 +836,11 @@
 "date":"20150329",
 "status":"wip",
 "ver":"v1.0a",
-"site":"",
+"site":"https://github.com/joel16/Cyanogen3DS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
-"title":"ARM9 Netload Companion",
+"title":"A9NC (ARM9 Netload Companion)",
 "tags":"utilities, wifi, ARM11, userland",
 "desc":"Receive arm9loaderhax payloads from a PC through the network.",
 "author":"d0k3",
@@ -848,7 +848,7 @@
 "date":"20160502",
 "status":"",
 "ver":"v0.0.9",
-"site":"",
+"site":"https://github.com/d0k3/A9NC",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -872,7 +872,7 @@
 "date":"20160314",
 "status":"finished",
 "ver":"v1",
-"site":"",
+"site":"https://github.com/Wolfvak/FakeBrick9",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
 "type":"app",
@@ -920,7 +920,7 @@
 "date":"20150902",
 "status":"discontinued",
 "ver":"v0.3",
-"site":"",
+"site":"https://gbatemp.net/threads/offical-release-thread-pictochat3d.396398/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -932,7 +932,7 @@
 "date":"20151122",
 "status":"discontinued",
 "ver":"v0.5",
-"site":"",
+"site":"https://github.com/thejsa/KoopaCruiser",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -944,7 +944,7 @@
 "date":"20151229",
 "status":"wip",
 "ver":"",
-"site":"",
+"site":"https://github.com/xerpi/3DS-Linux-Loader",
 "comp":[2,0,0,2,0,0,2,0,0,2,0,0]
 },{
 "type":"app",
@@ -980,7 +980,7 @@
 "date":"20151026",
 "status":"finished",
 "ver":"v1",
-"site":"",
+"site":"https://github.com/smealum/scrtool",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -992,7 +992,7 @@
 "date":"20151210",
 "status":"finished",
 "ver":"v1.2",
-"site":"",
+"site":"https://github.com/ihaveamac/screenshot-merge",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1004,7 +1004,7 @@
 "date":"20151102",
 "status":"discontinued",
 "ver":"v0.03",
-"site":"",
+"site":"https://gbatemp.net/threads/release-scrup-screenshot-uploader.401792/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -1016,7 +1016,7 @@
 "date":"20160120",
 "status":"discontinued",
 "ver":"v1.1",
-"site":"",
+"site":"https://github.com/Rinnegatamante/Purgification",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1028,7 +1028,7 @@
 "date":"20160108",
 "status":"",
 "ver":"v0.1c13",
-"site":"",
+"site":"https://github.com/MarcuzD/TerraInveditThreedee",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1040,7 +1040,7 @@
 "date":"20150918",
 "status":"",
 "ver":"v1.4",
-"site":"",
+"site":"https://gbatemp.net/threads/release-alarm-clock.397624/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -1651,7 +1651,7 @@
 "long":"This application allows you to make some cool things, like check Gen VI's event database, download and inject WC6s into an OR/AS or XY save file, seeing current event distributions directly from your 3DS, etc.",
 "date":"20160515",
 "status":"wip",
-"ver":"v3.1.2",
+"ver":"v4.0.0a",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4904,7 +4904,7 @@
 "date":"20160925",
 "status":"wip",
 "ver":"v4.2",
-"site":"",
+"site":"https://github.com/RLilligant/3DSSCalc",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -4916,7 +4916,7 @@
 "date":"20160927",
 "status":"wip",
 "ver":"v0.2",
-"site":"",
+"site":"https://github.com/hippydave/Newquay",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -4928,7 +4928,7 @@
 "date":"20160930",
 "status":"wip",
 "ver":"2016-11-08",
-"site":"",
+"site":"https://github.com/dragos240/Pocket-NLSE/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -4952,7 +4952,7 @@
 "date":"20161008",
 "status":"wip",
 "ver":"v0.1.0",
-"site":"",
+"site":"https://github.com/phijor/SpecializeMii",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -4964,7 +4964,7 @@
 "date":"20161013",
 "status":"wip",
 "ver":"v1.0",
-"site":"",
+"site":"https://github.com/Omegadrien/Memory3DS",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -5000,7 +5000,7 @@
 "date":"20161022",
 "status":"wip",
 "ver":"v1.3",
-"site":"",
+"site":"https://github.com/Ordim3n/Smash-Amiibo-Cheat-Tool",
 "comp":[1,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -5012,7 +5012,7 @@
 "date":"20161031",
 "status":"wip",
 "ver":"v1.0",
-"site":"",
+"site":"https://github.com/cynosura15/ballesca",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -5024,7 +5024,7 @@
 "date":"20161030",
 "status":"wip",
 "ver":"v1.1.0",
-"site":"",
+"site":"https://github.com/dragos240/TownManager",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -5036,7 +5036,7 @@
 "date":"20161102",
 "status":"wip",
 "ver":"v1.6.0",
-"site":"",
+"site":"https://github.com/Robz8/TWLoader/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -5048,7 +5048,7 @@
 "date":"20161113",
 "status":"wip",
 "ver":"v1.0",
-"site":"",
+"site":"http://rinnegatamante.it/board/showthread.php?tid=136",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -5060,7 +5060,7 @@
 "date":"20161116",
 "status":"wip",
 "ver":"v1.0",
-"site":"",
+"site":"https://github.com/Pirater12/Mk7se",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -5086,4 +5086,28 @@
 "ver":"v1.0b",
 "site":"http://www.zeldaroth.fr/zpicross.php",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"type":"app",
+"title":"ctrmus",
+"tags":"utilities, music, multimedia, ARM11, userland",
+"desc":"Music player for the 3DS. It plays PCM WAV, AIFF, FLAC and OPUS.",
+"author":"deltabeard",
+"long":"This is a music player for the 3DS. It plays PCM WAV, AIFF, FLAC and OPUS.",
+"date":"20161228",
+"status":"wip",
+"ver":"v0.4",
+"site":"https://github.com/deltabeard/ctrmus",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"type":"app",
+"title":"nimSM",
+"tags":"utilities, savefile, ARM11, kernel",
+"desc":"Uses PxiFS0 to manage the nim savegame.",
+"author":"Plailect",
+"long":"This is a nim save manager that uses PxiFS0 to backup, restore, or zero out the nim savegame. Requires arm11 kernel privileges, which it currently gets with svchax. Zeroing out or deleting the savegame will cause it to be recreated by nim. Doing this before a downgrade will fix the \"soft brick\" that occurs for some devices.",
+"date":"20161226",
+"status":"wip",
+"ver":"v1.0",
+"site":"https://github.com/Plailect/nimSM",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 }]
