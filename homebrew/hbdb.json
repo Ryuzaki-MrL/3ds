@@ -163,7 +163,7 @@
 "long":"",
 "date":"20150411",
 "status":"wip",
-"ver":"v2.4.5",
+"ver":"v2.4.6",
 "site":"https://github.com/Steveice10/FBI",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -834,7 +834,7 @@
 "author":"Joel16",
 "long":"A W.I.P Alternative Custom GUI Menu for the Nintendo 3DS, inspired by the design of Cyanogenmod. This is a port of CyanogenPSP running on the 3DS.",
 "date":"20150329",
-"status":"wip",
+"status":"discontinued",
 "ver":"v1.0a",
 "site":"https://github.com/joel16/Cyanogen3DS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -1136,7 +1136,7 @@
 "date":"20160525",
 "status":"wip",
 "ver":"v1.30",
-"site":"",
+"site":"https://github.com/d0k3/Hourglass9",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
 "type":"app",
@@ -1146,7 +1146,7 @@
 "author":"rinnegatamante",
 "long":"NinjaCam is an homebrew which allows users to take photos with cameras without playing the default shutter sound typical of Nintendo 3DS Camera.",
 "date":"20151207",
-"status":"",
+"status":"finished",
 "ver":"v1.0",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -1160,7 +1160,7 @@
 "date":"20160523",
 "status":"",
 "ver":"v1.0.0",
-"site":"",
+"site":"https://github.com/kenji-1996/3DS-Multi-Hex",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -1170,9 +1170,9 @@
 "author":"javimadgit",
 "long":"TinyFormat is a small utility to format Sys/EmuNAND without formating your SD card.",
 "date":"20150626",
-"status":"",
+"status":"finished",
 "ver":"v1.0",
-"site":"",
+"site":"https://github.com/javimadgit/TinyFormat",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -1182,7 +1182,7 @@
 "author":"svanheulen",
 "long":"This homebrew will check all your installed NAND titles and compare them to the ones that \"should\" be installed on 9.2.0-20U. It will display any differences when checking but it will also output them to a file called \"check.log\" inside this homebrew's folder.",
 "date":"20160118",
-"status":"",
+"status":"discontinued",
 "ver":"v2.0 [?]",
 "site":"",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -1232,7 +1232,7 @@
 "date":"20160319",
 "status":"wip",
 "ver":"v2.6.4",
-"site":"",
+"site":"https://github.com/AuroraWright/SafeA9LHInstaller",
 "comp":[2,0,0,2,0,2,2,0,0,2,0,2]
 },{
 "type":"app",
@@ -1268,7 +1268,7 @@
 "date":"20160210",
 "status":"finished",
 "ver":"v3",
-"site":"",
+"site":"https://gbatemp.net/threads/twl-slot-1-launcher-first-custom-dsiware-app.414501/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -1280,7 +1280,7 @@
 "date":"20151010",
 "status":"discontinued",
 "ver":"v2.0",
-"site":"",
+"site":"https://github.com/MyLegGuy/MangaReader",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1292,7 +1292,7 @@
 "date":"20150422",
 "status":"discontinued",
 "ver":"v1.5",
-"site":"",
+"site":"https://gbatemp.net/threads/soon-super-cool-installer-a-new-cool-legal-open-source-cia-installer.387268/",
 "comp":[0,2,2,0,0,0,0,2,2,0,0,0]
 },{
 "type":"app",
@@ -1304,7 +1304,7 @@
 "date":"20160223",
 "status":"",
 "ver":"v2.2.0",
-"site":"",
+"site":"https://gbatemp.net/threads/release-soon-2-super-cool-installer-2-a-new-super-cool-cia-installer.416076/",
 "comp":[0,2,2,0,0,0,0,2,2,0,0,0]
 },{
 "type":"app",
@@ -1328,7 +1328,7 @@
 "date":"20151117",
 "status":"discontinued",
 "ver":"v0.2",
-"site":"",
+"site":"https://github.com/norips/3DS_Motion",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -1388,7 +1388,7 @@
 "date":"20151007",
 "status":"wip",
 "ver":"v1.5.1",
-"site":"",
+"site":"https://github.com/flarn2006/GraphCalc3DS",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1436,7 +1436,7 @@
 "date":"20150928",
 "status":"discontinued",
 "ver":"v2.3.2",
-"site":"",
+"site":"https://github.com/Cpasjuste/CtrBootManager",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -1472,7 +1472,7 @@
 "date":"20151030",
 "status":"finished",
 "ver":"v2.21",
-"site":"",
+"site":"https://github.com/ihaveamac/mashers-gl-updater",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -1520,7 +1520,7 @@
 "date":"20150717",
 "status":"wip",
 "ver":"v0.6.0a",
-"site":"",
+"site":"https://gbatemp.net/threads/homebrew-edpjoy3ds.392968/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -1532,7 +1532,7 @@
 "date":"20151206",
 "status":"discontinued",
 "ver":"v0.6",
-"site":"",
+"site":"https://github.com/d0k3/ZIP3DSFX",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -1544,7 +1544,7 @@
 "date":"20150108",
 "status":"discontinued",
 "ver":"v0.9.5",
-"site":"",
+"site":"https://github.com/DarkFlare69/3DText",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -1556,7 +1556,7 @@
 "date":"20160715",
 "status":"wip",
 "ver":"v0.1-a",
-"site":"",
+"site":"https://github.com/reworks/3DS_eBook_Reader",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1580,7 +1580,7 @@
 "date":"20160727",
 "status":"wip",
 "ver":"v0.7",
-"site":"",
+"site":"https://github.com/joel16/3DSident",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1604,7 +1604,7 @@
 "date":"20160219",
 "status":"wip",
 "ver":"v1.3",
-"site":"",
+"site":"http://gbatemp.net/threads/release-miiverse-custom-image-tool.415505/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -1640,7 +1640,7 @@
 "date":"20160111",
 "status":"",
 "ver":"",
-"site":"",
+"site":"https://github.com/seans121/BoxDumper",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -1651,8 +1651,8 @@
 "long":"This application allows you to make some cool things, like check Gen VI's event database, download and inject WC6s into an OR/AS or XY save file, seeing current event distributions directly from your 3DS, etc.",
 "date":"20160515",
 "status":"wip",
-"ver":"v4.0.0a",
-"site":"",
+"ver":"v4.0.0",
+"site":"https://github.com/BernardoGiordano/PKSM",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1664,7 +1664,7 @@
 "date":"20160709",
 "status":"",
 "ver":"v1.0.1",
-"site":"",
+"site":"https://github.com/thejsa/tinytot",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -1688,7 +1688,7 @@
 "date":"20141231",
 "status":"finished",
 "ver":"v1",
-"site":"",
+"site":"https://github.com/MrCheeze/playcoin",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1700,7 +1700,7 @@
 "date":"20160322",
 "status":"",
 "ver":"v1.0.1",
-"site":"",
+"site":"https://github.com/yellows8/ctr-httpwn",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -1724,7 +1724,7 @@
 "date":"20151231",
 "status":"",
 "ver":"v1.0.2",
-"site":"",
+"site":"https://github.com/HeyItsJono/Tinker",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -1772,7 +1772,7 @@
 "date":"20160712",
 "status":"wip",
 "ver":"v1.4.0",
-"site":"",
+"site":"https://github.com/Wolvan/Homebr3w",
 "comp":[1,2,2,0,0,0,1,2,2,0,0,0]
 },{
 "type":"app",
@@ -1856,19 +1856,19 @@
 "date":"20160509",
 "status":"wip",
 "ver":"v0.4.0",
-"site":"",
+"site":"https://github.com/phijor/ctroller",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"Orchestrina",
-"tags":"entertainment, ARM11, userland",
+"tags":"entertainment, music, ARM11, userland",
 "desc":"Allows you to play songs from many Zelda games. Also has a free play mode.",
 "author":"LeifEricson, Ryuzaki_MrL",
 "long":"",
 "date":"20160818",
 "status":"wip",
-"ver":"v0.3.0",
-"site":"",
+"ver":"v0.4.0",
+"site":"https://github.com/EBLeifEricson/orchestrina",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -1880,7 +1880,7 @@
 "date":"20160321",
 "status":"wip",
 "ver":"v0.5.0",
-"site":"",
+"site":"https://easyrpg.org/player/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1909,7 +1909,7 @@
 },{
 "type":"game",
 "title":"KillerMan: Ghost Buster",
-"tags":"action, beat \"em up, ARM11, userland",
+"tags":"action, beat 'em up, ARM11, userland",
 "desc":"Clone of the battles in the MegaMan Battle Network series.",
 "author":"Greiga Master",
 "long":"This is a fun little minigame based on the Mega Man Battle Network series style of gameplay. You play as KillerMan from MegaMan Battle Network 6 and fight off waves of ghosts and viruses to try to get a high score. The game features stages where you fight sets of viruses and an endless mode where you test how long you can last against an endless wave of ghosts and viruses.",
@@ -2468,7 +2468,7 @@
 "date":"20160202",
 "status":"",
 "ver":"v0.4.1",
-"site":"",
+"site":"https://github.com/Spaqin/fbwo-3ds",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -2528,7 +2528,7 @@
 "date":"20160125",
 "status":"",
 "ver":"v0.2",
-"site":"",
+"site":"https://github.com/Substance12/Picroxx",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2828,7 +2828,7 @@
 "date":"",
 "status":"",
 "ver":"",
-"site":"",
+"site":"https://github.com/smealum/yeti3DS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2912,7 +2912,7 @@
 "date":"20160405",
 "status":"",
 "ver":"v1.0",
-"site":"",
+"site":"https://rinnegatamante.it/board/showthread.php?tid=43",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2996,7 +2996,7 @@
 "date":"0",
 "status":"wip",
 "ver":"",
-"site":"",
+"site":"https://github.com/machinamentum/CTR64",
 "comp":[0,0,0,0,0,0,0,0,0,0,0,0]
 },{
 "type":"emu",
@@ -3127,8 +3127,8 @@
 "long":"",
 "date":"20150806",
 "status":"wip",
-"ver":"v0.5.1",
-"site":"",
+"ver":"v0.5.2",
+"site":"https://mgba.io/",
 "comp":[1,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"emu",
@@ -3164,7 +3164,7 @@
 "date":"20150915",
 "status":"wip",
 "ver":"v0.86",
-"site":"",
+"site":"https://github.com/mrdanielps/r3Ddragon",
 "comp":[1,1,0,0,0,0,1,1,0,0,0,0]
 },{
 "type":"emu",
@@ -4688,7 +4688,7 @@
 "date":"20160905",
 "status":"wip",
 "ver":"v2.2",
-"site":"",
+"site":"https://github.com/cynosura15/bubblepop",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -4722,9 +4722,9 @@
 "author":"mashers",
 "long":"3DSafe is an arm9loaderhax payload which will lock your sysnand with a PIN. The PIN request is displayed as soon as the 3DS is powered on. Because the 3DSafe payload is the A9LH stage1/stage2 payload, it is stored in NAND itself, not on the SD card. After successfully entering the PIN, arm9loaderhax.bin is loaded from the SD card.",
 "date":"20160907",
-"status":"wip",
-"ver":"v0.10",
-"site":"",
+"status":"",
+"ver":"v0.12",
+"site":"https://github.com/mashers/3DSafe",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
 "type":"emu",
@@ -4760,7 +4760,7 @@
 "date":"20160614",
 "status":"wip",
 "ver":"v0.2",
-"site":"",
+"site":"https://github.com/Haze3ds/Twos--Woods",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -4796,7 +4796,7 @@
 "date":"20160913",
 "status":"finished",
 "ver":"v1",
-"site":"",
+"site":"https://github.com/MarcuzD/MCU_examples",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"game",
@@ -4808,7 +4808,7 @@
 "date":"20141204",
 "status":"discontinued",
 "ver":"v1",
-"site":"",
+"site":"https://gbatemp.net/threads/homebrew-ksketch-my-first-homebrew.375302/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -4820,7 +4820,7 @@
 "date":"20160916",
 "status":"wip",
 "ver":"v0.5",
-"site":"",
+"site":"https://github.com/esoteric-programmer/lemmings_3ds",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"cfw",
@@ -4832,7 +4832,7 @@
 "date":"0",
 "status":"wip",
 "ver":"",
-"site":"",
+"site":"https://github.com/billy-acuna/Lima3DS",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
 "type":"app",
@@ -4844,7 +4844,7 @@
 "date":"20160917",
 "status":"wip",
 "ver":"v1.0.2",
-"site":"",
+"site":"https://github.com/BernardoGiordano/CustomVersionSetter",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"emu",
@@ -4866,9 +4866,9 @@
 "author":"Spaqin",
 "long":"It's really simple, but still very useful for playing during the night. Power LED is reset on sleep and reboot (not soft reboot, like Smash does on o3DS).",
 "date":"20160920",
-"status":"finished",
+"status":"",
 "ver":"v0.01",
-"site":"",
+"site":"https://github.com/Spaqin/bipolar-3ds",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -4880,7 +4880,7 @@
 "date":"20160920",
 "status":"wip",
 "ver":"v1.5",
-"site":"",
+"site":"https://github.com/Pirater12/flite-3ds",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -4892,7 +4892,7 @@
 "date":"20160701",
 "status":"wip",
 "ver":"v2.3",
-"site":"",
+"site":"https://github.com/Nanquitas/BootNTR",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -5035,7 +5035,7 @@
 "long":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"ver":"v1.6.0",
+"ver":"v2.1",
 "site":"https://github.com/Robz8/TWLoader/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5072,7 +5072,7 @@
 "date":"20161205",
 "status":"wip",
 "ver":"v1.0rc1",
-"site":"",
+"site":"https://github.com/nop90/Griffon-Legend-3DS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -5109,5 +5109,17 @@
 "status":"wip",
 "ver":"v1.0",
 "site":"https://github.com/Plailect/nimSM",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"game",
+"title":"Xump",
+"tags":"puzzle, platform, ARM11, userland",
+"desc":"\"Xump - The Final Run\" ported to the 3DS.",
+"author":"nop90",
+"long":"Xump - The Final Run is a simple multi-platform puzzler by Retroguru. Initially released by Psilocybin Development in 2005. Help Holger to clean up deserted space fields. As this is a very dangerous task for a human being a headbot named Xump will be the one who has to suffer. Your main task is to clean all dissolving tiles on several single-screen levels by simply stepping on them, one by one. Few fields are secured with mines and need a double tap. Mines can be blown up when passing by or disarmed by Xump when staying on this specific field for a short moment. Certainly the mission sounds easier than it will be.",
+"date":"20170101",
+"status":"wip",
+"ver":"v1.05",
+"site":"http://www.retroguru.com/xump",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 }]
