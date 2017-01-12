@@ -163,7 +163,7 @@
 "long":"",
 "date":"20150411",
 "status":"wip",
-"ver":"v2.4.6",
+"ver":"v2.4.7",
 "site":"https://github.com/Steveice10/FBI",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -235,7 +235,7 @@
 "long":"",
 "date":"20150924",
 "status":"wip",
-"ver":"v3.1",
+"ver":"v3.2",
 "site":"https://github.com/yellows8/3ds_homemenuhax",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -354,7 +354,7 @@
 "author":"profi200",
 "long":"A quick tool for manually updating a 3DS using CIA files. This is not intended for installing anything else! You also should strictly avoid updating single titles because this also can lead to bricks!",
 "date":"20150328",
-"status":"",
+"status":"discontinued",
 "ver":"v0.4.2",
 "site":"https://github.com/profi200/sysUpdater",
 "comp":[1,2,0,0,0,0,1,2,0,0,0,0]
@@ -1195,20 +1195,20 @@
 "long":"",
 "date":"20160110",
 "status":"discontinued",
-"ver":"v1.0",
+"ver":"v09",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
-"title":"PlaiSysUpdater",
+"title":"sysDowngrader",
 "tags":"utilities, system, maintenance, ARM11, kernel",
-"desc":"Fork of SafeSysUpdater with better stability.",
+"desc":"3DS offline system downgrader using CIA files. Formerly known as PlaiSysUpdater.",
 "author":"Plailect",
-"long":"",
+"long":"A quick tool for manually downgrading a 3DS using CIA files. This is not intended for installing anything else! You also should strictly avoid updating single titles because this also can lead to bricks!",
 "date":"20160323",
-"status":"discontinued",
-"ver":"v05",
-"site":"",
+"status":"wip",
+"ver":"v2.0.2",
+"site":"https://github.com/Plailect/sysDowngrader",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1646,12 +1646,12 @@
 "type":"app",
 "title":"PKSM",
 "tags":"utilities, internet, savefile, ARM11, userland, pokemon",
-"desc":"Save editor for the Pokémon Gen IV to VII games. Formerly known as ECITool, then EventAssistant.",
+"desc":"All-in-One tool for Pokémon games. Formerly known as ECITool, then EventAssistant.",
 "author":"Bernardo Giordano",
-"long":"This application allows you to make some cool things, like check Gen VI's event database, download and inject WC6s into an OR/AS or XY save file, seeing current event distributions directly from your 3DS, etc.",
+"long":"Savefile editor, wondercard injector and offline homebrew bank for gen4 to gen7 Pokémon games.",
 "date":"20160515",
 "status":"wip",
-"ver":"v4.0.0",
+"ver":"v4.0.1",
 "site":"https://github.com/BernardoGiordano/PKSM",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1698,8 +1698,8 @@
 "author":"yellows8",
 "long":"This is an userland-only exploit for the 3DS HTTP-sysmodule. This allows you to access everything (as of March 22, 2016) that's known to throw sysupdate-required errors on outdated system-versions (the only known exception is browser-version-check since this can't target web-browser httpc currently).",
 "date":"20160322",
-"status":"",
-"ver":"v1.0.1",
+"status":"wip",
+"ver":"v1.2",
 "site":"https://github.com/yellows8/ctr-httpwn",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -1783,8 +1783,8 @@
 "long":"Open source eShop clone for the Nintendo 3DS. Allows you to browse and install titles you own (i.e. titles for which you have the titlekey).",
 "date":"20160530",
 "status":"wip",
-"ver":"v2.1.3",
-"site":"",
+"ver":"v2.1.4",
+"site":"https://freeshop.pw/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -2635,7 +2635,7 @@
 "long":"Super Haxagon is a Super Hexagon like clone for the 3DS! Play as a triangle and rotate to avoid the walls! With awesome background music, get 10 times the amount of entertainment out of your CFW or Homebrewed 3ds (or something like that)! Written in C for the 3ds from the ground up, this game is intended to increase the amount of homebrew games that exist. Enjoy!",
 "date":"20160616",
 "status":"wip",
-"ver":"v1.1.1",
+"ver":"v2.0.1",
 "site":"http://gbatemp.net/threads/wip-super-haxagon.431206/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -2983,7 +2983,7 @@
 "long":"Snes9x for 3DS is a high-compatibility SNES emulator for your old 3DS / 2DS. It runs many games at full speed (60 fps). It supports games that use CX4 chip (Megaman X2/X3), and the SDD-1 chip (Star Ocean, Super Street Fighter 2 Alpha). It can also play games that use the SuperFX chip (Yoshi's Island, etc) but they run with plenty of frame skips. It has generally much high compatibility than existing SNES emulators on the old 3DS because it uses Snes9x 1.43 as a base, and is a good alternative if your existing emulators cannot play all the games. It also runs faster on your new 3DS!",
 "date":"20160725",
 "status":"wip",
-"ver":"v0.63",
+"ver":"v0.71",
 "site":"https://bubble2k16.github.io/snes9x_3ds/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3823,7 +3823,7 @@
 "long":"MultiUpdater or µpdtr for short, is an updater/downloader for 3ds applications/a9lh payloads/various files written in C.",
 "date":"20160712",
 "status":"",
-"ver":"v1.0",
+"ver":"v1.5",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4056,7 +4056,7 @@
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
-"title":"Tetrepetete 3DS",
+"title":"Tetrepetete",
 "tags":"puzzle, ARM11, userland",
 "desc":"A lightweight game with blocks.",
 "author":"thp",
@@ -4064,8 +4064,8 @@
 "date":"20160629",
 "status":"finished",
 "ver":"v1.0",
-"site":"",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"site":"https://thp.itch.io/tetrepetete-3ds",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
 "title":"That Rabbit Game 3DS",
@@ -4076,8 +4076,8 @@
 "date":"20160704",
 "status":"finished",
 "ver":"v1.0",
-"site":"",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"site":"https://thp.itch.io/that-rabbit-game-3ds",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
 "title":"Snake2DS",
@@ -4101,7 +4101,7 @@
 "status":"",
 "ver":"2016-07-18",
 "site":"https://pyug.at/PyWeek/2012-09",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
 "title":"NumberFucker3DS",
@@ -4674,10 +4674,10 @@
 "author":"K0ryan",
 "long":"",
 "date":"20160906",
-"status":"wip",
-"ver":"",
-"site":"",
-"comp":[0,0,0,0,0,0,0,0,0,0,0,0]
+"status":"",
+"ver":"v1",
+"site":"https://github.com/k0ryan/00Text",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"BubblePop",
@@ -4902,7 +4902,7 @@
 "author":"RLilligant",
 "long":"",
 "date":"20160925",
-"status":"wip",
+"status":"finished",
 "ver":"v4.2",
 "site":"https://github.com/RLilligant/3DSSCalc",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -5035,7 +5035,7 @@
 "long":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"ver":"v2.1",
+"ver":"v2.3",
 "site":"https://github.com/Robz8/TWLoader/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5095,9 +5095,9 @@
 "long":"This is a music player for the 3DS. It plays PCM WAV, AIFF, FLAC and OPUS.",
 "date":"20161228",
 "status":"wip",
-"ver":"v0.4",
+"ver":"v0.4.4",
 "site":"https://github.com/deltabeard/ctrmus",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
 "title":"nimSM",
@@ -5107,7 +5107,7 @@
 "long":"This is a nim save manager that uses PxiFS0 to backup, restore, or zero out the nim savegame. Requires arm11 kernel privileges, which it currently gets with svchax. Zeroing out or deleting the savegame will cause it to be recreated by nim. Doing this before a downgrade will fix the \"soft brick\" that occurs for some devices.",
 "date":"20161226",
 "status":"wip",
-"ver":"v1.0",
+"ver":"v1.0.0",
 "site":"https://github.com/Plailect/nimSM",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5122,4 +5122,16 @@
 "ver":"v1.05",
 "site":"http://www.retroguru.com/xump",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"game",
+"title":"POWDER",
+"tags":"RPG, ARM11, userland",
+"desc":"Simple roguelike game for 3DS.",
+"author":"nop90",
+"long":"POWDER is a roguelike originaly developed specifically for the Gameboy Advance. It is not a port of an existing roguelike as the controls of the GBA are very different from the traditional keyboard, and the screen imposes some additional limitations. It is built around replayability and long term ergonomics, not short term learning. The game goal is very simple, descend into the depths of the dungeon until you reach the foul daemon known as \"He who the author cannot spell consistently\", or, Baezl'bub. When you have slain Baezl'bub in heroic combat, or, if Baezl'bub dies in any way, retrieve his black heart and bring it to the surface world.",
+"date":"20170108",
+"status":"wip",
+"ver":"v0.1",
+"site":"http://www.zincland.com/powder/?pagename=about",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 }]
