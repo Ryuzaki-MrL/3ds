@@ -106,12 +106,6 @@ ul a, ul a:visited {
   text-decoration:underline;
   display:none;
 }
-.more:after {
-  content:"Read more.";
-}
-.less:after {
-  content:"Read less.";
-}
 .compat {
   text-align:center;
   margin:0 auto;

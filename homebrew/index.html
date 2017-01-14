@@ -9,6 +9,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
     <script src="http://cdn.rawgit.com/javve/list.pagination.js/v0.1.1/dist/list.pagination.min.js"></script>
+    <style>
+    .more:after {
+        content:"Read more.";
+    }
+    .less:after {
+        content:"Read less.";
+    }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -116,6 +124,20 @@
             <a href="http://titledb.com/">titledb</a>
         </p>
     </div>
+    <script>
+    str_unreleased = "Unreleased";
+    str_unknown = "Unknown";
+    str_found = "Found ";
+    str_listing = "Listing ";
+    str_failed = "Unable to load homebrew database.";
+    var monthstr = [ "???",
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+    ];
+    function getDate(day, month, year) {
+        return (month + " " + day + ", " + year);
+    }
+    </script>
     <script src="./hbdb.js"></script>
 </body>
 </html>

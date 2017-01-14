@@ -31,11 +31,6 @@ $.getJSON("hbdb.json", function(json) {
 
     var id;
 
-    var monthstr = [ "???",
-        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-    ];
-
     $('.icon img').error(function() {
         $(this).attr('src', '/3ds/homebrew/icons/noicon.png');
     });
@@ -60,9 +55,9 @@ $.getJSON("hbdb.json", function(json) {
         var year = json[id].date.substring(0,4);
         var month = monthstr[parseInt(json[id].date.substring(4,6))];
         var day = json[id].date.substring(6,8);
-        var date = (json[id].date=="0") ? "Unreleased" : (json[id].date.length==0) ? "Unknown" : (month + " " + day + ", " + year);
+        var date = (json[id].date=="0") ? str_unreleased : (json[id].date.length==0) ? str_unknown : getDate(day, month, year);
         $('.details #release').html(date);
-        $('.details #version').html(date!="Unreleased" ? (json[id].ver.length > 0 ? json[id].ver : "Unknown") : '-');
+        $('.details #version').html(date!=str_unreleased ? (json[id].ver.length > 0 ? json[id].ver : str_unknown) : '-');
         $('.details #site').html(json[id].site.length > 0 ? ('<a href="'+json[id].site+'" target="_blank">'+'<img src="btm_e.png"/>'+'</a>') : '-');
         if (json[id].long.length > 256) {
             $('.details .desc').html(json[id].long.substring(0,240) + '... ');
@@ -112,8 +107,8 @@ $.getJSON("hbdb.json", function(json) {
     hbList.on('updated', function() {
         $('.list').append('<li class="none" style="display:none; visibility:hidden;"></li>');
         if ((hbList.visibleItems.length % 2 == 0) || (window.innerWidth < 1080)) $('.none').hide();
-        $('#qt').html('Found ' + hbList.matchingItems.length + ' homebrew(s).<br/>' +
-        'Listing ' + hbList.visibleItems.length + ' homebrew(s).');
+        $('#qt').html(str_found + hbList.matchingItems.length + ' homebrew(s).<br/>' +
+        str_listing + hbList.visibleItems.length + ' homebrew(s).');
         if ((hbList.visibleItems.length % 2 == 1) && (window.innerWidth >= 1080)) $('.none').show();
     });
 
@@ -166,5 +161,5 @@ $.getJSON("hbdb.json", function(json) {
     }
 })
 .error(function() {
-    $('#qt').html("Unable to load homebrew database.");
+    $('#qt').html(str_failed);
 });
