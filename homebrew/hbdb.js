@@ -120,7 +120,7 @@ $.getJSON("hbdb.json", function(json) {
     });
 
     $('#select_l').change(function() {
-        window.location.replace("http://ryuzaki-mrl.github.io/3ds/homebrew/"+this.options[this.options.selectedIndex].value+"?nolang=&"+document.location.search.substring(1));
+        window.location.replace("http://ryuzaki-mrl.github.io/3ds/homebrew/"+this.options[this.options.selectedIndex].value+(queries.nolang==undefined ? "?nolang=&" : "?")+document.location.search.substring(1));
     });
 
     $('#select_p').change(function() {
