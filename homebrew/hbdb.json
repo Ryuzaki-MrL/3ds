@@ -127,7 +127,7 @@
 "long":"",
 "date":"20150201",
 "status":"wip",
-"ver":"20161113",
+"ver":"20170115",
 "site":"https://github.com/d0k3/Decrypt9WIP",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -188,7 +188,7 @@
 "date":"20160201",
 "status":"wip",
 "ver":"6-30-2016",
-"site":"",
+"site":"https://github.com/J-D-K/JKSM",
 "comp":[1,2,0,0,0,0,1,2,0,0,0,0]
 },{
 "type":"app",
@@ -200,7 +200,7 @@
 "date":"20160401",
 "status":"finished",
 "ver":"v1",
-"site":"",
+"site":"http://gbatemp.net/threads/release-gimme-300-coins-the-fastest-way-you-will-get-300-coins-ever.421461/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -212,7 +212,7 @@
 "date":"20150111",
 "status":"finished",
 "ver":"v1.0",
-"site":"",
+"site":"http://wiki.gbatemp.net/wiki/Useless_Homebrew_3DS",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -1579,7 +1579,7 @@
 "long":"3DSident is a tool inspired by PSPident. The tool was used to obtain more information about your PSP's motherboard, firmware etc. Similarly, 3DSident aims to display more information about your 3DS. It is a fork of Wolfvak's ctr_vercheck.",
 "date":"20160727",
 "status":"wip",
-"ver":"v0.7",
+"ver":"v0.7.1",
 "site":"https://github.com/joel16/3DSident",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1651,7 +1651,7 @@
 "long":"Savefile editor, wondercard injector and offline homebrew bank for gen4 to gen7 Pokémon games.",
 "date":"20160515",
 "status":"wip",
-"ver":"v4.0.2",
+"ver":"v4.0.3",
 "site":"https://github.com/BernardoGiordano/PKSM",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1736,7 +1736,7 @@
 "date":"20160323",
 "status":"wip",
 "ver":"v0.10",
-"site":"",
+"site":"https://github.com/Xavyrr/LOVE",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1796,7 +1796,7 @@
 "date":"20160603",
 "status":"discontinued",
 "ver":"v1.3",
-"site":"",
+"site":"https://github.com/MatMaf/encTitleKeys.bin-Updater",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -1807,8 +1807,8 @@
 "long":"A tool to easily update the encTitleKeys.bin for freeShop based on lpp-3ds or download the seeddb.bin and decTitleKeys.bin What started out as a fork of MatMaf's encTitleKeys.bin Updater has now been turned into a more all round solution to interact with 3ds.titlekeys.com from your 3ds.",
 "date":"20160613",
 "status":"wip",
-"ver":"v1.5.0",
-"site":"",
+"ver":"v1.6.1",
+"site":"https://github.com/Wolvan/encTitleKeys.bin-Updater",
 "comp":[0,2,2,0,0,0,0,2,2,0,0,0]
 },{
 "type":"app",
@@ -2396,7 +2396,7 @@
 "date":"20150916",
 "status":"discontinued",
 "ver":"v0.1",
-"site":"",
+"site":"https://github.com/esoteric-programmer/robin-hood",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2983,7 +2983,7 @@
 "long":"Snes9x for 3DS is a high-compatibility SNES emulator for your old 3DS / 2DS. It runs many games at full speed (60 fps). It supports games that use CX4 chip (Megaman X2/X3), and the SDD-1 chip (Star Ocean, Super Street Fighter 2 Alpha). It can also play games that use the SuperFX chip (Yoshi's Island, etc) but they run with plenty of frame skips. It has generally much high compatibility than existing SNES emulators on the old 3DS because it uses Snes9x 1.43 as a base, and is a good alternative if your existing emulators cannot play all the games. It also runs faster on your new 3DS!",
 "date":"20160725",
 "status":"wip",
-"ver":"v0.71",
+"ver":"v0.80",
 "site":"https://bubble2k16.github.io/snes9x_3ds/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3319,31 +3319,31 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"emu",
-"title":"CATSFC",
+"title":"Snes9x 2005",
 "tags":"emulators, Nintendo, home console, ARM11, userland",
 "desc":"SNES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
 "type":"emu",
-"title":"CATSFC Plus",
+"title":"Snes9x 2005 Plus",
 "tags":"emulators, Nintendo, home console, ARM11, userland",
 "desc":"SNES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3355,7 +3355,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3367,7 +3367,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3379,7 +3379,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3391,7 +3391,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3403,7 +3403,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3415,7 +3415,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3427,7 +3427,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3439,7 +3439,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3451,7 +3451,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3463,7 +3463,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3475,7 +3475,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3487,7 +3487,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3499,7 +3499,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,1,1,1,0,0,0]
 },{
@@ -3511,7 +3511,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3523,7 +3523,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3535,7 +3535,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3546,7 +3546,7 @@
 "author":"libRetro Team",
 "long":"",
 "date":"20160118",
-"status":"wip",
+"status":"discontinued",
 "ver":"v1.3.6",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,1,2,2,0,0,0]
@@ -3559,19 +3559,19 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"emu",
-"title":"PocketSNES",
+"title":"Snes9x 2002",
 "tags":"emulators, Nintendo, home console, ARM11, userland",
 "desc":"SNES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3583,19 +3583,19 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"emu",
-"title":"Snes9x Next",
+"title":"Snes9x 2010",
 "tags":"emulators, Nintendo, home console, ARM11, userland",
 "desc":"SNES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.3.6",
+"ver":"v1.4.0",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3640,7 +3640,7 @@
 "tags":"custom firmware, ninjhax, arm9loaderhax, emunand",
 "desc":"Noob-proof 3DS Custom Firmware.",
 "author":"AuroraWright, TuxSH",
-"long":"",
+"long":"Noob-proof 3DS Custom Firmware. Formerly known as AuReiNAND.",
 "date":"20160119",
 "status":"wip",
 "ver":"v6.6",
@@ -3703,7 +3703,7 @@
 "long":"ReiNand started off as a minimalistic custom firmware for N3DS exclusively. At the time, all other open source cfw were O3DS exclusive so it was developed mainly for N3DS. With the shift in standards, support for both was added.",
 "date":"20150805",
 "status":"wip",
-"ver":"v4.1",
+"ver":"v5.0",
 "site":"",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -4914,8 +4914,8 @@
 "author":"hippydave",
 "long":"Run Newquay and get it to download the decTitleKeys.bin, then reboot to Decrypt9 and encrypt it to encTitleKeys.bin.... reboot, run Newquay, choose a title and it will make you an input.txt. Open that with CIAngel and your chosen game will be installed.",
 "date":"20160927",
-"status":"wip",
-"ver":"v0.2",
+"status":"",
+"ver":"v0.3",
 "site":"https://github.com/hippydave/Newquay",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5035,7 +5035,7 @@
 "long":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"ver":"v2.3",
+"ver":"v2.4.2",
 "site":"https://github.com/Robz8/TWLoader/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5128,10 +5128,46 @@
 "tags":"RPG, ARM11, userland",
 "desc":"Simple roguelike game for 3DS.",
 "author":"nop90",
-"long":"POWDER is a roguelike originaly developed specifically for the Gameboy Advance. It is not a port of an existing roguelike as the controls of the GBA are very different from the traditional keyboard, and the screen imposes some additional limitations. It is built around replayability and long term ergonomics, not short term learning. The game goal is very simple, descend into the depths of the dungeon until you reach the foul daemon known as \"He who the author cannot spell consistently\", or, Baezl'bub. When you have slain Baezl'bub in heroic combat, or, if Baezl'bub dies in any way, retrieve his black heart and bring it to the surface world.",
+"long":"POWDER is a roguelike originaly developed specifically for the Gameboy Advance. It is not a port of an existing roguelike as the controls of the GBA are very different from the traditional keyboard, and the screen imposes some additional limitations. The game goal is very simple, descend into the depths of the dungeon until you reach the foul daemon known as \"He who the author cannot spell consistently\", or, Baezl'bub. When you have slain Baezl'bub in heroic combat, or, if Baezl'bub dies in any way, retrieve his black heart and bring it to the surface world.",
 "date":"20170108",
 "status":"wip",
-"ver":"v0.1",
+"ver":"v0.2a",
 "site":"http://www.zincland.com/powder/?pagename=about",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"type":"game",
+"title":"Snakes",
+"tags":"Arcade, ARM11, userland",
+"desc":"Snake game with local multiplayer.",
+"author":"Desynched",
+"long":"",
+"date":"20170106",
+"status":"wip",
+"ver":"v0.2.2",
+"site":"https://github.com/DDews/Snakes",
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
+},{
+"type":"app",
+"title":"3DeMore",
+"tags":"utilities, savefile, ARM11, kernel",
+"desc":"Reset 3DS demo use counter.",
+"author":"Kyraminol",
+"long":"Reset all demo use counters and exit in few seconds. Simple, minimal, functional.",
+"date":"20170120",
+"status":"wip",
+"ver":"v1.0.0",
+"site":"https://github.com/Kyraminol/3DeMore",
+"comp":[1,2,2,0,0,0,1,2,2,0,0,0]
+},{
+"type":"game",
+"title":"Turtle Tale",
+"tags":"platform, ARM11, userland",
+"desc":"",
+"author":"TurtleP",
+"long":"Work in progress.",
+"date":"0",
+"status":"wip",
+"ver":"",
+"site":"https://www.reddit.com/r/3dshacks/comments/5mtiq7/pocwip_turtle_tale_my_senior_project_for_school/",
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 }]

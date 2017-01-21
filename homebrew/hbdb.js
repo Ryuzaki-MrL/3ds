@@ -12,6 +12,10 @@ if (queries.nolang==undefined && queries.lang!=undefined) {
     window.location.replace("http://ryuzaki-mrl.github.io/3ds/homebrew/"+lang+"?nolang=&"+document.location.search.substring(1));
 }
 
+$('#select_l').change(function() {
+    window.location.replace("http://ryuzaki-mrl.github.io/3ds/homebrew/"+this.options[this.options.selectedIndex].value+(queries.nolang==undefined ? "?nolang=&" : "?")+document.location.search.substring(1));
+});
+
 $.getJSON("hbdb.json", function(json) {
     $.each(json, function() {
         $('.list').append (
@@ -59,6 +63,7 @@ $.getJSON("hbdb.json", function(json) {
         $('.details #release').html(date);
         $('.details #version').html(date!=str_unreleased ? (json[id].ver.length > 0 ? json[id].ver : str_unknown) : '-');
         $('.details #site').html(json[id].site.length > 0 ? ('<a href="'+json[id].site+'" target="_blank">'+'<img src="btm_e.png"/>'+'</a>') : '-');
+        $('.details .desc').css('font-size', json[id].long.length > 550 ? '11pt' : '12.5pt');
         if (json[id].long.length > 256) {
             $('.details .desc').html(json[id].long.substring(0,240) + '... ');
             $('.show').addClass('more');
@@ -117,10 +122,6 @@ $.getJSON("hbdb.json", function(json) {
             if ($('input#' + item.values().cat).prop('checked') && $('input#' + item.values().status).prop('checked') && $('input#' + (item.values().release=="0" ? "unreleased" : (item.values().release.length==0 ? "unkdate" : "released"))).prop('checked')) return true
             else return false;
         });
-    });
-
-    $('#select_l').change(function() {
-        window.location.replace("http://ryuzaki-mrl.github.io/3ds/homebrew/"+this.options[this.options.selectedIndex].value+(queries.nolang==undefined ? "?nolang=&" : "?")+document.location.search.substring(1));
     });
 
     $('#select_p').change(function() {
