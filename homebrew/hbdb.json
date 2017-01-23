@@ -5035,7 +5035,7 @@
 "long":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"ver":"v2.4.2",
+"ver":"v3.0",
 "site":"https://github.com/Robz8/TWLoader/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5131,9 +5131,9 @@
 "long":"POWDER is a roguelike originaly developed specifically for the Gameboy Advance. It is not a port of an existing roguelike as the controls of the GBA are very different from the traditional keyboard, and the screen imposes some additional limitations. The game goal is very simple, descend into the depths of the dungeon until you reach the foul daemon known as \"He who the author cannot spell consistently\", or, Baezl'bub. When you have slain Baezl'bub in heroic combat, or, if Baezl'bub dies in any way, retrieve his black heart and bring it to the surface world.",
 "date":"20170108",
 "status":"wip",
-"ver":"v0.2a",
+"ver":"v0.3",
 "site":"http://www.zincland.com/powder/?pagename=about",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"comp":[2,1,0,0,0,0,2,1,0,0,0,0]
 },{
 "type":"game",
 "title":"Snakes",
@@ -5143,7 +5143,7 @@
 "long":"",
 "date":"20170106",
 "status":"wip",
-"ver":"v0.2.2",
+"ver":"v0.2.4",
 "site":"https://github.com/DDews/Snakes",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -5169,5 +5169,17 @@
 "status":"wip",
 "ver":"",
 "site":"https://www.reddit.com/r/3dshacks/comments/5mtiq7/pocwip_turtle_tale_my_senior_project_for_school/",
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"type":"game",
+"title":"JETSKI 3DS",
+"tags":"sports, ARM11, userland",
+"desc":"You are a jetski legend that cruises the big blue jumping waves and ducking under bridges.",
+"author":"ElementalCode",
+"long":"JETSKI 3DS is an unofficial game for Nintendo 3DS made during GGJ 2017. It runs in the implementation of the LÖVE API for 3DS Homebrew, LovePotion.",
+"date":"20170122",
+"status":"wip",
+"ver":"Potato",
+"site":"https://github.com/miltoncandelero/JETSKI-3DS",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 }]
