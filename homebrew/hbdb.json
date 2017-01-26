@@ -1244,7 +1244,7 @@
 "date":"20150215",
 "status":"discontinued",
 "ver":"v1",
-"site":"",
+"site":"https://gbatemp.net/threads/homebrew-3ds-remote-desktop.381646/",
 "comp":[2,1,1,0,0,0,2,1,1,0,0,0]
 },{
 "type":"app",
@@ -1340,7 +1340,7 @@
 "date":"20150904",
 "status":"discontinued",
 "ver":"",
-"site":"",
+"site":"https://gbatemp.net/threads/w-i-p-vn3ds-visual-novel-interpreter-for-3ds-homebrew.396564/",
 "comp":[2,0,2,0,0,0,2,0,2,0,0,0]
 },{
 "type":"app",
@@ -1625,10 +1625,10 @@
 "desc":"Decrypts and creates XORPads for game's ROM files and SD card files.",
 "author":"Team VOiD",
 "long":"",
-"date":"",
-"status":"",
+"date":"20140828",
+"status":"discontinued",
 "ver":"",
-"site":"",
+"site":"https://github.com/Relys/3DS_Multi_Decryptor",
 "comp":[0,0,0,0,2,0,0,0,0,0,2,0]
 },{
 "type":"app",
@@ -2009,11 +2009,11 @@
 "desc":"Snake game for 3DS.",
 "author":"Ernilos",
 "long":"",
-"date":"",
+"date":"20140119",
 "status":"",
-"ver":"",
+"ver":"v3.0",
 "site":"",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"comp":[0,0,2,0,0,0,0,0,2,0,0,0]
 },{
 "type":"game",
 "title":"The Real Snake",
@@ -2096,7 +2096,7 @@
 "date":"20150913",
 "status":"finished",
 "ver":"v1.1",
-"site":"",
+"site":"https://github.com/BHSPitMonkey/Helii3DS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2177,9 +2177,9 @@
 "desc":"Tic Tac Toe game for 3DS.",
 "author":"AlbertoSONIC",
 "long":"With this app you can play at tic tac toe against your friend right on your 3DS!",
-"date":"",
+"date":"20150203",
 "status":"discontinued",
-"ver":"",
+"ver":"v2",
 "site":"http://dl.albertosonic.com/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -2216,7 +2216,7 @@
 "date":"20150810",
 "status":"finished",
 "ver":"v2",
-"site":"",
+"site":"https://github.com/MrJPGames/Mastermind-3DS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2276,7 +2276,7 @@
 "date":"20151107",
 "status":"wip",
 "ver":"v1.3",
-"site":"",
+"site":"https://github.com/Cruel/DrawAttack",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -2384,7 +2384,7 @@
 "date":"20160423",
 "status":"",
 "ver":"v1.2",
-"site":"",
+"site":"https://github.com/nop90/OpenSyobon3DS",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -2420,7 +2420,7 @@
 "date":"20151127",
 "status":"discontinued",
 "ver":"v1.3.0b",
-"site":"",
+"site":"https://github.com/gocario/3-Aldchemys",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2450,13 +2450,13 @@
 "type":"game",
 "title":"Aperture Science 3D (portal3DS)",
 "tags":"puzzle, ARM11, userland",
-"desc":"Port of the game Portal.",
+"desc":"Portal clone for the Nintendo 3DS.",
 "author":"smealum",
 "long":"",
 "date":"",
 "status":"",
 "ver":"",
-"site":"",
+"site":"https://github.com/smealum/portal3DS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2780,7 +2780,7 @@
 "date":"20141225",
 "status":"discontinued",
 "ver":"v0.2a",
-"site":"",
+"site":"https://github.com/elhobbs/prboom3ds",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"game",
@@ -2990,7 +2990,7 @@
 "type":"emu",
 "title":"CTR64",
 "tags":"emulators, home console, ARM11, userland",
-"desc":"Work in progress Nintendo 64 emulator. Doesn't work yet.",
+"desc":"N64 emulation research/development for 3DS. Hard fork of CTRX.",
 "author":"machinamentum",
 "long":"",
 "date":"0",
@@ -3080,7 +3080,7 @@
 "date":"0",
 "status":"discontinued",
 "ver":"",
-"site":"",
+"site":"https://github.com/CTurt/Cinoop",
 "comp":[0,0,0,0,0,0,0,0,0,0,0,0]
 },{
 "type":"emu",
@@ -3092,7 +3092,7 @@
 "date":"20141218",
 "status":"discontinued",
 "ver":"",
-"site":"",
+"site":"https://gbatemp.net/threads/citragb-3ds-gba-emulator-wip.376438/",
 "comp":[1,1,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"emu",
@@ -4172,11 +4172,11 @@
 "date":"20141230",
 "status":"finished",
 "ver":"v1.1.1",
-"site":"",
+"site":"https://github.com/yellows8/3ds_homemenu_extdatatool",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
-"title":"ctr-streaming-service",
+"title":"ctr-streaming-server",
 "tags":"utilities, wifi, multimedia, music, ARM11, userland",
 "desc":"3DS homebrew audio/video playback server.",
 "author":"yellows8",
@@ -4184,7 +4184,7 @@
 "date":"0",
 "status":"",
 "ver":"",
-"site":"",
+"site":"https://github.com/yellows8/ctr-streaming-server",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -4208,7 +4208,7 @@
 "date":"20160827",
 "status":"wip",
 "ver":"v1.0",
-"site":"",
+"site":"https://github.com/Ryuzaki-MrL/CacheTool",
 "comp":[1,2,0,0,0,0,1,2,0,0,0,0]
 },{
 "type":"app",
@@ -4244,7 +4244,7 @@
 "date":"0",
 "status":"wip",
 "ver":"",
-"site":"",
+"site":"https://github.com/RSDuck/Craftus3DS",
 "comp":[0,0,0,0,0,0,0,0,0,0,0,0]
 },{
 "type":"app",
@@ -4508,7 +4508,7 @@
 "date":"20160806",
 "status":"",
 "ver":"v0.0",
-"site":"",
+"site":"https://github.com/Hayleia/Undertone",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -4772,7 +4772,7 @@
 "date":"20150705",
 "status":"discontinued",
 "ver":"v0.9",
-"site":"",
+"site":"https://github.com/machinamentum/music_player",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -5035,7 +5035,7 @@
 "long":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"ver":"v3.0",
+"ver":"v3.0.2",
 "site":"https://github.com/Robz8/TWLoader/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5095,7 +5095,7 @@
 "long":"This is a music player for the 3DS. It plays PCM WAV, AIFF, FLAC and OPUS.",
 "date":"20161228",
 "status":"wip",
-"ver":"v0.4.5",
+"ver":"v0.4.7",
 "site":"https://github.com/deltabeard/ctrmus",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5182,4 +5182,16 @@
 "ver":"Potato",
 "site":"https://github.com/miltoncandelero/JETSKI-3DS",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"type":"app",
+"title":"amiibo Collection",
+"tags":"utilities, ARM11, userland",
+"desc":"Homebrew for managing your amiibo collection.",
+"author":"Slimfr01",
+"long":"The goal of this future app is to provide an amiibo collector album for the Nintendo 3DS completed by scanning amiibo with the NFC Reader of the Old 3DS or built-in reader of the New 3DS.",
+"date":"20170123",
+"status":"wip",
+"ver":"v0.2.0",
+"site":"https://github.com/Slimfr01/amiibo-Collection",
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 }]

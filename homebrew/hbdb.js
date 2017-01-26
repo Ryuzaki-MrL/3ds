@@ -7,7 +7,7 @@ if (document.location.search.substring(1).length > 0) {
 }
 
 var lang = "";
-if (queries.nolang==undefined && queries.lang!=undefined) {
+if (queries.nolang===undefined && queries.lang!==undefined) {
     lang = queries.lang;
     window.location.replace("http://ryuzaki-mrl.github.io/3ds/homebrew/"+lang+"?nolang=&"+document.location.search.substring(1));
 }
@@ -77,7 +77,7 @@ $.getJSON(json_file, function(json) {
         $('.screenshot img').attr('src', '');
         $('.screenshot img').attr('src', '/3ds/homebrew/screenshots/'+id+'.png');
         $('.details table td').each(function(index) {
-            if (json[id].comp[index]!=undefined) $(this).css('background-color', json[id].comp[index]==2 ? "#00cc00" : json[id].comp[index]==1 ? "#ffa500" : "#fa8072")
+            if (json[id].comp[index]!==undefined) $(this).css('background-color', json[id].comp[index]==2 ? "#00cc00" : json[id].comp[index]==1 ? "#ffa500" : "#fa8072")
             else $(this).css('background-color', 'transparent');
         });
     };
@@ -139,9 +139,9 @@ $.getJSON(json_file, function(json) {
     $('.search').val(queries.search);
     hbList.search(queries.search);
     hbList.sort('title', {order: "asc"});
-    if (queries.sort!=undefined) hbList.sort(queries.sort, {order: "asc"});
+    if (queries.sort!==undefined) hbList.sort(queries.sort, {order: "asc"});
 
-    if (queries.filter!=undefined) {
+    if (queries.filter!==undefined) {
         var bytype, bydevst, byappst;
         var filter = queries.filter.split('|');
         for (i = 0; i < filter.length; i++) {
