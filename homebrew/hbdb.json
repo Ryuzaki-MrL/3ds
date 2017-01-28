@@ -487,7 +487,7 @@
 "long":"tikShop is a fork of TIKdevil that has been stripped down to the bare essentials. When you open the app it will download all of the missing tickets for your region and launch the eShop afterwards all without any interaction other than opening the app.",
 "date":"20160807",
 "status":"wip",
-"ver":"v1.0",
+"ver":"v1.0.2",
 "site":"https://github.com/DanTheMan827/tikShop",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -499,7 +499,7 @@
 "long":"tikSweep is a small utility I made that will remove any ticket files that are not being used. It will not delete tickets for any software that is currently installed, nor will it touch any system tickets regardless of their state.",
 "date":"20160809",
 "status":"wip",
-"ver":"v1.1",
+"ver":"v1.1.2",
 "site":"https://github.com/DanTheMan827/tikSweep",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -558,7 +558,7 @@
 "author":"d0k3",
 "long":"A small tool for the 3DS console, for helping with the downgrade and OTP dumping process.",
 "date":"20160224",
-"status":"wip",
+"status":"discontinued",
 "ver":"v0.90",
 "site":"https://github.com/d0k3/OTPHelper",
 "comp":[2,0,0,0,2,2,2,0,0,0,2,2]
@@ -798,7 +798,7 @@
 "author":"Ryuzaki_MrL",
 "long":"This is a small homebrew application for listing and extracting files from a mounted romfs drive.",
 "date":"20160713",
-"status":"wip",
+"status":"discontinued",
 "ver":"v1.0.1",
 "site":"https://github.com/Ryuzaki-MrL/RomFS-Explorer",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
@@ -1554,7 +1554,7 @@
 "author":"reworks",
 "long":"Place books in a folder named \"books\" on the root of your SD card. Some books can take a while to load! Be patient! Use calibre (google it) to convert other formats to .epub. Make sure its as strict as possible when converting.",
 "date":"20160715",
-"status":"wip",
+"status":"",
 "ver":"v0.1-a",
 "site":"https://github.com/reworks/3DS_eBook_Reader",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
@@ -1651,7 +1651,7 @@
 "long":"Savefile editor, wondercard injector and offline homebrew bank for gen4 to gen7 Pokémon games.",
 "date":"20160515",
 "status":"wip",
-"ver":"v4.0.3",
+"ver":"v4.1.0",
 "site":"https://github.com/BernardoGiordano/PKSM",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1806,7 +1806,7 @@
 "author":"Wolvan",
 "long":"A tool to easily update the encTitleKeys.bin for freeShop based on lpp-3ds or download the seeddb.bin and decTitleKeys.bin What started out as a fork of MatMaf's encTitleKeys.bin Updater has now been turned into a more all round solution to interact with 3ds.titlekeys.com from your 3ds.",
 "date":"20160613",
-"status":"wip",
+"status":"discontinued",
 "ver":"v1.6.1",
 "site":"https://github.com/Wolvan/encTitleKeys.bin-Updater",
 "comp":[0,2,2,0,0,0,0,2,2,0,0,0]
@@ -1890,7 +1890,7 @@
 "author":"rinnegatamante",
 "long":"Lua RayCast3D is a 3D Game Engine for Nintendo 3DS which runs under Lua Player Plus 3DS (lpp-3ds). It uses Ray-Casting algorithm (https://en.wikipedia.org/wiki/Ray_casting) to generate a 3D world starting from a 2D map. It runs fullspeed on N3DS with any accuracy value but runs smooth on O3DS only with accuracy values >= 3.",
 "date":"20151230",
-"status":"wip",
+"status":"",
 "ver":"v0.1",
 "site":"https://en.wikipedia.org/wiki/Ray_casting",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -3053,7 +3053,7 @@
 "desc":"Gameboy emulator. Discontinued.",
 "author":"st4rk",
 "long":"",
-"date":"",
+"date":"0",
 "status":"discontinued",
 "ver":"",
 "site":"",
@@ -3751,8 +3751,8 @@
 "long":"",
 "date":"20160801",
 "status":"wip",
-"ver":"v9",
-"site":"",
+"ver":"v10",
+"site":"https://github.com/rboninsegna/Puma33DS",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
 "type":"cfw",
@@ -3954,9 +3954,9 @@
 "author":"MarcusD",
 "long":"",
 "date":"20160813",
-"status":"wip",
+"status":"",
 "ver":"v1",
-"site":"",
+"site":"https://github.com/MarcuzD/PyShell27",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -4204,7 +4204,7 @@
 "tags":"utilities, maintenance, ARM11, userland",
 "desc":"3DS Homebrew application for managing play time, steps and cached icon data.",
 "author":"Ryuzaki_MrL",
-"long":"",
+"long":"The goal of this app is to provide an open-source alternative to some of the <a href='https://www.3dbrew.org/wiki/3DS_Development_Unit_Software)'>3DS Development Unit Software</a>, alongside with extra features.",
 "date":"20160827",
 "status":"wip",
 "ver":"v1.0",
@@ -4326,7 +4326,7 @@
 "author":"Sasori",
 "long":"",
 "date":"20160826",
-"status":"wip",
+"status":"",
 "ver":"v1.3",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
@@ -4698,8 +4698,8 @@
 "author":"VeRoXass",
 "long":"Use this to install steelhax to your system. Requires SteelDiver SubWars and an internet connection.",
 "date":"20160905",
-"status":"wip",
-"ver":"v1.0",
+"status":"finished",
+"ver":"v1.1",
 "site":"https://vegaroxas.github.io/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -4710,9 +4710,9 @@
 "author":"zaksabeast",
 "long":"PHBankManager (not affiliated with PHBank and its creator) allows the user to have multiple bank files that are able to be renamed with a computer or 3ds homebrew, and used offline in both .3dsx and .cia format. PHBankManager currently supports up to 20 bank files (30 Pokemon in 100 boxes for 20 bank files = 60,000 total Pokemon slots.).",
 "date":"20160906",
-"status":"wip",
+"status":"",
 "ver":"v1",
-"site":"",
+"site":"http://gbatemp.net/threads/beta-phbankmanager-multi-bank-manage-for-phbank-for-heavy-collectors-and-developers.440795/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -4746,7 +4746,7 @@
 "author":"nop90",
 "long":"Retrobattle is made to look and feel like the classic arcade-style NES games, such as Ice Climber and Clu Clu Land. Not only are the sprites limited to three colors each, but the scoring, increasing difficulty, and setup of the game makes for a challenging arcade experience that mixes various oldschool concepts. This game was originally implemented in Game Maker by Daniel Remar. This is a port of C++/SDL implementation by Andreas Remar.",
 "date":"20160910",
-"status":"wip",
+"status":"",
 "ver":"v1.0",
 "site":"http://remar.se/andreas/retrobattle/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
@@ -4819,7 +4819,7 @@
 "long":"Clone of the DOS videogame \"Lemmings\" for the 3DS. Still in (very slow) development, so some features are missing.",
 "date":"20160916",
 "status":"wip",
-"ver":"v0.5",
+"ver":"v0.6",
 "site":"https://github.com/esoteric-programmer/lemmings_3ds",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5023,7 +5023,7 @@
 "long":"TownManager allows you to easily manage multiple towns in AC:NL. It automatically will backup your current saves to a folder called \"Main\". From there you can select \"New\" which will delete your current save files on your cartridge and create a new folder with the name that you entered in. After you do this, the game will launch automatically. Setup your new town and the next time you open TownManager, your latest saves will be backed up to the last folder you launched. Now you can select the folder you want and load & launch the town you have selected in one step. No more messing with a generic save manager and launching the game separately.",
 "date":"20161030",
 "status":"wip",
-"ver":"v1.1.0",
+"ver":"v1.2.1",
 "site":"https://github.com/dragos240/TownManager",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5194,4 +5194,16 @@
 "ver":"v0.2.0",
 "site":"https://github.com/Slimfr01/amiibo-Collection",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
+},{
+"type":"game",
+"title":"3ds1010",
+"tags":"puzzle, ARM11, userland",
+"desc":"Port of the 1010! mobile game to the 3DS.",
+"author":"LiquidFenrir",
+"long":"It's like Tetris but with infinite time, you lose when you can no longer place any of the pieces you have available.",
+"date":"20170126",
+"status":"wip",
+"ver":"v0.1",
+"site":"https://github.com/LiquidFenrir/3ds1010",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 }]

@@ -17,7 +17,16 @@ $('#select_l').change(function() {
 });
 
 $.getJSON(json_file, function(json) {
+    var stats = {
+        app: 0, game: 0, emu: 0,
+        cfw: 0, rl: 0, wip: 0,
+        finished: 0, discontinued: 0
+    };
+
     $.each(json, function() {
+        stats[this.type]++;
+        stats[this.status]++;
+        if (this.date!="0") stats['rl']++;
         $('.list').append (
             '<li class="'+this.type+'">' +
             '<div id="'+$(json).index(this)+'">' +
@@ -36,11 +45,13 @@ $.getJSON(json_file, function(json) {
     var id;
 
     $('.icon img').error(function() {
-        $(this).attr('src', '/3ds/homebrew/icons/noicon.png');
+        if ($(this).attr('src')!='/3ds/homebrew/icons/noicon.png')
+            $(this).attr('src', '/3ds/homebrew/icons/noicon.png');
     });
 
     $('.screenshot img').error(function() {
-        $(this).attr('src', '/3ds/homebrew/screenshots/noscreen.png');
+        if ($(this).attr('src')!='/3ds/homebrew/screenshots/noscreen.png')
+            $(this).attr('src', '/3ds/homebrew/screenshots/noscreen.png');
     });
 
     $('.screenshot').click(function() {
@@ -61,6 +72,7 @@ $.getJSON(json_file, function(json) {
         var day = json[id].date.substring(6,8);
         var date = (json[id].date=="0") ? str_unreleased : (json[id].date.length==0) ? str_unknown : getDate(day, month, year);
         $('.details #release').html(date);
+        $('.details #devst').html(getDevStatus(json[id].status));
         $('.details #version').html(date!=str_unreleased ? (json[id].ver.length > 0 ? json[id].ver : str_unknown) : '-');
         $('.details #site').html(json[id].site.length > 0 ? ('<a href="'+json[id].site+'" target="_blank">'+'<img src="/3ds/homebrew/btm_e.png"/>'+'</a>') : '-');
         $('.details .desc').css('font-size', json[id].long.length > 550 ? '11pt' : '12.5pt');
@@ -130,6 +142,19 @@ $.getJSON(json_file, function(json) {
         else $('.pagination').show();
         hbList.page = value;
         hbList.search($('.search').val());
+    });
+
+    $('#stats').click(function() {
+        $('.stats').slideToggle();
+        $('.stats #st_t').html(json.length);
+        $('.stats #st_a').html(stats['app'] + " (" + (Math.round((stats['app']*1000) / json.length) / 10) + "%)");
+        $('.stats #st_g').html(stats['game'] + " (" + (Math.round((stats['game']*1000) / json.length) / 10) + "%)");
+        $('.stats #st_e').html(stats['emu'] + " (" + (Math.round((stats['emu']*1000) / json.length) / 10) + "%)");
+        $('.stats #st_c').html(stats['cfw'] + " (" + (Math.round((stats['cfw']*1000) / json.length) / 10) + "%)");
+        $('.stats #st_r').html(stats['rl'] + " (" + (Math.round((stats['rl']*1000) / json.length) / 10) + "%)");
+        $('.stats #st_w').html(stats['wip'] + " (" + (Math.round((stats['wip']*1000) / json.length) / 10) + "%)");
+        $('.stats #st_f').html(stats['finished'] + " (" + (Math.round((stats['finished']*1000) / json.length) / 10) + "%)");
+        $('.stats #st_d').html(stats['discontinued'] + " (" + (Math.round((stats['discontinued']*1000) / json.length) / 10) + "%)");
     });
 
     $(window).resize(function() {

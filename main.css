@@ -90,6 +90,9 @@ ul a, ul a:visited {
   padding-left:20px;
   height:160px;
 }
+.details .info p {
+  margin:10px 0;
+}
 .details .contrib {
   padding-left:20px;
   height:280px;
@@ -228,6 +231,17 @@ ul.list li {
   position:relative;
   top:-10px;
   right:-5px;
+}
+.stats {
+  display:none;
+  width:240px;
+  height:auto;
+  border:1px solid black;
+  border-radius:4px;
+  float:right;
+  text-align:left;
+  padding:8px;
+  margin-bottom:8px;
 }
 @media (max-width: 1080px) {
   ul.list li {

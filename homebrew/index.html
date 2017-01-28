@@ -46,6 +46,7 @@
                 <span class="screenshot"><img src=""/></span>
                 <p><b>Author: </b><span id="author">-</span></p>
                 <p><b>Initial Release: </b><span id="release">-</span></p>
+                <p><b>Development: </b><span id="devst">-</span></p>
                 <p><b>Latest Version: </b><span id="version">-</span></p>
                 <p><b>External Link: </b><span id="site">-</span><br/></p>
             </div>
@@ -113,7 +114,21 @@
             <ul class="list"></ul>
             <ul class="pagination bottom"></ul>
         </div>
-        <p><a onclick="$('html, body').animate({scrollTop: 0}, 'fast');">Top</a></p>
+        <p>
+            <a onclick="$('html, body').animate({scrollTop: 0}, 'fast');">Top</a>
+            <a id="stats" style="float:right;">Stats</a>
+        </p>
+        <div class="stats" style="">
+            <b>Homebrew Total: <span id="st_t"></span></b><br/>
+            <b>Apps: </b><span id="st_a"></span><br/>
+            <b>Games: </b><span id="st_g"></span><br/>
+            <b>Emulators: </b><span id="st_e"></span><br/>
+            <b>CFW: </b><span id="st_c"></span><br/>
+            <b>Released: </b><span id="st_r"></span><br/>
+            <b>Active: </b><span id="st_w"></span><br/>
+            <b>Finished: </b><span id="st_f"></span><br/>
+            <b>Discontinued: </b><span id="st_d"></span><br/>
+        </div><div style="clear:both;"/>
         <hr/>
         <p>
             Source:
@@ -137,7 +152,15 @@
     ];
     function getDate(day, month, year) {
         return (month + " " + day + ", " + year);
-    }
+    };
+    function getDevStatus(devst) {
+        switch(devst) {
+            case "wip": return "Active"; break;
+            case "discontinued": return "Discontinued"; break;
+            case "finished": return "Finished"; break;
+            default: return "Unknown"; break;
+        }
+    };
     </script>
     <script src="./hbdb.js"></script>
 </body>

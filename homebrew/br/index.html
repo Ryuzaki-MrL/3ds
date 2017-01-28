@@ -46,6 +46,7 @@
                 <span class="screenshot"><img src=""/></span>
                 <p><b>Autor: </b><span id="author">-</span></p>
                 <p><b>Lançamento Inicial: </b><span id="release">-</span></p>
+                <p><b>Desenvolvimento: </b><span id="devst">-</span></p>
                 <p><b>Última Versão: </b><span id="version">-</span></p>
                 <p><b>Link Externo: </b><span id="site">-</span><br/></p>
             </div>
@@ -113,7 +114,21 @@
             <ul class="list"></ul>
             <ul class="pagination bottom"></ul>
         </div>
-        <p><a onclick="$('html, body').animate({scrollTop: 0}, 'fast');">Topo</a></p>
+        <p>
+            <a onclick="$('html, body').animate({scrollTop: 0}, 'fast');">Topo</a>
+            <a id="stats" style="float:right;">Estatísticas</a>
+        </p>
+        <div class="stats" style="">
+            <b>Total de Homebrew: <span id="st_t"></span></b><br/>
+            <b>Apps: </b><span id="st_a"></span><br/>
+            <b>Jogos: </b><span id="st_g"></span><br/>
+            <b>Emuladores: </b><span id="st_e"></span><br/>
+            <b>CFW: </b><span id="st_c"></span><br/>
+            <b>Lançados: </b><span id="st_r"></span><br/>
+            <b>Ativos: </b><span id="st_w"></span><br/>
+            <b>Finalizados: </b><span id="st_f"></span><br/>
+            <b>Descontinuados: </b><span id="st_d"></span><br/>
+        </div><div style="clear:both;"/>
         <hr/>
         <p>
             Fonte(s):
@@ -137,7 +152,15 @@
     ];
     function getDate(day, month, year) {
         return (day + " " + month + ", " + year);
-    }
+    };
+    function getDevStatus(devst) {
+        switch(devst) {
+            case "wip": return "Ativo"; break;
+            case "discontinued": return "Descontinuado"; break;
+            case "finished": return "Finalizado"; break;
+            default: return "Desconhecido"; break;
+        }
+    };
     </script>
     <script src="../hbdb.js"></script>
 </body>
