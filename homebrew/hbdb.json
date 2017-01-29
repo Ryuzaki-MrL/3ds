@@ -1088,7 +1088,7 @@
 "date":"20160606",
 "status":"discontinued",
 "ver":"v0.6.0",
-"site":"",
+"site":"http://gs2012.xyz/3ds/corbenikupdater/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -3776,7 +3776,7 @@
 "date":"20160423",
 "status":"",
 "ver":"v2.1.1",
-"site":"",
+"site":"http://gs2012.xyz/3ds/easyrpgdlre",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -3798,9 +3798,9 @@
 "author":"gnmmarechal",
 "long":"It's a tool that switches \"arm9loaderhax.bin\" or \"arm9loaderhax_si.bin\" (or anything else, you have to specify in the config file if it is different) with \"arm9loaderhax_switch.bin\" (or something else, again). It's also capable of renaming \"arm9loaderhax.bin\" to \"arm9loaderhax_si.bin\" as to toggle screeinit/noscreeinit behaviour on a compatible A9LH installation.",
 "date":"20160626",
-"status":"",
+"status":"finished",
 "ver":"v1.3",
-"site":"",
+"site":"http://gs2012.xyz/3ds/quickswitch",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -4615,8 +4615,8 @@
 "long":"Now supports Skeith and Corbenik in a single app, without the issues the original updater had.",
 "date":"20160902",
 "status":"wip",
-"ver":"v1.0.1",
-"site":"",
+"ver":"v1.0.3R2",
+"site":"http://gs2012.xyz/3ds/corbenikupdaterre/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"game",
@@ -5240,6 +5240,6 @@
 "date":"20160704",
 "status":"wip",
 "ver":"v1.5.3-UN",
-"site":"https://github.com/gnmmarechal/StarUpdater-UN",
+"site":"http://gs2012.xyz/3ds/starupdater/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 }]
