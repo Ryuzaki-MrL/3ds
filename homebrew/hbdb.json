@@ -424,9 +424,9 @@
 "tags":"utilities, internet, maintenance, ARM11, userland",
 "desc":"Homebrew for updating your Luma3DS payload.",
 "author":"astronautlevel2",
-"long":"",
+"long":"This is a simple updater for Luma3DS. It uses LPP-3DS in order to work, and it is available as both a 3DSX and a CIA. NOTE: This is discontinued and will not work with Luma3DS 6.1.3 or newer for menuhax.",
 "date":"20160429",
-"status":"wip",
+"status":"discontinued",
 "ver":"v1.4.1",
 "site":"https://github.com/astronautlevel2/StarUpdater",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
@@ -512,7 +512,7 @@
 "date":"20151217",
 "status":"discontinued",
 "ver":"v0.1c",
-"site":"",
+"site":"https://gbatemp.net/threads/wip-installmii-graphical-repository-downloader.406097/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -520,7 +520,7 @@
 "tags":"utilities, maintenance, ARM11, userland",
 "desc":"Check the functionailty of your 3DS.",
 "author":"Technicmaster0",
-"long":"Not much to say. It's an app that checks that your buttons etc. work. But this one is completely in 3D!",
+"long":"It's an app that checks that your buttons etc. work. But this one is completely in 3D!",
 "date":"20150524",
 "status":"discontinued",
 "ver":"v1.0.2",
@@ -618,7 +618,7 @@
 "author":"Slashcash",
 "long":"PCHex++ is a graphical Pokémon savefile editor. It is based on Stracker's original PCHex. A lot of code is written from scratch although a lot of ideas are taken from there!",
 "date":"20151208",
-"status":"wip",
+"status":"",
 "ver":"v0.1.4",
 "site":"https://github.com/Slashcash/PCHex-plusplus",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
@@ -1099,7 +1099,7 @@
 "long":"This is a port of the vgmstream library for the 3ds. vgmstream is a library for playing a wide variety of streamed audio formats used in video games. As of now this app has a textual interface, though a better interface and more playback features are planned.",
 "date":"20160205",
 "status":"",
-"ver":"v0.1.2",
+"ver":"v0.2.0",
 "site":"",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -1135,7 +1135,7 @@
 "long":"Noob friendly, safe, arm9loaderhax only NAND dumper & restorer for the 3DS console.",
 "date":"20160525",
 "status":"wip",
-"ver":"v1.30",
+"ver":"v1.40",
 "site":"https://github.com/d0k3/Hourglass9",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
@@ -1231,7 +1231,7 @@
 "long":"It loads all the needed files from the SD card (no more need to build console-specific installers), and it's really fast. Other than that, it's way safer than the original one, as it does various checks.",
 "date":"20160319",
 "status":"wip",
-"ver":"v2.6.4",
+"ver":"v2.6.7",
 "site":"https://github.com/AuroraWright/SafeA9LHInstaller",
 "comp":[2,0,0,2,0,2,2,0,0,2,0,2]
 },{
@@ -1315,7 +1315,7 @@
 "long":"With this app you can draw anything you want, with 7 colors and a rubber! You can find some instructions on the 3DS's top screen!",
 "date":"20141120",
 "status":"discontinued",
-"ver":"v1.2 [?]",
+"ver":"v1.2",
 "site":"http://dl.albertosonic.com/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -1783,7 +1783,7 @@
 "long":"Open source eShop clone for the Nintendo 3DS. Allows you to browse and install titles you own (i.e. titles for which you have the titlekey).",
 "date":"20160530",
 "status":"wip",
-"ver":"v2.1.4",
+"ver":"v2.2.0",
 "site":"https://freeshop.pw/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -2635,7 +2635,7 @@
 "long":"Super Haxagon is a Super Hexagon like clone for the 3DS! Play as a triangle and rotate to avoid the walls! With awesome background music, get 10 times the amount of entertainment out of your CFW or Homebrewed 3ds (or something like that)! Written in C for the 3ds from the ground up, this game is intended to increase the amount of homebrew games that exist. Enjoy!",
 "date":"20160616",
 "status":"wip",
-"ver":"v2.0.1",
+"ver":"v2.1.1",
 "site":"http://gbatemp.net/threads/wip-super-haxagon.431206/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3811,7 +3811,7 @@
 "long":"Supports multiple simultaneous clients. The 3DS itself only appears to support enough sockets to perform 4-5 simultaneous data transfers, so it will help if you limit your FTP client to this many parallel requests.",
 "date":"20160610",
 "status":"wip",
-"ver":"v1.2",
+"ver":"v1.4.1",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3930,9 +3930,9 @@
 "author":"WoniMK7",
 "long":"",
 "date":"20151212",
-"status":"",
+"status":"discontinued",
 "ver":"v1.2.2",
-"site":"",
+"site":"https://github.com/WoniMK7/Muzik-player",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -3980,7 +3980,7 @@
 "date":"20160805",
 "status":"finished",
 "ver":"v1",
-"site":"",
+"site":"https://gbatemp.net/threads/wooddumper-3ds-a-way-to-dump-original-ds-games-to-3ds-sd-card.436998/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -3990,9 +3990,9 @@
 "author":"shutterbug2000",
 "long":"",
 "date":"20160820",
-"status":"wip",
+"status":"finished",
 "ver":"v2.0",
-"site":"",
+"site":"https://github.com/ahezard/NitroHax",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -4015,7 +4015,7 @@
 "long":"This homebrew can be used to copy characters between different regions of the Monster Hunter X games, backup/restore your save and import/export quests from your save. WARNING: This hasn't been extensively tested yet, always make a backup of your save file before messing with it.",
 "date":"20160718",
 "status":"wip",
-"ver":"v2.1.1",
+"ver":"v2.2.0",
 "site":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4255,7 +4255,7 @@
 "long":"This is \"NTR Launcher\". A stripped down optimized version of NitroHax but without the cheat code system. This simply launches the game you have in SLOT-1.",
 "date":"20160823",
 "status":"wip",
-"ver":"v1.9.4",
+"ver":"v1.9.5",
 "site":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -4927,7 +4927,7 @@
 "long":"",
 "date":"20160930",
 "status":"wip",
-"ver":"2016-11-08",
+"ver":"v1.0.0",
 "site":"https://github.com/dragos240/Pocket-NLSE/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4951,7 +4951,7 @@
 "long":"SpecializeMii is an application for the Nintendo 3DS that allows you to set the special-Status on abitrary Miis in your MiiMaker database. Normally reserved only for Miis distributed by Nintendo, a special Mii wears Golden Pants and triggers special events in certain applications.",
 "date":"20161008",
 "status":"wip",
-"ver":"v0.1.0",
+"ver":"v0.1.4",
 "site":"https://github.com/phijor/SpecializeMii",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4999,7 +4999,7 @@
 "long":"Smash Amiibo Cheat Tool is a (N)3DS/2DS homebrew that have the ability to hack your smash amiibos. For the moment, it buffs all your amiibo's stats to 200.",
 "date":"20161022",
 "status":"wip",
-"ver":"v1.3",
+"ver":"v2.0",
 "site":"https://github.com/Ordim3n/Smash-Amiibo-Cheat-Tool",
 "comp":[1,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5020,7 +5020,7 @@
 "tags":"utilities, savefile, ARM11, userland",
 "desc":"Manage multiple AC:NL savefiles.",
 "author":"dragos240",
-"long":"TownManager allows you to easily manage multiple towns in AC:NL. It automatically will backup your current saves to a folder called \"Main\". From there you can select \"New\" which will delete your current save files on your cartridge and create a new folder with the name that you entered in. After you do this, the game will launch automatically. Setup your new town and the next time you open TownManager, your latest saves will be backed up to the last folder you launched. Now you can select the folder you want and load & launch the town you have selected in one step. No more messing with a generic save manager and launching the game separately.",
+"long":"TownManager allows you to easily manage multiple towns in AC:NL. It automatically backups your current save to a folder called \"Main\". From there you can select \"New\" which will delete your current savefile and create a new folder with the name that you entered in. After you do this, the game will launch automatically. Setup your new town and the next time you open TownManager, your latest saves will be backed up to the last folder you launched. Now you can select the folder you want and load & launch the town you have selected in one step. No more messing with a generic save manager and launching the game separately.",
 "date":"20161030",
 "status":"wip",
 "ver":"v1.2.1",
@@ -5035,7 +5035,7 @@
 "long":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"ver":"v3.0.2",
+"ver":"v3.1",
 "site":"https://github.com/Robz8/TWLoader/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5095,7 +5095,7 @@
 "long":"This is a music player for the 3DS. It plays PCM WAV, AIFF, FLAC and OPUS.",
 "date":"20161228",
 "status":"wip",
-"ver":"v0.4.7",
+"ver":"v0.4.8",
 "site":"https://github.com/deltabeard/ctrmus",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5205,5 +5205,29 @@
 "status":"wip",
 "ver":"v0.1",
 "site":"https://github.com/LiquidFenrir/3ds1010",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"game",
+"title":"Pong 3DS",
+"tags":"arcade, ARM11, userland",
+"desc":"A 3D pong game for 3DS with software rendering.",
+"author":"AntonioND",
+"long":"",
+"date":"20150217",
+"status":"finished",
+"ver":"v1.0.2",
+"site":"http://antoniond_blog.drunkencoders.com/?p=372",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"type":"app",
+"title":"InputRedirection",
+"tags":"utilities, ARM11, userland",
+"desc":"Redirect 3DS input over wifi.",
+"author":"Stary2001",
+"long":"",
+"date":"20160810",
+"status":"",
+"ver":"v1.1",
+"site":"https://github.com/Stary2001/InputRedirection",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 }]
