@@ -164,7 +164,10 @@ $.getJSON(json_file, function(json) {
     $('.search').val(queries.search);
     hbList.search(queries.search);
     hbList.sort('title', {order: "asc"});
-    if (queries.sort!==undefined) hbList.sort(queries.sort, {order: "asc"});
+    if (queries.sort!==undefined) {
+        var sort = queries.sort.split('|');
+        hbList.sort(sort[0], {order: ((sort[1]!==undefined) ? sort[1] : "asc")});
+    }
 
     if (queries.filter!==undefined) {
         var bytype, bydevst, byappst;
