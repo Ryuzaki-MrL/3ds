@@ -5238,7 +5238,7 @@
 "author":"gnmmarechal/astronautlevel2",
 "long":"This is a simple updater for Luma3DS. It uses LPP-3DS in order to work, and it is available as both a 3DSX and a CIA. Up-to-date fork of StarUpdater",
 "date":"20161126",
-"status":"",
+"status":"Active",
 "ver":"v1.5.3",
 "site":"https://github.com/gnmmarechal/StarUpdater-UN",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
