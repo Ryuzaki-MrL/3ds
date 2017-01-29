@@ -4819,7 +4819,7 @@
 "long":"Clone of the DOS videogame \"Lemmings\" for the 3DS. Still in (very slow) development, so some features are missing.",
 "date":"20160916",
 "status":"wip",
-"ver":"v0.6",
+"ver":"v0.6.1",
 "site":"https://github.com/esoteric-programmer/lemmings_3ds",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
