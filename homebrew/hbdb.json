@@ -5235,7 +5235,7 @@
 "title":"StarUpdater-UN",
 "tags":"utilities, internet, maintenance, ARM11, userland",
 "desc":"Homebrew for updating your Luma3DS payload.",
-"author":"gnmmarechal/astronautlevel2",
+"author":"gnmmarechal, astronautlevel2",
 "long":"This is a simple updater for Luma3DS. It uses LPP-3DS in order to work, and it is available as both a 3DSX and a CIA. Up-to-date fork of StarUpdater",
 "date":"20160704",
 "status":"wip",
