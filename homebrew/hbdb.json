@@ -1651,7 +1651,7 @@
 "long":"Savefile editor, wondercard injector and offline homebrew bank for gen4 to gen7 Pokémon games.",
 "date":"20160515",
 "status":"wip",
-"ver":"v4.1.0",
+"ver":"v4.1.1",
 "site":"https://github.com/BernardoGiordano/PKSM",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
