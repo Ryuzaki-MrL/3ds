@@ -56,6 +56,8 @@ ul a, ul a:visited {
   margin-top:-240px;
   position:fixed;
   z-index:1;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #888888;
 }
 .details #title {
   line-height:48px;
@@ -75,6 +77,10 @@ ul a, ul a:visited {
   width:28px;
   height:28px;
   float:right;
+  margin-top: 5px;
+  margin-right: 5px;
+  border: 2px solid red;
+  border-radius: 28px;
   display:inline;
 }
 .details .icon {
