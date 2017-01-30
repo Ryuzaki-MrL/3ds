@@ -2,28 +2,25 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-	<meta name="viewport" content="width=640, initial-scale=1, user-scalable=yes"/>
+    <meta name="viewport" content="width=640, initial-scale=1, user-scalable=yes"/>
     <title>3DS Homebrew | The Homebrew Database</title>
-    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="../../main.css"/>
+    <base href="/3ds/">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="main.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.4.1/list.min.js"></script>
     <script src="https://cdn.rawgit.com/javve/list.pagination.js/v0.1.1/dist/list.pagination.min.js"></script>
     <style>
-    .more:after {
-        content:"Ler mais.";
-    }
-    .less:after {
-        content:"Ler menos.";
-    }
+    .more::after {content: "Ler mais."}
+    .less::after {content: "Ler menos."}
     </style>
 </head>
 <body>
     <div class="container">
-        <image src="../../3ds.png" alt="Nintendo 3DS" style="width:100%;"/>
+        <img src="3ds.png" alt="Nintendo 3DS" style="width:100%"/>
         <hr/>
-			<a href="../homebrew">Lista de Homebrew</a> -
-            <a href="../devs">Lista de Desenvolvedores</a>
+        <a href="homebrew">Lista de Homebrew</a> -
+        <a href="devs">Lista de Desenvolvedores</a>
         <hr/>
         <h2>Lista de homebrews para o 3DS</h2>
         <p>
@@ -79,7 +76,7 @@
             Idioma:
             <select id="select_l">
                 <option value="">English</option>
-                <option value="br" SELECTED>Português</option>
+                <option value="br" selected>Português</option>
             </select><br/><br/>
             Organizar por:<br/>
             <!--TODO: fix alphabetic sorting-->
@@ -88,17 +85,17 @@
             <button class="sort" data-sort="author">Autor</button>
             <button class="sort" data-sort="release">Lançamento</button><br/><br/>
             Filtrar por:<br/>
-            <input type="checkbox" class="filter type" id="app" CHECKED>Aplicativos</input> -
-            <input type="checkbox" class="filter type" id="game" CHECKED>Jogos</input> -
-            <input type="checkbox" class="filter type" id="emu" CHECKED>Emuladores</input> -
-            <input type="checkbox" class="filter type" id="cfw" CHECKED>Custom Firmwares</input><br/>
-            <input type="checkbox" class="filter appst" id="released" CHECKED>Lançados</input> -
-            <input type="checkbox" class="filter appst" id="unreleased" CHECKED>Não Lançados</input> -
-            <input type="checkbox" class="filter appst" id="unkdate" CHECKED>Desconhecido</input><br/>
-            <input type="checkbox" class="filter devst" id="wip" CHECKED>Em Progresso</input> -
-            <input type="checkbox" class="filter devst" id="discontinued" CHECKED>Descontinuados</input> -
-            <input type="checkbox" class="filter devst" id="finished" CHECKED>Finalizados</input> -
-            <input type="checkbox" class="filter devst" id="unknown" CHECKED>Desconhecido</input><br/><br/>
+            <input type="checkbox" class="filter type" id="app" checked><label for="app">Aplicativos</label> -
+            <input type="checkbox" class="filter type" id="game" checked><label for="game">Jogos</label> -
+            <input type="checkbox" class="filter type" id="emu" checked><label for="emu">Emuladores</label> -
+            <input type="checkbox" class="filter type" id="cfw" checked><label for="cfw">Custom Firmwares</label><br/>
+            <input type="checkbox" class="filter appst" id="released" checked><label for="released">Lançados</label> -
+            <input type="checkbox" class="filter appst" id="unreleased" checked><label for="unreleased">Não Lançados</label> -
+            <input type="checkbox" class="filter appst" id="unkdate" checked><label for="unkdate">Desconhecido</label><br/>
+            <input type="checkbox" class="filter devst" id="wip" checked><label for="wip">Em Progresso</label> -
+            <input type="checkbox" class="filter devst" id="discontinued" checked><label for="discontinued">Descontinuados</label> -
+            <input type="checkbox" class="filter devst" id="finished" checked><label for="finished">Finalizados</label> -
+            <input type="checkbox" class="filter devst" id="unknown" checked><label for="unknown">Desconhecido</label><br/><br/>
             Listar
             <select id="select_p">
                 <option>30</option>
@@ -127,7 +124,8 @@
             <b>Ativos: </b><span id="st_w"></span><br/>
             <b>Finalizados: </b><span id="st_f"></span><br/>
             <b>Descontinuados: </b><span id="st_d"></span><br/>
-        </div><div style="clear:both;"/>
+        </div>
+        <div style="clear:both"></div>
         <hr/>
         <p>
             Fonte(s):
@@ -139,13 +137,13 @@
         </p>
     </div>
     <script>
-    json_file = "../hbdb.json";
+    json_file = "homebrew/hbdb.json";
     str_unreleased = "Não Lançado";
     str_unknown = "Desconhecido";
     str_found = "Encontrados ";
     str_listing = "Listando ";
     str_failed = "Não foi possível carregar os dados de homebrews.";
-    monthstr = [ "???",
+    var monthstr = ["???",
         "Jan", "Fev", "Mar", "Abr", "Mai", "Jun",
         "Jul", "Ago", "Set", "Out", "Nov", "Dez"
     ];
@@ -161,6 +159,6 @@
         }
     };
     </script>
-    <script src="../hbdb.js"></script>
+    <script src="homebrew/hbdb.js"></script>
 </body>
 </html>

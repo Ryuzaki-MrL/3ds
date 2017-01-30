@@ -2,18 +2,20 @@ var queries = {};
 if (document.location.search.substring(1).length > 0) {
     $.each(document.location.search.substr(1).split('&'), function(a,b) {
         var i = b.split('=');
-        if (i.length > 1) queries[i[0].toString()] = i[1].toString();
+        if (i.length > 1) {
+            queries[i[0].toString()] = i[1].toString();
+        }
     });
 }
 
 var lang = "";
 if (queries.nolang===undefined && queries.lang!==undefined) {
     lang = queries.lang;
-    window.location.replace("http://ryuzaki-mrl.github.io/3ds/homebrew/"+lang+"?nolang=&"+document.location.search.substring(1));
+    window.location.replace("ryuzaki-mrl.github.io/3ds/homebrew/"+lang+"?nolang=&"+document.location.search.substring(1));
 }
 
 $('#select_l').change(function() {
-    window.location.replace("http://ryuzaki-mrl.github.io/3ds/homebrew/"+this.options[this.options.selectedIndex].value+(queries.nolang==undefined ? "?nolang=&" : "?")+document.location.search.substring(1));
+    window.location.replace("ryuzaki-mrl.github.io/3ds/homebrew/"+this.options[this.options.selectedIndex].value+(queries.nolang===undefined ? "?nolang=&" : "?")+document.location.search.substring(1));
 });
 
 $.getJSON(json_file, function(json) {
@@ -26,8 +28,10 @@ $.getJSON(json_file, function(json) {
     $.each(json, function() {
         stats[this.type]++;
         stats[this.status]++;
-        if (this.date!="0") stats['rl']++;
-        $('.list').append (
+        if (this.date != "0") {
+            stats.rl++;
+        }
+        $('.list').append(
             '<li class="'+this.type+'">' +
             '<div id="'+$(json).index(this)+'">' +
             '<span class="icon"><img src="/3ds/homebrew/icons/'+$(json).index(this)+'.png"/></span>' +
@@ -37,7 +41,7 @@ $.getJSON(json_file, function(json) {
             '<span class="hdata tags">'+this.tags+'</span>' +
             '<span class="hdata release">'+this.date+'</span>' +
             '<span class="hdata cat">'+this.type+'</span>' +
-            '<span class="hdata status">'+(this.status.length==0 ? 'unknown' : this.status)+'</span>' +
+            '<span class="hdata status">'+(this.status.length===0 ? 'unknown' : this.status)+'</span>' +
             '</div></li>'
         );
     });
@@ -45,19 +49,24 @@ $.getJSON(json_file, function(json) {
     var id;
 
     $('.icon img').error(function() {
-        if ($(this).attr('src')!='/3ds/homebrew/icons/noicon.png')
-            $(this).attr('src', '/3ds/homebrew/icons/noicon.png');
-    });
+        if ($(this).attr('src')!='/3ds/homebrew/icons/noicon.png') {
+                $(this).attr('src', '/3ds/homebrew/icons/noicon.png');
+            }
+        });
 
-    $('.screenshot img').error(function() {
-        if ($(this).attr('src')!='/3ds/homebrew/screenshots/noscreen.png')
-            $(this).attr('src', '/3ds/homebrew/screenshots/noscreen.png');
-    });
+        $('.screenshot img').error(function() {
+            if ($(this).attr('src')!='/3ds/homebrew/screenshots/noscreen.png') {
+                $(this).attr('src', '/3ds/homebrew/screenshots/noscreen.png');
+            }
+        });
 
     $('.screenshot').click(function() {
         $('.details p, .details h1, .details table, .details span:not(.screenshot)').fadeOut(120);
-        $('.screenshot img').animate({width: $('.screenshot img').css('width')=='120px' ? 400 : 120}, 360);
-        if ($('.screenshot img').css('width')!='120px') $('.details *' + ($('.show').hasClass('less') ? ':not(.compat)' : '')).fadeIn(500);
+        $('.screenshot img').animate({
+            width: $('.screenshot img').css('width') == '120px' ? 400 : 120}, 360);
+        if ($('.screenshot img').css('width') != '120px') {
+            $('.details *' + ($('.show').hasClass('less') ? ':not(.compat)' : '')).fadeIn(500);
+        }
     });
 
     function showDetails() {
@@ -70,7 +79,7 @@ $.getJSON(json_file, function(json) {
         var year = json[id].date.substring(0,4);
         var month = monthstr[parseInt(json[id].date.substring(4,6))];
         var day = json[id].date.substring(6,8);
-        var date = (json[id].date=="0") ? str_unreleased : (json[id].date.length==0) ? str_unknown : getDate(day, month, year);
+        var date = (json[id].date=="0") ? str_unreleased : (json[id].date.length===0) ? str_unknown : getDate(day, month, year);
         $('.details #release').html(date);
         $('.details #devst').html(getDevStatus(json[id].status));
         $('.details #version').html(date!=str_unreleased ? (json[id].ver.length > 0 ? json[id].ver : str_unknown) : '-');
@@ -89,10 +98,13 @@ $.getJSON(json_file, function(json) {
         $('.screenshot img').attr('src', '');
         $('.screenshot img').attr('src', '/3ds/homebrew/screenshots/'+id+'.png');
         $('.details table td').each(function(index) {
-            if (json[id].comp[index]!==undefined) $(this).css('background-color', json[id].comp[index]==2 ? "#00cc00" : json[id].comp[index]==1 ? "#ffa500" : "#fa8072")
-            else $(this).css('background-color', 'transparent');
+            if (json[id].comp[index]!==undefined) {
+                    $(this).css('background-color', json[id].comp[index]==2 ? "#0c0" : json[id].comp[index]==1 ? "#ffa500" : "#fa8072");
+                } else {
+                    $(this).css('background-color', 'transparent');
+                }
         });
-    };
+    }
 
     $('.title').click(function() {
         id = $(this).parent().attr('id');
@@ -101,7 +113,7 @@ $.getJSON(json_file, function(json) {
 
     $('.show').click(function() {
         $('.compat').fadeToggle(200);
-        if ($(this).hasClass('more')) $('.details .desc').html(json[id].long + ' ')
+        if ($(this).hasClass('more')) $('.details .desc').html(json[id].long + ' ');
         else if ($(this).hasClass('less')) $('.details .desc').html(json[id].long.substring(0,240) + '... ');
         $(this).toggleClass('more less');
     });
@@ -111,7 +123,7 @@ $.getJSON(json_file, function(json) {
     });
 
     var options = {
-        valueNames: [ 'title', 'desc', 'author', 'tags', 'release', 'cat', 'status' ],
+        valueNames: ['title', 'desc', 'author', 'tags', 'release', 'cat', 'status'],
         page: 30,
         plugins: [
             ListPagination({paginationClass: "top", innerWindow: 15}),
@@ -122,8 +134,8 @@ $.getJSON(json_file, function(json) {
     var hbList = new List('hb_list', options);
 
     hbList.on('updated', function() {
-        $('.list').append('<li class="none" style="display:none; visibility:hidden;"></li>');
-        if ((hbList.visibleItems.length % 2 == 0) || (window.innerWidth < 1080)) $('.none').hide();
+        $('.list').append('<li class="none" style="display:none"></li>');
+        if ((hbList.visibleItems.length % 2 === 0) || (window.innerWidth < 1080)) $('.none').hide();
         $('#qt').html(str_found + hbList.matchingItems.length + ' homebrew(s).<br/>' +
         str_listing + hbList.visibleItems.length + ' homebrew(s).');
         if ((hbList.visibleItems.length % 2 == 1) && (window.innerWidth >= 1080)) $('.none').show();
@@ -131,14 +143,14 @@ $.getJSON(json_file, function(json) {
 
     $('.filter').change(function() {
         hbList.filter(function(item) {
-            if ($('input#' + item.values().cat).prop('checked') && $('input#' + item.values().status).prop('checked') && $('input#' + (item.values().release=="0" ? "unreleased" : (item.values().release.length==0 ? "unkdate" : "released"))).prop('checked')) return true
+            if ($('input#' + item.values().cat).prop('checked') && $('input#' + item.values().status).prop('checked') && $('input#' + (item.values().release=="0" ? "unreleased" : (item.values().release.length===0 ? "unkdate" : "released"))).prop('checked')) return true;
             else return false;
         });
     });
 
     $('#select_p').change(function() {
         var value = parseInt(this.options[this.options.selectedIndex].value);
-        if (value==999) $('.pagination').hide()
+        if (value==999) $('.pagination').hide();
         else $('.pagination').show();
         hbList.page = value;
         hbList.search($('.search').val());
@@ -147,14 +159,14 @@ $.getJSON(json_file, function(json) {
     $('#stats').click(function() {
         $('.stats').slideToggle();
         $('.stats #st_t').html(json.length);
-        $('.stats #st_a').html(stats['app'] + " (" + (Math.round((stats['app']*1000) / json.length) / 10) + "%)");
-        $('.stats #st_g').html(stats['game'] + " (" + (Math.round((stats['game']*1000) / json.length) / 10) + "%)");
-        $('.stats #st_e').html(stats['emu'] + " (" + (Math.round((stats['emu']*1000) / json.length) / 10) + "%)");
-        $('.stats #st_c').html(stats['cfw'] + " (" + (Math.round((stats['cfw']*1000) / json.length) / 10) + "%)");
-        $('.stats #st_r').html(stats['rl'] + " (" + (Math.round((stats['rl']*1000) / json.length) / 10) + "%)");
-        $('.stats #st_w').html(stats['wip'] + " (" + (Math.round((stats['wip']*1000) / json.length) / 10) + "%)");
-        $('.stats #st_f').html(stats['finished'] + " (" + (Math.round((stats['finished']*1000) / json.length) / 10) + "%)");
-        $('.stats #st_d').html(stats['discontinued'] + " (" + (Math.round((stats['discontinued']*1000) / json.length) / 10) + "%)");
+        $('.stats #st_a').html(stats.app + " (" + (Math.round((stats.app*1000) / json.length) / 10) + "%)");
+        $('.stats #st_g').html(stats.game + " (" + (Math.round((stats.game*1000) / json.length) / 10) + "%)");
+        $('.stats #st_e').html(stats.emu + " (" + (Math.round((stats.emu*1000) / json.length) / 10) + "%)");
+        $('.stats #st_c').html(stats.cfw + " (" + (Math.round((stats.cfw*1000) / json.length) / 10) + "%)");
+        $('.stats #st_r').html(stats.rl + " (" + (Math.round((stats.rl*1000) / json.length) / 10) + "%)");
+        $('.stats #st_w').html(stats.wip + " (" + (Math.round((stats.wip*1000) / json.length) / 10) + "%)");
+        $('.stats #st_f').html(stats.finished + " (" + (Math.round((stats.finished*1000) / json.length) / 10) + "%)");
+        $('.stats #st_d').html(stats.discontinued + " (" + (Math.round((stats.discontinued*1000) / json.length) / 10) + "%)");
     });
 
     $(window).resize(function() {
@@ -166,7 +178,9 @@ $.getJSON(json_file, function(json) {
     hbList.sort('title', {order: "asc"});
     if (queries.sort!==undefined) {
         var sort = queries.sort.split('|');
-        hbList.sort(sort[0], {order: ((sort[1]!==undefined) ? sort[1] : "asc")});
+        hbList.sort(sort[0], {
+                order: ((sort[1]!==undefined) ? sort[1] : "asc")
+            });
     }
 
     if (queries.filter!==undefined) {
@@ -175,13 +189,14 @@ $.getJSON(json_file, function(json) {
         for (i = 0; i < filter.length; i++) {
             $('.filter#'+filter[i]).click();
             switch (filter[i]) {
-                case"app":case"game":case"emu":case"cfw": bytype = true; break;
-                case"released":case"unreleased":case"unkdate": byappst = true; break;
-                case"wip":case"discontinued":case"finished":case"unknown": bydevst = true; break;
+                case "app":case"game":case"emu":case"cfw": bytype = true; break;
+                case "released":case"unreleased":case"unkdate": byappst = true; break;
+                case "wip":case"discontinued":case"finished":case"unknown": bydevst = true; break;
             }
-        } if (bytype) $('.filter.type').click();
-        if (byappst) $('.filter.appst').click();
-        if (bydevst) $('.filter.devst').click();
+        }
+        if (bytype) {$('.filter.type').click();}
+        if (byappst) {$('.filter.appst').click();}
+        if (bydevst) {$('.filter.devst').click();}
     }
 
     if (queries.show >= 0 && queries.show < json.length) {
