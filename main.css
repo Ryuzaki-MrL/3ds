@@ -4,7 +4,7 @@ html, body {
   margin:0;
 }
 body {
-  background-color:#000000;
+  background-color:#000;
   text-align:center;
   min-width:600px;
   font-size:12.5pt;
@@ -34,8 +34,8 @@ ul a, ul a:visited {
   color:inherit;
 }
 .container {
-  background-color:#ffffff;
-  color:#000000;
+  background-color:#fff;
+  color:#000;
   width:85%;
   min-height:100%;
   margin:0 auto;
@@ -46,7 +46,7 @@ ul a, ul a:visited {
 .details {
   display:none;
   border:2px solid black;
-  background-color:#eeeeee;
+  background-color:#eee;
   left:50%;
   top:50%;
   width:40%;
@@ -164,6 +164,7 @@ ul.list li {
   display:none;
 }
 .title:hover, .user:hover {
+  cursor:pointer;
   text-decoration:underline;
 }
 .desc {
@@ -194,12 +195,12 @@ ul.list li {
   border-radius: 8px;
   border:none;
   display:inline-block;
-  color:#ffffff;
+  color:#fff;
   background-color:green;
   text-decoration: none;
   height:24px;
 }
-.sort:after {
+.sort::after {
   width:0;
   height:0;
   border-left:5px solid transparent;
@@ -210,23 +211,23 @@ ul.list li {
   top:-10px;
   right:-5px;
 }
-.sort.asc:after {
+.sort.asc::after {
   width:0;
   height:0;
   border-left:5px solid transparent;
   border-right:5px solid transparent;
-  border-top:5px solid #ffffff;
+  border-top:5px solid #fff;
   content:"";
   position:relative;
   top:13px;
   right:-5px;
 }
-.sort.desc:after {
+.sort.desc::after {
   width:0;
   height:0;
   border-left:5px solid transparent;
   border-right:5px solid transparent;
-  border-bottom:5px solid #ffffff;
+  border-bottom:5px solid #fff;
   content:"";
   position:relative;
   top:-10px;

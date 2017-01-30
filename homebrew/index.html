@@ -2,28 +2,25 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-	<meta name="viewport" content="width=640, initial-scale=1, user-scalable=yes"/>
+    <meta name="viewport" content="width=640, initial-scale=1, user-scalable=yes"/>
     <title>3DS Homebrew | The Homebrew Database</title>
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="../main.css"/>
+    <base href="/3ds/">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="main.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.4.1/list.min.js"></script>
     <script src="https://cdn.rawgit.com/javve/list.pagination.js/v0.1.1/dist/list.pagination.min.js"></script>
     <style>
-    .more:after {
-        content:"Read more.";
-    }
-    .less:after {
-        content:"Read less.";
-    }
+        .more::after {content: "Read more."}
+        .less::after {content: "Read less."}
     </style>
 </head>
 <body>
     <div class="container">
-        <image src="../3ds.png" alt="Nintendo 3DS" style="width:100%;"/>
+        <img src="3ds.png" alt="Nintendo 3DS" style="width:100%"/>
         <hr/>
-			<a href="../homebrew">Homebrew List</a> -
-            <a href="../devs">Developers List</a>
+        <a href="homebrew">Homebrew List</a> -
+        <a href="devs">Developers List</a>
         <hr/>
         <h2>List of 3DS homebrew</h2>
         <p>
@@ -88,17 +85,17 @@
             <button class="sort" data-sort="author">Author</button>
             <button class="sort" data-sort="release">Release</button><br/><br/>
             Filter by:<br/>
-            <input type="checkbox" class="filter type" id="app" CHECKED>Applications</input> -
-            <input type="checkbox" class="filter type" id="game" CHECKED>Games</input> -
-            <input type="checkbox" class="filter type" id="emu" CHECKED>Emulators</input> -
-            <input type="checkbox" class="filter type" id="cfw" CHECKED>Custom Firmwares</input><br/>
-            <input type="checkbox" class="filter appst" id="released" CHECKED>Released</input> -
-            <input type="checkbox" class="filter appst" id="unreleased" CHECKED>Unreleased</input> -
-            <input type="checkbox" class="filter appst" id="unkdate" CHECKED>Unknown</input><br/>
-            <input type="checkbox" class="filter devst" id="wip" CHECKED>Work in Progress</input> -
-            <input type="checkbox" class="filter devst" id="discontinued" CHECKED>Discontinued</input> -
-            <input type="checkbox" class="filter devst" id="finished" CHECKED>Finished</input> -
-            <input type="checkbox" class="filter devst" id="unknown" CHECKED>Unknown</input><br/><br/>
+            <input type="checkbox" class="filter type" id="app" checked><label for="app">Applications</label> -
+            <input type="checkbox" class="filter type" id="game" checked><label for="game">Games</label> -
+            <input type="checkbox" class="filter type" id="emu" checked><label for="emu">Emulators</label> -
+            <input type="checkbox" class="filter type" id="cfw" checked><label for="cfw">Custom Firmwares</label><br/>
+            <input type="checkbox" class="filter appst" id="released" checked><label for="released">Released</label> -
+            <input type="checkbox" class="filter appst" id="unreleased" checked><label for="unreleased">Unreleased</label> -
+            <input type="checkbox" class="filter appst" id="unkdate" checked><label for="unkdate">Unknown</label><br/>
+            <input type="checkbox" class="filter devst" id="wip" checked><label for="wip">Work in Progress</label> -
+            <input type="checkbox" class="filter devst" id="discontinued" checked><label for="discontinued">Discontinued</label> -
+            <input type="checkbox" class="filter devst" id="finished" checked><label for="finished">Finished</label> -
+            <input type="checkbox" class="filter devst" id="unknown" checked><label for="unknown">Unknown</label><br/><br/>
             List
             <select id="select_p">
                 <option>30</option>
@@ -115,7 +112,7 @@
         </div>
         <p>
             <a onclick="$('html, body').animate({scrollTop: 0}, 'fast');">Top</a>
-            <a id="stats" style="float:right;">Stats</a>
+            <a id="stats" style="float:right">Stats</a>
         </p>
         <div class="stats" style="">
             <b>Homebrew Total: <span id="st_t"></span></b><br/>
@@ -127,7 +124,8 @@
             <b>Active: </b><span id="st_w"></span><br/>
             <b>Finished: </b><span id="st_f"></span><br/>
             <b>Discontinued: </b><span id="st_d"></span><br/>
-        </div><div style="clear:both;"/>
+        </div>
+        <div style="clear:both"></div>
         <hr/>
         <p>
             Source:
@@ -139,13 +137,13 @@
         </p>
     </div>
     <script>
-    json_file = "hbdb.json";
+    json_file = "homebrew/hbdb.json";
     str_unreleased = "Unreleased";
     str_unknown = "Unknown";
     str_found = "Found ";
     str_listing = "Listing ";
     str_failed = "Unable to load homebrew database.";
-    var monthstr = [ "???",
+    var monthstr = ["???",
         "Jan", "Feb", "Mar", "Apr", "May", "Jun",
         "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
     ];
@@ -161,6 +159,6 @@
         }
     };
     </script>
-    <script src="./hbdb.js"></script>
+    <script src="homebrew/hbdb.js"></script>
 </body>
 </html>
