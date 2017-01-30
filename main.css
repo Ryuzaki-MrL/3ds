@@ -42,6 +42,9 @@ ul a, ul a:visited {
   padding:8px 0.5%;
   overflow:hidden;
   position:relative;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  box-shadow: 0px 0px 20px black;
 }
 .details {
   display:none;
