@@ -8,14 +8,8 @@ if (document.location.search.substring(1).length > 0) {
     });
 }
 
-var lang = "";
-if (queries.nolang===undefined && queries.lang!==undefined) {
-    lang = queries.lang;
-    window.location.replace("ryuzaki-mrl.github.io/3ds/homebrew/"+lang+"?nolang=&"+document.location.search.substring(1));
-}
-
 $('#select_l').change(function() {
-    window.location.replace("ryuzaki-mrl.github.io/3ds/homebrew/"+this.options[this.options.selectedIndex].value+(queries.nolang===undefined ? "?nolang=&" : "?")+document.location.search.substring(1));
+    window.location = '/3ds/homebrew/' + $(this).val();
 });
 
 $.getJSON(json_file, function(json) {
