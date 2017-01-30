@@ -80,7 +80,7 @@ $.getJSON(json_file, function(json) {
         $('.details #site').html(json[id].site.length > 0 ? ('<a href="'+json[id].site+'" target="_blank">'+'<img src="/3ds/homebrew/btm_e.png"/>'+'</a>') : '-');
         $('.details .desc').css('font-size', json[id].long.length > 550 ? '11pt' : '12.5pt');
         if (json[id].long.length > 256) {
-            $('.details .desc').html(json[id].long.substring(0,240) + '... ');
+            $('.details .desc').html(json[id].long.substring(0,240) + '\u2026 ');
             $('.show').addClass('more');
             $('.show').removeClass('less');
             $('.show').show();
@@ -108,7 +108,7 @@ $.getJSON(json_file, function(json) {
     $('.show').click(function() {
         $('.compat').fadeToggle(200);
         if ($(this).hasClass('more')) $('.details .desc').html(json[id].long + ' ');
-        else if ($(this).hasClass('less')) $('.details .desc').html(json[id].long.substring(0,240) + '... ');
+        else if ($(this).hasClass('less')) $('.details .desc').html(json[id].long.substring(0,240) + '\u2026 ');
         $(this).toggleClass('more less');
     });
 
