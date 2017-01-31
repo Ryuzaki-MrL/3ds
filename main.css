@@ -4,7 +4,7 @@ html, body {
   margin:0;
 }
 body {
-  background-color:#000;
+  background-image:url('bg.png');
   text-align:center;
   min-width:600px;
   font-size:12.5pt;
@@ -42,6 +42,9 @@ ul a, ul a:visited {
   padding:8px 0.5%;
   overflow:hidden;
   position:relative;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  box-shadow: 0px 0px 20px black;
 }
 .details {
   display:none;
@@ -56,6 +59,8 @@ ul a, ul a:visited {
   margin-top:-240px;
   position:fixed;
   z-index:1;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #888888;
 }
 .details #title {
   line-height:48px;
@@ -75,12 +80,17 @@ ul a, ul a:visited {
   width:28px;
   height:28px;
   float:right;
+  margin-top: 5px;
+  margin-right: 5px;
+  border: 2px solid red;
+  border-radius: 28px;
   display:inline;
 }
 .details .icon {
   display:block;
   text-align:center;
   padding-top:32px;
+  padding-left:33px;
 }
 .details .screenshot {
   float:right;
