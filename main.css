@@ -167,24 +167,12 @@ ul.list li {
   box-shadow: 5px 5px 10px #888888;
 }
 
-/* Some fancy smooth animation for hovering over the list items */
-/* Taken from http://tobiasahlin.com/blog/how-to-animate-box-shadow/ */
-/*			~firegodjr */
-ul.list li::after
-{
-  box-shadow: 5px 5px 10px #888888;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
 ul.list li:hover
 {
-	transform: scale(1.2, 1.2);
+	border: 2px solid green;
+	background-color: #eeffee;
+	margin: 0.05%;
 }
-ul.list li:hover::after
-{
-  opacity: 1;
-}
-
 .list .vdata {
   padding-left:96px;
   padding-right:16px;
