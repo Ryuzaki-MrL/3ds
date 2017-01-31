@@ -30,7 +30,7 @@ ul:not(.normal) {
   padding: 0;
   text-align: center;
 }
-ul a, ul a: visited {
+ul a, ul a:visited {
   color: inherit;
 }
 .container {
