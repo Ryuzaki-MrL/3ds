@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=640, initial-scale=1, user-scalable=yes"/>
-    <title>3DS Homebrew | The Homebrew Database</title>
+    <title>3DS 自制程序 | 自制程序数据库</title>
     <base href="/3ds/">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="main.css"/>
@@ -11,27 +11,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.4.1/list.min.js"></script>
     <script src="https://cdn.rawgit.com/javve/list.pagination.js/v0.1.1/dist/list.pagination.min.js"></script>
     <style>
-        .more::after {content: "Read more."}
-        .less::after {content: "Read less."}
+        .more::after {content: "看更多"}
+        .less::after {content: "看更少"}
     </style>
 </head>
 <body>
     <div class="container">
         <img src="3ds.png" alt="Nintendo 3DS" style="width:100%"/>
         <hr/>
-        <a href="homebrew">Homebrew List</a> -
-        <a href="devs">Developers List</a>
+        <a href="homebrew">自制程序单</a> -
+        <a href="devs">显影剂单</a>
         <hr/>
-        <h2>List of 3DS homebrew</h2>
+        <h2>自制程序单</h2>
         <p>
-            This is a full list containing all homebrew software released for the Nintendo 3DS.<br/>
-            I'll try to keep it up-to-date whenever possible, feel free to contribute if you want to.<br/>
-            Click on an entry to view details about a specific homebrew.<br/>
+            这个单子有每一个3DS的自制程序软件。<br/>
+            我要它时时刻刻是最新版，欢迎投稿。<br/>
+            如果你要看到细节，选择任何的条目。<br/>
         </p>
         <p>
-            You can search homebrew by typing part of the title, description, author, release date, or any other keyword.<br/>
-            For example: "emulators" will return emulators only, whilst "userland" will return userland homebrew only.<br/>
-            You can also sort homebrew by title, category, author or release date, and filter by category, release status and development status.<br/>
+            你可以打字题目，细节，发布日子，或别的关键字为调查自制程序。<br/>
+            例如：“模拟器”就会给你模拟器，也“userland”就会给你userland。<br/>
+            你也可以整理自制程序用题目，种类，作者，或发布日子<br/>
         </p>
         <!--DETAILS PANEL-->
         <div class="details">
@@ -40,17 +40,17 @@
             <h1 id="title">-</h1>
             <div class="info">
                 <span class="screenshot"><img src=""/></span>
-                <p><b>Author: </b><span id="author">-</span></p>
-                <p><b>Initial Release: </b><span id="release">-</span></p>
-                <p><b>Development: </b><span id="devst">-</span></p>
-                <p><b>Latest Version: </b><span id="version">-</span></p>
-                <p><b>External Link: </b><span id="site">-</span><br/></p>
+                <p><b>作者: </b><span id="author">-</span></p>
+                <p><b>第一版: </b><span id="release">-</span></p>
+                <p><b>苗头: </b><span id="devst">-</span></p>
+                <p><b>最新版: </b><span id="version">-</span></p>
+                <p><b>链接: </b><span id="site">-</span><br/></p>
             </div>
             <p id="desc"><span class="desc">-</span><span class="show"></span></p>
             <span class="compat">Compatibility chart:</span>
             <table class="compat">
                 <tr class="o3ds">
-                    <th>O3DS:</th>
+                    <th>老3DS:</th>
                     <td>hbl</td>
                     <td>cia</td>
                     <td>gw</td>
@@ -59,7 +59,7 @@
                     <td>spider</td>
                 </tr>
                 <tr class="n3ds">
-                    <th>N3DS:</th>
+                    <th>新3DS:</th>
                     <td>hbl</td>
                     <td>cia</td>
                     <td>gw</td>
@@ -71,31 +71,32 @@
         </div>
         <!--MAIN LIST-->
         <div id="hb_list">
-            Search by:<br/>
-            <input class="search" placeholder="Search homebrew"/><br/><br/>
-            Language:
+            调查:<br/>
+            <input class="search" placeholder="调查自制程序"/><br/><br/>
+            语言:
             <select id="select_l">
                 <option value="">English</option>
                 <option value="br">Português</option>
+                <option value="zh_cn">简体中文</option>
             </select><br/><br/>
-            Sort by:<br/>
+            整理:<br/>
             <!--TODO: fix alphabetic sorting-->
-            <button class="sort" data-sort="title">Title</button>
-            <button class="sort" data-sort="cat">Category</button>
-            <button class="sort" data-sort="author">Author</button>
-            <button class="sort" data-sort="release">Release</button><br/><br/>
-            Filter by:<br/>
-            <input type="checkbox" class="filter type" id="app" checked><label for="app">Applications</label> -
-            <input type="checkbox" class="filter type" id="game" checked><label for="game">Games</label> -
-            <input type="checkbox" class="filter type" id="emu" checked><label for="emu">Emulators</label> -
-            <input type="checkbox" class="filter type" id="cfw" checked><label for="cfw">Custom Firmwares</label><br/>
-            <input type="checkbox" class="filter appst" id="released" checked><label for="released">Released</label> -
-            <input type="checkbox" class="filter appst" id="unreleased" checked><label for="unreleased">Unreleased</label> -
-            <input type="checkbox" class="filter appst" id="unkdate" checked><label for="unkdate">Unknown</label><br/>
-            <input type="checkbox" class="filter devst" id="wip" checked><label for="wip">Work in Progress</label> -
-            <input type="checkbox" class="filter devst" id="discontinued" checked><label for="discontinued">Discontinued</label> -
-            <input type="checkbox" class="filter devst" id="finished" checked><label for="finished">Finished</label> -
-            <input type="checkbox" class="filter devst" id="unknown" checked><label for="unknown">Unknown</label><br/><br/>
+            <button class="sort" data-sort="title">题目</button>
+            <button class="sort" data-sort="cat">种类</button>
+            <button class="sort" data-sort="author">作者</button>
+            <button class="sort" data-sort="release">发布</button><br/><br/>
+            筛选:<br/>
+            <input type="checkbox" class="filter type" id="app" checked><label for="app">应用程式</label> -
+            <input type="checkbox" class="filter type" id="game" checked><label for="game">游戏</label> -
+            <input type="checkbox" class="filter type" id="emu" checked><label for="emu">模拟器</label> -
+            <input type="checkbox" class="filter type" id="cfw" checked><label for="cfw">自制系统</label><br/>
+            <input type="checkbox" class="filter appst" id="released" checked><label for="released">发布</label> -
+            <input type="checkbox" class="filter appst" id="unreleased" checked><label for="unreleased">不发布</label> -
+            <input type="checkbox" class="filter appst" id="unkdate" checked><label for="unkdate">不明日子</label><br/>
+            <input type="checkbox" class="filter devst" id="wip" checked><label for="wip">WIP</label> -
+            <input type="checkbox" class="filter devst" id="discontinued" checked><label for="discontinued">中断的</label> -
+            <input type="checkbox" class="filter devst" id="finished" checked><label for="finished">完了</label> -
+            <input type="checkbox" class="filter devst" id="unknown" checked><label for="unknown">不明</label><br/><br/>
             List
             <select id="select_p">
                 <option>30</option>
@@ -105,25 +106,25 @@
                 <option>200</option>
                 <option value="999">ALL</option>
             </select> homebrews.<br/><br/>
-            <span id="qt">Loading...</span>
+            <span id="qt">装在...</span>
             <ul class="pagination top"></ul>
             <ul class="list"></ul>
             <ul class="pagination bottom"></ul>
         </div>
         <p>
-            <a onclick="$('html, body').animate({scrollTop: 0}, 'fast');">Top</a>
-            <a id="stats" style="float:right">Stats</a>
+            <a onclick="$('html, body').animate({scrollTop: 0}, 'fast');">头</a>
+            <a id="stats" style="float:right">统计</a>
         </p>
         <div class="stats" style="">
-            <b>Homebrew Total: <span id="st_t"></span></b><br/>
-            <b>Apps: </b><span id="st_a"></span><br/>
-            <b>Games: </b><span id="st_g"></span><br/>
-            <b>Emulators: </b><span id="st_e"></span><br/>
-            <b>CFW: </b><span id="st_c"></span><br/>
-            <b>Released: </b><span id="st_r"></span><br/>
-            <b>Active: </b><span id="st_w"></span><br/>
-            <b>Finished: </b><span id="st_f"></span><br/>
-            <b>Discontinued: </b><span id="st_d"></span><br/>
+            <b>总自制程序: <span id="st_t"></span></b><br/>
+            <b>应用程序: </b><span id="st_a"></span><br/>
+            <b>游戏: </b><span id="st_g"></span><br/>
+            <b>模拟器: </b><span id="st_e"></span><br/>
+            <b>自制系统: </b><span id="st_c"></span><br/>
+            <b>发布的: </b><span id="st_r"></span><br/>
+            <b>主动: </b><span id="st_w"></span><br/>
+            <b>完了: </b><span id="st_f"></span><br/>
+            <b>中断的: </b><span id="st_d"></span><br/>
         </div>
         <div style="clear:both"></div>
         <hr/>
@@ -138,11 +139,11 @@
     </div>
     <script>
     json_file = "homebrew/hbdb.json";
-    str_unreleased = "Unreleased";
-    str_unknown = "Unknown";
-    str_found = "Found ";
-    str_listing = "Listing ";
-    str_failed = "Unable to load homebrew database.";
+    str_unreleased = "不发布的";
+    str_unknown = "不明";
+    str_found = "明";
+    str_listing = "细木";
+    str_failed = "不可能装自制程序数据库";
     var monthstr = ["???",
         "Jan", "Feb", "Mar", "Apr", "May", "Jun",
         "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
@@ -152,10 +153,10 @@
     };
     function getDevStatus(devst, released) {
         switch(devst) {
-            case "wip": return (released ? "Active" : "Work in progress"); break;
-            case "discontinued": return "Discontinued"; break;
-            case "finished": return "Finished"; break;
-            default: return "Unknown"; break;
+            case "wip": return (released ? "主动" : "WIP"); break;
+            case "discontinued": return "中断的"; break;
+            case "finished": return "完了"; break;
+            default: return "不明"; break;
         }
     };
     </script>
