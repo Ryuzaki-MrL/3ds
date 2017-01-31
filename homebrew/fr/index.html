@@ -22,19 +22,19 @@
     <div class="container">
         <image src="../3ds.png" alt="Nintendo 3DS" style="width:100%;"/>
         <hr/>
-			<a href="../homebrew">Homebrew List</a> -
-            <a href="../devs">Developers List</a>
+			<a href="../homebrew">Liste d'Homebrews</a> -
+            <a href="../devs">Liste des développeurs</a>
         <hr/>
-        <h2>List of 3DS homebrew</h2>
+        <h2>Liste de homebrews 3DS</h2>
         <p>
-            This is a full list containing all homebrew software released for the Nintendo 3DS.<br/>
-            I'll try to keep it up-to-date whenever possible, feel free to contribute if you want to.<br/>
-            Click on an entry to view details about a specific homebrew.<br/>
+            Ceci est une liste contenant tous les homebrews sortis pour la Nintendo 3DS.<br/>
+            J'essaierais de la garder à jour quand je pourrais, N'hésitez pas à contribuer si vous le voulez.<br/>
+            Cliquez sur la case d'un homebrew pour avoir des infos à propos de ce dernier.<br/>
         </p>
         <p>
-            You can search homebrew by typing part of the title, description, author, release date, or any other keyword.<br/>
-            For example: "emulators" will return emulators only, whilst "userland" will return userland homebrew only.<br/>
-            You can also sort homebrew by title, category, author or release date, and filter by category, release status and development status.<br/>
+            Vous pouvez chercher un homebrew à partir d'une partie du titre, de la description, de l'auteur, de la date de sortie, ou de n'importe quel autre mot clé.<br/>
+            Par exemple: "émulateurs" ne retrouvera que des émulateurs, comme "userland" ne retrouvera que des homebrews userland.<br/>
+            Vous pouvez également trier les homebrews par titre, catégorie, auteur ou date de sortie, ou les filtrer par catégorie, fréquence de mise à jour et statut du développement.<br/>
         </p>
         <!--DETAILS PANEL-->
         <div class="details">
@@ -43,14 +43,14 @@
             <h1 id="title">-</h1>
             <div class="info">
                 <span class="screenshot"><img src=""/></span>
-                <p><b>Author: </b><span id="author">-</span></p>
-                <p><b>Initial Release: </b><span id="release">-</span></p>
-                <p><b>Development: </b><span id="devst">-</span></p>
-                <p><b>Latest Version: </b><span id="version">-</span></p>
-                <p><b>External Link: </b><span id="site">-</span><br/></p>
+                <p><b>Auteur: </b><span id="author">-</span></p>
+                <p><b>Sortie Initiale: </b><span id="release">-</span></p>
+                <p><b>Développment: </b><span id="devst">-</span></p>
+                <p><b>Dernière Version: </b><span id="version">-</span></p>
+                <p><b>Lien externe: </b><span id="site">-</span><br/></p>
             </div>
             <p id="desc"><span class="desc">-</span><span class="show"></span></p>
-            <span class="compat">Compatibility chart:</span>
+            <span class="compat">Tableau de compatibilité:</span>
             <table class="compat">
                 <tr class="o3ds">
                     <th>O3DS:</th>
@@ -75,30 +75,30 @@
         <!--MAIN LIST-->
         <div id="hb_list">
             Search by:<br/>
-            <input class="search" placeholder="Search homebrew"/><br/><br/>
-            Language:
+            <input class="search" placeholder="Chercher un homebrew"/><br/><br/>
+            Langage:
             <select id="select_l">
                 <option value="">English</option>
                 <option value="br">Português</option>
             </select><br/><br/>
             Sort by:<br/>
             <!--TODO: fix alphabetic sorting-->
-            <button class="sort" data-sort="title">Title</button>
-            <button class="sort" data-sort="cat">Category</button>
-            <button class="sort" data-sort="author">Author</button>
-            <button class="sort" data-sort="release">Release</button><br/><br/>
+            <button class="sort" data-sort="title">Titre</button>
+            <button class="sort" data-sort="cat">Catégorie</button>
+            <button class="sort" data-sort="author">Auteur</button>
+            <button class="sort" data-sort="release">Sortie</button><br/><br/>
             Filter by:<br/>
             <input type="checkbox" class="filter type" id="app" CHECKED>Applications</input> -
-            <input type="checkbox" class="filter type" id="game" CHECKED>Games</input> -
-            <input type="checkbox" class="filter type" id="emu" CHECKED>Emulators</input> -
+            <input type="checkbox" class="filter type" id="game" CHECKED>Jeux</input> -
+            <input type="checkbox" class="filter type" id="emu" CHECKED>Emulateurs</input> -
             <input type="checkbox" class="filter type" id="cfw" CHECKED>Custom Firmwares</input><br/>
-            <input type="checkbox" class="filter appst" id="released" CHECKED>Released</input> -
-            <input type="checkbox" class="filter appst" id="unreleased" CHECKED>Unreleased</input> -
-            <input type="checkbox" class="filter appst" id="unkdate" CHECKED>Unknown</input><br/>
-            <input type="checkbox" class="filter devst" id="wip" CHECKED>Work in Progress</input> -
-            <input type="checkbox" class="filter devst" id="discontinued" CHECKED>Discontinued</input> -
-            <input type="checkbox" class="filter devst" id="finished" CHECKED>Finished</input> -
-            <input type="checkbox" class="filter devst" id="unknown" CHECKED>Unknown</input><br/><br/>
+            <input type="checkbox" class="filter appst" id="released" CHECKED>Sorti</input> -
+            <input type="checkbox" class="filter appst" id="unreleased" CHECKED>Non sorti</input> -
+            <input type="checkbox" class="filter appst" id="unkdate" CHECKED>Inconnu</input><br/>
+            <input type="checkbox" class="filter devst" id="wip" CHECKED>En progrès</input> -
+            <input type="checkbox" class="filter devst" id="discontinued" CHECKED>Arrêté</input> -
+            <input type="checkbox" class="filter devst" id="finished" CHECKED>Fini</input> -
+            <input type="checkbox" class="filter devst" id="unknown" CHECKED>Inconnu</input><br/><br/>
             List
             <select id="select_p">
                 <option>30</option>
@@ -140,24 +140,24 @@
     </div>
     <script>
     json_file = "hbdb.json";
-    str_unreleased = "Unreleased";
-    str_unknown = "Unknown";
-    str_found = "Found ";
+    str_unreleased = "Non sorti";
+    str_unknown = "Inconnu";
+    str_found = "Trouvé ";
     str_listing = "Listing ";
-    str_failed = "Unable to load homebrew database.";
+    str_failed = "Ne peut pas charger la base de données.";
     var monthstr = [ "???",
-        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+        "Jan", "Fev", "Mar", "Avr", "Mai", "Jui",
+        "Jul", "Aou", "Sep", "Oct", "Nov", "Dec"
     ];
     function getDate(day, month, year) {
         return (month + " " + day + ", " + year);
     };
     function getDevStatus(devst) {
         switch(devst) {
-            case "wip": return "Active"; break;
-            case "discontinued": return "Discontinued"; break;
-            case "finished": return "Finished"; break;
-            default: return "Unknown"; break;
+            case "wip": return "Actif"; break;
+            case "discontinued": return "Arrêté"; break;
+            case "finished": return "Fini"; break;
+            default: return "Inconnu"; break;
         }
     };
     </script>
