@@ -98,8 +98,8 @@ $.getJSON(json_file, function(json) {
         });
     }
 
-    $('.title').click(function() {
-        id = $(this).parent().attr('id');
+    $('.list li').click(function() {
+        id = $(this).children("div").attr('id');
         showDetails();
     });
 
