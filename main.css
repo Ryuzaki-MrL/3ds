@@ -45,6 +45,7 @@ ul a, ul a:visited {
   border-left: 2px solid black;
   border-right: 2px solid black;
   box-shadow: 0px 0px 20px black;
+  transition: width 1s;
 }
 .details {
   display:none;
@@ -266,7 +267,11 @@ ul.list li {
     margin-left:-260px;
   }
   .container {
-    width:99%;
-    margin:0;
+    width:95%;
+  }
+}
+@media (max-width: 640px) {
+  ul.pagination li {
+    width:18px;
   }
 }

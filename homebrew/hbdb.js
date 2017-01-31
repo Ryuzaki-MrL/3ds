@@ -22,9 +22,7 @@ $.getJSON(json_file, function(json) {
     $.each(json, function() {
         stats[this.type]++;
         stats[this.status]++;
-        if (this.date != "0") {
-            stats.rl++;
-        }
+        stats.rl += (this.date != "0");
         $('.list').append(
             '<li class="'+this.type+'">' +
             '<div id="'+$(json).index(this)+'">' +
@@ -44,15 +42,15 @@ $.getJSON(json_file, function(json) {
 
     $('.icon img').error(function() {
         if ($(this).attr('src')!='/3ds/homebrew/icons/noicon.png') {
-                $(this).attr('src', '/3ds/homebrew/icons/noicon.png');
-            }
-        });
+            $(this).attr('src', '/3ds/homebrew/icons/noicon.png');
+        }
+    });
 
-        $('.screenshot img').error(function() {
-            if ($(this).attr('src')!='/3ds/homebrew/screenshots/noscreen.png') {
-                $(this).attr('src', '/3ds/homebrew/screenshots/noscreen.png');
-            }
-        });
+    $('.screenshot img').error(function() {
+        if ($(this).attr('src')!='/3ds/homebrew/screenshots/noscreen.png') {
+            $(this).attr('src', '/3ds/homebrew/screenshots/noscreen.png');
+        }
+    });
 
     $('.screenshot').click(function() {
         $('.details p, .details h1, .details table, .details span:not(.screenshot)').fadeOut(120);
@@ -93,10 +91,10 @@ $.getJSON(json_file, function(json) {
         $('.screenshot img').attr('src', '/3ds/homebrew/screenshots/'+id+'.png');
         $('.details table td').each(function(index) {
             if (json[id].comp[index]!==undefined) {
-                    $(this).css('background-color', json[id].comp[index]==2 ? "#0c0" : json[id].comp[index]==1 ? "#ffa500" : "#fa8072");
-                } else {
-                    $(this).css('background-color', 'transparent');
-                }
+                $(this).css('background-color', json[id].comp[index]==2 ? "#0c0" : json[id].comp[index]==1 ? "#ffa500" : "#fa8072");
+            } else {
+                $(this).css('background-color', 'transparent');
+            }
         });
     }
 
@@ -137,8 +135,7 @@ $.getJSON(json_file, function(json) {
 
     $('.filter').change(function() {
         hbList.filter(function(item) {
-            if ($('input#' + item.values().cat).prop('checked') && $('input#' + item.values().status).prop('checked') && $('input#' + (item.values().release=="0" ? "unreleased" : (item.values().release.length===0 ? "unkdate" : "released"))).prop('checked')) return true;
-            else return false;
+            return ($('input#' + item.values().cat).prop('checked') && $('input#' + item.values().status).prop('checked') && $('input#' + (item.values().release=="0" ? "unreleased" : (item.values().release.length===0 ? "unkdate" : "released"))).prop('checked'));
         });
     });
 
@@ -173,8 +170,8 @@ $.getJSON(json_file, function(json) {
     if (queries.sort!==undefined) {
         var sort = queries.sort.split('|');
         hbList.sort(sort[0], {
-                order: ((sort[1]!==undefined) ? sort[1] : "asc")
-            });
+            order: ((sort[1]!==undefined) ? sort[1] : "asc")
+        });
     }
 
     if (queries.filter!==undefined) {

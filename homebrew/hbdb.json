@@ -1100,7 +1100,7 @@
 "date":"20160205",
 "status":"",
 "ver":"v0.2.0",
-"site":"",
+"site":"https://github.com/TricksterGuy/3ds-vgmstream",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -1124,7 +1124,7 @@
 "date":"20150124",
 "status":"finished",
 "ver":"v1",
-"site":"",
+"site":"https://gbatemp.net/threads/release-y-a-r-u-regionfree-and-gw-mode-launcher.379675/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -1183,8 +1183,8 @@
 "long":"This homebrew will check all your installed NAND titles and compare them to the ones that \"should\" be installed on 9.2.0-20U. It will display any differences when checking but it will also output them to a file called \"check.log\" inside this homebrew's folder.",
 "date":"20160118",
 "status":"discontinued",
-"ver":"v2.0 [?]",
-"site":"",
+"ver":"v2.0",
+"site":"https://github.com/svanheulen/downgrade_check",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -1255,7 +1255,7 @@
 "long":"",
 "date":"20151018",
 "status":"discontinued",
-"ver":"",
+"ver":"v1",
 "site":"",
 "comp":[1,0,0,0,0,0,1,0,0,0,0,0]
 },{
@@ -1924,11 +1924,11 @@
 "tags":"action, building, exploration, ARM11, userland",
 "desc":"3DS port of the game Minicraft.",
 "author":"Davideesk",
-"long":"",
+"long":"The goal of the game is to kill the only other sentient being in the world, making sure you'll be alone forever.",
 "date":"20151010",
 "status":"",
 "ver":"v1.0",
-"site":"",
+"site":"https://gbatemp.net/threads/minicraft-3ds-homebrew-edition.399295/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -1976,7 +1976,7 @@
 "date":"20151014",
 "status":"",
 "ver":"v1.1",
-"site":"",
+"site":"https://gbatemp.net/threads/release-lovepong3ds-a-simple-pong-clone.399599/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2072,7 +2072,7 @@
 "date":"20160319",
 "status":"",
 "ver":"r7",
-"site":"",
+"site":"http://gbatemp.net/threads/eucliod-a-homebrew-bullet-hell-for-the-3ds.419553/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -2300,7 +2300,7 @@
 "date":"20150106",
 "status":"finished",
 "ver":"v1",
-"site":"",
+"site":"https://github.com/mastermodr94/Simon",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2348,7 +2348,7 @@
 "date":"20160319",
 "status":"",
 "ver":"v1.1",
-"site":"",
+"site":"https://github.com/Emerson-School-Coders/ASCIIJump/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -2360,7 +2360,7 @@
 "date":"20151001",
 "status":"discontinued",
 "ver":"v0.4",
-"site":"",
+"site":"https://github.com/norips/GeomittyDash",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2474,13 +2474,13 @@
 "type":"game",
 "title":"FillDS",
 "tags":"puzzle, ARM11, userland",
-"desc":"Clone of Flood It.",
+"desc":"A clone of \"Flood It!\" for the 3DS.",
 "author":"Helreizerdev",
 "long":"",
 "date":"20150314",
 "status":"discontinued",
 "ver":"v2",
-"site":"",
+"site":"https://github.com/helreizerDev/Fillds",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2624,7 +2624,7 @@
 "date":"20160617",
 "status":"wip",
 "ver":"v0.1.5",
-"site":"",
+"site":"https://github.com/TricksterGuy/bottomless-block-barrage",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"game",
@@ -2708,7 +2708,7 @@
 "date":"20150827",
 "status":"finished",
 "ver":"v1.0",
-"site":"",
+"site":"https://github.com/sgowen/insectoid-defense",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2720,7 +2720,7 @@
 "date":"20160414",
 "status":"discontinued",
 "ver":"v0.6a",
-"site":"",
+"site":"https://github.com/machinamentum/CS3DS",
 "comp":[1,1,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -2732,7 +2732,7 @@
 "date":"20160221",
 "status":"wip",
 "ver":"v1.1",
-"site":"",
+"site":"https://github.com/Rinnegatamante/ctrHexenII",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"game",
@@ -2744,7 +2744,7 @@
 "date":"20151020",
 "status":"wip",
 "ver":"v0.8",
-"site":"",
+"site":"https://github.com/masterfeizz/ctrQuake",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -2756,19 +2756,19 @@
 "date":"20151218",
 "status":"",
 "ver":"v0.8",
-"site":"",
+"site":"https://github.com/Rinnegatamante/ctrWolfen",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
 "title":"EDuke3D",
 "tags":"shooting, ARM11, userland",
-"desc":"Port of EDuke32 (Duke Nukem 3D).",
+"desc":"Unofficial port of EDuke32 for the Nintendo 3DS.",
 "author":"MasterFeizz",
 "long":"This is an unofficial port of EDuke32. It is at a playable state, but has some bugs.",
 "date":"20151108",
 "status":"discontinued",
 "ver":"v1.0b",
-"site":"",
+"site":"https://github.com/masterfeizz/EDuke3D",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -2791,8 +2791,8 @@
 "long":"",
 "date":"20150829",
 "status":"discontinued",
-"ver":"",
-"site":"",
+"ver":"v8",
+"site":"https://github.com/elhobbs/spectre3ds",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2852,7 +2852,7 @@
 "date":"20141204",
 "status":"",
 "ver":"v1.3.4",
-"site":"",
+"site":"https://github.com/Steveice10/WorldOf3DSand",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"game",
@@ -2888,7 +2888,7 @@
 "date":"20141203",
 "status":"finished",
 "ver":"v1.0",
-"site":"",
+"site":"https://gbatemp.net/threads/pixelroad-a-stupid-game-hb-to-test-lpp.375292/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -3002,13 +3002,13 @@
 "type":"emu",
 "title":"CTRX",
 "tags":"emulators, PSX, Sony, home console, ARM11, userland",
-"desc":"PlayStation One emulator. Discontinued. Can't run commerical games.",
+"desc":"PSX emulation research/development for 3DS. Can't run commercial roms.",
 "author":"machinamentum",
 "long":"CTRX is a new and free emulator. It has been written from the ground up. It is not a port. It is also free. It has no price and does not bind the user's soul to a document written in legalese. Contributions to the project (including donations) are always appreciated.",
 "date":"20150912",
 "status":"discontinued",
 "ver":"v0.9a",
-"site":"",
+"site":"https://github.com/machinamentum/CTRX",
 "comp":[1,0,0,0,0,0,1,0,0,0,0,0]
 },{
 "type":"emu",
@@ -3032,7 +3032,7 @@
 "date":"20160327",
 "status":"",
 "ver":"v0.4",
-"site":"",
+"site":"https://github.com/nop90/Vex3DS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"emu",
@@ -3044,7 +3044,7 @@
 "date":"20150921",
 "status":"",
 "ver":"v1",
-"site":"",
+"site":"https://github.com/nop90/Z26-3DS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"emu",
@@ -3056,7 +3056,7 @@
 "date":"0",
 "status":"discontinued",
 "ver":"",
-"site":"",
+"site":"https://www.youtube.com/watch?v=Hj6yotfXiNw",
 "comp":[0,0,0,0,1,0,0,0,0,0,1,0]
 },{
 "type":"emu",
@@ -3116,7 +3116,7 @@
 "date":"20150805",
 "status":"discontinued",
 "ver":"v1.1b",
-"site":"",
+"site":"https://gbatemp.net/threads/release-handy-3ds-atari-lynx-emulator.394329/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"emu",
@@ -3140,7 +3140,7 @@
 "date":"20141223",
 "status":"discontinued",
 "ver":"v2",
-"site":"",
+"site":"https://gbatemp.net/threads/neopop-port-neo-geo-pocket-emu.376830/",
 "comp":[1,0,0,0,0,0,1,0,0,0,0,0]
 },{
 "type":"emu",
@@ -3150,9 +3150,9 @@
 "author":"nop90",
 "long":"This is a Pokemon Mini emulator for 3DS. The emulator runs fullspeed on o3DS and n3DS. It runs 72 FPS emulated (36 FPS real with 1 frameskip). This is a port on 3DS of the excellent Pokemini v0.6 by JustBurn.",
 "date":"20150903",
-"status":"wip",
+"status":"",
 "ver":"v1.0a",
-"site":"",
+"site":"https://github.com/nop90/Pokemini",
 "comp":[2,1,0,0,0,0,2,1,0,0,0,0]
 },{
 "type":"emu",
@@ -3176,7 +3176,7 @@
 "date":"20150405",
 "status":"discontinued",
 "ver":"v0.2",
-"site":"",
+"site":"https://gbatemp.net/threads/release-sim800-an-cc800-emulator.386027/",
 "comp":[0,0,2,0,0,0,0,0,2,0,0,0]
 },{
 "type":"emu",
@@ -3188,7 +3188,7 @@
 "date":"20160609",
 "status":"discontinued",
 "ver":"v0.1",
-"site":"",
+"site":"http://gbatemp.net/threads/wip-3desmume-ds-emulator-for-3ds.430223/",
 "comp":[1,1,0,0,0,0,1,1,0,0,0,0]
 },{
 "type":"emu",
@@ -3788,7 +3788,7 @@
 "date":"20160704",
 "status":"finished",
 "ver":"v1.14",
-"site":"",
+"site":"https://github.com/initPRAGMA/JKSMK",
 "comp":[1,2,0,0,0,0,1,2,0,0,0,0]
 },{
 "type":"app",
@@ -3824,7 +3824,7 @@
 "date":"20160712",
 "status":"",
 "ver":"v1.5",
-"site":"",
+"site":"https://github.com/LiquidFenrir/MultiUpdater",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -3836,7 +3836,7 @@
 "date":"20160708",
 "status":"wip",
 "ver":"v2.5",
-"site":"",
+"site":"https://github.com/Pirater12/Multidownload/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -3848,7 +3848,7 @@
 "date":"20160712",
 "status":"wip",
 "ver":"v0.3",
-"site":"",
+"site":"https://github.com/ingolemo/drider",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -3860,7 +3860,7 @@
 "date":"20160617",
 "status":"wip",
 "ver":"v0.2",
-"site":"",
+"site":"https://github.com/Reisyukaku/EShopDebugger",
 "comp":[0,2,2,0,0,0,0,2,2,0,0,0]
 },{
 "type":"app",
@@ -3884,7 +3884,7 @@
 "date":"20160729",
 "status":"wip",
 "ver":"v0.3",
-"site":"",
+"site":"https://github.com/pieface-/3dsphysicssandbox",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -3894,7 +3894,7 @@
 "author":"kasai07",
 "long":"",
 "date":"20160806",
-"status":"",
+"status":"discontinued",
 "ver":"v1",
 "site":"",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
@@ -4016,7 +4016,7 @@
 "date":"20160718",
 "status":"wip",
 "ver":"v2.2.0",
-"site":"",
+"site":"https://github.com/svanheulen/mhx_data_manager",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -4028,7 +4028,7 @@
 "date":"20160629",
 "status":"wip",
 "ver":"v0.4a",
-"site":"",
+"site":"https://github.com/nop90/Biniax2-3DS",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
@@ -4052,7 +4052,7 @@
 "date":"20160329",
 "status":"discontinued",
 "ver":"v1.0",
-"site":"",
+"site":"https://github.com/Kaisogen/CookieCollector-3DS-",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -4124,7 +4124,7 @@
 "date":"20160814",
 "status":"",
 "ver":"v1.0a",
-"site":"",
+"site":"https://github.com/nop90/Njam3ds",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -4268,7 +4268,7 @@
 "date":"20160824",
 "status":"wip",
 "ver":"v1.0.2",
-"site":"",
+"site":"https://github.com/TaraHoleInIt/mini-vmac-3ds-plus4M",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -4292,7 +4292,7 @@
 "date":"20141208",
 "status":"",
 "ver":"v1",
-"site":"",
+"site":"https://gbatemp.net/threads/hcge-multiplatform-game-engine-sonic-mega-man.375559/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -4304,7 +4304,7 @@
 "date":"20141227",
 "status":"discontinued",
 "ver":"v1",
-"site":"",
+"site":"http://gbatemp.net/threads/3ds-piano-homebrew.377088/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -4328,7 +4328,7 @@
 "date":"20160826",
 "status":"",
 "ver":"v1.3",
-"site":"",
+"site":"https://github.com/ItsDeidara/CaptureAssistant",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
@@ -4412,7 +4412,7 @@
 "date":"20160209",
 "status":"",
 "ver":"r3-2",
-"site":"",
+"site":"https://github.com/son-link/EntroPipes",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -4460,7 +4460,7 @@
 "date":"20160226",
 "status":"",
 "ver":"v0.0.4.1",
-"site":"",
+"site":"https://github.com/NoNamer64/Tetris-Clone-made-by-a-bad-programmer",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
@@ -4494,9 +4494,9 @@
 "author":"Shubshub",
 "long":"Word of Warning: this Homebrew does not install arm9loaderhax, it merely copies all the files to the correct location.",
 "date":"20160829",
-"status":"wip",
+"status":"discontinued",
 "ver":"v1.0.1",
-"site":"",
+"site":"https://gbatemp.net/threads/release-a9lh-sd-setup-homebrew.439683/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -4544,7 +4544,7 @@
 "date":"20151025",
 "status":"finished",
 "ver":"v1",
-"site":"",
+"site":"http://gbatemp.net/threads/release-gnop-a-pong-game-where-you-control-the-ball.400709/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -4783,8 +4783,8 @@
 "long":"",
 "date":"20160314",
 "status":"discontinued",
-"ver":"",
-"site":"",
+"ver":"03/24/2016",
+"site":"http://gbatemp.net/threads/metroid-2-3ds-tech-demo.418904/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"app",
