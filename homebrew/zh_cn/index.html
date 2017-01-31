@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=640, initial-scale=1, user-scalable=yes"/>
+    <title>3DS Homebrew | The Homebrew Database</title>
+    <base href="/3ds/">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="main.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.4.1/list.min.js"></script>
+    <script src="https://cdn.rawgit.com/javve/list.pagination.js/v0.1.1/dist/list.pagination.min.js"></script>
+    <style>
+        .more::after {content: "Read more."}
+        .less::after {content: "Read less."}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="3ds.png" alt="Nintendo 3DS" style="width:100%"/>
+        <hr/>
+        <a href="homebrew">Homebrew List</a> -
+        <a href="devs">Developers List</a>
+        <hr/>
+        <h2>List of 3DS homebrew</h2>
+        <p>
+            This is a full list containing all homebrew software released for the Nintendo 3DS.<br/>
+            I'll try to keep it up-to-date whenever possible, feel free to contribute if you want to.<br/>
+            Click on an entry to view details about a specific homebrew.<br/>
+        </p>
+        <p>
+            You can search homebrew by typing part of the title, description, author, release date, or any other keyword.<br/>
+            For example: "emulators" will return emulators only, whilst "userland" will return userland homebrew only.<br/>
+            You can also sort homebrew by title, category, author or release date, and filter by category, release status and development status.<br/>
+        </p>
+        <!--DETAILS PANEL-->
+        <div class="details">
+            <button id="btm_x"></button>
+            <span class="icon"><img src=""/></span>
+            <h1 id="title">-</h1>
+            <div class="info">
+                <span class="screenshot"><img src=""/></span>
+                <p><b>Author: </b><span id="author">-</span></p>
+                <p><b>Initial Release: </b><span id="release">-</span></p>
+                <p><b>Development: </b><span id="devst">-</span></p>
+                <p><b>Latest Version: </b><span id="version">-</span></p>
+                <p><b>External Link: </b><span id="site">-</span><br/></p>
+            </div>
+            <p id="desc"><span class="desc">-</span><span class="show"></span></p>
+            <span class="compat">Compatibility chart:</span>
+            <table class="compat">
+                <tr class="o3ds">
+                    <th>O3DS:</th>
+                    <td>hbl</td>
+                    <td>cia</td>
+                    <td>gw</td>
+                    <td>a9lh</td>
+                    <td>mset</td>
+                    <td>spider</td>
+                </tr>
+                <tr class="n3ds">
+                    <th>N3DS:</th>
+                    <td>hbl</td>
+                    <td>cia</td>
+                    <td>gw</td>
+                    <td>a9lh</td>
+                    <td>mset</td>
+                    <td>skater</td>
+                </tr>
+            </table>
+        </div>
+        <!--MAIN LIST-->
+        <div id="hb_list">
+            Search by:<br/>
+            <input class="search" placeholder="Search homebrew"/><br/><br/>
+            Language:
+            <select id="select_l">
+                <option value="">English</option>
+                <option value="br">Português</option>
+            </select><br/><br/>
+            Sort by:<br/>
+            <!--TODO: fix alphabetic sorting-->
+            <button class="sort" data-sort="title">Title</button>
+            <button class="sort" data-sort="cat">Category</button>
+            <button class="sort" data-sort="author">Author</button>
+            <button class="sort" data-sort="release">Release</button><br/><br/>
+            Filter by:<br/>
+            <input type="checkbox" class="filter type" id="app" checked><label for="app">Applications</label> -
+            <input type="checkbox" class="filter type" id="game" checked><label for="game">Games</label> -
+            <input type="checkbox" class="filter type" id="emu" checked><label for="emu">Emulators</label> -
+            <input type="checkbox" class="filter type" id="cfw" checked><label for="cfw">Custom Firmwares</label><br/>
+            <input type="checkbox" class="filter appst" id="released" checked><label for="released">Released</label> -
+            <input type="checkbox" class="filter appst" id="unreleased" checked><label for="unreleased">Unreleased</label> -
+            <input type="checkbox" class="filter appst" id="unkdate" checked><label for="unkdate">Unknown</label><br/>
+            <input type="checkbox" class="filter devst" id="wip" checked><label for="wip">Work in Progress</label> -
+            <input type="checkbox" class="filter devst" id="discontinued" checked><label for="discontinued">Discontinued</label> -
+            <input type="checkbox" class="filter devst" id="finished" checked><label for="finished">Finished</label> -
+            <input type="checkbox" class="filter devst" id="unknown" checked><label for="unknown">Unknown</label><br/><br/>
+            List
+            <select id="select_p">
+                <option>30</option>
+                <option>50</option>
+                <option>100</option>
+                <option>150</option>
+                <option>200</option>
+                <option value="999">ALL</option>
+            </select> homebrews.<br/><br/>
+            <span id="qt">Loading...</span>
+            <ul class="pagination top"></ul>
+            <ul class="list"></ul>
+            <ul class="pagination bottom"></ul>
+        </div>
+        <p>
+            <a onclick="$('html, body').animate({scrollTop: 0}, 'fast');">Top</a>
+            <a id="stats" style="float:right">Stats</a>
+        </p>
+        <div class="stats" style="">
+            <b>Homebrew Total: <span id="st_t"></span></b><br/>
+            <b>Apps: </b><span id="st_a"></span><br/>
+            <b>Games: </b><span id="st_g"></span><br/>
+            <b>Emulators: </b><span id="st_e"></span><br/>
+            <b>CFW: </b><span id="st_c"></span><br/>
+            <b>Released: </b><span id="st_r"></span><br/>
+            <b>Active: </b><span id="st_w"></span><br/>
+            <b>Finished: </b><span id="st_f"></span><br/>
+            <b>Discontinued: </b><span id="st_d"></span><br/>
+        </div>
+        <div style="clear:both"></div>
+        <hr/>
+        <p>
+            Source:
+            <a href="http://wiki.gbatemp.net/wiki/List_of_3DS_homebrew">gbatemp</a> -
+            <a href="https://www.3dbrew.org/wiki/Homebrew_Applications">3dbrew</a> -
+            <a href="http://www.nintendomax.com/viewforum.php?f=132">nintendomax</a> -
+            <a href="https://www.reddit.com/r/3dshacks">reddit</a> -
+            <a href="http://titledb.com/">titledb</a>
+        </p>
+    </div>
+    <script>
+    json_file = "homebrew/hbdb.json";
+    str_unreleased = "Unreleased";
+    str_unknown = "Unknown";
+    str_found = "Found ";
+    str_listing = "Listing ";
+    str_failed = "Unable to load homebrew database.";
+    var monthstr = ["???",
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+    ];
+    function getDate(day, month, year) {
+        return (month + " " + day + ", " + year);
+    };
+    function getDevStatus(devst, released) {
+        switch(devst) {
+            case "wip": return (released ? "Active" : "Work in progress"); break;
+            case "discontinued": return "Discontinued"; break;
+            case "finished": return "Finished"; break;
+            default: return "Unknown"; break;
+        }
+    };
+    </script>
+    <script src="homebrew/hbdb.js"></script>
+</body>
+</html>
