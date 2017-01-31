@@ -4,6 +4,7 @@ Overview:
 It's a website aimed to show information about every single 3DS homebrew published on this scene to date.
 For this to happen, I will need the help and colaboration of the homebrew community as a whole.
 You can start by forking this repository. From there you can add new entries to the database (maintained in JSON format and manually updated), helping with the site's design and functionality, or translating the database to other languages (currently there is a PT-BR page, but the database is still entirely in english). Then you have to send me a pull request with the changes/additions.
+See [CONTRIBUTING.md](https://github.com/Ryuzaki-MrL/3ds/blob/gh-pages/CONTRIBUTING.md) for more info.
 
 Features:
 - Search homebrew by name, author, release date, category, description, development status, and even some preset keywords/tags for each homebrew.
