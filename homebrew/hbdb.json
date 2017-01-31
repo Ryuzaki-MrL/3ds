@@ -103,7 +103,7 @@
 "long":"CTRXplorer is an open source SD file manager with simple hex viewer. Its goal is to be a simple, functional tool for managing your files without any unneeded bloat.",
 "date":"20150607",
 "status":"wip",
-"ver":"v0.9.7",
+"ver":"v0.9.8",
 "site":"https://github.com/d0k3/CTRXplorer",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -4112,7 +4112,7 @@
 "date":"20150918",
 "status":"discontinued",
 "ver":"v1.1",
-"site":"",
+"site":"https://github.com/VideahGams/NumberFucker3DS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -4376,7 +4376,7 @@
 "date":"20160902",
 "status":"wip",
 "ver":"v1.2",
-"site":"",
+"site":"https://github.com/Hoksy/ravimid",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",

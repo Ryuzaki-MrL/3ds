@@ -150,9 +150,9 @@
     function getDate(day, month, year) {
         return (month + " " + day + ", " + year);
     };
-    function getDevStatus(devst) {
+    function getDevStatus(devst, released) {
         switch(devst) {
-            case "wip": return "Active"; break;
+            case "wip": return (released ? "Active" : "Work in progress"); break;
             case "discontinued": return "Discontinued"; break;
             case "finished": return "Finished"; break;
             default: return "Unknown"; break;

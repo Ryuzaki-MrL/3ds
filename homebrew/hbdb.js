@@ -75,7 +75,7 @@ $.getJSON(json_file, function(json) {
         var day = json[id].date.substring(6,8);
         var date = (json[id].date=="0") ? str_unreleased : (json[id].date.length===0) ? str_unknown : getDate(day, month, year);
         $('.details #release').html(date);
-        $('.details #devst').html(getDevStatus(json[id].status));
+        $('.details #devst').html(getDevStatus(json[id].status, json[id].date!="0"));
         $('.details #version').html(date!=str_unreleased ? (json[id].ver.length > 0 ? json[id].ver : str_unknown) : '-');
         $('.details #site').html(json[id].site.length > 0 ? ('<a href="'+json[id].site+'" target="_blank">'+'<img src="/3ds/homebrew/btm_e.png"/>'+'</a>') : '-');
         $('.details .desc').css('font-size', json[id].long.length > 550 ? '11pt' : '12.5pt');
