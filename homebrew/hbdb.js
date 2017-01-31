@@ -95,7 +95,7 @@ $.getJSON(json_file, function(json) {
     };
 
     $('.list li').click(function() {
-        id = $(this).childNodes[0].attr('id');
+        id = $(this).children("div").attr('id');
         showDetails();
     });
 
