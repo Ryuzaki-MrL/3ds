@@ -2,9 +2,8 @@
 
 - Fork this repository.
 - Make a new folder on the "hombrew" folder and name it with your country's code (fr for france, it for italy, etc.).
-- Copy "index.html" and "hbdb.json" from "homebrew" to the new folder.
+- Copy "index.html" from "homebrew" to the new folder.
 - Translate all of the HTML but classes, ids and variables (see the brazilian portuguese page).
-- Translate all homebrew descriptions on the JSON file.
 - Commit all the changes and send me a pull request.
 
 # Adding screenshots
