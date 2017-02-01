@@ -8,6 +8,12 @@ if (document.location.search.substring(1).length > 0) {
     });
 }
 
+$('#select_l').append(
+    '<option value="">English</option>' +
+    '<option value="pt_br">Português</option>' +
+    '<option value="zh_cn">简体中文</option>'
+);
+$("#select_l").prop('selectedIndex', language);
 $('#select_l').change(function() {
     window.location = '/3ds/homebrew/' + $(this).val();
 });
