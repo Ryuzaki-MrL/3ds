@@ -4365,7 +4365,7 @@
 "status":"",
 "ver":"v1.0",
 "site":"",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
 "title":"ravimid",
@@ -5242,4 +5242,16 @@
 "ver":"v1.5.3-UN",
 "site":"http://gs2012.xyz/3ds/starupdater/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"type":"game",
+"title":"Evolution Sav3D Me",
+"tags":"arcade, survival, ARM11, userland",
+"desc":"Get all the bananas that you can without touching the lasers.",
+"author":"Manurocker95",
+"long":"<a href='https://bumblebug.itch.io/evolution-saved-me'>Evolution Saved Me</a> ported to the 3DS. Get all the bananas that you can without touching the lasers. The fire are power ups that allows you to go through lasers when activated.",
+"date":"20170131",
+"status":"wip",
+"ver":"v0.8",
+"site":"https://github.com/Manurocker95/Evolution_Sav3D_Me",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 }]
