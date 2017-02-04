@@ -12,7 +12,8 @@ $('#select_l').append(
     '<option value="">English</option>' +
     '<option value="pt_br">Português</option>' +
     '<option value="zh_cn">简体中文</option>' +
-    '<option value="fr_fr">Français</option>'
+    '<option value="fr_fr">Français</option>' +
+    '<option value="it_it">Italiano</option>'
 );
 $("#select_l").prop('selectedIndex', language);
 $('#select_l').change(function() {
