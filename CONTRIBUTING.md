@@ -92,7 +92,6 @@
 - Cinoop (256)
 - mGBA (260)
 - Neopop (261)
-- r3Ddragon (263)
 - Sim800 (264)
 - 3DeSmume (265)
 - Phoenix Arcade Emulator (266)

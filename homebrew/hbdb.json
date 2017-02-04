@@ -3163,7 +3163,7 @@
 "long":"",
 "date":"20150915",
 "status":"wip",
-"ver":"v0.86",
+"ver":"v0.87",
 "site":"https://github.com/mrdanielps/r3Ddragon",
 "comp":[1,1,0,0,0,0,1,1,0,0,0,0]
 },{
@@ -5130,10 +5130,10 @@
 "author":"nop90",
 "long":"POWDER is a roguelike originaly developed specifically for the Gameboy Advance. It is not a port of an existing roguelike as the controls of the GBA are very different from the traditional keyboard, and the screen imposes some additional limitations. The game goal is very simple, descend into the depths of the dungeon until you reach the foul daemon known as \"He who the author cannot spell consistently\", or, Baezl'bub. When you have slain Baezl'bub in heroic combat, or, if Baezl'bub dies in any way, retrieve his black heart and bring it to the surface world.",
 "date":"20170108",
-"status":"wip",
-"ver":"v0.3",
+"status":"finished",
+"ver":"v1.1",
 "site":"http://www.zincland.com/powder/?pagename=about",
-"comp":[2,1,0,0,0,0,2,1,0,0,0,0]
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"game",
 "title":"Snakes",
