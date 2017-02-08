@@ -139,6 +139,7 @@ $.getJSON(json_file, function(json) {
         $('#qt').html(str_found + hbList.matchingItems.length + ' homebrew(s).<br/>' +
         str_listing + hbList.visibleItems.length + ' homebrew(s).');
         if ((hbList.visibleItems.length % 2 == 1) && (window.innerWidth >= 1080)) $('.none').show();
+        $('img#loading').hide();
     });
 
     $('.filter').change(function() {

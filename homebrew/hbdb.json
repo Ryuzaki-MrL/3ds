@@ -40,7 +40,7 @@
 "tags":"utilities, ARM11, userland",
 "desc":"Dump a game's contents to the SD card.",
 "author":"neobrain",
-"long":"Braindump is a 3DS homebrew application that can dump 3DS titles, i.e. cartridge and eShop games, but also other installed content. Since it runs entirely in userland, it runs on any system version supported by the Homebrew Launcher.",
+"long":"Braindump is a 3DS homebrew application that can dump 3DS titles, i.e. cartridge and eShop games, but also other installed content. Since it runs entirely in userland, it runs on any system version supported by the Homebrew Launcher. The dumps created by braindump are lossy, since not all title information is accessible to userland applications. braindump compensates for that by generating fake metadata using clever heuristics. This is good enough to be able to run the dumped title in an emulator or to title contents (artwork, sounds, etc) for ROM hacking.",
 "date":"20151228",
 "status":"finished",
 "ver":"v1.0",
@@ -74,7 +74,7 @@
 "type":"app",
 "title":"Homebrew Launcher Loader",
 "tags":"Loaders, ARM11, userland",
-"desc":"Launches ninjhax from the 3DS's home menu.",
+"desc":"3DS NCCH application for booting the *hax payloads.",
 "author":"yellows8",
 "long":"3DS homebrew application intended booting the *hax payloads. This will first attempt to load the payload from SD, if that isn't successful it will then automatically download the payload for your system with HTTP.",
 "date":"20151125",
@@ -116,7 +116,7 @@
 "date":"20150121",
 "status":"wip",
 "ver":"v2.8",
-"site":"",
+"site":"https://github.com/Rinnegatamante/CHMM2",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -152,7 +152,7 @@
 "date":"20150224",
 "status":"",
 "ver":"v0.3.8",
-"site":"",
+"site":"https://github.com/Rinnegatamante/Sunshell",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "type":"app",
@@ -470,9 +470,9 @@
 "type":"app",
 "title":"TIKdevil",
 "tags":"utilities, internet, ARM11, kernel",
-"desc":"Generate and install valid tickets right on the 3DS. Fork of CIAngel.",
+"desc":"Batch make and install tickets right on your 3DS at the speed of light.",
 "author":"Kyraminol",
-"long":"Batch make and install tickets right on your 3DS at the speed of light.",
+"long":"",
 "date":"20160427",
 "status":"discontinued",
 "ver":"v0.2",
@@ -616,7 +616,7 @@
 "tags":"utilities, savefile, ARM11, userland, pokémon, pokemon",
 "desc":"PCHex rewritten in C++ and with a GUI.",
 "author":"Slashcash",
-"long":"PCHex++ is a graphical Pokémon savefile editor. It is based on Stracker's original PCHex. A lot of code is written from scratch although a lot of ideas are taken from there!",
+"long":"PCHex++ is a Pokémon savefile editor with a touch-based graphical interface. It is based on Stracker's original PCHex. A lot of code is written from scratch although a lot of ideas are taken from there!",
 "date":"20151208",
 "status":"",
 "ver":"v0.1.4",
@@ -1076,7 +1076,7 @@
 "date":"20150105",
 "status":"discontinued",
 "ver":"v1.1",
-"site":"",
+"site":"http://gbatemp.net/threads/release-organiz3d-filebrowser-for-3ds.377783/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1508,7 +1508,7 @@
 "date":"20150314",
 "status":"discontinued",
 "ver":"v1.1",
-"site":"",
+"site":"https://gbatemp.net/threads/release-nvram-flash-manager.383838/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -1651,7 +1651,7 @@
 "long":"Savefile editor, wondercard injector and offline homebrew bank for gen4 to gen7 Pokémon games.",
 "date":"20160515",
 "status":"wip",
-"ver":"v4.1.1",
+"ver":"v4.2.0",
 "site":"https://github.com/BernardoGiordano/PKSM",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1844,7 +1844,7 @@
 "date":"20160531",
 "status":"discontinued",
 "ver":"v0.1a",
-"site":"",
+"site":"http://gbatemp.net/threads/release-filekong-ftp-client-for-3ds.429071/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "type":"app",
@@ -2312,7 +2312,7 @@
 "date":"20150213",
 "status":"",
 "ver":"v1.0a",
-"site":"",
+"site":"https://gbatemp.net/threads/w-i-p-triaal-deemo-clone-for-3ds.381508/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "type":"game",
@@ -2726,7 +2726,7 @@
 "type":"game",
 "title":"ctrHexenII",
 "tags":"shooting, ARM11, userland",
-"desc":"Port of Hexen II.",
+"desc":"Port of Hexen II for the 3DS.",
 "author":"rinnegatamante",
 "long":"ctrHexenII is a port of Hexen II for 3DS based on a modified version of winQuake. It supports both basic game and Portal of Praveus DLC and it has been tested with glHexenII pak files. Circle Pad and Touchscreen are also supported for player movement by default, there also is second analog support for N3DS and optional gyroscope support for camera movement. There is also a secret third person mode activable on Options Menu.",
 "date":"20160221",
@@ -3319,7 +3319,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3331,7 +3331,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3343,7 +3343,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3355,7 +3355,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3367,7 +3367,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3379,7 +3379,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3391,7 +3391,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3403,7 +3403,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3415,7 +3415,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3427,7 +3427,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3439,7 +3439,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3451,7 +3451,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3463,7 +3463,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3475,7 +3475,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3487,7 +3487,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3499,7 +3499,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,1,1,1,0,0,0]
 },{
@@ -3511,7 +3511,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3523,7 +3523,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3535,7 +3535,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3559,7 +3559,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3571,7 +3571,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3583,7 +3583,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3595,7 +3595,7 @@
 "long":"",
 "date":"20160118",
 "status":"wip",
-"ver":"v1.4.0",
+"ver":"v1.4.1",
 "site":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3762,10 +3762,10 @@
 "author":"44670",
 "long":"Installed as CIA, launched from home menu in CFW. Extendable via plugins. Has support for screenshots, romhacks and streaming the 3DS's screen to PC over wireless on New 3DS.",
 "date":"20141128",
-"status":"discontinued",
-"ver":"v3.4",
+"status":"wip",
+"ver":"v3.4p4",
 "site":"",
-"comp":[0,1,0,0,0,0,0,2,0,0,0,0]
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "type":"app",
 "title":"EasyRPG Player Updater: RE",
@@ -3820,7 +3820,7 @@
 "tags":"utilities, internet, ARM11, userland",
 "desc":"Updater for 3DS applications/a9lh payloads.",
 "author":"LiquidFenrir",
-"long":"MultiUpdater or µpdtr for short, is an updater/downloader for 3ds applications/a9lh payloads/various files written in C.",
+"long":"MultiUpdater is an updater for a9lh payloads and other files on the SD card. The ability to update CIA applications is planned but has not been implemented.",
 "date":"20160712",
 "status":"",
 "ver":"v1.5",
@@ -4891,7 +4891,7 @@
 "long":"A little mod of the BootNTR which will allows you to choose the version of NTR you want to load. You have the choice between the version 3.2, 3.3, 3.4.",
 "date":"20160701",
 "status":"wip",
-"ver":"v2.3",
+"ver":"v2.5",
 "site":"https://github.com/Nanquitas/BootNTR",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5035,7 +5035,7 @@
 "long":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"ver":"v3.2",
+"ver":"v3.3",
 "site":"https://github.com/Robz8/TWLoader/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5203,7 +5203,7 @@
 "long":"It's like Tetris but with infinite time, you lose when you can no longer place any of the pieces you have available.",
 "date":"20170126",
 "status":"wip",
-"ver":"v0.1",
+"ver":"v1.0",
 "site":"https://github.com/LiquidFenrir/3ds1010",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5259,7 +5259,7 @@
 "title":"Hydra Castle Labyrinth",
 "tags":"platform, exploration, metroidvania, ARM11, userland",
 "desc":"Port of Hydra Castle Labyrinth for the 3DS.",
-"author":"",
+"author":"E. Hashimoto",
 "long":"Port of Hydra Castle Labyrinth, a Japanese freeware PC indie game from the Metroidvania genre created by one E. Hashimoto also known as Buster.",
 "date":"20170202",
 "status":"finished",
