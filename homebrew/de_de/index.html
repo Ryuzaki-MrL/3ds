@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=640, initial-scale=1, user-scalable=yes"/>
+    <title>3DS Homebrew | The Homebrew Database</title>
+    <base href="/3ds/">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="main.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.4.1/list.min.js"></script>
+    <script src="https://cdn.rawgit.com/javve/list.pagination.js/v0.1.1/dist/list.pagination.min.js"></script>
+    <style>
+        .more::after {content: "Zeige mehr."}
+        .less::after {content: "Zeige weniger."}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="3ds.png" alt="Nintendo 3DS" style="width:100%"/>
+        <hr/>
+        <a href="homebrew">Homebrew-Liste</a> -
+        <a href="devs">Entwickler-Liste</a>
+        <hr/>
+        <h2>3DS-Homebrew-Liste</h2>
+        <p>
+            Dies ist eine vollständige Liste sämtlicher für den Nintendo 3DS erschienener Homebrew-Software.<br/>
+            Ich werde versuchen sie, wann immer möglich, aktuell zu halten. Du bist gerne dazu eingeladen, dazu beizutragen.<br/>
+            Klicke auf einen Eintrag um dir die Details zu einer Homebrew anzusehen.<br/>
+        </p>
+        <p>
+            Du kann Homebrews mittles Teilen von Titeln, Beschreibungen, Autoren, Erscheinungsdaten oder anderen Schlüsselwörtern durchsuchen.<br/>
+            Eine Suche nach z.B. "emulators" wird nur Emulatoren hervorbringen, während "userland" nur Userland-Homebrew zurückgibt.<br/>
+            Außerdem kannst du Homebrew nach Titel, Kategorie, Autor oder Erscheinungsdatum sortieren und nach Kategorie, Veröffentlichungstatus oder Entwicklungsstatus filtern.<br/>
+        </p>
+        <!--DETAILS PANEL-->
+        <div class="details">
+            <button id="btm_x"></button>
+            <span class="icon"><img src=""/></span>
+            <h1 id="title">-</h1>
+            <div class="info">
+                <span class="screenshot"><img src=""/></span>
+                <p><b>Autor: </b><span id="author">-</span></p>
+                <p><b>Erschienen: </b><span id="release">-</span></p>
+                <p><b>Entwicklung: </b><span id="devst">-</span></p>
+                <p><b>Neueste Version: </b><span id="version">-</span></p>
+                <p><b>Weiterführender Link: </b><span id="site">-</span><br/></p>
+            </div>
+            <p id="desc"><span class="desc">-</span><span class="show"></span></p>
+            <span class="compat">Kompatibel mit:</span>
+            <table class="compat">
+                <tr class="o3ds">
+                    <th>O3DS:</th>
+                    <td>hbl</td>
+                    <td>cia</td>
+                    <td>gw</td>
+                    <td>a9lh</td>
+                    <td>mset</td>
+                    <td>spider</td>
+                </tr>
+                <tr class="n3ds">
+                    <th>N3DS:</th>
+                    <td>hbl</td>
+                    <td>cia</td>
+                    <td>gw</td>
+                    <td>a9lh</td>
+                    <td>mset</td>
+                    <td>skater</td>
+                </tr>
+            </table>
+        </div>
+        <!--MAIN LIST-->
+        <div id="hb_list">
+            Suche nach:<br/>
+            <input class="search" placeholder="Search homebrew"/><br/><br/>
+            Sprache:
+            <select id="select_l"></select><br/><br/>
+            Sortieren nach:<br/>
+            <!--TODO: fix alphabetic sorting-->
+            <button class="sort" data-sort="title">Titel</button>
+            <button class="sort" data-sort="cat">Kategorie</button>
+            <button class="sort" data-sort="author">Autor</button>
+            <button class="sort" data-sort="release">Erscheinung</button><br/><br/>
+            Filtern nach:<br/>
+            <ul class="filters">
+                <li><b>Kategorie:</b></li>
+                <li><input type="checkbox" class="filter type" id="Utility" checked><label for="Utility">Anwendungen</label></li>
+                <li><input type="checkbox" class="filter type" id="Game" checked><label for="Game">Spiele</label></li>
+                <li><input type="checkbox" class="filter type" id="Emulator" checked><label for="Emulator">Emulatoren</label></li>
+                <li><input type="checkbox" class="filter type" id="CFW" checked><label for="CFW">Custom Firmwares</label></li>
+                <li><input type="checkbox" class="filter type" id="Demo" checked><label for="Demo">Demos</label></li>
+            </ul>
+            <ul class="filters">
+                <li><b>Veröffentlichungstatus:</b></li>
+                <li><input type="checkbox" class="filter appst" id="released" checked><label for="released">Veröffentlicht</label></li>
+                <li><input type="checkbox" class="filter appst" id="unreleased" checked><label for="unreleased">Unveröffentlicht</label></li>
+                <li><input type="checkbox" class="filter appst" id="unkdate" checked><label for="unkdate">Unbekannt</label></li>
+            </ul>
+            <ul class="filters">
+                <li><b>Entwicklungsstatus:</b></li>
+                <li><input type="checkbox" class="filter devst" id="wip" checked><label for="wip">In Arbeit</label></li>
+                <li><input type="checkbox" class="filter devst" id="discontinued" checked><label for="discontinued">Eingestellt</label></li>
+                <li><input type="checkbox" class="filter devst" id="finished" checked><label for="finished">Abgeschlossen</label></li>
+                <li><input type="checkbox" class="filter devst" id="unknown" checked><label for="unknown">Unbekannt</label></li>
+            </ul><br/><br/>
+            Zeige
+            <select id="select_p">
+                <option>30</option>
+                <option>50</option>
+                <option>100</option>
+                <option>150</option>
+                <option>200</option>
+                <option value="999">ALL</option>
+            </select> Homebrews.<br/><br/>
+            <img id="loading" style="margin-right: 4px;" src="homebrew/loading.gif"/>
+            <span id="qt">Lade...</span>
+            <ul class="pagination top"></ul>
+            <ul class="list"></ul>
+            <ul class="pagination bottom"></ul>
+        </div>
+        <p>
+            <a onclick="$('html, body').animate({scrollTop: 0}, 'fast');">Top</a>
+            <a id="stats" style="float:right">Statistiken</a>
+        </p>
+        <div class="stats">
+            <b>Homebrews Insgesamt: <span id="st_t"></span></b><br/>
+            <b>Anwendungen: </b><span id="st_a"></span><br/>
+            <b>Spiele: </b><span id="st_g"></span><br/>
+            <b>Emulatoren: </b><span id="st_e"></span><br/>
+            <b>CFW: </b><span id="st_c"></span><br/>
+            <b>Demos: </b><span id="st_d"></span><br/>
+            <b>Veröffentlicht: </b><span id="st_r"></span><br/>
+            <b>Aktiv: </b><span id="st_w"></span><br/>
+            <b>Abgeschlossen: </b><span id="st_f"></span><br/>
+            <b>Eingestellt: </b><span id="st_x"></span><br/>
+        </div>
+        <div style="clear:both"></div>
+        <hr/>
+        <p>
+            Source:
+            <a href="http://wiki.gbatemp.net/wiki/List_of_3DS_homebrew">gbatemp</a> -
+            <a href="https://www.3dbrew.org/wiki/Homebrew_Applications">3dbrew</a> -
+            <a href="http://www.nintendomax.com/viewforum.php?f=132">nintendomax</a> -
+            <a href="https://www.reddit.com/r/3dshacks">reddit</a> -
+            <a href="http://titledb.com/">titledb</a>
+        </p>
+    </div>
+    <script>
+    language = 5;
+    str_unreleased = "Unveröffentlicht";
+    str_unknown = "Unbekannt";
+    str_found = "Found ";
+    str_listing = "Zeige ";
+    str_failed = "Konnte Homebrew-Datenbank nicht laden.";
+    var monthstr = ["???",
+        "Jan", "Feb", "Mär", "Apr", "Mai", "Jun",
+        "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"
+    ];
+    function getDate(day, month, year) {
+        return (month + " " + day + ", " + year);
+    };
+    function getDevStatus(devst, released) {
+        switch(devst) {
+            case "wip": return (released ? "Aktiv" : "In Arbeit"); break;
+            case "discontinued": return "Eingestellt"; break;
+            case "finished": return "Abgeschlossen"; break;
+            default: return "Unbekannt"; break;
+        }
+    };
+    </script>
+    <script src="homebrew/hbdb.js"></script>
+</body>
+</html>
