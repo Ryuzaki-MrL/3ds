@@ -98,8 +98,8 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
         if (legacy) $('.details #devst').html(getDevStatus(json[id].status, json[id].date!="0"));
         $('.details #version').html(date!=str_unreleased ? (legacy ? json[id].version : (json[id].cia.length!=0&&json[id].cia[0].version!=null ? json[id].cia[0].version : str_unknown)) : '-');
         $('.details #site').html(json[id].url!=null&&json[id].url.length!=0 ? ('<a href="'+json[id].url+'" target="_blank">'+'<img src="/3ds/homebrew/btm_e.png"/>'+'</a>') : '-');
-        $('.details .desc').css('font-size', json[id].description.length > 550 ? '11pt' : '12.5pt');
-        if (json[id].description.length > 256) {
+        $('.details .desc').css('font-size', json[id].description!=null&&json[id].description.length>550 ? '11pt' : '12.5pt');
+        if (json[id].description!=null && json[id].description.length > 256) {
             $('.details .desc').html(json[id].description.substring(0,240) + '\u2026 ');
             $('.show').addClass('more');
             $('.show').removeClass('less');
