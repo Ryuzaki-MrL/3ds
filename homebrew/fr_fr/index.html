@@ -82,17 +82,27 @@
             <button class="sort" data-sort="author">Auteur</button>
             <button class="sort" data-sort="release">Sortie</button><br/><br/>
             Filtrer:<br/>
-            <input type="checkbox" class="filter type" id="app" CHECKED>Applications</input> -
-            <input type="checkbox" class="filter type" id="game" CHECKED>Jeux</input> -
-            <input type="checkbox" class="filter type" id="emu" CHECKED>Emulateurs</input> -
-            <input type="checkbox" class="filter type" id="cfw" CHECKED>Custom Firmwares</input><br/>
-            <input type="checkbox" class="filter appst" id="released" CHECKED>Sorti</input> -
-            <input type="checkbox" class="filter appst" id="unreleased" CHECKED>Non sorti</input> -
-            <input type="checkbox" class="filter appst" id="unkdate" CHECKED>Inconnu</input><br/>
-            <input type="checkbox" class="filter devst" id="wip" CHECKED>En progrès</input> -
-            <input type="checkbox" class="filter devst" id="discontinued" CHECKED>Arrêté</input> -
-            <input type="checkbox" class="filter devst" id="finished" CHECKED>Fini</input> -
-            <input type="checkbox" class="filter devst" id="unknown" CHECKED>Inconnu</input><br/><br/>
+            <ul class="filters">
+                <li><b>Catégorie:</b></li>
+                <li><input type="checkbox" class="filter type" id="Utility" checked><label for="Utility">Applications</label></li>
+                <li><input type="checkbox" class="filter type" id="Game" checked><label for="Game">Jeux</label></li>
+                <li><input type="checkbox" class="filter type" id="Emulator" checked><label for="Emulator">Emulateurs</label></li>
+                <li><input type="checkbox" class="filter type" id="CFW" checked><label for="CFW">Custom Firmwares</label></li>
+                <li><input type="checkbox" class="filter type" id="Demo" checked><label for="Demo">Demos</label></li>
+            </ul>
+            <ul class="filters">
+                <li><b>Sortie:</b></li>
+                <li><input type="checkbox" class="filter appst" id="released" checked><label for="released">Sorti</label></li>
+                <li><input type="checkbox" class="filter appst" id="unreleased" checked><label for="unreleased">Non sorti</label></li>
+                <li><input type="checkbox" class="filter appst" id="unkdate" checked><label for="unkdate">Inconnu</label></li>
+            </ul>
+            <ul class="filters">
+                <li><b>Développement:</b></li>
+                <li><input type="checkbox" class="filter devst" id="wip" checked><label for="wip">En progrès</label></li>
+                <li><input type="checkbox" class="filter devst" id="discontinued" checked><label for="discontinued">Arrêté</label></li>
+                <li><input type="checkbox" class="filter devst" id="finished" checked><label for="finished">Fini</label></li>
+                <li><input type="checkbox" class="filter devst" id="unknown" checked><label for="unknown">Inconnu</label></li>
+            </ul><br/><br/>
             List
             <select id="select_p">
                 <option>30</option>
@@ -118,10 +128,11 @@
             <b>Jeux: </b><span id="st_g"></span><br/>
             <b>Emulateurs: </b><span id="st_e"></span><br/>
             <b>CFW: </b><span id="st_c"></span><br/>
+            <b>Demos: </b><span id="st_d"></span><br/>
             <b>Sorti: </b><span id="st_r"></span><br/>
             <b>En progrès: </b><span id="st_w"></span><br/>
             <b>Fini: </b><span id="st_f"></span><br/>
-            <b>Arrêté: </b><span id="st_d"></span><br/>
+            <b>Arrêté: </b><span id="st_x"></span><br/>
         </div>
         <div style="clear:both"></div>
         <hr/>
@@ -136,7 +147,6 @@
     </div>
     <script>
     language = 3;
-    json_file = "homebrew/hbdb.json";
     str_unreleased = "Non sorti";
     str_unknown = "Inconnu";
     str_found = "Trouvé ";

@@ -82,17 +82,27 @@
             <button class="sort" data-sort="author">Autor</button>
             <button class="sort" data-sort="release">Lançamento</button><br/><br/>
             Filtrar por:<br/>
-            <input type="checkbox" class="filter type" id="app" checked><label for="app">Aplicativos</label> -
-            <input type="checkbox" class="filter type" id="game" checked><label for="game">Jogos</label> -
-            <input type="checkbox" class="filter type" id="emu" checked><label for="emu">Emuladores</label> -
-            <input type="checkbox" class="filter type" id="cfw" checked><label for="cfw">Custom Firmwares</label><br/>
-            <input type="checkbox" class="filter appst" id="released" checked><label for="released">Lançados</label> -
-            <input type="checkbox" class="filter appst" id="unreleased" checked><label for="unreleased">Não Lançados</label> -
-            <input type="checkbox" class="filter appst" id="unkdate" checked><label for="unkdate">Desconhecido</label><br/>
-            <input type="checkbox" class="filter devst" id="wip" checked><label for="wip">Em Progresso</label> -
-            <input type="checkbox" class="filter devst" id="discontinued" checked><label for="discontinued">Descontinuados</label> -
-            <input type="checkbox" class="filter devst" id="finished" checked><label for="finished">Finalizados</label> -
-            <input type="checkbox" class="filter devst" id="unknown" checked><label for="unknown">Desconhecido</label><br/><br/>
+            <ul class="filters">
+                <li><b>Categoria:</b></li>
+                <li><input type="checkbox" class="filter type" id="Utility" checked><label for="Utility">Aplicativos</label></li>
+                <li><input type="checkbox" class="filter type" id="Game" checked><label for="Game">Jogos</label></li>
+                <li><input type="checkbox" class="filter type" id="Emulator" checked><label for="Emulator">Emuladores</label></li>
+                <li><input type="checkbox" class="filter type" id="CFW" checked><label for="CFW">Custom Firmwares</label></li>
+                <li><input type="checkbox" class="filter type" id="Demo" checked><label for="Demo">Demos</label></li>
+            </ul>
+            <ul class="filters">
+                <li><b>Lançamento:</b></li>
+                <li><input type="checkbox" class="filter appst" id="released" checked><label for="released">Lançados</label></li>
+                <li><input type="checkbox" class="filter appst" id="unreleased" checked><label for="unreleased">Não Lançados</label></li>
+                <li><input type="checkbox" class="filter appst" id="unkdate" checked><label for="unkdate">Desconhecido</label></li>
+            </ul>
+            <ul class="filters">
+                <li><b>Desenvolvimento:</b></li>
+                <li><input type="checkbox" class="filter devst" id="wip" checked><label for="wip">Em Progresso</label></li>
+                <li><input type="checkbox" class="filter devst" id="discontinued" checked><label for="discontinued">Descontinuados</label></li>
+                <li><input type="checkbox" class="filter devst" id="finished" checked><label for="finished">Finalizados</label></li>
+                <li><input type="checkbox" class="filter devst" id="unknown" checked><label for="unknown">Desconhecido</label></li>
+            </ul><br/><br/>
             Listar
             <select id="select_p">
                 <option>30</option>
@@ -118,10 +128,11 @@
             <b>Jogos: </b><span id="st_g"></span><br/>
             <b>Emuladores: </b><span id="st_e"></span><br/>
             <b>CFW: </b><span id="st_c"></span><br/>
+            <b>Demos: </b><span id="st_d"></span><br/>
             <b>Lançados: </b><span id="st_r"></span><br/>
             <b>Ativos: </b><span id="st_w"></span><br/>
             <b>Finalizados: </b><span id="st_f"></span><br/>
-            <b>Descontinuados: </b><span id="st_d"></span><br/>
+            <b>Descontinuados: </b><span id="st_x"></span><br/>
         </div>
         <div style="clear:both"></div>
         <hr/>
@@ -136,7 +147,6 @@
     </div>
     <script>
     language = 1;
-    json_file = "homebrew/hbdb.json";
     str_unreleased = "Não Lançado";
     str_unknown = "Desconhecido";
     str_found = "Encontrados ";

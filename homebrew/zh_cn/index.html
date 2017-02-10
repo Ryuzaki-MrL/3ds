@@ -82,17 +82,27 @@
             <button class="sort" data-sort="author">作者</button>
             <button class="sort" data-sort="release">发布</button><br/><br/>
             筛选:<br/>
-            <input type="checkbox" class="filter type" id="app" checked><label for="app">应用程式</label> -
-            <input type="checkbox" class="filter type" id="game" checked><label for="game">游戏</label> -
-            <input type="checkbox" class="filter type" id="emu" checked><label for="emu">模拟器</label> -
-            <input type="checkbox" class="filter type" id="cfw" checked><label for="cfw">自制系统</label><br/>
-            <input type="checkbox" class="filter appst" id="released" checked><label for="released">发布</label> -
-            <input type="checkbox" class="filter appst" id="unreleased" checked><label for="unreleased">不发布</label> -
-            <input type="checkbox" class="filter appst" id="unkdate" checked><label for="unkdate">不明日子</label><br/>
-            <input type="checkbox" class="filter devst" id="wip" checked><label for="wip">WIP</label> -
-            <input type="checkbox" class="filter devst" id="discontinued" checked><label for="discontinued">中断的</label> -
-            <input type="checkbox" class="filter devst" id="finished" checked><label for="finished">完了</label> -
-            <input type="checkbox" class="filter devst" id="unknown" checked><label for="unknown">不明</label><br/><br/>
+            <ul class="filters">
+                <li><b>种类:</b></li>
+                <li><input type="checkbox" class="filter type" id="Utility" checked><label for="Utility">应用程式</label></li>
+                <li><input type="checkbox" class="filter type" id="Game" checked><label for="Game">游戏</label></li>
+                <li><input type="checkbox" class="filter type" id="Emulator" checked><label for="Emulator">模拟器</label></li>
+                <li><input type="checkbox" class="filter type" id="CFW" checked><label for="CFW">自制系统</label></li>
+                <li><input type="checkbox" class="filter type" id="Demo" checked><label for="Demo">演示</label></li>
+            </ul>
+            <ul class="filters">
+                <li><b>發佈:</b></li>
+                <li><input type="checkbox" class="filter appst" id="released" checked><label for="released">发布</label></li>
+                <li><input type="checkbox" class="filter appst" id="unreleased" checked><label for="unreleased">不发布</label></li>
+                <li><input type="checkbox" class="filter appst" id="unkdate" checked><label for="unkdate">不明日子</label></li>
+            </ul>
+            <ul class="filters">
+                <li><b>显影:</b></li>
+                <li><input type="checkbox" class="filter devst" id="wip" checked><label for="wip">WIP</label></li>
+                <li><input type="checkbox" class="filter devst" id="discontinued" checked><label for="discontinued">中断的</label></li>
+                <li><input type="checkbox" class="filter devst" id="finished" checked><label for="finished">完了</label></li>
+                <li><input type="checkbox" class="filter devst" id="unknown" checked><label for="unknown">不明</label></li>
+            </ul><br/><br/>
             List
             <select id="select_p">
                 <option>30</option>
@@ -118,10 +128,11 @@
             <b>游戏: </b><span id="st_g"></span><br/>
             <b>模拟器: </b><span id="st_e"></span><br/>
             <b>自制系统: </b><span id="st_c"></span><br/>
+            <b>演示: </b><span id="st_d"></span><br/>
             <b>发布的: </b><span id="st_r"></span><br/>
             <b>主动: </b><span id="st_w"></span><br/>
             <b>完了: </b><span id="st_f"></span><br/>
-            <b>中断的: </b><span id="st_d"></span><br/>
+            <b>中断的: </b><span id="st_x"></span><br/>
         </div>
         <div style="clear:both"></div>
         <hr/>
@@ -136,7 +147,6 @@
     </div>
     <script>
     language = 2;
-    json_file = "homebrew/hbdb.json";
     str_unreleased = "不发布的";
     str_unknown = "不明";
     str_found = "明";
