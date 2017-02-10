@@ -1358,7 +1358,7 @@
 "category":"Utility",
 "name":"3DSurfer",
 "tags":"multimedia, ARM11, userland, LUA",
-"headline":"Simple WAV sound player.",
+"headline":"Basic WAV audio player for 3DS.",
 "author":"rinnegatamante",
 "description":"",
 "date":"20150103",
@@ -2805,7 +2805,7 @@
 "status":"discontinued",
 "version":"v2",
 "url":"http://yournerdyjoe.blogspot.com.br/2014/07/3ds-homebrew-shoot-ya-friend.html",
-"comp":[0,0,2,0,0,0,0,0,2,0,0,0]
+"comp":[0,2,2,0,0,0,0,2,2,0,0,0]
 },{
 "category":"Game",
 "name":"Turtle: Invaders",
@@ -2983,7 +2983,7 @@
 "description":"Snes9x for 3DS is a high-compatibility SNES emulator for your old 3DS / 2DS. It runs many games at full speed (60 fps). It supports games that use CX4 chip (Megaman X2/X3), and the SDD-1 chip (Star Ocean, Super Street Fighter 2 Alpha). It can also play games that use the SuperFX chip (Yoshi's Island, etc) but they run with plenty of frame skips. It has generally much high compatibility than existing SNES emulators on the old 3DS because it uses Snes9x 1.43 as a base, and is a good alternative if your existing emulators cannot play all the games. It also runs faster on your new 3DS!",
 "date":"20160725",
 "status":"wip",
-"version":"v0.80",
+"version":"v1.00",
 "url":"https://bubble2k16.github.io/snes9x_3ds/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{

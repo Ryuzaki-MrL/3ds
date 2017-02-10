@@ -90,7 +90,14 @@
                 <li><input type="checkbox" class="filter type" id="CFW" checked><label for="CFW">Custom Firmwares</label></li>
                 <li><input type="checkbox" class="filter type" id="Demo" checked><label for="Demo">Demos</label></li>
             </ul>
-            <ul class="filters">
+            <ul class="filters" id="f-titledb" style="display:none">
+                <li><b>Format:</b></li>
+                <li><input type="checkbox" class="filter format" id="3dsx" checked><label for="3dsx">3DSX</label></li>
+                <li><input type="checkbox" class="filter format" id="cia" checked><label for="cia">CIA</label></li>
+                <li><input type="checkbox" class="filter format" id="arm9" checked><label for="arm9">BIN</label></li>
+                <li><input type="checkbox" class="filter format" id="misc" checked><label for="misc">Andere</label></li>
+            </ul>
+            <ul class="filters" id="f-legacy" style="display:none">
                 <li><b>Veröffentlichungstatus:</b></li>
                 <li><input type="checkbox" class="filter appst" id="released" checked><label for="released">Veröffentlicht</label></li>
                 <li><input type="checkbox" class="filter appst" id="unreleased" checked><label for="unreleased">Unveröffentlicht</label></li>

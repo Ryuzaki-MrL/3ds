@@ -211,7 +211,7 @@ ul.filters {
   border-radius: 6px;
   width: 180px;
   height: 180px;
-  margin: auto;
+  margin: 0 0 2px 0;
   display: inline-table;
   box-shadow: -1px -1px 4px #bbb inset;
 }
