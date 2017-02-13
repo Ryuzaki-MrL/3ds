@@ -79,7 +79,7 @@
 "description":"3DS homebrew application intended booting the *hax payloads. This will first attempt to load the payload from SD, if that isn't successful it will then automatically download the payload for your system with HTTP.",
 "date":"20151125",
 "status":"wip",
-"version":"v1.2",
+"version":"v1.3",
 "url":"https://github.com/yellows8/hblauncher_loader",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -846,8 +846,8 @@
 "author":"d0k3",
 "description":"This is mainly intended for devs and gives you a quick, convenient way to get your ARM9 payload to a convenient place on your SD card, and then boot into it.",
 "date":"20160502",
-"status":"",
-"version":"v0.0.9",
+"status":"wip",
+"version":"v0.1.0",
 "url":"https://github.com/d0k3/A9NC",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -1158,7 +1158,7 @@
 "author":"Metab",
 "description":"The purpose is to allow the user with no coding knowledge to modify game saves with hex editing.",
 "date":"20160523",
-"status":"",
+"status":"finished",
 "version":"v1.0.0",
 "url":"https://github.com/kenji-1996/3DS-Multi-Hex",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
@@ -1746,7 +1746,7 @@
 "author":"zoogie",
 "description":"",
 "date":"20160502",
-"status":"",
+"status":"finished",
 "version":"v1",
 "url":"",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
@@ -1940,7 +1940,7 @@
 "date":"20141120",
 "status":"discontinued",
 "version":"v141120",
-"url":"",
+"url":"https://github.com/smealum/3dscraft",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -1952,7 +1952,7 @@
 "date":"20151022",
 "status":"",
 "version":"v3",
-"url":"",
+"url":"https://gbatemp.net/threads/release-3ds-break%C3%B6ut.400385/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -1964,7 +1964,7 @@
 "date":"20141130",
 "status":"discontinued",
 "version":"v2",
-"url":"",
+"url":"https://github.com/shinyquagsire23/3DS-Pong",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -1988,7 +1988,7 @@
 "date":"20141201",
 "status":"discontinued",
 "version":"v0.6",
-"url":"",
+"url":"https://gbatemp.net/threads/homebrew-3dsnake.375118/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -2000,7 +2000,7 @@
 "date":"20151020",
 "status":"",
 "version":"v1",
-"url":"",
+"url":"https://gbatemp.net/threads/release-3dsnake.400198/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -2024,7 +2024,7 @@
 "date":"20150905",
 "status":"discontinued",
 "version":"v2.0b",
-"url":"",
+"url":"https://github.com/MichiS97/The-Real-Snake-3DS",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "category":"Game",
@@ -2060,7 +2060,7 @@
 "date":"20151225",
 "status":"discontinued",
 "version":"RC1",
-"url":"",
+"url":"http://gbatemp.net/threads/release-brick-breaker-3d.406794/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -2084,7 +2084,7 @@
 "date":"20150526",
 "status":"discontinued",
 "version":"v1.1",
-"url":"",
+"url":"https://gbatemp.net/threads/release-flappy-pixel.389523/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "category":"Game",
@@ -2108,7 +2108,7 @@
 "date":"20150124",
 "status":"discontinued",
 "version":"v0.3",
-"url":"",
+"url":"https://github.com/raulbojalil/jezzball3ds",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "category":"Game",
@@ -2144,7 +2144,7 @@
 "date":"20150821",
 "status":"finished",
 "version":"v1.0",
-"url":"",
+"url":"https://github.com/sgowen/tappy-plane",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -2156,7 +2156,7 @@
 "date":"20150216",
 "status":"discontinued",
 "version":"r2",
-"url":"",
+"url":"https://github.com/yodamerlin/wave",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -2204,7 +2204,7 @@
 "date":"20150819",
 "status":"discontinued",
 "version":"v1",
-"url":"",
+"url":"https://github.com/UnsureSherlock/checkers3ds",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -2228,7 +2228,7 @@
 "date":"20150820",
 "status":"finished",
 "version":"v1.1",
-"url":"",
+"url":"https://github.com/MrJPGames/Othello-3DS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -2262,9 +2262,9 @@
 "author":"keanutah",
 "description":"Blackjack! Game is played with an infinite deck, with support for late surrender, insurance (2-1), doubling down, and splits. And 3D!",
 "date":"20151003",
-"status":"",
+"status":"discontinued",
 "version":"v0.4",
-"url":"",
+"url":"https://github.com/keanutah/blackjack-3ds",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -2444,7 +2444,7 @@
 "date":"20140613",
 "status":"discontinued",
 "version":"v1",
-"url":"",
+"url":"https://github.com/iamn1ck/3048",
 "comp":[0,0,0,0,2,0,0,0,0,0,2,0]
 },{
 "category":"Game",
@@ -3104,7 +3104,7 @@
 "date":"20141010",
 "status":"wip",
 "version":"v1.0.8",
-"url":"",
+"url":"https://github.com/Steveice10/GameYob",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "category":"Emulator",
@@ -3212,7 +3212,7 @@
 "date":"20150807",
 "status":"",
 "version":"",
-"url":"",
+"url":"https://github.com/shutterbug2000/3DOS",
 "comp":[1,1,1,0,0,0,1,1,1,0,0,0]
 },{
 "category":"Emulator",
@@ -3626,9 +3626,9 @@
 "category":"CFW",
 "name":"Cosmo3DS",
 "tags":"arm9loaderhax, ninjhax, new 3ds, old 3ds",
-"headline":"Stripped-down version of AuReiNAND that only loads FIRM and emuNAND.",
+"headline":"Stripped-down version of Luma3DS.",
 "author":"yifanlu",
-"description":"This is a stripped down version of AuReiNand that does nothing but load FIRM and emuNAND. It is intended to be used with 3ds_injector to launch a modified loader in FIRM.",
+"description":"This is a stripped down version of Luma3DS that does nothing but load FIRM and emuNAND. It is intended to be used with 3ds_injector to launch a modified loader in FIRM.",
 "date":"20160328",
 "status":"",
 "version":"v0.5",
@@ -3944,7 +3944,7 @@
 "date":"20160727",
 "status":"",
 "version":"v2",
-"url":"",
+"url":"https://github.com/MarcuzD/REDThreeUp",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "category":"Utility",
@@ -4088,7 +4088,7 @@
 "date":"20160616",
 "status":"finished",
 "version":"v1.0",
-"url":"",
+"url":"https://github.com/Jacudibu/Snake2DS",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "category":"Game",
@@ -4400,7 +4400,7 @@
 "date":"20160216",
 "status":"",
 "version":"v1.1.0",
-"url":"",
+"url":"https://github.com/reworks/FlabbyBird3DS",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -4484,7 +4484,7 @@
 "date":"20160727",
 "status":"",
 "version":"v1",
-"url":"",
+"url":"https://github.com/Hayleia/FFEE",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "category":"Utility",
@@ -4867,7 +4867,7 @@
 "description":"It's really simple, but still very useful for playing during the night. Power LED is reset on sleep and reboot (not soft reboot, like Smash does on o3DS).",
 "date":"20160920",
 "status":"",
-"version":"v0.01",
+"version":"v0.02",
 "url":"https://github.com/Spaqin/bipolar-3ds",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5278,4 +5278,28 @@
 "version":"v1.0",
 "url":"http://gbatemp.net/threads/release-halo-revamped-port.460462/",
 "comp":[1,2,0,0,0,0,1,2,0,0,0,0]
+},{
+"category":"Game",
+"name":"Cookie Clicker for 3DS",
+"tags":"ARM11, userland",
+"headline":"Port of the browser game called \"Cookie Clicker\" to the 3DS.",
+"author":"Creckeryop",
+"description":"",
+"date":"20170212",
+"status":"wip",
+"version":"v0.3.6",
+"url":"https://github.com/Creckeryop/3dsCookieClicker",
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"category":"Utility",
+"name":"3DS Crypto Server",
+"tags":"utilities, internet, ARM11, userland",
+"headline":"ARM11 Userland homebrew for 3DS crypto over the network.",
+"author":"SciresM",
+"description":"",
+"date":"20170108",
+"status":"wip",
+"version":"v1.1",
+"url":"https://github.com/SciresM/3ds-crypto-server",
+"comp":[2,0,0,2,0,0,2,0,0,2,0,0]
 }]

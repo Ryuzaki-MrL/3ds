@@ -152,7 +152,6 @@
 - NitroHax 3DS (332)
 - MHX Quest Importer (333)
 - MHX Data Manager (334)
-- Tetrepetete (338)
 - 3DS DSiWarehax Installer (349)
 - Craftus3DS (353)
 - QuickiePong (356)
@@ -180,3 +179,4 @@
 - Mk7se (421)
 - nimSM (425)
 - amiibo Collection (432)
+- Halo Revamped (439)
