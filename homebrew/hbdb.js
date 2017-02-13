@@ -100,7 +100,7 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
         var date = (legacy&&json[id].date=="0") ? str_unreleased : (legacy&&json[id].date.length===0) ? str_unknown : getDate(day, month, year);
         $('.details #release').html(date);
         if (legacy) $('.details #devst').html(getDevStatus(json[id].status, json[id].date!="0"));
-        $('.details #version').html(date!=str_unreleased ? (legacy ? json[id].version : (json[id].cia.length!=0&&json[id].cia[json[id].cia.length - 1].version!=null ? json[id].cia[json[id].cia.length - 1].version : str_unknown)) : '-');
+        $('.details #version').html(date!=str_unreleased ? (legacy ? (json[id].version.length!==0 ? json[id].version : str_unknown) : (json[id].cia.length!=0&&json[id].cia[json[id].cia.length - 1].version!=null ? json[id].cia[json[id].cia.length - 1].version : str_unknown)) : '-');
         $('.details #site').html(json[id].url!=null&&json[id].url.length!=0 ? ('<a href="'+json[id].url+'" target="_blank">'+'<img src="/3ds/homebrew/btm_e.png"/>'+'</a>') : '-');
         $('.details .desc').css('font-size', json[id].description!=null&&json[id].description.length>550 ? '11pt' : '12.5pt');
         if (json[id].description!=null && json[id].description.length > 256) {
