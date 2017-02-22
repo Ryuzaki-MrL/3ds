@@ -163,7 +163,7 @@
 "description":"",
 "date":"20150411",
 "status":"wip",
-"version":"v2.4.7",
+"version":"v2.4.8",
 "url":"https://github.com/Steveice10/FBI",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -1579,7 +1579,7 @@
 "description":"3DSident is a tool inspired by PSPident. The tool was used to obtain more information about your PSP's motherboard, firmware etc. Similarly, 3DSident aims to display more information about your 3DS. It is a fork of Wolfvak's ctr_vercheck.",
 "date":"20160727",
 "status":"wip",
-"version":"v0.7.1",
+"version":"v0.7.2",
 "url":"https://github.com/joel16/3DSident",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -2983,7 +2983,7 @@
 "description":"Snes9x for 3DS is a high-compatibility SNES emulator for your old 3DS / 2DS. It runs many games at full speed (60 fps). It supports games that use CX4 chip (Megaman X2/X3), and the SDD-1 chip (Star Ocean, Super Street Fighter 2 Alpha). It can also play games that use the SuperFX chip (Yoshi's Island, etc) but they run with plenty of frame skips. It has generally much high compatibility than existing SNES emulators on the old 3DS because it uses Snes9x 1.43 as a base, and is a good alternative if your existing emulators cannot play all the games. It also runs faster on your new 3DS!",
 "date":"20160725",
 "status":"wip",
-"version":"v1.00",
+"version":"v1.10",
 "url":"https://bubble2k16.github.io/snes9x_3ds/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3150,10 +3150,10 @@
 "author":"nop90",
 "description":"This is a Pokemon Mini emulator for 3DS. The emulator runs fullspeed on o3DS and n3DS. It runs 72 FPS emulated (36 FPS real with 1 frameskip). This is a port on 3DS of the excellent Pokemini v0.6 by JustBurn.",
 "date":"20150903",
-"status":"",
-"version":"v1.0a",
+"status":"wip",
+"version":"v1.0",
 "url":"https://github.com/nop90/Pokemini",
-"comp":[2,1,0,0,0,0,2,1,0,0,0,0]
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "category":"Emulator",
 "name":"r3Ddragon",
@@ -3763,7 +3763,7 @@
 "description":"Installed as CIA, launched from home menu in CFW. Extendable via plugins. Has support for screenshots, romhacks and streaming the 3DS's screen to PC over wireless on New 3DS.",
 "date":"20141128",
 "status":"wip",
-"version":"v3.4p4",
+"version":"v3.4 preview6",
 "url":"https://github.com/44670/BootNTR",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -4463,7 +4463,7 @@
 "url":"https://github.com/NoNamer64/Tetris-Clone-made-by-a-bad-programmer",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
-"category":"Utility",
+"category":"Demo",
 "name":"Cubes",
 "tags":"entertainment, ARM11, userland",
 "headline":"Random white cubes in the top screen.",
@@ -5035,7 +5035,7 @@
 "description":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"version":"v3.3.1",
+"version":"v4.1.0",
 "url":"https://github.com/Robz8/TWLoader/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5070,10 +5070,10 @@
 "author":"nop90",
 "description":"The Griffon Legend is an action RPG with screen-to-screen map. It features original storyline and design made in 16-bit style RPG's of SNES/GENESIS era. During gameplay you can see up to 3 bars below your character. The top is health, the next is attack strength (let it charge to hit harder) and then spell strangth (same as attack). When you learn new spells you will see their icons in the bottom right corner with a meter below them to show them charging. When the meter turns orange they are ready for use.",
 "date":"20161205",
-"status":"wip",
-"version":"v1.0rc1",
+"status":"finished",
+"version":"v1.0",
 "url":"https://github.com/nop90/Griffon-Legend-3DS",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "category":"Game",
 "name":"Zelda Picross",
@@ -5143,7 +5143,7 @@
 "description":"",
 "date":"20170106",
 "status":"wip",
-"version":"v0.2.4",
+"version":"v0.2.5",
 "url":"https://github.com/DDews/Snakes",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -5226,10 +5226,10 @@
 "author":"Stary2001",
 "description":"",
 "date":"20160810",
-"status":"",
-"version":"v1.1",
+"status":"wip",
+"version":"v1.2",
 "url":"https://github.com/Stary2001/InputRedirection",
-"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "category":"Utility",
 "name":"StarUpdater-UN",
@@ -5302,4 +5302,64 @@
 "version":"v1.1",
 "url":"https://github.com/SciresM/3ds-crypto-server",
 "comp":[2,0,0,2,0,0,2,0,0,2,0,0]
+},{
+"category":"Game",
+"name":"SDLPAL",
+"tags":"RPG, ARM11, userland",
+"headline":"SDL-based reimplementation of \"Xian Jian Qi Xia Zhuan\" (PAL) ported to the 3DS.",
+"author":"ZephRay",
+"description":"XianJian QiXia Zhuan 仙劍奇俠傳 (also known as The Legend of Sword and Fairy and \"PAL\") is an action RPG created by Taiwan's Softstar Entertainment Inc. The game is considered by many as simply one of the best Chinese RPG ever created. Since its first release in 1995 (DOS Version), many new versions and sequels (including a prequel) were created. However, none could replace the breath-taking and tragic tale it was born from. Here, we meet our protagonist Li Xiaoyao; an aspiring martial artist and the lovely Zhao Ling'er, a charismatic Nuwa descendant.​",
+"date":"20170217",
+"status":"wip",
+"version":"v1.1",
+"url":"https://github.com/nbzwt/sdlpal",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Game",
+"name":"HappyLand",
+"tags":"RPG, ARM11, userland",
+"headline":"A game where you go on a quest to get back the potatoes that Big Foot stole from you.",
+"author":"MyLegGuy",
+"description":"",
+"date":"20170215",
+"status":"wip",
+"version":"v1",
+"url":"https://github.com/MyLegGuy/HappyLand",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Utility",
+"name":"imgurup 3DS",
+"tags":"utilities, multimedia, internet, ARM11, userland",
+"headline":"Imgur upload client for 3DS.",
+"author":"Pirater12",
+"description":"",
+"date":"20170219",
+"status":"wip",
+"version":"v1.0a",
+"url":"https://github.com/Pirater12/imgurup-3ds",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Game",
+"name":"Pixel-Painter",
+"tags":"utilities, entertainment, multimedia, ARM11, userland",
+"headline":"Simple drawing homebrew.",
+"author":"8BitWonder",
+"description":"",
+"date":"20170220",
+"status":"wip",
+"version":"v1.0",
+"url":"https://github.com/16BitWonder/Pixel-Painter",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"category":"Utility",
+"name":"Sleepmode Installer",
+"tags":"ARM11, kernel, internet",
+"headline":"Download titles when in sleep mode.",
+"author":"Reisyukaku",
+"description":"This adds titles for sleep mode download with nim. Enter titleID and watch it download.",
+"date":"20170220",
+"status":"wip",
+"version":"v0.12",
+"url":"https://github.com/Reisyukaku/SleepmodeInstaller",
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 }]
