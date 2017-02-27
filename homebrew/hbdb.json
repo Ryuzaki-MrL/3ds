@@ -127,7 +127,7 @@
 "description":"",
 "date":"20150201",
 "status":"wip",
-"version":"20170115",
+"version":"20170225",
 "url":"https://github.com/d0k3/Decrypt9WIP",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -223,7 +223,7 @@
 "description":"GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card and to the FAT partitons inside your SysNAND and EmuNAND. As of now, you can copy, delete, rename files and create folders. A write permission system prevents you from doing dangerous stuff without noticing.",
 "date":"20160322",
 "status":"wip",
-"version":"v0.9.2",
+"version":"v1.0.0",
 "url":"https://github.com/d0k3/GodMode9",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -344,7 +344,7 @@
 "date":"20150831",
 "status":"discontinued",
 "version":"v1",
-"url":"",
+"url":"https://github.com/profi200/savegame-manager",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -524,7 +524,7 @@
 "date":"20150524",
 "status":"discontinued",
 "version":"v1.0.2",
-"url":"",
+"url":"https://gbatemp.net/threads/release-diagnos3.389435/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "category":"Utility",
@@ -680,7 +680,7 @@
 "date":"0",
 "status":"discontinued",
 "version":"",
-"url":"",
+"url":"https://github.com/linoma/fb43ds",
 "comp":[0,0,0,0,0,0,0,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -692,7 +692,7 @@
 "date":"20141220",
 "status":"discontinued",
 "version":"r3",
-"url":"",
+"url":"https://gbatemp.net/threads/mapleirc-homebrew.376649/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -752,7 +752,7 @@
 "date":"20151201",
 "status":"discontinued",
 "version":"v0.3",
-"url":"",
+"url":"http://gbatemp.net/threads/release-bird-whisperer-a-notification-creater.404669/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -1064,7 +1064,7 @@
 "date":"20150118",
 "status":"",
 "version":"v1.5",
-"url":"",
+"url":"https://github.com/Rinnegatamante/Big_Red_Menu",
 "comp":[0,2,2,0,0,0,0,2,2,0,0,0]
 },{
 "category":"Utility",
@@ -1112,7 +1112,7 @@
 "date":"20160225",
 "status":"",
 "version":"v0.1",
-"url":"",
+"url":"https://github.com/DiscostewSM/blargSpc",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -1135,7 +1135,7 @@
 "description":"Hourglass9 is nothing new - all the functionality found within it is in Decrypt9, too, and possibly was in Decrypt9 for ages. What new it brings to the table is simplicity and (even more) safety. Arm9loaderhax is a prequisite for this, and with it, it is impossible to brick your console with Hourglass9.",
 "date":"20160525",
 "status":"wip",
-"version":"v1.40",
+"version":"v1.45",
 "url":"https://github.com/d0k3/Hourglass9",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
@@ -1220,7 +1220,7 @@
 "date":"20160111",
 "status":"wip",
 "version":"v1.6",
-"url":"",
+"url":"https://gbatemp.net/threads/release-nasa-universal-cia-manager-for-fw-4-1-10-7.409806/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "category":"Utility",
@@ -1364,7 +1364,7 @@
 "date":"20150103",
 "status":"discontinued",
 "version":"v1.0",
-"url":"",
+"url":"https://gbatemp.net/threads/release-3dsurfer-wav-audioplayer-for-3ds.377647/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "category":"Utility",
@@ -1400,7 +1400,7 @@
 "date":"20151028",
 "status":"discontinued",
 "version":"v1.2",
-"url":"",
+"url":"https://gbatemp.net/threads/simple-calc.401144/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -1412,7 +1412,7 @@
 "date":"20151031",
 "status":"discontinued",
 "version":"v2.1.0",
-"url":"",
+"url":"https://gbatemp.net/threads/re-release-bootctr-a-simple-boot-manager-for-3ds.401630/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -1448,7 +1448,7 @@
 "date":"20160302",
 "status":"discontinued",
 "version":"v05",
-"url":"",
+"url":"https://gbatemp.net/threads/release-ctrbootmanager9.417159/",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
 "category":"Utility",
@@ -1484,7 +1484,7 @@
 "date":"20151105",
 "status":"finished",
 "version":"v1.0",
-"url":"",
+"url":"http://gbatemp.net/threads/release-dsp-firmware-dumper.402108/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -1568,7 +1568,7 @@
 "date":"20150830",
 "status":"discontinued",
 "version":"v1",
-"url":"",
+"url":"https://gbatemp.net/threads/release-font-viewer-tester.396145/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -1592,7 +1592,7 @@
 "date":"20151019",
 "status":"finished",
 "version":"v1",
-"url":"",
+"url":"https://github.com/keanutah/dice-3ds",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -1820,7 +1820,7 @@
 "date":"20160126",
 "status":"discontinued",
 "version":"v1.0",
-"url":"",
+"url":"https://github.com/GitGarage/HackChat",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "category":"Utility",
@@ -2192,7 +2192,7 @@
 "date":"20150319",
 "status":"finished",
 "version":"v1.1",
-"url":"",
+"url":"https://gbatemp.net/threads/release-4rows.384352/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "category":"Game",
@@ -2240,7 +2240,7 @@
 "date":"20150120",
 "status":"finished",
 "version":"v1.0",
-"url":"",
+"url":"https://gbatemp.net/threads/release-3dshangman.379285/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -2252,7 +2252,7 @@
 "date":"20141224",
 "status":"",
 "version":"v1.0",
-"url":"",
+"url":"https://gbatemp.net/threads/3ds-briscola-briscola-card-game-for-3ds.376901/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -2432,7 +2432,7 @@
 "date":"20150101",
 "status":"discontinued",
 "version":"v1.0.1",
-"url":"",
+"url":"https://github.com/MrJPGames/2048-3D",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "category":"Game",
@@ -2540,7 +2540,7 @@
 "date":"20150930",
 "status":"finished",
 "version":"v1.1",
-"url":"",
+"url":"https://gbatemp.net/threads/release-pixel-shuffle-2ds.398540/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "category":"Game",
@@ -2552,7 +2552,7 @@
 "date":"20150824",
 "status":"finished",
 "version":"v1.1",
-"url":"",
+"url":"https://gbatemp.net/threads/release-pixel-swap-2ds.395749/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "category":"Game",
@@ -2948,12 +2948,12 @@
 "date":"20151004",
 "status":"finished",
 "version":"v1.3",
-"url":"",
+"url":"https://gbatemp.net/threads/release-want3d.398822/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Emulator",
 "name":"3DNES",
-"tags":"emulators, Nintendo, home console, ARM11",
+"tags":"Nintendo, home console, ARM11",
 "headline":"NES emulator for 3DS. Discontinued.",
 "author":"st4rk",
 "description":"3DNES is an NES emulator for 3DS, developed by St4rk and gdkChan. At first, it was just a port from lameNES, but was greatly modified through the reconstruction of the PPU, CPU, modifications on mappers, etc. It doesn’t have support for sound.",
@@ -2965,7 +2965,7 @@
 },{
 "category":"Emulator",
 "name":"blargSNES",
-"tags":"emulators, ARM11, home console, userland",
+"tags":"ARM11, home console, userland",
 "headline":"SNES emulator for 3DS.",
 "author":"StapleButter, DiscostewSM",
 "description":"",
@@ -2977,7 +2977,7 @@
 },{
 "category":"Emulator",
 "name":"Snes9x 3DS",
-"tags":"emulators, ARM11, home console, Nintendo, userland",
+"tags":"ARM11, home console, Nintendo, userland",
 "headline":"Port of snes9x, an SNES emulator, heavily optimised for the Old 3DS.",
 "author":"bubble2k16",
 "description":"Snes9x for 3DS is a high-compatibility SNES emulator for your old 3DS / 2DS. It runs many games at full speed (60 fps). It supports games that use CX4 chip (Megaman X2/X3), and the SDD-1 chip (Star Ocean, Super Street Fighter 2 Alpha). It can also play games that use the SuperFX chip (Yoshi's Island, etc) but they run with plenty of frame skips. It has generally much high compatibility than existing SNES emulators on the old 3DS because it uses Snes9x 1.43 as a base, and is a good alternative if your existing emulators cannot play all the games. It also runs faster on your new 3DS!",
@@ -2989,7 +2989,7 @@
 },{
 "category":"Emulator",
 "name":"CTR64",
-"tags":"emulators, home console, ARM11, userland",
+"tags":"home console, ARM11, userland",
 "headline":"N64 emulation research/development for 3DS. Hard fork of CTRX.",
 "author":"machinamentum",
 "description":"",
@@ -3001,7 +3001,7 @@
 },{
 "category":"Emulator",
 "name":"CTRX",
-"tags":"emulators, PSX, Sony, home console, ARM11, userland",
+"tags":"PSX, Sony, home console, ARM11, userland",
 "headline":"PSX emulation research/development for 3DS. Can't run commercial roms.",
 "author":"machinamentum",
 "description":"CTRX is a new and free emulator. It has been written from the ground up. It is not a port. It is also free. It has no price and does not bind the user's soul to a document written in legalese. Contributions to the project (including donations) are always appreciated.",
@@ -3013,7 +3013,7 @@
 },{
 "category":"Emulator",
 "name":"FCEUMM3DS",
-"tags":"emulators, Nintendo, home console, ARM11, userland",
+"tags":"Nintendo, home console, ARM11, userland",
 "headline":"NES emulator. Port of FCEUMM. Discontinued.",
 "author":"Steveice10",
 "description":"FCEUMM3DS is a quick port of the FCEUMM libretro core to the 3DS. The emulator seems to run at near full speed, at least with Super Mario Bros. It isn't quite running at full speed though, which is evident from the choppy sound quality.",
@@ -3025,7 +3025,7 @@
 },{
 "category":"Emulator",
 "name":"Vex3DS",
-"tags":"emulators, home console, ARM11, userland",
+"tags":"home console, ARM11, userland",
 "headline":"Vectrex emulator for 3DS.",
 "author":"nop90",
 "description":"",
@@ -3037,7 +3037,7 @@
 },{
 "category":"Emulator",
 "name":"Z26 3DS",
-"tags":"emulators, ARM11, home console, userland",
+"tags":"ARM11, home console, userland",
 "headline":"Atari 2600 emulator for 3DS.",
 "author":"nop90",
 "description":"",
@@ -3049,7 +3049,7 @@
 },{
 "category":"Emulator",
 "name":"3DGB",
-"tags":"emulators, Nintendo, handheld, ARM9",
+"tags":"Nintendo, handheld, ARM9",
 "headline":"Gameboy emulator. Discontinued.",
 "author":"st4rk",
 "description":"",
@@ -3061,7 +3061,7 @@
 },{
 "category":"Emulator",
 "name":"3DSGBemu",
-"tags":"emulators, Nintendo, handheld, ARM9",
+"tags":"Nintendo, handheld, ARM9",
 "headline":"Gameboy emulator. Discontinued.",
 "author":"seagal112",
 "description":"",
@@ -3073,7 +3073,7 @@
 },{
 "category":"Emulator",
 "name":"Cinoop",
-"tags":"emulators, Nintendo, handheld, ARM11, userland",
+"tags":"Nintendo, handheld, ARM11, userland",
 "headline":"Gameboy/GBColor emulator for 3DS.",
 "author":"CTurt",
 "description":"A multiplatform Game Boy emulator written in C; currently available for: Windows, OS X, Linux based OSes, Nintendo DS, Nintendo 3DS, Nintendo GameCube, Sony PSP, and Sony PS4.",
@@ -3085,7 +3085,7 @@
 },{
 "category":"Emulator",
 "name":"CitrAGB",
-"tags":"emulators, Nintendo, handheld, ARM11, userland",
+"tags":"Nintendo, handheld, ARM11, userland",
 "headline":"Gameboy Advance emulator for 3DS. Port of gPSP.",
 "author":"shinyquagsire23",
 "description":"As of now, compatibility is technically on-par with whatever gpsp's interpreter is able to handle, however, due to the nature of the port some games will not run or crash on particular parts. Flipping the screen to it's proper orientation did a bit of damage which might take a bit to get fixed up, and a lot of things still need implementation. But, on the plus side, many games that do run actually run fairly well, around 50% speed in optimal cases, or as low as 20% if the game uses extremely inefficient idle loops.",
@@ -3097,7 +3097,7 @@
 },{
 "category":"Emulator",
 "name":"GameYob 3DS",
-"tags":"emulators, Nintendo, handheld, ARM11, userland",
+"tags":"Nintendo, handheld, ARM11, userland",
 "headline":"Gameboy / Gameboy Color emulator with SGB support and high compatibility.",
 "author":"Drenn, Steveice10",
 "description":"A port of GameYob to the 3DS - a Gameboy / Gameboy Color emulator originally released for the Nintendo DS.",
@@ -3109,7 +3109,7 @@
 },{
 "category":"Emulator",
 "name":"Handy 3DS",
-"tags":"emulators, handheld, ARM11, userland",
+"tags":"handheld, ARM11, userland",
 "headline":"Atari Lynx emulator for 3DS.",
 "author":"nop90",
 "description":"An Atari Lynx emulator for 3ds. Port of Handy320 v0.1 for Dingux and OpenDingux that is based upon Handy SDL by SDLemu Team and Handy v0.90 by K. Wilkins.",
@@ -3121,7 +3121,7 @@
 },{
 "category":"Emulator",
 "name":"mGBA",
-"tags":"emulators, Nintendo, handheld, ARM11, userland",
+"tags":"Nintendo, handheld, ARM11, userland",
 "headline":"Gameboy Advance emulator for 3DS.",
 "author":"endrift",
 "description":"",
@@ -3133,7 +3133,7 @@
 },{
 "category":"Emulator",
 "name":"Neopop",
-"tags":"emulators, handheld, ARM11, userland",
+"tags":"handheld, ARM11, userland",
 "headline":"NeoGeo Pocket emulator for 3DS. Discontinued.",
 "author":"seagal112",
 "description":"",
@@ -3145,7 +3145,7 @@
 },{
 "category":"Emulator",
 "name":"PokeMini 3DS",
-"tags":"emulators, Nintendo, handheld, ARM11, userland, pokemon",
+"tags":"Nintendo, handheld, ARM11, userland, pokemon",
 "headline":"Pokémon Mini emulator for 3DS. Port of PokeMini.",
 "author":"nop90",
 "description":"This is a Pokemon Mini emulator for 3DS. The emulator runs fullspeed on o3DS and n3DS. It runs 72 FPS emulated (36 FPS real with 1 frameskip). This is a port on 3DS of the excellent Pokemini v0.6 by JustBurn.",
@@ -3157,7 +3157,7 @@
 },{
 "category":"Emulator",
 "name":"r3Ddragon",
-"tags":"emulators, Nintendo, handheld, ARM11, userland",
+"tags":"Nintendo, handheld, ARM11, userland",
 "headline":"A Virtual Boy emulator for the 3DS, based on Reality Boy / Red Dragon.",
 "author":"mrdanielps",
 "description":"",
@@ -3169,7 +3169,7 @@
 },{
 "category":"Emulator",
 "name":"Sim800",
-"tags":"emulators, reading, handheld, ARM11, userland",
+"tags":"reading, handheld, ARM11, userland",
 "headline":"CC800 pocket dictionary emulator.",
 "author":"banxian",
 "description":"",
@@ -3181,7 +3181,7 @@
 },{
 "category":"Emulator",
 "name":"3DeSmume",
-"tags":"emulators, handheld, ARM11, userland",
+"tags":"handheld, ARM11, userland",
 "headline":"WIP Nintendo DS emulator.",
 "author":"shutterbug2000",
 "description":"",
@@ -3193,7 +3193,7 @@
 },{
 "category":"Emulator",
 "name":"Phoenix Arcade Emulator",
-"tags":"emulators, arcade, ARM11, userland",
+"tags":"arcade, ARM11, userland",
 "headline":"Phoenix Arcade emulator for 3DS.",
 "author":"seagal112",
 "description":"",
@@ -3205,7 +3205,7 @@
 },{
 "category":"Emulator",
 "name":"3DOS",
-"tags":"emulators, computers, DOS, ARM11, userland",
+"tags":"computers, DOS, ARM11, userland",
 "headline":"A port of the 8086 (DOS) emulator 8086tiny to the 3DS.",
 "author":"shutterbug2000",
 "description":"",
@@ -3217,7 +3217,7 @@
 },{
 "category":"Emulator",
 "name":"3DS-Chip8",
-"tags":"emulators, computers, ARM9",
+"tags":"computers, ARM9",
 "headline":"Chip-8 emulator for 3DS.",
 "author":"st4rk",
 "description":"",
@@ -3229,7 +3229,7 @@
 },{
 "category":"Emulator",
 "name":"Atari800",
-"tags":"emulators, computers, ARM11, userland",
+"tags":"computers, ARM11, userland",
 "headline":"Atari800 computer emulator.",
 "author":"asie",
 "description":"A port of the atari800 8-bit home computer emulator to the 3DS. Remember that this emulator requires Atari ROMs to be present in \"/3ds/atari800\"! However, Atari allowed the ROMs to be distributed alongside a different emulator, which is now freely available, in 1994. PAL blending may not keep up on an Old 3DS in some cases.",
@@ -3241,7 +3241,7 @@
 },{
 "category":"Emulator",
 "name":"Chip8-CTRU",
-"tags":"emulators, computers, ARM11, userland",
+"tags":"computers, ARM11, userland",
 "headline":"Chip-8 emulator for 3DS.",
 "author":"YourNerdyJoe",
 "description":"A Chip8 Emulator to 3DS, originally developed by St4rk. Modified and ported to 3DS usermode code by Joseph LoManto (aka YourNerdyJoe).",
@@ -3253,7 +3253,7 @@
 },{
 "category":"Emulator",
 "name":"CHIP-3DS",
-"tags":"emulators, computers, ARM11, userland",
+"tags":"computers, ARM11, userland",
 "headline":"Yet another CHIP-8 emulator for the 3DS.",
 "author":"xerpi",
 "description":"",
@@ -3265,7 +3265,7 @@
 },{
 "category":"Emulator",
 "name":"3DS Spectrum",
-"tags":"emulators, computers, ARM11, userland",
+"tags":"computers, ARM11, userland",
 "headline":"ZX Spectrum emulator for 3DS.",
 "author":"seagal112",
 "description":"",
@@ -3277,7 +3277,7 @@
 },{
 "category":"Emulator",
 "name":"Bread Box",
-"tags":"emulators, computers, ARM11, userland",
+"tags":"computers, ARM11, userland",
 "headline":"Commodore 64 emulator for 3DS.",
 "author":"Spinal Cord",
 "description":"",
@@ -3289,7 +3289,7 @@
 },{
 "category":"Emulator",
 "name":"ScummVM 3DS",
-"tags":"emulators, computers, engines, ARM11, userland",
+"tags":"computers, engines, ARM11, userland",
 "headline":"Port of SCUMMVM for the 3DS.",
 "author":"Cruel",
 "description":"ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed!",
@@ -3301,7 +3301,7 @@
 },{
 "category":"Emulator",
 "name":"Game & Watch",
-"tags":"emulators, handheld, ARM11, userland",
+"tags":"handheld, ARM11, userland",
 "headline":"Unnoficial build of RetroArch's Game & Watch emulator.",
 "author":"DogParty",
 "description":"",
@@ -3313,7 +3313,7 @@
 },{
 "category":"Emulator",
 "name":"2048",
-"tags":"emulators, engines, ARM11, userland",
+"tags":"engines, ARM11, userland",
 "headline":"2048 emulator. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3325,7 +3325,7 @@
 },{
 "category":"Emulator",
 "name":"Snes9x 2005",
-"tags":"emulators, Nintendo, home console, ARM11, userland",
+"tags":"Nintendo, home console, ARM11, userland",
 "headline":"SNES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3337,7 +3337,7 @@
 },{
 "category":"Emulator",
 "name":"Snes9x 2005 Plus",
-"tags":"emulators, Nintendo, home console, ARM11, userland",
+"tags":"Nintendo, home console, ARM11, userland",
 "headline":"SNES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3349,7 +3349,7 @@
 },{
 "category":"Emulator",
 "name":"DOSBox",
-"tags":"emulators, computers, ARM11, userland",
+"tags":"computers, ARM11, userland",
 "headline":"MS-DOS emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3361,7 +3361,7 @@
 },{
 "category":"Emulator",
 "name":"Final Burn Alpha 2012: CPS-1",
-"tags":"emulators, arcade, ARM11, userland",
+"tags":"arcade, ARM11, userland",
 "headline":"Capcom Play System emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3373,7 +3373,7 @@
 },{
 "category":"Emulator",
 "name":"Final Burn Alpha 2012: CPS-2",
-"tags":"emulators, arcade, ARM11, userland",
+"tags":"arcade, ARM11, userland",
 "headline":"Capcom Play System 2 emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3385,7 +3385,7 @@
 },{
 "category":"Emulator",
 "name":"Final Burn Alpha 2012: NeoGeo",
-"tags":"emulators, arcade, SNK, ARM11, userland",
+"tags":"arcade, SNK, ARM11, userland",
 "headline":"Neo Geo emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3397,7 +3397,7 @@
 },{
 "category":"Emulator",
 "name":"FCEUMM",
-"tags":"emulators, Nintendo, home console, ARM11, userland",
+"tags":"Nintendo, home console, ARM11, userland",
 "headline":"NES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3409,7 +3409,7 @@
 },{
 "category":"Emulator",
 "name":"fMSX",
-"tags":"emulators, computers, ARM11, userland",
+"tags":"computers, ARM11, userland",
 "headline":"MSX emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3421,7 +3421,7 @@
 },{
 "category":"Emulator",
 "name":"Gambatte",
-"tags":"emulators, Nintendo, handheld, ARM11, userland",
+"tags":"Nintendo, handheld, ARM11, userland",
 "headline":"Gameboy / Gameboy Color emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3433,7 +3433,7 @@
 },{
 "category":"Emulator",
 "name":"Genesis Plus GX",
-"tags":"emulators, SEGA, home console, ARM11, userland",
+"tags":"SEGA, home console, ARM11, userland",
 "headline":"Sega Mega Drive emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3445,7 +3445,7 @@
 },{
 "category":"Emulator",
 "name":"gPSP",
-"tags":"emulators, Nintendo, handheld, ARM11, userland",
+"tags":"Nintendo, handheld, ARM11, userland",
 "headline":"Gameboy Advance emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3457,7 +3457,7 @@
 },{
 "category":"Emulator",
 "name":"MAME",
-"tags":"emulators, arcade, ARM11, userland",
+"tags":"arcade, ARM11, userland",
 "headline":"Multi Arcade Machine Emulator for the 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3469,7 +3469,7 @@
 },{
 "category":"Emulator",
 "name":"Mednafen NGP",
-"tags":"emulators, SNK, handheld, ARM11, userland",
+"tags":"SNK, handheld, ARM11, userland",
 "headline":"NeoGeo Pocket emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3481,7 +3481,7 @@
 },{
 "category":"Emulator",
 "name":"Mednafen PCE Fast",
-"tags":"emulators, home console, ARM11, userland",
+"tags":"home console, ARM11, userland",
 "headline":"TurboGrafx-16 emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3493,7 +3493,7 @@
 },{
 "category":"Emulator",
 "name":"Mednafen VB",
-"tags":"emulators, Nintendo, handheld, ARM11, userland",
+"tags":"Nintendo, handheld, ARM11, userland",
 "headline":"Virtual Boy emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3505,7 +3505,7 @@
 },{
 "category":"Emulator",
 "name":"Mednafen WonderSwan",
-"tags":"emulators, handheld, ARM11, userland",
+"tags":"handheld, ARM11, userland",
 "headline":"WonderSwan emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3517,7 +3517,7 @@
 },{
 "category":"Emulator",
 "name":"Nestopia",
-"tags":"emulators, Nintendo, home console, ARM11, userland",
+"tags":"Nintendo, home console, ARM11, userland",
 "headline":"NES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3529,7 +3529,7 @@
 },{
 "category":"Emulator",
 "name":"NX Engine",
-"tags":"emulators, engines, ARM11, userland",
+"tags":"engines, ARM11, userland",
 "headline":"NXEngine (Cave Story) emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3541,7 +3541,7 @@
 },{
 "category":"Emulator",
 "name":"PCSX ReARMed",
-"tags":"emulators, SONY, home console, PSX, ARM11, userland",
+"tags":"SONY, home console, PSX, ARM11, userland",
 "headline":"PlayStation emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3553,7 +3553,7 @@
 },{
 "category":"Emulator",
 "name":"Picodrive",
-"tags":"emulators, SEGA, home console, ARM11, userland",
+"tags":"SEGA, home console, ARM11, userland",
 "headline":"Sega Mega Drive emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3565,7 +3565,7 @@
 },{
 "category":"Emulator",
 "name":"Snes9x 2002",
-"tags":"emulators, Nintendo, home console, ARM11, userland",
+"tags":"Nintendo, home console, ARM11, userland",
 "headline":"SNES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3577,7 +3577,7 @@
 },{
 "category":"Emulator",
 "name":"QuickNES",
-"tags":"emulators, Nintendo, home console, ARM11, userland",
+"tags":"Nintendo, home console, ARM11, userland",
 "headline":"NES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3589,7 +3589,7 @@
 },{
 "category":"Emulator",
 "name":"Snes9x 2010",
-"tags":"emulators, Nintendo, home console, ARM11, userland",
+"tags":"Nintendo, home console, ARM11, userland",
 "headline":"SNES emulator for 3DS. Part of RetroArch.",
 "author":"libRetro Team",
 "description":"",
@@ -3968,7 +3968,7 @@
 "date":"20160817",
 "status":"wip",
 "version":"v1.0",
-"url":"",
+"url":"http://gbatemp.net/threads/release-3ds-hardware-test.438267/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -4004,7 +4004,7 @@
 "date":"20160113",
 "status":"discontinued",
 "version":"v1.2b",
-"url":"",
+"url":"https://github.com/svanheulen/mhx_quest_importer",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -4038,9 +4038,9 @@
 "author":"Cid2Mizard",
 "description":"Trucmuche 2DS is the adaptation of hidden object \"Trucmuche\", proposed by the regional newspaper \"La voix du Nord\" (http://www.lavoixdunord.fr/). This version brings together 49 drawings published in 2009.",
 "date":"20151203",
-"status":"",
+"status":"finished",
 "version":"v1.1",
-"url":"",
+"url":"https://gbatemp.net/threads/trucmuche-2ds-09.404859/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
 "category":"Game",
@@ -4561,7 +4561,7 @@
 },{
 "category":"Emulator",
 "name":"3DSSMS",
-"tags":"emulators, SEGA, home console, ARM11, userland",
+"tags":"SEGA, home console, ARM11, userland",
 "headline":"Sega Mega Drive emulator for 3DS. Port of smsplus.",
 "author":"cpasjuste",
 "description":"",
@@ -4729,7 +4729,7 @@
 },{
 "category":"Emulator",
 "name":"CHIP8-2DS",
-"tags":"emulators, computers, ARM9",
+"tags":"computers, ARM9",
 "headline":"Chip-8 emulator for 3DS.",
 "author":"nopy4869",
 "description":"The EXTRORDINARILY poorly named chip 8 emulator for 3DS. Controls are a little flakey, bound to various buttons, but can also be controlled by the touchscreen. This emulator supports 3D, savestates, screen scaling, etc.",
@@ -4849,7 +4849,7 @@
 },{
 "category":"Emulator",
 "name":"Pituka Classics: Rick Dangerous",
-"tags":"emulators, computers, ARM11, userland",
+"tags":"computers, ARM11, userland",
 "headline":"Virtual Console style CPC MonoGame Emulator. This release includes \"Rick Dangerous\".",
 "author":"D_Skywalk",
 "description":"Pituka/Wituka is an Amstrad CPC Computer Emulator very popular in Europe, mainly in the United Kingdom, France, Spain and Germany (where the CPC was sold under the Schneider brand).",
@@ -5095,7 +5095,7 @@
 "description":"This is a music player for the 3DS. It plays PCM WAV, AIFF, FLAC and OPUS.",
 "date":"20161228",
 "status":"wip",
-"version":"v0.4.8",
+"version":"v0.4.9",
 "url":"https://github.com/deltabeard/ctrmus",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5362,4 +5362,28 @@
 "version":"v0.12",
 "url":"https://github.com/Reisyukaku/SleepmodeInstaller",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"category":"Emulator",
+"name":"NP2 for 3DS",
+"tags":"ARM11, userland",
+"headline":"Japanese NEC PC-9801 series computer emulator.",
+"author":"raima",
+"description":"",
+"date":"20170211",
+"status":"wip",
+"version":"v0.1.2",
+"url":"http://gbatemp.net/threads/release-np2-for-3ds-neko-project-ii-port.460691/",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Game",
+"name":"Meritous",
+"tags":"ARM11, userland",
+"headline":"Port of the game Meritous to the 3DS.",
+"author":"nop90",
+"description":"Meritous is a cross between a top-view dungeon crawler and a bullet-hell shoot-em-up. In it, you control main character Merit, who travels through an enormous 3000-room labyrinth, the Orcus Dome, in order to find three artifacts called the PSI Keys, and restore them to their proper locations.",
+"date":"20170225",
+"status":"wip",
+"version":"v1.0",
+"url":"https://github.com/nop90/Meritous-3ds",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 }]
