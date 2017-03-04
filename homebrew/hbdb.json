@@ -5316,13 +5316,13 @@
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "category":"Game",
-"name":"HappyLand",
+"name":"Happy Land",
 "tags":"RPG, ARM11, userland",
 "headline":"A game where you go on a quest to get back the potatoes that Big Foot stole from you.",
 "author":"MyLegGuy",
 "description":"",
 "date":"20170215",
-"status":"wip",
+"status":"finished",
 "version":"v1",
 "url":"https://github.com/MyLegGuy/HappyLand",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
