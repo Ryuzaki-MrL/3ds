@@ -65,7 +65,6 @@
 - BootCtr (117)
 - BootCtr9 (118)
 - CtrBootManager9 (120)
-- Grid Launcher (121)
 - Grid Launcher Updater (122)
 - NVRAM Flash Manager (125)
 - edpJoy3DS (126)

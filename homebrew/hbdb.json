@@ -1651,7 +1651,7 @@
 "description":"Savefile editor, wondercard injector and offline homebrew bank for gen4 to gen7 Pokémon games.",
 "date":"20160515",
 "status":"wip",
-"version":"v4.2.0",
+"version":"v4.2.1",
 "url":"https://github.com/BernardoGiordano/PKSM",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -2394,10 +2394,10 @@
 "author":"Matthias",
 "description":"Single player platform game. Can you defeat Sheriff of Nottingham's henchmen and reach the finish?",
 "date":"20150916",
-"status":"discontinued",
-"version":"v0.1",
+"status":"",
+"version":"v0.1.1",
 "url":"https://github.com/esoteric-programmer/robin-hood",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "category":"Game",
 "name":"100 Boxes 2DS",
@@ -3319,7 +3319,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3331,7 +3331,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3343,7 +3343,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3355,7 +3355,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3367,7 +3367,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3379,7 +3379,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3391,7 +3391,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3403,7 +3403,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3415,7 +3415,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3427,7 +3427,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3439,7 +3439,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3451,7 +3451,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3463,7 +3463,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3475,7 +3475,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3487,7 +3487,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3499,7 +3499,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,1,1,1,0,0,0]
 },{
@@ -3511,7 +3511,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3523,7 +3523,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3535,7 +3535,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3559,7 +3559,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3571,7 +3571,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -3583,7 +3583,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -3595,7 +3595,7 @@
 "description":"",
 "date":"20160118",
 "status":"wip",
-"version":"v1.4.1",
+"version":"v1.5",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
 "comp":[1,1,1,0,0,0,2,2,2,0,0,0]
 },{
@@ -4207,7 +4207,7 @@
 "description":"The goal of this app is to provide an open-source alternative to some of the <a href='https://www.3dbrew.org/wiki/3DS_Development_Unit_Software)'>3DS Development Unit Software</a>, alongside with extra features.",
 "date":"20160827",
 "status":"wip",
-"version":"v1.0",
+"version":"v1.2.0",
 "url":"https://github.com/Ryuzaki-MrL/CacheTool",
 "comp":[1,2,0,0,0,0,1,2,0,0,0,0]
 },{
@@ -5095,7 +5095,7 @@
 "description":"This is a music player for the 3DS. It plays PCM WAV, AIFF, FLAC and OPUS.",
 "date":"20161228",
 "status":"wip",
-"version":"v0.4.9",
+"version":"v0.4.11",
 "url":"https://github.com/deltabeard/ctrmus",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5335,7 +5335,7 @@
 "description":"",
 "date":"20170219",
 "status":"wip",
-"version":"v1.0a",
+"version":"v2.0",
 "url":"https://github.com/Pirater12/imgurup-3ds",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5383,7 +5383,43 @@
 "description":"Meritous is a cross between a top-view dungeon crawler and a bullet-hell shoot-em-up. In it, you control main character Merit, who travels through an enormous 3000-room labyrinth, the Orcus Dome, in order to find three artifacts called the PSI Keys, and restore them to their proper locations.",
 "date":"20170225",
 "status":"wip",
-"version":"v1.0",
+"version":"v1.1",
 "url":"https://github.com/nop90/Meritous-3ds",
-"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Game",
+"name":"OpenTyrian3DS",
+"tags":"ARM11, userland, shooter",
+"headline":"Port of the DOS shoot-em-up Tyrian.",
+"author":"nop90",
+"description":"OpenTyrian is a port of the DOS shoot-em-up Tyrian, an arcade-style vertical scrolling shooter. The story is set in 20,031 where you play as Trent Hawkins, a skilled fighter-pilot employed to fight Microsol and save the galaxy.",
+"date":"20170304",
+"status":"wip",
+"version":"v1.1",
+"url":"https://github.com/nop90/Opentyrian-3ds",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Game",
+"name":"Xrick",
+"tags":"ARM11, userland, adventure, platformer",
+"headline":"Port to 3DS of the open source remake of Rick Dangerous.",
+"author":"nop90",
+"description":"Way before Lara Croft, back in the 1980's and early 1990's, Rick Dangerous was the Indiana Jones of computer games, running away from rolling rocks, avoiding traps, from South America to a futuristic missile base via Egypt and the Schwarzendumpf castle. Xrick is a clone of Rick Dangerous, known to run on Linux, Windows, BeOs, Amiga, QNX, all sorts of gaming consoles..",
+"date":"20170302",
+"status":"wip",
+"version":"v1.0",
+"url":"https://github.com/nop90/Xrick-3ds",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Utility",
+"name":"NTRDBI",
+"tags":"utilities, internet",
+"headline":"WIP NTRDB Downloader.",
+"author":"adrifcastr",
+"description":"",
+"date":"20170305",
+"status":"wip",
+"version":"v0.1.0",
+"url":"https://github.com/adrifcastr/NTRDBI",
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 }]

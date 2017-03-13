@@ -147,7 +147,7 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
 
     var options = {
         valueNames: ['title', 'desc', 'author', 'tags', 'release', 'cat', 'ext', 'status'],
-        page: 30,
+        page: 50,
         plugins: [
             ListPagination({paginationClass: "top", innerWindow: 15}),
             ListPagination({paginationClass: "bottom", innerWindow: 15})
