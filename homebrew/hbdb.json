@@ -2503,7 +2503,7 @@
 "description":"Minesweeper is a single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden \"mines\" without detonating any of them, with help from clues about the number of neighboring mines in each field. The game originates from the 1960s, and has been written for many computing platforms in use today.",
 "date":"20150318",
 "status":"finished",
-"version":"v1.1.1",
+"version":"v1.2.1",
 "url":"",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -2695,7 +2695,7 @@
 "description":"",
 "date":"20160607",
 "status":"",
-"version":"v0.3a",
+"version":"v0.4",
 "url":"http://www.zeldaroth.fr/zolb.php",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4987,7 +4987,7 @@
 "description":"MegaZeux is a game creation system originally released in 1994 and still being developed.",
 "date":"20161029",
 "status":"wip",
-"version":"v0.1.3a",
+"version":"v0.1.4",
 "url":"http://asie.pl/homebrew/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5287,7 +5287,7 @@
 "description":"",
 "date":"20170212",
 "status":"wip",
-"version":"v0.3.6",
+"version":"v0.7",
 "url":"https://github.com/Creckeryop/3dsCookieClicker",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
