@@ -223,7 +223,7 @@
 "description":"GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card and to the FAT partitons inside your SysNAND and EmuNAND. As of now, you can copy, delete, rename files and create folders. A write permission system prevents you from doing dangerous stuff without noticing.",
 "date":"20160322",
 "status":"wip",
-"version":"v1.0.0",
+"version":"v1.0.7",
 "url":"https://github.com/d0k3/GodMode9",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -1651,7 +1651,7 @@
 "description":"Savefile editor, wondercard injector and offline homebrew bank for gen4 to gen7 Pokémon games.",
 "date":"20160515",
 "status":"wip",
-"version":"v4.2.1",
+"version":"v4.2.2",
 "url":"https://github.com/BernardoGiordano/PKSM",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3703,7 +3703,7 @@
 "description":"ReiNand started off as a minimalistic custom firmware for N3DS exclusively. At the time, all other open source cfw were O3DS exclusive so it was developed mainly for N3DS. With the shift in standards, support for both was added.",
 "date":"20150805",
 "status":"wip",
-"version":"v5.0",
+"version":"v5.1",
 "url":"https://github.com/Reisyukaku/ReiNand",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -5035,7 +5035,7 @@
 "description":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"version":"v4.1.0",
+"version":"v4.2.0",
 "url":"https://github.com/Robz8/TWLoader/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5383,7 +5383,7 @@
 "description":"Meritous is a cross between a top-view dungeon crawler and a bullet-hell shoot-em-up. In it, you control main character Merit, who travels through an enormous 3000-room labyrinth, the Orcus Dome, in order to find three artifacts called the PSI Keys, and restore them to their proper locations.",
 "date":"20170225",
 "status":"wip",
-"version":"v1.1",
+"version":"v1.2b",
 "url":"https://github.com/nop90/Meritous-3ds",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5404,7 +5404,7 @@
 "tags":"ARM11, userland, adventure, platformer",
 "headline":"Port to 3DS of the open source remake of Rick Dangerous.",
 "author":"nop90",
-"description":"Way before Lara Croft, back in the 1980's and early 1990's, Rick Dangerous was the Indiana Jones of computer games, running away from rolling rocks, avoiding traps, from South America to a futuristic missile base via Egypt and the Schwarzendumpf castle. Xrick is a clone of Rick Dangerous, known to run on Linux, Windows, BeOs, Amiga, QNX, all sorts of gaming consoles..",
+"description":"Way before Lara Croft, back in the 1980's and early 1990's, Rick Dangerous was the Indiana Jones of computer games, running away from rolling rocks, avoiding traps, from South America to a futuristic missile base via Egypt and the Schwarzendumpf castle. Xrick is a clone of Rick Dangerous, known to run on Linux, Windows, BeOs, Amiga, QNX, all sorts of gaming consoles.",
 "date":"20170302",
 "status":"wip",
 "version":"v1.0",
@@ -5422,4 +5422,52 @@
 "version":"v0.1.0",
 "url":"https://github.com/adrifcastr/NTRDBI",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"category":"Emulator",
+"name":"VirtuaNES 3DS",
+"tags":"ARM11, home console, Nintendo, userland",
+"headline":"Port of VirtuaNES, a NES emulator.",
+"author":"bubble2k16",
+"description":"This is a port of VirtuaNES to 3DS as an alternative to existing NES emulators. It used to be considered one of the best emulators before FCE and Nestopia, and it runs quite fast for lower spec-ed computers (at the cost of some emulation accuracy). But because of that, the Old 3DS / 2DS is able to benefit from this fast running emulator core. This runs full speed on an old 3DS / 2DS with support for tonnes of mappers. Although it doesn't support every single mapper, the library of games that can run on this are probably fairly huge already.",
+"date":"20170323",
+"status":"wip",
+"version":"v0.9",
+"url":"https://github.com/bubble2k16/emus3ds",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Game",
+"name":"Hex-a-Hop",
+"tags":"ARM11, userland",
+"headline":"Port of Hex-a-Hop, hexagonal tile-based puzzle game.",
+"author":"nop90",
+"description":"Hex-a-Hop is a hexagonal tile-based puzzle game with one simple goal: destroy all green tiles! There are infinite undos and no time limits -- you just have to find a way to destroy all the green tiles and step on a safe tile at the end.",
+"date":"20170317",
+"status":"wip",
+"version":"v0.2",
+"url":"https://github.com/nop90/Hexahop-3ds",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Game",
+"name":"SuperTux Milestone 1",
+"tags":"ARM11, userland",
+"headline":"Port to 3ds of Supertux v0.1.3 (Milestone 1).",
+"author":"nop90",
+"description":"SuperTux is a free classic 2D jump'n run sidescroller game in a style similar to the original Super Mario games.",
+"date":"20170322",
+"status":"wip",
+"version":"v0.1",
+"url":"https://github.com/nop90/Supertux-Milestone1-3ds",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Game",
+"name":"Lua Red",
+"tags":"ARM11, userland",
+"headline":"Lua scriptable Pokemon Red for N3DS.",
+"author":"cheesylard",
+"description":"",
+"date":"20170324",
+"status":"wip",
+"version":"v0.1.3",
+"url":"https://github.com/rweichler/luared",
+"comp":[0,0,0,0,0,0,2,0,0,0,0,0]
 }]
