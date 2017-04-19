@@ -114,7 +114,7 @@
 "author":"rinnegatamante",
 "description":"CHMM2 is a theme manager for 3DS for custom themes; it works under lpp-3ds and it is completely opensource.",
 "date":"20150121",
-"status":"wip",
+"status":"discontinued",
 "version":"v2.8",
 "url":"https://github.com/Rinnegatamante/CHMM2",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
@@ -150,7 +150,7 @@
 "author":"rinnegatamante",
 "description":"Sunshell is a shell inspired by Ahman work on PSP with irShell. It's coded in C and LUA and it provides a modules system. Any developer can easily add their homebrews (both C and LUA homebrews) to Sunshell modules so their applications will be shown in Sunshell Main Menu. Final goal for this homebrew is to provide an universal alternative menu for 3DS.",
 "date":"20150224",
-"status":"",
+"status":"discontinued",
 "version":"v0.3.8",
 "url":"https://github.com/Rinnegatamante/Sunshell",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
@@ -654,7 +654,7 @@
 "author":"rinnegatamante",
 "description":"The Sharing of Isaac is a sharing savegame system for The Binding of Isaac: Rebirth which will allows you to use a single savegame in both PC and 3DS versions of the game! It can also be used as a cloud space where to save your savegames if you don't own a PC or a 3DS version of the game.",
 "date":"20160126",
-"status":"",
+"status":"discontinued",
 "version":"",
 "url":"http://rinnegatamante.it/TSOI/register.php",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -810,7 +810,7 @@
 "author":"rinnegatamante",
 "description":"Lua Player Plus 3DS is a Lua interpreter for 3DS/N3DS forked from original lpp-c++ (PSP/PSVITA) trunk made by rinnegatamante and NaNNi. lpp-3ds runs under Lua 5.3.1. It provides different cool features like audio playback, video playback, zip extraction, images loading support, alpha blending, network features, socketing features, etc... It also have an integrated debugger with FTP server support so you can patch your scripts in runtime.",
 "date":"20150318",
-"status":"wip",
+"status":"discontinued",
 "version":"r5",
 "url":"https://github.com/Rinnegatamante/lpp-3ds",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
@@ -1062,7 +1062,7 @@
 "author":"rinnegatamante",
 "description":"Big Red Menu is the first CIA manager (installer/uninstaller) for 3DS completely legal and opensource.",
 "date":"20150118",
-"status":"",
+"status":"discontinued",
 "version":"v1.5",
 "url":"https://github.com/Rinnegatamante/Big_Red_Menu",
 "comp":[0,2,2,0,0,0,0,2,2,0,0,0]
@@ -1218,7 +1218,7 @@
 "author":"rinnegatamante",
 "description":"NASA is a CIA Manager, based on an heavy modified version of latest source of Big Red Menu, which is compatible with ANY firmware >= 4.1. It uses libSu/libsvchax to get access to required services for LEGIT CIAs installation on fw >= 9.3 and libkhax to get access to required services for ANY CIAs installation on fw 4.1 - 9.2. It also have network installation feature which doesn't need double free space cause it will perform a full network installation.",
 "date":"20160111",
-"status":"wip",
+"status":"discontinued",
 "version":"v1.6",
 "url":"https://gbatemp.net/threads/release-nasa-universal-cia-manager-for-fw-4-1-10-7.409806/",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
@@ -1879,7 +1879,7 @@
 "description":"EasyRPG Player is part of the EasyRPG Project. More information is available at the project website: <a href='https://easyrpg.org/'>https://easyrpg.org/</a>",
 "date":"20160321",
 "status":"wip",
-"version":"v0.5.0",
+"version":"v0.5.1",
 "url":"https://easyrpg.org/player/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1890,7 +1890,7 @@
 "author":"rinnegatamante",
 "description":"Lua RayCast3D is a 3D Game Engine for Nintendo 3DS which runs under Lua Player Plus 3DS (lpp-3ds). It uses Ray-Casting algorithm (https://en.wikipedia.org/wiki/Ray_casting) to generate a 3D world starting from a 2D map. It runs fullspeed on N3DS with any accuracy value but runs smooth on O3DS only with accuracy values >= 3.",
 "date":"20151230",
-"status":"",
+"status":"discontinued",
 "version":"v0.1",
 "url":"https://en.wikipedia.org/wiki/Ray_casting",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -2046,7 +2046,7 @@
 "author":"rinnegatamante",
 "description":"Asteroids 3D is a \"clone\" of Asteroids but in a 3D environment so you have to survive as long as you can.",
 "date":"20150323",
-"status":"",
+"status":"discontinued",
 "version":"v0.5.1a",
 "url":"https://rinnegatamante.it/board/showthread.php?tid=25",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -2250,7 +2250,7 @@
 "author":"rinnegatamante",
 "description":"",
 "date":"20141224",
-"status":"",
+"status":"discontinued",
 "version":"v1.0",
 "url":"https://gbatemp.net/threads/3ds-briscola-briscola-card-game-for-3ds.376901/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -2310,7 +2310,7 @@
 "author":"rinnegatamante",
 "description":"",
 "date":"20150213",
-"status":"",
+"status":"discontinued",
 "version":"v1.0a",
 "url":"https://gbatemp.net/threads/w-i-p-triaal-deemo-clone-for-3ds.381508/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -2730,7 +2730,7 @@
 "author":"rinnegatamante",
 "description":"ctrHexenII is a port of Hexen II for 3DS based on a modified version of winQuake. It supports both basic game and Portal of Praveus DLC and it has been tested with glHexenII pak files. Circle Pad and Touchscreen are also supported for player movement by default, there also is second analog support for N3DS and optional gyroscope support for camera movement. There is also a secret third person mode activable on Options Menu.",
 "date":"20160221",
-"status":"wip",
+"status":"discontinued",
 "version":"v1.1",
 "url":"https://github.com/Rinnegatamante/ctrHexenII",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
@@ -2754,7 +2754,7 @@
 "author":"rinnegatamante",
 "description":"ctrWolfen is a port of Wolfenstein 3D by idSoftware based on Wolfenstein 3D PSP v.6.0 sourcecode. It runs fullspeed on both O3DS / N3DS in 268 MHZ mode but at this stage it has several bugs and stuffs to add.",
 "date":"20151218",
-"status":"",
+"status":"discontinued",
 "version":"v0.8",
 "url":"https://github.com/Rinnegatamante/ctrWolfen",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
@@ -3643,7 +3643,7 @@
 "description":"Noob-proof 3DS Custom Firmware. Formerly known as AuReiNAND.",
 "date":"20160119",
 "status":"wip",
-"version":"v6.6",
+"version":"v7.0.1",
 "url":"https://github.com/AuroraWright/Luma3DS/wiki",
 "comp":[2,0,0,2,0,0,2,0,0,2,0,0]
 },{
@@ -3835,7 +3835,7 @@
 "description":"A simple homebrew app for 3DS which downloads the link you type in it and saves to the root of your sd card. Useful for people who have broken cameras and cannot scan QR codes. This program can download all file formats (thats why you can download a 3dsx file also). Now supports official keyboard.",
 "date":"20160708",
 "status":"wip",
-"version":"v2.5",
+"version":"v3.0",
 "url":"https://github.com/Pirater12/Multidownload/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -4134,7 +4134,7 @@
 "author":"rinnegatamante",
 "description":"Labyrinth 3D is, as the title says, a game where you have to find the exit from the labyrinth you're in. It supports different map sizes and you'll have some scrolls according to map size. These scrolls can be used to \"mark\" a wall of the labyrinth so you can see where you already went (after marking a wall, it will became golden). Labyrinths are generated through Primm's Algorithm so you'll have infinite random mazes to solve.",
 "date":"20160108",
-"status":"",
+"status":"discontinued",
 "version":"v1.2",
 "url":"",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
@@ -4207,7 +4207,7 @@
 "description":"The goal of this app is to provide an open-source alternative to some of the <a href='https://www.3dbrew.org/wiki/3DS_Development_Unit_Software)'>3DS Development Unit Software</a>, alongside with extra features.",
 "date":"20160827",
 "status":"wip",
-"version":"v1.2.0",
+"version":"v1.3.0",
 "url":"https://github.com/Ryuzaki-MrL/CacheTool",
 "comp":[1,2,0,0,0,0,1,2,0,0,0,0]
 },{
@@ -4891,7 +4891,7 @@
 "description":"A little mod of the BootNTR which will allows you to choose the version of NTR you want to load. You have the choice between the version 3.2, 3.3, 3.4.",
 "date":"20160701",
 "status":"wip",
-"version":"v2.5",
+"version":"v2.7.3",
 "url":"https://github.com/Nanquitas/BootNTR",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -4987,7 +4987,7 @@
 "description":"MegaZeux is a game creation system originally released in 1994 and still being developed.",
 "date":"20161029",
 "status":"wip",
-"version":"v0.1.4",
+"version":"v0.1.5",
 "url":"http://asie.pl/homebrew/",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5046,7 +5046,7 @@
 "author":"rinnegatamante",
 "description":"luaIrc is an IRC client for 3DS written with Lua Player Plus 3DS, allowing you to chat with your friends whenever you want.",
 "date":"20161113",
-"status":"wip",
+"status":"discontinued",
 "version":"v1.0",
 "url":"http://rinnegatamante.it/board/showthread.php?tid=136",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
@@ -5275,7 +5275,7 @@
 "description":"Halo Revamped is a Halo inspired mod for quake that was originally on the PSP. Halo Revamped in itself is a heavy mod of Halo Solitude that was made for PSP.",
 "date":"20170209",
 "status":"wip",
-"version":"v1.0",
+"version":"v1.1",
 "url":"http://gbatemp.net/threads/release-halo-revamped-port.460462/",
 "comp":[1,2,0,0,0,0,1,2,0,0,0,0]
 },{
@@ -5431,7 +5431,7 @@
 "description":"This is a port of VirtuaNES to 3DS as an alternative to existing NES emulators. It used to be considered one of the best emulators before FCE and Nestopia, and it runs quite fast for lower spec-ed computers (at the cost of some emulation accuracy). But because of that, the Old 3DS / 2DS is able to benefit from this fast running emulator core. This runs full speed on an old 3DS / 2DS with support for tonnes of mappers. Although it doesn't support every single mapper, the library of games that can run on this are probably fairly huge already.",
 "date":"20170323",
 "status":"wip",
-"version":"v0.9",
+"version":"v0.91",
 "url":"https://github.com/bubble2k16/emus3ds",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5466,8 +5466,44 @@
 "author":"cheesylard",
 "description":"",
 "date":"20170324",
-"status":"wip",
-"version":"v0.1.3",
+"status":"",
+"version":"v1.5",
 "url":"https://github.com/rweichler/luared",
 "comp":[0,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"category":"Game",
+"name":"Pixel Rush",
+"tags":"ARM11, userland, arcade",
+"headline":"Homebrew game inspired by VoxelRush 3D.",
+"author":"Chopsuey",
+"description":"The game features two gamemodes, a super fast action gameplay, fancy colors, and you can actually save your highscore if you quit the game using the \"Quit Game\" button in the menu.",
+"date":"20170416",
+"status":"wip",
+"version":"v1.0",
+"url":"https://github.com/DerChopsuey/PixelRush",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"category":"Game",
+"name":"Hermes 3DS",
+"tags":"runner, ARM11, userland",
+"headline":"Port of Hermes to the 3DS.",
+"author":"Retroguru Team",
+"description":"Hermes is an extraordinary Jump'n Run game covering bad taste humour. If you feel offended by crude and dirty humour you may run away now. The game also features pixel violence and promotes the consumption of meat. If you are a hardcore vegetarian, you might very much dislike the game or just have a good laugh.",
+"date":"20170416",
+"status":"wip",
+"version":"v0.90",
+"url":"http://www.retroguru.com/hermes/",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Game",
+"name":"What's in the box?",
+"tags":"ARM11, userland",
+"headline":"Tap the box to see what's inside.",
+"author":"Manurocker95",
+"description":"Just TAP on the bottom screen 'til the box opens. Each stage has a new color for the background.",
+"date":"20170416",
+"status":"wip",
+"version":"v1.1",
+"url":"https://github.com/Manurocker95/WITB_3D",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 }]
