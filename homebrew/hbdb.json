@@ -127,7 +127,7 @@
 "description":"",
 "date":"20150201",
 "status":"wip",
-"version":"20170225",
+"version":"20170520",
 "url":"https://github.com/d0k3/Decrypt9WIP",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -217,13 +217,13 @@
 },{
 "category":"Utility",
 "name":"GodMode9",
-"tags":"utilities, system, files, ARM9, arm9loaderhax",
+"tags":"utilities, system, files, ARM9, sighax",
 "headline":"SD & NAND file manager.",
 "author":"d0k3",
 "description":"GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card and to the FAT partitons inside your SysNAND and EmuNAND. As of now, you can copy, delete, rename files and create folders. A write permission system prevents you from doing dangerous stuff without noticing.",
 "date":"20160322",
 "status":"wip",
-"version":"v1.0.7",
+"version":"v1.1.8",
 "url":"https://github.com/d0k3/GodMode9",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
 },{
@@ -411,11 +411,11 @@
 "name":"Luma3DS Updater",
 "tags":"utilities, internet, maintenance, ARM11, userland",
 "headline":"Updater for Luma3DS. Formerly known as \"ARN Updater\".",
-"author":"Hamcha",
+"author":"Hamcha, KunoichiZ",
 "description":"A arm9loaderhax.bin updater for Luma3DS (formerly AuReiNand) as a 3DS homebrew (no more SD swaps!)",
 "date":"20160417",
-"status":"",
-"version":"v1.4.2",
+"status":"wip",
+"version":"v2.0",
 "url":"https://github.com/Hamcha/lumaupdate",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1779,11 +1779,11 @@
 "name":"freeShop",
 "tags":"ARM11, kernel, internet, shop",
 "headline":"Homebrew eShop for downloading CDN content for free.",
-"author":"Cruel",
+"author":"Cruel, arc13",
 "description":"Open source eShop clone for the Nintendo 3DS. Allows you to browse and install titles you own (i.e. titles for which you have the titlekey).",
 "date":"20160530",
 "status":"wip",
-"version":"v2.2.0",
+"version":"v3.0.0",
 "url":"https://freeshop.pw/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -3601,7 +3601,7 @@
 },{
 "category":"CFW",
 "name":"CakesFW",
-"tags":"ninjhax, arm9loaderhax, emuNAND, MSET",
+"tags":"ninjhax, sighax, emuNAND, MSET",
 "headline":"Custom Firmware that allows for individual patches.",
 "author":"mid-kid",
 "description":"",
@@ -3637,13 +3637,13 @@
 },{
 "category":"CFW",
 "name":"Luma3DS",
-"tags":"custom firmware, ninjhax, arm9loaderhax, emunand",
+"tags":"custom firmware, ninjhax, sighax, emunand",
 "headline":"Noob-proof 3DS Custom Firmware.",
 "author":"AuroraWright, TuxSH",
 "description":"Noob-proof 3DS Custom Firmware. Formerly known as AuReiNAND.",
 "date":"20160119",
 "status":"wip",
-"version":"v7.0.1",
+"version":"v7.1",
 "url":"https://github.com/AuroraWright/Luma3DS/wiki",
 "comp":[2,0,0,2,0,0,2,0,0,2,0,0]
 },{
@@ -3763,7 +3763,7 @@
 "description":"Installed as CIA, launched from home menu in CFW. Extendable via plugins. Has support for screenshots, romhacks and streaming the 3DS's screen to PC over wireless on New 3DS.",
 "date":"20141128",
 "status":"wip",
-"version":"v3.4 preview6",
+"version":"v3.5",
 "url":"https://github.com/44670/BootNTR",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -4891,7 +4891,7 @@
 "description":"A little mod of the BootNTR which will allows you to choose the version of NTR you want to load. You have the choice between the version 3.2, 3.3, 3.4.",
 "date":"20160701",
 "status":"wip",
-"version":"v2.7.3",
+"version":"v2.8.0",
 "url":"https://github.com/Nanquitas/BootNTR",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5035,7 +5035,7 @@
 "description":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"version":"v4.2.0",
+"version":"v4.3.1",
 "url":"https://github.com/Robz8/TWLoader/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5505,5 +5505,29 @@
 "status":"wip",
 "version":"v1.1",
 "url":"https://github.com/Manurocker95/WITB_3D",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Game",
+"name":"Maze of Galious",
+"tags":"ARM11, userland, RPG",
+"headline":"Port to 3DS of the remake of Maze of Galious.",
+"author":"nop90",
+"description":"MoG is a very addictive game where you have to kill thousands of enemies, collect items to obtain new powers and defeat some really great demons at the end of each level. In MoG you are free to go everywhere you want from the beginning of the game. The map is structured in a main map (called the castle) and 10 submaps (called the worlds). To complete the game you have to defeat the boss at the end of each world. To defeat all 10 demons you control two characters: Popolon and Aphrodite. Each one has special abilities, i.e. Popolon has a greater ability to jump and Aphrodite is able to dive.",
+"date":"20170425",
+"status":"wip",
+"version":"v1.0",
+"url":"https://github.com/nop90/MazeOfGalious-3ds",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Utility",
+"name":"Themely",
+"tags":"utilities, customization, ARM11, userland",
+"headline":"A beautiful theme manager for Nintendo 3DS.",
+"author":"ErmanSayin",
+"description":"Themely is a custom home menu manager for the Nintendo 3DS.",
+"date":"20170424",
+"status":"wip",
+"version":"v1.2.1",
+"url":"https://github.com/ErmanSayin/Themely",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 }]
