@@ -167,7 +167,18 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
 
     $('.filter').change(function() {
         hbList.filter(function(item) {
-            return (($('input#' + item.values().cat).prop('checked')) && ($('input#' + item.values().status).prop('checked')) && ($('input#' + (item.values().release=="0" ? "unreleased" : (item.values().release.length===0 ? "unkdate" : "released"))).prop('checked')) && ((item.values().ext.search('3dsx')>-1&&$('input#3dsx').prop('checked'))||(item.values().ext.search('cia')>-1&&$('input#cia').prop('checked'))||(item.values().ext.search('arm9')>-1&&$('input#arm9').prop('checked'))||((item.values().ext.search('other')>-1||item.values().ext.length===0)&&$('input#misc').prop('checked'))));
+            return (
+                ($('input#' + item.values().cat).prop('checked')) &&
+                ($('input#' + item.values().status).prop('checked')) &&
+                ($('input#' + (item.values().release=="0" ? "unreleased" : (item.values().release.length===0 ? "unkdate" : "released"))).prop('checked')) && (
+                    (item.values().ext.search('3dsx')>-1 && $('input#3dsx').prop('checked')) ||
+                    (item.values().ext.search('cia')>-1 && $('input#cia').prop('checked')) ||
+                    (item.values().ext.search('arm9')>-1 && $('input#arm9').prop('checked')) || (
+                        (item.values().ext.search('other')>-1 || item.values().ext.length===0) &&
+                        ($('input#misc').prop('checked'))
+                    )
+                )
+            );
         });
     });
 
