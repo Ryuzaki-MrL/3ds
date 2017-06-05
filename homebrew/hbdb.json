@@ -63,11 +63,11 @@
 "name":"The Homebrew Launcher",
 "tags":"Loaders, ARM11, userland",
 "headline":"Oficial Ninjhax Homebrew Launcher.",
-"author":"smealum",
+"author":"smealum, fincs",
 "description":"The Homebrew Launcher is the default menu for ninjhax, a 3DS homebrew-enabling exploit released on November 20th 2014. It is a fairly simple (and beautiful) menu that lists homebrew applications and lets you run them.",
 "date":"20141120",
 "status":"wip",
-"version":"v1.1.1",
+"version":"v2.0.0",
 "url":"http://smealum.github.io/3ds/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -439,7 +439,7 @@
 "description":"LumaLocaleSwitcher can be used to manage per-title locales for Luma3ds (and compatible forks such as SaltFW).",
 "date":"20160507",
 "status":"",
-"version":"v0.02",
+"version":"v0.04",
 "url":"https://github.com/Possum/LumaLocaleSwitcher",
 "comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 },{
@@ -1579,7 +1579,7 @@
 "description":"3DSident is a tool inspired by PSPident. The tool was used to obtain more information about your PSP's motherboard, firmware etc. Similarly, 3DSident aims to display more information about your 3DS. It is a fork of Wolfvak's ctr_vercheck.",
 "date":"20160727",
 "status":"wip",
-"version":"v0.7.2",
+"version":"v0.7.4",
 "url":"https://github.com/joel16/3DSident",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -3549,7 +3549,7 @@
 "status":"discontinued",
 "version":"v1.3.6",
 "url":"http://www.libretro.com/index.php/retroarch-2/",
-"comp":[1,1,1,0,0,0,1,2,2,0,0,0]
+"comp":[1,1,1,0,0,0,1,1,1,0,0,0]
 },{
 "category":"Emulator",
 "name":"Picodrive",
@@ -3637,10 +3637,10 @@
 },{
 "category":"CFW",
 "name":"Luma3DS",
-"tags":"custom firmware, ninjhax, sighax, emunand",
+"tags":"ninjhax, sighax, emunand",
 "headline":"Noob-proof 3DS Custom Firmware.",
 "author":"AuroraWright, TuxSH",
-"description":"Noob-proof 3DS Custom Firmware. Formerly known as AuReiNAND.",
+"description":"Luma3DS is a program to patch the system software of (New) Nintendo 3DS handheld consoles \"on the fly\", adding features (such as per-game language settings and debugging capabilities for developers) and removing restrictions enforced by Nintendo (such as the region lock). It also allows you to run unauthorized (\"homebrew\") content by removing signature checks.",
 "date":"20160119",
 "status":"wip",
 "version":"v8.0",
