@@ -123,7 +123,7 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
                     $(this).css('background-color', 'transparent');
                 }
             } else {
-                var comp = ['tdsx', 'cia', 'gw', 'arm9', 'mset', 'cake'];
+                var comp = ['tdsx', 'cia', 'gw', 'arm9', 'mset', 'b9s'];
                 $(this).css('background-color', json[id][comp[index%6]]!==undefined&&json[id][comp[index%6]].length!=0 ? "#0c0" : "#fa8072");
             }
         });
