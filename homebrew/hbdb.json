@@ -1459,7 +1459,7 @@
 "description":"",
 "date":"20150917",
 "status":"wip",
-"version":"2.0",
+"version":"v2.0",
 "url":"https://github.com/maorninja/GridLauncher",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
@@ -4588,12 +4588,12 @@
 "name":"C_O_M_R_E_D",
 "tags":"utilities, reading, ARM11, userland",
 "headline":"Open source theme-able comic reader for the 3DS.",
-"author":"B_E_P_I_S_M_A_N",
+"author":"BEPISMAN2",
 "description":"In it's current state, this homebrew is unusable. The app crashes when exiting a comic and opening another comic. Only a theme named \"test\" is loaded from the SD Card (and it has totally unstylish design choices). The code's a complete and utter mess. Do NOT expect this to be a release of any sort. However, if you want to try it out anyways, you'll need to compile it. Be sure to put the /data/ folder at the root of your SD Card.",
 "date":"20160903",
 "status":"wip",
 "version":"v0.1a",
-"url":"",
+"url":"https://github.com/BEPISMAN2/C_O_M_R_E_D",
 "comp":[2,1,0,0,0,0,2,1,0,0,0,0]
 },{
 "category":"Utility",
@@ -5204,7 +5204,7 @@
 "description":"It's like Tetris but with infinite time, you lose when you can no longer place any of the pieces you have available.",
 "date":"20170126",
 "status":"wip",
-"version":"v1.0",
+"version":"v2.0",
 "url":"https://github.com/LiquidFenrir/3ds1010",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5528,7 +5528,7 @@
 "description":"Themely is a custom home menu manager for the Nintendo 3DS.",
 "date":"20170424",
 "status":"wip",
-"version":"v1.2.1",
+"version":"v1.3.0",
 "url":"https://github.com/ErmanSayin/Themely",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5603,4 +5603,16 @@
 "version":"v1.0",
 "url":"https://github.com/zoogie/DSP1",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
+},{
+"category":"Utility",
+"name":"3DiScord",
+"tags":"chat, internet, ARM11, userland",
+"headline":"A Discord client for the Nintendo 3DS",
+"author":"cheuble",
+"description":"3DiScord is a heavily WIP Discord client for the 3DS based on VitaCord by devingDev / coderx3.",
+"date":"20170619",
+"status":"wip",
+"version":"v1.1",
+"url":"https://github.com/cheuble/3DiScord",
+"comp":[2,2,2,0,0,0,2,2,2,0,0,0]
 }]
