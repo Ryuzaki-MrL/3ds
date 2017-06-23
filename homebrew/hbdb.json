@@ -3139,10 +3139,10 @@
 "author":"nop90",
 "description":"",
 "date":"20170601",
-"status":"discontinued",
+"status":"wip",
 "version":"v0.4",
 "url":"https://github.com/nop90/Neopop-SDL",
-"comp":[1,0,0,0,0,0,1,0,0,0,0,0]
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "category":"Emulator",
 "name":"PokeMini 3DS",
