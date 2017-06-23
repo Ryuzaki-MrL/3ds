@@ -210,7 +210,7 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
 
     $('.search').val(queries.search);
     hbList.search(queries.search);
-    hbList.sort('title', {order: "asc"});
+    hbList.sort('release', {order: "desc"});
     if (queries.sort!==undefined) {
         var sort = queries.sort.split('|');
         hbList.sort(sort[0], {
