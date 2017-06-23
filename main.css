@@ -199,6 +199,8 @@ ul.list li:active {
 #dev_list .icon {
   padding: 9px 20px;
   float: left;
+  width: 88px;
+  height: 88px;
 }
 #dev_list li {
   height: 106px;

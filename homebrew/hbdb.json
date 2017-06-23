@@ -945,7 +945,7 @@
 "status":"wip",
 "version":"",
 "url":"https://github.com/xerpi/3DS-Linux-Loader",
-"comp":[2,0,0,2,0,0,2,0,0,2,0,0]
+"comp":[2,0,0,2,0,2,2,0,0,2,0,2]
 },{
 "category":"Utility",
 "name":"3DS Quick Shutdown",
@@ -1455,12 +1455,12 @@
 "name":"Grid Launcher",
 "tags":"Loaders, ARM11, userland",
 "headline":"Fully customizable Homebrew Launcher mod with grid layout.",
-"author":"mashers",
+"author":"mashers, maorninja",
 "description":"",
 "date":"20150917",
-"status":"discontinued",
-"version":"Beta 136",
-"url":"https://github.com/mashers/3ds_hb_menu/wiki",
+"status":"wip",
+"version":"2.0",
+"url":"https://github.com/maorninja/GridLauncher",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -1646,12 +1646,13 @@
 "category":"Utility",
 "name":"PKSM",
 "tags":"utilities, internet, savefile, ARM11, userland, pokemon",
+"tags":"utilities, internet, savefile, ARM11, userland, pokemon",
 "headline":"All-in-One tool for Pokémon games. Formerly known as ECITool, then EventAssistant.",
 "author":"Bernardo Giordano",
 "description":"Savefile editor, wondercard injector and offline homebrew bank for gen4 to gen7 Pokémon games.",
 "date":"20160515",
 "status":"wip",
-"version":"v4.2.2",
+"version":"v4.3.0",
 "url":"https://github.com/BernardoGiordano/PKSM",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -1783,7 +1784,7 @@
 "description":"Open source eShop clone for the Nintendo 3DS. Allows you to browse and install titles you own (i.e. titles for which you have the titlekey).",
 "date":"20160530",
 "status":"wip",
-"version":"v3.1.0",
+"version":"v3.1.1",
 "url":"https://notabug.org/arc13/freeShop",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -3132,15 +3133,15 @@
 "comp":[1,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "category":"Emulator",
-"name":"Neopop",
+"name":"NeoPop SDL",
 "tags":"handheld, ARM11, userland",
-"headline":"NeoGeo Pocket emulator for 3DS. Discontinued.",
-"author":"seagal112",
+"headline":"Neo Geo Pocket Color emulator for 3DS.",
+"author":"nop90",
 "description":"",
-"date":"20141223",
+"date":"20170601",
 "status":"discontinued",
-"version":"v2",
-"url":"https://gbatemp.net/threads/neopop-port-neo-geo-pocket-emu.376830/",
+"version":"v0.4",
+"url":"https://github.com/nop90/Neopop-SDL",
 "comp":[1,0,0,0,0,0,1,0,0,0,0,0]
 },{
 "category":"Emulator",
@@ -3618,8 +3619,8 @@
 "author":"chaoskagami",
 "description":"Corbenik is another CFW for the 3DS somewhat like cakes, but using bytecode-based patches. This allows for doing most of what it does, but taking the control level to its logical extreme. It's mainly intended for developers; so if you don't know your way around the 3DS, chances are this isn't for you.",
 "date":"20160604",
-"status":"wip",
-"version":"v0.2.0",
+"status":"discontinued",
+"version":"v0.3.1",
 "url":"https://github.com/chaoskagami/corbenik",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
@@ -3680,7 +3681,7 @@
 "date":"20150520",
 "status":"discontinued",
 "version":"v1.2.1",
-"url":"",
+"url":"https://gbatemp.net/threads/pasta-cfw-a-cfw-that-allows-unsigned-cia-to-be-installed-on-old-and-new-3ds-required-ninjhax.388925/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"CFW",
@@ -3692,7 +3693,7 @@
 "date":"20160114",
 "status":"finished",
 "version":"v1",
-"url":"",
+"url":"https://github.com/d0k3/MiniPasta",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"CFW",
@@ -3728,7 +3729,7 @@
 "date":"20160418",
 "status":"",
 "version":"v3.1",
-"url":"",
+"url":"https://github.com/RShadowhand/SaltFW",
 "comp":[0,0,0,2,0,0,0,0,0,2,0,0]
 },{
 "category":"CFW",
@@ -4242,7 +4243,7 @@
 "author":"RSDuck",
 "description":"Craftus in a Minecraft clone for Nintendo 3DS (and not a continuation of 3DSCraft by smea).",
 "date":"0",
-"status":"wip",
+"status":"",
 "version":"",
 "url":"https://github.com/RSDuck/Craftus3DS",
 "comp":[0,0,0,0,0,0,0,0,0,0,0,0]
@@ -4254,9 +4255,9 @@
 "author":"Apache Thunder",
 "description":"This is \"NTR Launcher\". A stripped down optimized version of NitroHax but without the cheat code system. This simply launches the game you have in SLOT-1.",
 "date":"20160823",
-"status":"wip",
-"version":"v1.9.5",
-"url":"",
+"status":"",
+"version":"v1.9.9",
+"url":"https://github.com/ApacheThunder/NTR_Launcher",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
 "category":"Emulator",
@@ -4386,9 +4387,9 @@
 "author":"NichyXD",
 "description":"",
 "date":"20160212",
-"status":"",
+"status":"discontinued",
 "version":"v1.0",
-"url":"",
+"url":"https://gbatemp.net/threads/release-livescore-3ds.414693/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Game",
@@ -4424,7 +4425,7 @@
 "date":"20160209",
 "status":"discontinued",
 "version":"v0.25",
-"url":"",
+"url":"https://gbatemp.net/threads/wip-release-hexeditor-v0-1.414324/",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -4436,7 +4437,7 @@
 "date":"20160423",
 "status":"finished",
 "version":"v1.0",
-"url":"",
+"url":"https://github.com/Cruel/DspDump",
 "comp":[2,0,0,0,0,0,2,0,0,0,0,0]
 },{
 "category":"Utility",
@@ -4932,9 +4933,9 @@
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "category":"Game",
-"name":"Sqrxz4",
+"name":"Sqrxz 4",
 "tags":"puzzle, platformer, ARM11, userland",
-"headline":"Port of Sqrxz4 for the 3DS.",
+"headline":"Port of Sqrxz 4 for the 3DS.",
 "author":"Retroguru Team",
 "description":"After Sqrxz saving Yve in “Sqrxz 3 – Adventure for Love” it was truly a happy moment. Being still heavily in love they decided that the time for a tiny wedding ceremony has come. Couple of months later both were sure that the time for an own small family has come. Although those are happy news Sqrxz is consequently short of money and a growing family requires a solid financial base. Picking up a newspaper and reading the job offers, a single add caught Sqrxz’s attention. An expedition in search of ice marbles needs a brave explorer. This sounds like a job for Sqrxz!",
 "date":"20161007",
@@ -4968,9 +4969,9 @@
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
 "category":"Game",
-"name":"Sqrxz2",
+"name":"Sqrxz 2",
 "tags":"puzzle, platformer, ARM11, userland",
-"headline":"Port of Sqrxz2 for the 3DS.",
+"headline":"Port of Sqrxz 2 for the 3DS.",
 "author":"Retroguru Team",
 "description":"Another day another journey… As living on planet earth and its surrounding solar system seemed boring Sqrxz decided to check out another location in the universe. Just in case and to be extra careful he took a pocketful of emeralds with him to keep him in ready cash, but after starting his exciting journey he realised all his emeralds are suddenly missing! Retracing his steps Sqrxz notices mysterious creatures popping up all over the place to hinder him in his search… Oh what troublesome days… Help poor Sqrxz get back all his emeralds!",
 "date":"20161021",
@@ -5035,7 +5036,7 @@
 "description":"TWLoader is a CTR-mode .NDS ROM loader that looks like the Nintendo DSi Menu.",
 "date":"20161102",
 "status":"wip",
-"version":"v4.3.1",
+"version":"v5.0.0",
 "url":"https://github.com/Robz8/TWLoader/",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5280,14 +5281,14 @@
 "comp":[1,2,0,0,0,0,1,2,0,0,0,0]
 },{
 "category":"Game",
-"name":"Cookie Clicker for 3DS",
+"name":"3DS Cookie Clicker",
 "tags":"ARM11, userland",
 "headline":"Port of the browser game called \"Cookie Clicker\" to the 3DS.",
 "author":"Creckeryop",
 "description":"",
 "date":"20170212",
 "status":"wip",
-"version":"v0.7",
+"version":"v1.0",
 "url":"https://github.com/Creckeryop/3dsCookieClicker",
 "comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 },{
@@ -5431,7 +5432,7 @@
 "description":"This is a port of VirtuaNES to 3DS as an alternative to existing NES emulators. It used to be considered one of the best emulators before FCE and Nestopia, and it runs quite fast for lower spec-ed computers (at the cost of some emulation accuracy). But because of that, the Old 3DS / 2DS is able to benefit from this fast running emulator core. This runs full speed on an old 3DS / 2DS with support for tonnes of mappers. Although it doesn't support every single mapper, the library of games that can run on this are probably fairly huge already.",
 "date":"20170323",
 "status":"wip",
-"version":"v0.92b",
+"version":"v0.92",
 "url":"https://github.com/bubble2k16/emus3ds",
 "comp":[2,2,0,0,0,0,2,2,0,0,0,0]
 },{
@@ -5554,4 +5555,52 @@
 "version":"v0.0.6",
 "url":"https://github.com/d0k3/SafeB9SInstaller",
 "comp":[2,0,0,2,2,2,2,0,0,2,2,2]
+},{
+"category":"Emulator",
+"name":"TemperPCE for 3DS",
+"tags":"ARM11, computer, userland",
+"headline":"This time, it's a port of Exophase's Temper (TurboGrafx/PC-Engine) emulator.",
+"author":"bubble2k16",
+"description":"It's a port of Exophase's Temper (TurboGrafx/PC-Engine) emulator to the old 3DS and old 2DS. Despite all the optimisations Exophase did to run Temper on a portable device, the old 3DS is still too underpowered. So this port heavily relies on the 3DS's 3D GPU hardware to achieve 60 FPS (or close to 60 with frame skips). Since we are using the hardware, some games that utilise special palette effects may not work so well.",
+"date":"20170618",
+"status":"wip",
+"version":"v0.90",
+"url":"https://github.com/bubble2k16/emus3ds",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Utility",
+"name":"imgr3DS",
+"tags":"utilities, multimedia, internet, ARM11, userland",
+"headline":"A basic (beta) Imgur client for the 3DS.",
+"author":"sereneblue",
+"description":"This client does not use OAuth so it is limited to browsing the hottest posts (frontpage).",
+"date":"20170417",
+"status":"wip",
+"version":"v1.0",
+"url":"https://github.com/sereneblue/imgr3ds",
+"comp":[2,0,0,0,0,0,2,0,0,0,0,0]
+},{
+"category":"Game",
+"name":"Sqrxz 3",
+"tags":"puzzle, platformer, ARM11, userland",
+"headline":"Port of Sqrxz 3 for the 3DS.",
+"author":"Retroguru Team",
+"description":"Sqrxz and his girlfriend were on a romantic adventure journey in a jungle somewhere here on our planet. All of a sudden Yve gets kidnapped by an evil power and Sqrxz is forced to collect dozens of shiny little rings to free her. The old ruins he has to explore are anything else than safe. Traps are spread all over the place... and... Sqrxz is not alone!",
+"date":"20170602",
+"status":"wip",
+"version":"v1.05",
+"url":"http://www.sqrxz.de/sqrxz-3/",
+"comp":[2,2,0,0,0,0,2,2,0,0,0,0]
+},{
+"category":"Utility",
+"name":"DSP1",
+"tags":"utilities, system, ARM11, userland",
+"headline":"DSP firmware dumper in CIA format.",
+"author":"zoogie",
+"description":"Like other homebrew apps before it, this just dumps the dspfirm.cdc needed for sound in cia homebrew.",
+"date":"20170502",
+"status":"finished",
+"version":"v1.0",
+"url":"https://github.com/zoogie/DSP1",
+"comp":[0,2,0,0,0,0,0,2,0,0,0,0]
 }]
