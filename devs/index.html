@@ -3,36 +3,35 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=640, initial-scale=1, user-scalable=yes"/>
-    <title>3DS People | The Homebrew Database</title>
+    <title>3DS Devs | The Homebrew Database</title>
     <base href="/3ds/">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="main.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.4.1/list.min.js"></script>
     <script src="https://cdn.rawgit.com/javve/list.pagination.js/v0.1.1/dist/list.pagination.min.js"></script>
-    <style>
-        .more::after {content: "Read more."}
-        .less::after {content: "Read less."}
-    </style>
 </head>
 <body>
     <div class="container">
         <image src="3ds.png" alt="Nintendo 3DS" style="width:100%;"/>
         <hr/>
-			<a href="homebrew">Homebrew Wiki</a> -
-            <a href="devs">Scene Wiki</a> -
-            <a href="https://github.com/Ryuzaki-MrL/3ds">Github</a>
+        <a href="homebrew">Homebrew List</a> -
+        <a href="devs">Developers List</a> -
+        <a href="https://github.com/Ryuzaki-MrL/3ds">Github</a>
         <hr/>
-        <h2>List of 3DS scene developers</h2>
+        <h2>List of 3DS homebrew developers</h2>
         <p>
-            This is a full list containing info about all scene developers.<br/>
+            This is a full list containing info about all homebrew application developers.<br/>
             I'll try to keep it up-to-date whenever possible, feel free to contribute if you want to.<br/>
             Click on an entry to view details about that specific dev.<br/>
         </p>
         <p>
             You can search devs by typing part of their name, location, or any other keyword.<br/>
             For example: "Italy" will return all members living on Italy, whilst "cfw" will return all devs who work with CFW.<br/>
-            You can also sort by username, real name, location, and description.<br/>
+            You can also sort by username, real name, and location.<br/>
+        </p>
+        <p>
+            Note: this is a WIP and some features are still missing.<br/>
         </p>
         <!--DETAILS PANEL-->
         <div class="details">
@@ -43,7 +42,7 @@
                 <p>Homebrew applications:</p>
                 <ul class="normal" id="hb"></ul>
                 <p>Misc. contributions:</p>
-                <ul class="normal" id="other"></ul>
+                <ul class="normal" id="other"><li>TODO</li></ul>
             </div>
         </div>
         <!--MAIN LIST-->

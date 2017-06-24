@@ -28,7 +28,7 @@ var devList;
 $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nested=true', function(json) {
     $.each(json, function() {
         $.each(this.author.split(", "), function(i, devuser) {
-            var devlogin = devuser.replace(/ |_/g, "-");
+            var devlogin = devuser.replace(/[^a-zA-Z0-9]+/g, "-");
             if (!$('#'+devlogin).length) {
                 $('.list').append(
                     '<li><div id="'+devlogin+'">'+
@@ -36,7 +36,8 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
                     '<span class="vdata user"><b>'+devuser+'</b></span>'+
                     '<span class="vdata desc">Real Name: '+devuser+'</span>'+
                     '<span class="vdata">Github: <a href="https://github.com/'+devlogin+'" target="_blank"><img src="btm_e.png"/></a></span>'+
-                    '<span class="flag">Location: <img src="devs/flags/Unknown.png"/></span>'
+                    '<span class="hdata loc">Unknown</span>'+
+                    '<span class="flag">Location: <abbr title="Unknown"><img src="devs/flags/Unknown.png"/></abbr></span>'
                 );
             }
         });
