@@ -103,6 +103,7 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
         $('.details #version').html(date!=str_unreleased ? (legacy ? (json[id].version.length!==0 ? json[id].version : str_unknown) : (json[id].cia.length!=0&&json[id].cia[json[id].cia.length - 1].version!=null ? json[id].cia[json[id].cia.length - 1].version : str_unknown)) : '-');
         $('.details #site').html(json[id].url!=null&&json[id].url.length!=0 ? ('<a href="'+json[id].url+'" target="_blank"><img src="btm_e.png"/></a>') : '-');
         $('.details .desc').css('font-size', json[id].description!=null&&json[id].description.length>550 ? '11pt' : '12.5pt');
+        $('.details #desc').css('height', '88px');
         if (json[id].description!=null && json[id].description.length > 256) {
             $('.details .desc').html(json[id].description.substring(0,240) + '\u2026 ');
             $('.show').addClass('more');
@@ -136,8 +137,13 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
 
     $('.show').click(function() {
         $('.compat').fadeToggle(200);
-        if ($(this).hasClass('more')) $('.details .desc').html(json[id].description + ' ');
-        else if ($(this).hasClass('less')) $('.details .desc').html(json[id].description.substring(0,240) + '\u2026 ');
+        if ($(this).hasClass('more')) {
+            $('.details #desc').css('height', '152px');
+            $('.details .desc').html(json[id].description + ' ');
+        } else if ($(this).hasClass('less')) {
+            $('.details #desc').css('height', '88px');
+            $('.details .desc').html(json[id].description.substring(0,240) + '\u2026 ');
+        }
         $(this).toggleClass('more less');
     });
 
