@@ -9,8 +9,7 @@ if (document.location.search.substring(1).length > 0) {
 }
 
 var legacy = queries.legacy==='true';
-if (legacy) $("#f-legacy").show();
-else $("#f-titledb").show();
+$("#f-" + (legacy ? "legacy" : "titledb")).show();
 
 $('#select_l').append(
     '<option value="">English</option>' +
@@ -25,7 +24,7 @@ $('#select_l').change(function() {
     window.location = '/3ds/homebrew/' + $(this).val() + (legacy ? "?legacy=true" : "");
 });
 
-$.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nested=true', function(json) {
+$.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://api.titledb.com/v1/entry?nested=true&only=name&only=author&only=headline&only=description&only=url&only=description&only=cia.id&only=tdsx.id&only=arm9.id', function(json) {
     var stats = {
         Utility: 0, Game: 0, Emulator: 0, CFW: 0,
         Demo: 0, Installer: 0, rl: 0, wip: 0,
@@ -83,6 +82,7 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
     function showDetails() {
         $('.details, .details *').fadeIn(500);
         $('.screenshot img').css('width', '120px');
+        $('.screenshot img').attr('src', '');
         var icon = legacy ? '/3ds/homebrew/icons/'+id+'.png' : 'https://3ds.titledb.com/v1/'+(json[id].cia.length!=0 ? 'cia' : 'smdh')+'/'+(json[id].cia.length!=0 ? json[id].cia[0].id : (json[id].tdsx.length!=0&&json[id].tdsx[0].smdh!=null ? json[id].tdsx[0].smdh.id : "undefined"))+'/icon_l.png';
         $('.details .icon img').attr('src', icon);
         $('.details #title').html(json[id].name);
@@ -92,6 +92,8 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
             var year = json[id].date.substring(0,4);
             var month = monthstr[parseInt(json[id].date.substring(4,6))];
             var day = json[id].date.substring(6,8);
+            $('.details #devst').html(getDevStatus(json[id].status, json[id].date!="0"));
+            $('.screenshot img').attr('src', '/3ds/homebrew/screenshots/'+id+'.png');
         } else {
             var year = (json[id].cia.length!=0&&json[id].cia[0].mtime!=null ? json[id].cia[0].mtime.substring(0,4) : (json[id].tdsx.length!=0&&json[id].tdsx[0].mtime!=null ? json[id].tdsx[0].mtime.substring(0,4) : (json[id].arm9.length!=0&&json[id].arm9[0].mtime!=null ? json[id].arm9[0].mtime.substring(0,4) : "0")));
             var month = monthstr[parseInt((json[id].cia.length!=0&&json[id].cia[0].mtime!=null ? json[id].cia[0].mtime.substring(5,7) : (json[id].tdsx.length!=0&&json[id].tdsx[0].mtime!=null ? json[id].tdsx[0].mtime.substring(5,7) : (json[id].arm9.length!=0&&json[id].arm9[0].mtime!=null ? json[id].arm9[0].mtime.substring(5,7) : "0"))))];
@@ -99,7 +101,6 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
         }
         var date = (legacy&&json[id].date=="0") ? str_unreleased : (legacy&&json[id].date.length===0) ? str_unknown : getDate(day, month, year);
         $('.details #release').html(date);
-        if (legacy) $('.details #devst').html(getDevStatus(json[id].status, json[id].date!="0"));
         $('.details #version').html(date!=str_unreleased ? (legacy ? (json[id].version.length!==0 ? json[id].version : str_unknown) : (json[id].cia.length!=0&&json[id].cia[json[id].cia.length - 1].version!=null ? json[id].cia[json[id].cia.length - 1].version : str_unknown)) : '-');
         $('.details #site').html(json[id].url!=null&&json[id].url.length!=0 ? ('<a href="'+json[id].url+'" target="_blank"><img src="btm_e.png"/></a>') : '-');
         $('.details .desc').css('font-size', json[id].description!=null&&json[id].description.length>550 ? '11pt' : '12.5pt');
@@ -114,8 +115,6 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
             $('.show').hide();
             $('.show').removeClass('more less');
         }
-        $('.screenshot img').attr('src', '');
-        if (legacy) $('.screenshot img').attr('src', '/3ds/homebrew/screenshots/'+id+'.png');
         $('.details table td').each(function(index) {
             if (legacy) {
                 if (json[id].comp[index]!==undefined) {
@@ -164,10 +163,12 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
 
     hbList.on('updated', function() {
         $('.list').append('<li class="none" style="display:none"></li>');
-        if ((hbList.visibleItems.length % 2 === 0) || (window.innerWidth < 1080)) $('.none').hide();
+        if ((hbList.visibleItems.length % 2 === 0) || (window.innerWidth < 1080))
+            $('.none').hide();
         $('#qt').html(str_found + hbList.matchingItems.length + ' homebrew(s).<br/>' +
         str_listing + hbList.visibleItems.length + ' homebrew(s).');
-        if ((hbList.visibleItems.length % 2 == 1) && (window.innerWidth >= 1080)) $('.none').show();
+        if ((hbList.visibleItems.length % 2 == 1) && (window.innerWidth >= 1080))
+            $('.none').show();
         $('img#loading').hide();
     });
 
@@ -190,8 +191,11 @@ $.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nest
 
     $('#select_p').change(function() {
         var value = parseInt(this.options[this.options.selectedIndex].value);
-        if (value==999) $('.pagination').hide();
-        else $('.pagination').show();
+        if (value==999) {
+            $('.pagination').hide();
+        } else {
+            $('.pagination').show();
+        }
         hbList.page = value;
         hbList.search($('.search').val());
     });
