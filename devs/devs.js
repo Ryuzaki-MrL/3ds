@@ -25,7 +25,7 @@ $('#select_l').change(function() {
 
 var devList;
 
-$.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?nested=true', function(json) {
+$.getJSON(legacy ? 'homebrew/hbdb.json' : 'https://3ds.titledb.com/v1/entry?only=name&only=author', function(json) {
     $.each(json, function() {
         $.each(this.author.split(", "), function(i, devuser) {
             var devlogin = devuser.replace(/[^a-zA-Z0-9]+/g, "-");
