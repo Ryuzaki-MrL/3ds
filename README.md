@@ -1,27 +1,33 @@
 # The Homebrew Database
 
-Overview:
-It's a website aimed to show information about every single 3DS homebrew published on this scene to date.
-For this to happen, I will need the help and colaboration of the homebrew community as a whole.
-You can start by forking this repository. From there you can add new entries to the database (maintained in JSON format and manually updated), helping with the site's design and functionality, or translating the page to other languages. Then you have to send me a pull request with the changes/additions.
-See [CONTRIBUTING.md](https://github.com/Ryuzaki-MrL/3ds/blob/gh-pages/CONTRIBUTING.md) for more info.
+## Overview
 
-Features:
-- Search homebrew by name, author, release date, category, description, development status, and even some preset keywords/tags for each homebrew.
-- Sort homebrew list by title, category, author and release date.
-- Filter homebrew list by category, release status and development status.
-- Click on a homebrew's title to show detailed info such as long description, screenshot, latest version and entrypoint compatibility.
-- A small statistics board on the bottom-right corner of the page, showing how many homebrew there are for each category and status.
-- URL query string parsing, explained below.
+The Homebrew Database is a website designed to show information about every published Nintendo 3DS homebrew application.
 
-Query string parsing:
-- ?search= (this value can be anything).
-- ?sort=criteria|order (criteria can be either "title", "author", "cat" or "release" and order can be "asc" or "desc").
-- ?filter=criteria1|criteria2|...|criteriaN (criteria can be app, game, emu, cfw, released, unreleased, unkdate, wip, discontinued, finished, unknown).
-- ?show=id (id is the homebrew index between 0 and [homebrew total]. This opens the detailed info panel for that homebrew).
-- ?legacy=true (use this for loading the old database instead of titledb).
+Collaboration from the homebrew community is needed to develop this website. To contribute, fork this repository to add new database entries (manually-entered JSON), improve the website's design and functionality or translate the website to a different language. After you have made your changes or additions, send a detailed pull request. See [CONTRIBUTING.md](./CONTRIBUTING.md) for more information about contributing.
 
-This project uses:
+## Features
+
+- Search for homebrew by name, author, release date, category, description, development status and preset keywords and tags.
+- Sort the homebrew list by title, category, author and release date.
+- Filter the homebrew list by category, release status and development status.
+- Click on a homebrew application's title to show detailed information such as long description, screenshot, latest version and entrypoint compatibility.
+- A brief statistics panel on the bottom-right corner shows how many homebrew applications each category and status contains.
+- URL query strings are parsed as explained below.
+
+## Query string parsing
+
+|Query String | Valid Arguments | Details |
+|-------------|-----------------|---------|
+| ?search=**value** | **value**: any string  | |
+| ?sort=**criteria**\|**order** | **criteria**: title, author, cat, release.<br>**order**: asc, desc | This query sorts the results by the specified criteria and ordering. |
+| ?filter=<br>**criteria1**\|**...**\|**criteriaN** | **criteria**: app, game, emu, cfw, released, unreleased, unkdate, wip, discontinued, finished, unknown | This query filters the results by the specified criteria and ordering. |
+| ?show=**id** | **id**: any non-negative integer | **id** is the homebrew index between 0 and the total number of homebrew entries. |
+| | | This query opens the detailed information panel for the specified homebrew. |
+| ?legacy=true | | This query loads the old database instead of titledb. |
+
+## Software Used
+
 - [listjs](http://listjs.com/)
 - [jquery](http://jquery.com/)
 - [titledb](https://titledb.com/)
