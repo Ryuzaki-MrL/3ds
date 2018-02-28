@@ -1,14 +1,14 @@
 # Adding new languages
 
 - Fork this repository.
-- Make a new folder on the "hombrew" folder and name it with your country's code (fr for france, it for italy, etc.).
+- Make a new folder inside the "homebrew" folder and name it with the country and language code. (en_gb for United Kingdom English, etc.)
 - Copy "index.html" from "homebrew" to the new folder.
-- Translate all of the HTML but classes, ids and variables (see the brazilian portuguese page).
-- Commit all the changes and send me a pull request.
+- Translate all of the HTML except classes, ids and variables (see the brazilian portuguese page).
+- Commit the changes and send a pull request.
 
 # Adding screenshots
 
-- Screenshots must go under the "/homebrew/screnshots" folder, named with the homebrew's object index on the JSON file.
+- Screenshots must go under the "/homebrew/screnshots" folder and named with the homebrew's object index in the JSON file.
 - The image should be a 400x480 PNG showing both top and bottom 3DS screens.
 - Remaining space on the bottom part of the image should be transparent.
 - Usefull ImageMagick commands:
@@ -21,6 +21,7 @@
 - If possible, use optipng to reduce image filesize.
 
 # List of homebrew that need a screenshot:
+
 - BootAnim9 (4)
 - HANS (7)
 - Sploit installer (20)
