@@ -2,7 +2,9 @@
 
 ## Overview
 
-The Homebrew Database is a website designed to show information about every published Nintendo 3DS homebrew application. Collaboration from the homebrew community is needed to develop this website. To contribute, fork this repository to add new database entries (manual JSON), improve the website's design and functionality or translate the website to a different language. After you have made your changes or additions, send a detailed pull request. See [CONTRIBUTING.md](./blob/gh-pages/CONTRIBUTING.md) for more information about contributing.
+The Homebrew Database is a website designed to show information about every published Nintendo 3DS homebrew application.
+
+Collaboration from the homebrew community is needed to develop this website. To contribute, fork this repository to add new database entries (manually-entered JSON), improve the website's design and functionality or translate the website to a different language. After you have made your changes or additions, send a detailed pull request. See [CONTRIBUTING.md](./blob/gh-pages/CONTRIBUTING.md) for more information about contributing.
 
 ## Features
 
